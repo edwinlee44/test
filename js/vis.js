@@ -1,7 +1,7 @@
 
 var urlParams = new URLSearchParams(window.location.search);
 
-graphFileUrl = 'https://stash.murex.com/rest/api/1.0/users/elee/repos/fubon_upgrade/browse/graphs'
+graphFileUrl = 'https://edwinlee44.github.io/test/graph/graph_S3572.json'
 ondemand = urlParams.get('ondemand')
 
 
