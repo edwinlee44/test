@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+<head>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/d3-extended.min.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/searchBar.css">
+    <link rel="stylesheet" type="text/css" href="css/collapsable.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <script src="js/bootstrap-select.min.js"></script>
+
+
+</head>
+<body>
+
+<div id="container">
+
+    <div class="mainbody" id="chart"></div>
+
+    <div id="selectGraph" style="position:absolute;top:35%;left:37%;font-size:40px;font-family:calibri;color:grey;visibility:visible;">
+        <p class="noselect">select a graph</p>
+    </div>
+
+    <!-- TOP LEFT -->
+
+    <div class="title" style="position:absolute;top:25px;left:12px;font-size:22px;font-family:calibri;">
+        <p class="noselect">Datamart GraphMan</p>
+    </div>
+
+    <div style="position:absolute;top:20px;left:210px;">
+        <a href="https://stash.murex.com/projects/REP/repos/clint/browse">
+            <img src="resources/logo.png" id="logoIcon"  width="32" height="32" class="noselect">
+        </a>
+    </div>
+
+    <div id="searchBar" style="position:absolute;top:60px;left:20px;width:200px;visibility: hidden;">
+        <div class="cntr">
+            <div class="cntr-innr">
+                <label class="search active" for="inpt_search">
+                    <input style="font-family:calibri;" id="inpt_search" type="text" value="Search..."/>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="cntCircle" id= "cntCircle" style="position:absolute;top:62px;left:240px;visibility:hidden;font-family:calibri;" title="number of matches">100</div>
+
+
+    <!-- TOP RIGHT -->
+
+    <!---- graph file selector is added at bottom so it covers all other controls when open -->
+
+    <div style="position:fixed;top:64px;right:29px;font-size:12px;visibility:hidden;font-family:calibri;" id="countLabel" >
+    </div>
+
+    <div id="hSlider" style="position:fixed;top:116px;right:29px;font-size:14px;visibility:hidden;font-family:calibri;">
+        <label style="position:relative;top:-5px;" class="noselect">Attraction </label>
+        <input style="-webkit-appearance: slider-horizontal;width:46px;height: 20px;" type="range" min="1" max="10" step="0.2" value="1" id="horizontalSlider" title="Change nodes attraction to center">
+    </div>
+
+    <div style="position:fixed;top:141px;right:27px;font-size:14px;visibility:hidden;font-family:calibri;" id="hcheckbox" >
+        <label for="hierarchyBox" title="Distribute nodes such that data flows top to bottom" class="noselect">Dataflow layout</label>
+        <input type="checkbox" id="hierarchyBox" title="Distribute nodes such that data flows top to bottom"><br>
+    </div>
+
+    <div style="position:fixed;top:166px;right:27px;font-size:14px;visibility:hidden;font-family:calibri;" id="slcheckbox" >
+        <label for="showLabelBox" title="show all labels for nodes and edges" class="noselect">Show labels</label>
+        <input type="checkbox" id="showLabelBox" title="show all labels for nodes and edges" ><br>
+    </div>
+
+    <div style="position:fixed;top:190px;right:29px;font-size:14px;visibility:hidden;font-family:calibri;">
+        <input type="button" id="jsonButton" class="example_c" value="{ JSON }" title="Show the raw JSON Graph response. Ctrl+click to download"/>
+    </div>
+    <div style="position:fixed;top:188px;right:97px;font-size:14px;visibility:hidden;font-family:calibri;" title="JSON Graph is not consistent!. Ctrl+click to download">
+        <img src="resources/warning.png" id="warningIcon"  width="32" height="32">
+    </div>
+    <div style="position:fixed;top:230px;right:27px;font-size:14px;visibility:hidden;font-family:calibri;">
+        <input type="button" id="cmfButton" class="example_c" value="[  CMF  ]" title="Show the list of CMF exportable objects. Ctrl+click to download"/>
+    </div>
+    <div style="position:fixed;top:232px;right:27px;font-size:14px;visibility:hidden;font-family:calibri;">
+        <input type="button" id="gmlButton" class="example_c" value="[  GML  ]" title="Show a GML representation of the graph. Ctrl+click to download"/>
+    </div>
+
+    <div style="position:fixed;top:20px;right:27px;font-size:14px;text-align:right;visibility:visible;font-family:calibri;">
+        <label for="graphDropdown" class="noselect">Showing:</label>
+        <select id="graphDropdown" class="selectpicker show-tick" data-live-search="true" data-width="400px">
+        </select>
+    </div>
+
+    <!-- BOTTOM RIGHT -->
+    <div style="position:fixed;bottom:40px;right:29px;font-size:14px;width:688px;text-align:right;visibility:hidden;font-family:calibri;color:#b3b3b3;" id="repoLabel" >
+    </div>
+
+    <div style="position:fixed;bottom:15px;right:29px;font-size:14px;width:688px;text-align:right;visibility:hidden;font-family:calibri;color:#b3b3b3;" id="remoteRepoLabel" >
+    </div>
+
+
+
+
+</div>
+
+
+<script src="js/vis.js"></script>
+</body>
+</html>
