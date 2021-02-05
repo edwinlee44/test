@@ -73,7 +73,7 @@ async function go(){
     windowHost = window.location.host
     if (remoteRepoPathExist && windowHost.indexOf('localhost:') == -1) {
          loc = new URL(remoteRepoPath)
-         filesUrl = "https://"+ loc.host + "/rest/api/1.0" + loc.pathname + "/graphs"
+         filesUrl = loc
          loca = "remote"
      }
     // prompt user to enter remote repo path
@@ -93,7 +93,7 @@ async function go(){
                  preConfirm: (input) => {
                    loc = new URL(input)
                    inputRepo = input.trim()
-                   filesUrl = "https://"+ loc.host + "/rest/api/1.0" + loc.pathname + "/graphs"
+                   filesUrl = loc
                    return fetch(filesUrl)
                      .then(response => {
                        if (!response.ok) {
