@@ -1,7 +1,7 @@
 
 var urlParams = new URLSearchParams(window.location.search);
 
-graphFileUrl = 'https://edwinlee44.github.io/test/graph/graph_S3572.json'
+graphFileUrl = 'https://edwinlee44.github.io/test/graphs/graph_S3572.json'
 ondemand = urlParams.get('ondemand')
 
 
