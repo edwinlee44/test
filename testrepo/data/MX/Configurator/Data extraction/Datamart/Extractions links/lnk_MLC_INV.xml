@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_INV</label>
+    <batchFile>MLC_INV.xml</batchFile>
+    <description>To generate MLC_INV_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

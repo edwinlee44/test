@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-IRD-BOND</label>
+    <batchFile>FOBO-IRD-BOND.xml</batchFile>
+    <description>IRD/BOND DEAL INFORMATION</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

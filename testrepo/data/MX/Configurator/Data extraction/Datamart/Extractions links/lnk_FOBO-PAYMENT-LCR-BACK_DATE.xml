@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-PAYMENT-LCR-BACK_DATE</label>
+    <batchFile>FOBO-PAYMENT-LCR-BACK_DATE.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-PAYMENT-LCR-BACK_DATE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

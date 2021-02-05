@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBA-OPT_PREM</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBA-OPT_PREM</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

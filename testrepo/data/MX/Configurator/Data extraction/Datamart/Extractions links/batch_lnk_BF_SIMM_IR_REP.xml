@@ -1,0 +1,14 @@
+<setDefinition>
+    <label>BF_SIMM_IR_REP</label>
+    <batchFile>BF_SIMM_IR_REP.xml</batchFile>
+    <description>Batch of Feeder for SIMM_IR</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_SIMM_IR_DELTA_REP.xml</datamartObjectFile>
+            <datamartObjectFile>F_SIMM_IR_DELTA_XC_REP.xml</datamartObjectFile>
+            <datamartObjectFile>F_SIMM_IR_VEGA_CF_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_ALL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

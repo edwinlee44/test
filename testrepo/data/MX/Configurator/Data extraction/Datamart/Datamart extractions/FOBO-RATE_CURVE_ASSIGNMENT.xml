@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-RATE_CURVE_ASSIGNMENT</label>
+    <description>shunglin</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-RATE_CURVE_ASSIGNMENT</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

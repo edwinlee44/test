@@ -1,0 +1,15 @@
+<batch>
+    <label>BE_FIR_OFF_PREMISES</label>
+    <description>(MXDM-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXDM</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_FIR_OFF_Premises</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

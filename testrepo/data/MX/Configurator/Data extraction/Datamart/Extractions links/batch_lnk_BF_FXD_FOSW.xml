@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_FXD_FOSW</label>
+    <batchFile>BF_FXD_FOSW.xml</batchFile>
+    <description>(BOND) Reporting Data Model:[FeedAll]--DYN_TP_FOSW</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_FXD_FOSW.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

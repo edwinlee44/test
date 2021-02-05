@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-EQD-OPT-NOLIST-PERIOD</label>
+    <description>FOBO-EQD-OPT-NOLIST-PERIOD</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-EQD-OPT-NOLIST-PERIOD</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

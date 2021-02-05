@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CURR_XG_SG</label>
+    <batchFile>BF_CURR_XG_SG.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_CURR_XG.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_SG.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

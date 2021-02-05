@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_AC_ISID</label>
+    <batchFile>BF_AC_ISID.xml</batchFile>
+    <description>(ISID) Reporting Data Model: AC_ISID</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>AC_ISID.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

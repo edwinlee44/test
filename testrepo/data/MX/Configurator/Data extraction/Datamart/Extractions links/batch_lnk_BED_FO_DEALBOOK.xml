@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BED_FO_DEALBOOK</label>
+    <batchFile>BED_FO_DEALBOOK.xml</batchFile>
+    <description>Batch of FO_DEALBOOKING TIME</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>FO_DealBookingTime.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

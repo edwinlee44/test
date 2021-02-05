@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-CONFIG-DLV-WINDOWS</label>
+    <batchFile>FOBO-CONFIG-DLV-WINDOWS.xml</batchFile>
+    <description>(BY SHUNG LIN)deliverable windows</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

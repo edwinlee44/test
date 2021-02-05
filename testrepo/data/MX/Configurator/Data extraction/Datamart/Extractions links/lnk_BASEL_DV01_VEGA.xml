@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_DV01_VEGA</label>
+    <batchFile>BASEL_DV01_VEGA.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

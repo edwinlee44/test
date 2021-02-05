@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-EVENT_CANCEL</label>
+    <batchFile>FOBA-EVENT_CANCEL.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>G_AUTR3_1</label>
+    <batchFile>G_AUTR3_1.xml</batchFile>
+    <description>MKPL_01</description>
+    <category>audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

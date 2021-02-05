@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>SE_PR_GL</label>
+    <batchFile>SE_PR_GL.xml</batchFile>
+    <description>(EQ1) Reporting Data Model: [ SE_PRIC_GLOB ]  --Feed SE_PRIC/SE_GLOB</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SE_GLOB.xml</datamartObjectFile>
+            <datamartObjectFile>SE_PRIC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

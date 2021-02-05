@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO_EQD_BAR_Outstanding</label>
+    <description>EQD_BAR Outstanding</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO_EQD_BAR_Outstanding</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

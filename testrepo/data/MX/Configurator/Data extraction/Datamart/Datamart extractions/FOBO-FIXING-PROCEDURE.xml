@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-FIXING-PROCEDURE</label>
+    <description>(BY SHUNG LIN)FOR BOAD FIXING-PROCEDURE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-FIXING-PROCEDURE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

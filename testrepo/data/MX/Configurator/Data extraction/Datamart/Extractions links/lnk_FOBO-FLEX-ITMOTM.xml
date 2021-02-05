@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-FLEX-ITMOTM</label>
+    <batchFile>FOBO-FLEX-ITMOTM.xml</batchFile>
+    <description>[BO] FOBO-FLEX-ITMOTM</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

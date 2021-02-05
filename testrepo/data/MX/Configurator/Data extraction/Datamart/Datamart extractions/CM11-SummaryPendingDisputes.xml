@@ -1,0 +1,30 @@
+<batch>
+    <label>CM11-SummaryPendingDisputes</label>
+    <description>Summary of pending collateral disputes</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_PARTIES_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_EXC_MR</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_EXC_MR_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM11-SummaryPendingDisputes">CM11-Request</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU22-SupGroupDetailsRights</label>
+    <batchFile>AU22-SupGroupDetailsRights.xml</batchFile>
+    <description>Lists rights and templates used by each group</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

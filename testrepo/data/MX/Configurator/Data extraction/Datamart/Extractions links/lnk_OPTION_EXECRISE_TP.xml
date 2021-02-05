@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>OPTION_EXECRISE_TP</label>
+    <batchFile>OPTION_EXECRISE_TP.xml</batchFile>
+    <description>OPTION_EXECRISE_TAIPEI</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

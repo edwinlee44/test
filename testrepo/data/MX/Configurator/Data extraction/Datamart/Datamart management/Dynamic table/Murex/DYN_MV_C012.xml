@@ -1,0 +1,794 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_MV_C012</Name>
+    <Description>Reporting Data Model: PL components by flow currency table, differences dates 0,1&amp;2. Consolidated</Description>
+    <Type>Transaction</Type>
+    <Directory>Murex</Directory>
+    <Class>DYN_TRNRP_MV</Class>
+    <History>MV_C012</History>
+    <Alias>TRNRP_MV.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>ACC_CUR</Label>
+            <Description>Accounting currency</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CENV('CUR_ACC')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>G_INS_FXRK</Label>
+            <Description>Instrument -  Risk section for FX trades and warrants</Description>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP=='WARNT'.OR.TRN_FMLY=='CURR',RSKSECTION,INSTRUMENT)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_CSFI0</Label>
+            <Description>Financing on Past Cash Date 0</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS0-MV_NFCS0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_CSFI1</Label>
+            <Description>Financing on Past Cash Date 1</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS1-MV_NFCS1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_CSFI2</Label>
+            <Description>Financing on Past Cash Date 2</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS2-MV_NFCS2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FCSFP0</Label>
+            <Description>Total Financed Cash Date 0</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS0+MV_FFP0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FCSFP1</Label>
+            <Description>Total Financed Cash Date 1</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS1+MV_FFP1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FCSFP2</Label>
+            <Description>Total Financed Cash Date 2</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS2+MV_FFP2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FNPV0</Label>
+            <Description>Financed NPV Date 0</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FFP0+MV_FMV0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FNPV1</Label>
+            <Description>Financed NPV Date 1</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FFP1+MV_FMV1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FNPV2</Label>
+            <Description>Financed NPV Date 2</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FFP2+MV_FMV2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FPFI0</Label>
+            <Description>Present Value on Future Cash at Date 0</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FFP0-MV_NFFP0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FPFI1</Label>
+            <Description>Present Value on Future Cash at Date 1</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FFP1-MV_NFFP1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FPFI2</Label>
+            <Description>Present Value on Future Cash at Date 2</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FFP2-MV_NFFP2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FTFI0</Label>
+            <Description>Present Value Effect at Date 0</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(MV_FFP0-MV_NFFP0)+(MV_FMV0-MV_NFMV0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FTFI1</Label>
+            <Description>Present Value Effect at Date 1</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(MV_FFP1-MV_NFFP1)+(MV_FMV1-MV_NFMV1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FTFI2</Label>
+            <Description>Present Value Effect at Date 2</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(MV_FFP2-MV_NFFP2)+(MV_FMV2-MV_NFMV2)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_GEPL0</Label>
+            <Description>Gross Economic P&amp;L Date 0</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS0+MV_FNPV0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_GEPL1</Label>
+            <Description>Gross Economic P&amp;L Date 1</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS1+MV_FNPV1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_GEPL2</Label>
+            <Description>Gross Economic P&amp;L Date 2</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FCS2+MV_FNPV2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_MVFI0</Label>
+            <Description>Present Value on Market Value at Date 0</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FMV0-MV_NFMV0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_MVFI1</Label>
+            <Description>Present Value on Market Value at Date 1</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FMV1-MV_NFMV1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_MVFI2</Label>
+            <Description>Present Value on Market Value at Date 2</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_FMV2-MV_NFMV2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_NEPL0</Label>
+            <Description>Net Economic P&amp;L at Date 0</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_GEPL0+MV_NFBF0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_NEPL1</Label>
+            <Description>Net Economic P&amp;L at Date 1</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_GEPL1+MV_NFBF1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_NEPL2</Label>
+            <Description>Net Economic P&amp;L at Date 2</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MV_GEPL2+MV_NFBF2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC0_MV_AC</Label>
+            <Description>Spot conversion at date 0 from MVCur to accounting currency</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(MV_CUR,ACC_CUR,DENV('CRT_BND10'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC0_MV_UC</Label>
+            <Description>Spot conversion at date 0 from MVCur to user currency</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(MV_CUR,USER_CUR,DENV('CRT_BND10'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_MV_AC</Label>
+            <Description>Spot conversion at date 1 from MVCur to accounting currency</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(MV_CUR,ACC_CUR,DENV('CRT_BND11'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_MV_UC</Label>
+            <Description>Spot conversion at date 1 from MVCur to user currency</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(MV_CUR,USER_CUR,DENV('CRT_BND11'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_MV_AC</Label>
+            <Description>Spot conversion at date 2 from MVCur to accounting currency</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(MV_CUR,ACC_CUR,DENV('CRT_BND12'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_MV_UC</Label>
+            <Description>Spot conversion at date 2 from MVCur to user currency</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(MV_CUR,USER_CUR,DENV('CRT_BND12'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>USER_CUR</Label>
+            <Description>User Defined Currency If Any Or Accounting Currency</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(ISBLANK(CINTFIELD('CURRENCY'))=1,ACC_CUR,CINTFIELD('CURRENCY'))</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>CURRENCY</Label>
+            <Description>Conversion currency</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula>""</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SCAN_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>MV_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>MV_LEG</Label>
+            <Type>Number</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_LEGTOT</Label>
+            <Type>Number</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FIXVAR</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFMV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFMVCL</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFMVTH</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FMV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FMVCL</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FMVTH</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFFP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FFP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFCS</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FCS</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFBF</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FBF</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFSM</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FSM</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFBFP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TRN_GTYPE</Label>
+            <Type>Integer</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>INSTRUMENT</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>RSKSECTION</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TP_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TP_CNTRP</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TP_STRTGY</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DSCTYPE</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACC_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>G_INS_FXRK</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_CSFI0</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_CSFI1</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_CSFI2</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FCSFP0</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FCSFP1</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FCSFP2</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FNPV0</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FNPV1</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FNPV2</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FPFI0</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FPFI1</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FPFI2</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FTFI0</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FTFI1</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FTFI2</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_GEPL0</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_GEPL1</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_GEPL2</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_MVFI0</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_MVFI1</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_MVFI2</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NEPL0</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NEPL1</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NEPL2</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>SC0_MV_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC0_MV_UC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_MV_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_MV_UC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_MV_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_MV_UC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>USER_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code>LEG_CNS</Code>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables>
+                <ScannedTable>Transactions</ScannedTable>
+            </ScannedTables>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>Yes</Active>
+            <FilterExpression>NB&lt;&gt;0</FilterExpression>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>Yes</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>No</ComputeSensitivities>
+        <ComputeDelta/>
+        <ComputeGamma/>
+        <ComputeTheta/>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega/>
+        <ComputeRR2/>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>Contextual yesterday</Type>
+                <DateOutput>20201127</DateOutput>
+            </Date>
+            <Date Nb="0">
+                <Type>Inception</Type>
+                <DateOutput>00000000</DateOutput>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

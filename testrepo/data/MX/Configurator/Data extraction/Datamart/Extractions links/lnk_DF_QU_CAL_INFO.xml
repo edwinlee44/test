@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_QU_CAL_INFO</label>
+    <batchFile>DF_QU_CAL_INFO.xml</batchFile>
+    <description>(MXMPC)</description>
+    <category>T-MXMPC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

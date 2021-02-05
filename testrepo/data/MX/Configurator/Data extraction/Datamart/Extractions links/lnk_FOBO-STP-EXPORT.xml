@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-STP-EXPORT</label>
+    <batchFile>FOBO-STP-EXPORT.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-STP-R-EXPORT-FUNCTION (RG)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

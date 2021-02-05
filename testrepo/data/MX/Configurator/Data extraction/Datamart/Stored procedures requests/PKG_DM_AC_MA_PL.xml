@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>PKG_DM_AC_MA_PL</label>
+    <description>(MXACRP-MX3) EXEC PKG_DM_AC_MA_PL.P_BATCH</description>
+    <procedure>create or replace function FPKG_DM_AC_MA_PL(I_DATE date) return number
+
+authid current_user
+
+ as
+  pragma autonomous_transaction;
+
+  ERRNO     number := 0;
+  ERRMSG    varchar2(4000);
+  V_DT      varchar(8) := TO_CHAR(I_DATE, 'YYYYMMDD');
+  V_COMMENT varchar2(400);
+  V_FNC_NM  varchar2(400) := 'FPKG_DM_AC_MA_PL';
+  V_INPUT   varchar2(400) := 'Input Parameter ~ ' || 'I_DATE:' || V_DT || ';';
+  V_PID     number := 0;
+
+begin
+
+  V_COMMENT := '1/1:EXEC FPKG_DM_AC_MA_PL ~ PKG_DM_AC_MA_PL.P_BATCH~' ||
+               V_INPUT;
+  SP_EOD_BATCH_INFO(V_DT, V_FNC_NM, V_COMMENT, 'START', V_PID);
+
+  PKG_DM_AC_MA_PL.P_BATCH(ERRNO, ERRMSG, V_DT);
+
+  SP_EOD_BATCH_INFO(V_DT, V_FNC_NM, V_COMMENT, 'END', V_PID);
+
+  return ERRNO;
+
+exception
+  when others then
+    ERRNO  := -1;
+    ERRMSG := V_FNC_NM || ' had error!!' || sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    return ERRNO;
+end;</procedure>
+    <functionName>FPKG_DM_AC_MA_PL</functionName>
+    <mainTable>DYN_AUDIT.REP</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>10</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>I_DATE</paramLabel>
+            <paramType>date</paramType>
+            <paramLength>8</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FO_BOND_ACCLN</label>
+    <batchFile>DF_FO_BOND_ACCLN.xml</batchFile>
+    <description>[MXFORP-MX3] DF_FO_BOND_ACCLN FOR FO REPORT</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

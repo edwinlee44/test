@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>BEM_AC_CU_SG</label>
+    <batchFile>BEM_AC_CU_SG.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_EXPIRE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_TRADE_SG.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_FXRULE_CHK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_ACC_TW1_DELT</label>
+    <batchFile>MO_ACC_TW1_DELT.xml</batchFile>
+    <description>[MX3-MO] MO OPTION DELTA</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_ACC_TW1_DELTA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_AC_INFO_BOND</label>
+    <batchFile>DEQ_AC_INFO_BOND.xml</batchFile>
+    <description>(MXACRP-MX3)取BOND的基本資料</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

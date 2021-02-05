@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-TABLE-REP-V_Z_OTC_FXO2_EV</label>
+    <description>(BY SHUNG LIN)BO V_Z_OTC_BO_FXO2_EVENT</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-TABLE-REP-V_Z_OTC_FXO2_EV</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

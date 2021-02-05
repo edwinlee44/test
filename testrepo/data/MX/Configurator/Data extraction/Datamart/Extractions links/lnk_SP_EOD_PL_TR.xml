@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_EOD_PL_TR</label>
+    <batchFile>SP_EOD_PL_TR.xml</batchFile>
+    <description>(MXFORP-MX3)</description>
+    <category>T-MXFORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>DM_PL_BKD_D_BF</label>
+    <batchFile>DM_PL_BKD_D_BF.xml</batchFile>
+    <description>Batch of feeders for DM_PL_BKD_CNV_D_REP feed</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DM_PL_BKD_CNV_D_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>DM_PL_BKD_D_TODAY.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

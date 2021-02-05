@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_PLEOM_NEQ_C</label>
+    <batchFile>BF_PLEOM_NEQ_C.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_PLEOM_NEQ_C.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_PLEOM_CN.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

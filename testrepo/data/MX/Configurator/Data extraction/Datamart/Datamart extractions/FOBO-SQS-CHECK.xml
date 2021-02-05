@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-SQS-CHECK</label>
+    <description>(BY SHUNG LIN)BO</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-SQS-CHECK</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

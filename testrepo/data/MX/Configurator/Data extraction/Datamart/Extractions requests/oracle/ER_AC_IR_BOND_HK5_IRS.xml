@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_IR_BOND_HK5_IRS</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_IR_BOND_HK5_IRS.sql</sql>
+    <description>(MXACRP-MX3)</description>
+</extractionRequest>

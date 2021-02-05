@@ -1,0 +1,5 @@
+SELECT
+       *
+  FROM    V_AC_IR_BACKDATE_REP TP
+where DATA_DT @I_DT:D
+   and ENTITY @I_ENTITY:C

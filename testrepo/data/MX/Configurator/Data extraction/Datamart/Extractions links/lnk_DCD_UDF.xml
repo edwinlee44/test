@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DCD_UDF</label>
+    <batchFile>DCD_UDF.xml</batchFile>
+    <description>(MM) Reporting Data Model: DCD_UDF</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

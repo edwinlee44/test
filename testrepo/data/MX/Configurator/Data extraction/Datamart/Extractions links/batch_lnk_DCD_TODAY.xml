@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>DCD_TODAY</label>
+    <batchFile>DCD_TODAY.xml</batchFile>
+    <description>Reporting Data Model: feed list of dcd deals today</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DCD_TODAY.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

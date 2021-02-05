@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>MARKET_ZERORATE</label>
+    <batchFile>MARKET_ZERORATE.xml</batchFile>
+    <description>[MX3-MO] Reporting Data Model: [ MARKETZERORATE ]  --Feed MARKET_ZERO_RATE</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASIS_PAR_RATE.xml</datamartObjectFile>
+            <datamartObjectFile>MARKET_ZERORATE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MO_MARKET_ZERO_RATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

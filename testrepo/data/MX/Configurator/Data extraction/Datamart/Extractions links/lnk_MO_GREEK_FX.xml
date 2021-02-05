@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_GREEK_FX</label>
+    <batchFile>MO_GREEK_FX.xml</batchFile>
+    <description/>
+    <category>RECON</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

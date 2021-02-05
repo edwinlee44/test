@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BE_CM03_CM04</label>
+    <batchFile>BE_CM03_CM04.xml</batchFile>
+    <description>BE_CM03_CM04</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM03-CashCollateralBalance.xml</datamartObjectFile>
+            <datamartObjectFile>CM04-SecurityCollateralInvtry.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-IR-GENERATOR</label>
+    <batchFile>FOBO-IR-GENERATOR.xml</batchFile>
+    <description>SHUNG</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

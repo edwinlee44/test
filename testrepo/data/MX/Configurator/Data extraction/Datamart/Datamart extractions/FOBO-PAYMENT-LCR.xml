@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-PAYMENT-LCR</label>
+    <description>(BY SHUNG LIN)LCR PAYMENT</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-PAYMENT-LCR</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

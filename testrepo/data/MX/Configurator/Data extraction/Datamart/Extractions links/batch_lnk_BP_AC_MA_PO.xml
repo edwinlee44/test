@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_AC_MA_PO</label>
+    <batchFile>BP_AC_MA_PO.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PKG_DM_AC_MA_POSI.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

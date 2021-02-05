@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_EQD_MV</label>
+    <batchFile>MO_EQD_MV.xml</batchFile>
+    <description>for MO EQD MV use</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_BIM_SENSIS_C</label>
+    <batchFile>BE_BIM_SENSIS_C.xml</batchFile>
+    <description>Batch of Extraction for BIM_SENSIS_COMB_REP</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EXT_BIM_SENSIS_COMB_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-VN-FUNDTRANSFER_SI</label>
+    <batchFile>FOBO-VN-FUNDTRANSFER_SI.xml</batchFile>
+    <description>FOBO-VN-FUNDTRANSFER_SI</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

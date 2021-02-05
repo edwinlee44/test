@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>G_AUTR3_1</label>
+    <batchFile>G_AUTR3_1.xml</batchFile>
+    <description>MKPL_01</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>G_AUTR3_1.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>G_AUTR3_1.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

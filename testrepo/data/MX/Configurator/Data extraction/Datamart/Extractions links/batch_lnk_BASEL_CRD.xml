@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BASEL_CRD</label>
+    <batchFile>BASEL_CRD.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_CRD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

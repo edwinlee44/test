@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_SIMM_SCH_PVN</label>
+    <batchFile>BE_SIMM_SCH_PVN.xml</batchFile>
+    <description>Batch of Extraction for Datamart Table SIMM_SCH_PV_N_COMB_REP</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EXT_SIMM_SCH_PV_N_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

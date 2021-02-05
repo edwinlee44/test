@@ -1,0 +1,15 @@
+<batch>
+    <label>BE_CYFO_OFF_PREMISES</label>
+    <description>(MXDM-MX3)</description>
+    <type>Extraction</type>
+    <category>REPORT_FO</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_CYFO_OFF_Premises</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

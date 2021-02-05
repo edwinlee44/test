@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>DM_FXC_PL_BF</label>
+    <batchFile>DM_FXC_PL_BF.xml</batchFile>
+    <description>Batch of feeders for DM_FXC_PL_REP feed</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DM_FXC_PL_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>DM_FXC_PL_TODAY_C.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

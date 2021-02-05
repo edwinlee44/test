@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>Callable Bond Check</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/Callable Bond Check.sql</sql>
+    <description>Callable Bond Makewhole Check</description>
+</extractionRequest>

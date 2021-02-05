@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_AC_YEAR_PL</label>
+    <batchFile>DEQ_AC_YEAR_PL.xml</batchFile>
+    <description>(MXACRP-MX3)年結作業使用--彙總資料</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

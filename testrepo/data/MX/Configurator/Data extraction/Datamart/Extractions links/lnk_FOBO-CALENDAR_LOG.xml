@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-CALENDAR_LOG</label>
+    <batchFile>FOBO-CALENDAR_LOG.xml</batchFile>
+    <description>SHUNGLIN</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

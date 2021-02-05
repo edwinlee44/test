@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BAGROUPAUD</label>
+    <batchFile>DF_BAGROUPAUD.xml</batchFile>
+    <description>[MXBA-MX3] Ba Group Audit - golive version</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

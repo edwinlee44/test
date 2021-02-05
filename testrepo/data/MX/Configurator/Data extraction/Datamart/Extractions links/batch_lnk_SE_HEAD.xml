@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>SE_HEAD</label>
+    <batchFile>SE_HEAD.xml</batchFile>
+    <description>(EQ1) Reporting Data Model: [ SE_HEAD ]  --Feed SE_HEAD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SE_HEAD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

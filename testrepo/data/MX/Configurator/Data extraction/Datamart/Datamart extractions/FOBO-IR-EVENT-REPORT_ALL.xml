@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-IR-EVENT-REPORT_ALL</label>
+    <description>(BY SHUNG LIN)FOBO-IR-EVENT-REPORT_ALL</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-IR-EVENT-REPORT _ALL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

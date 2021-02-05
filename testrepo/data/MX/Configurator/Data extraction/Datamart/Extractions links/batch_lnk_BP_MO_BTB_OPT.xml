@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_BTB_OPT</label>
+    <batchFile>BP_MO_BTB_OPT.xml</batchFile>
+    <description> [MX3-MO] DS_MO_CHECK_BTB_OPT</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_CHECK_BTB_OPT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

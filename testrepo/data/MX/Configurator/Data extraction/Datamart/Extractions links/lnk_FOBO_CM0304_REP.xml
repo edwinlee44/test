@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_CM0304_REP</label>
+    <batchFile>FOBO_CM0304_REP.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

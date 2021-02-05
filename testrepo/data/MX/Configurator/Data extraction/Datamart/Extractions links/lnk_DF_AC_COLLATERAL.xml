@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_COLLATERAL</label>
+    <batchFile>DF_AC_COLLATERAL.xml</batchFile>
+    <description>(MXACRP-DYNAMIC)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

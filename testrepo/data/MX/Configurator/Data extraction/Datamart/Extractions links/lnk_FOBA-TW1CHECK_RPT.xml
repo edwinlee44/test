@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-TW1CHECK_RPT</label>
+    <batchFile>FOBA-TW1CHECK_RPT.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

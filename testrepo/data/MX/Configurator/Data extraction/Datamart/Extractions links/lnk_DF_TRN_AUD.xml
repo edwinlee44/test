@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_TRN_AUD</label>
+    <batchFile>DF_TRN_AUD.xml</batchFile>
+    <description>(MXDM-SQL_MX-DELETE)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

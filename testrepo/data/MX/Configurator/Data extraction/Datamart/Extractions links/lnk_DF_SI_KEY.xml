@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_SI_KEY</label>
+    <batchFile>DF_SI_KEY.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

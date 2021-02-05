@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-IRD-BOND-VN</label>
+    <description>IRD/BOND DEAL INFORMATION FOR VIETNAM</description>
+    <type>Extraction</type>
+    <category>REPORT_BO</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-IRD-BOND-VN</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

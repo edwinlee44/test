@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>INTRAD_MM_FW1</label>
+    <batchFile>INTRAD_MM_FW1.xml</batchFile>
+    <description/>
+    <category>Fubon</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

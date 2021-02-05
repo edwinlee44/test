@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>UI_MATCH_HK_B2B</label>
+    <batchFile>UI_MATCH_HK_B2B.xml</batchFile>
+    <description>[MX3-FO] Golive version</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>UI_MATCH_HK_B2B.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>UI_MATCH_HK_B2B.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>SP_DM_QU_CAL_CP</label>
+    <description>(MXQU-MX3)</description>
+    <type>Stored procedure</type>
+    <category>T-MXMPC</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>FSP_DM_QU_CAL_CP</storedProcedure>
+    </storedProcedures>
+</batch>

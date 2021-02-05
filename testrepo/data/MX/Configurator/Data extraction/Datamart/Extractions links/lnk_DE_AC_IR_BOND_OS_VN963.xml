@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_IR_BOND_OS_VN963</label>
+    <batchFile>DE_AC_IR_BOND_OS_VN963.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

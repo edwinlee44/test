@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_INTRADAY_LIQ</label>
+    <batchFile>BF_INTRADAY_LIQ.xml</batchFile>
+    <description>[MX3-BO-ID] equity feeder for bo intra day eqd report - Golive</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EQD_LIQ_POS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_LIQ_ID.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

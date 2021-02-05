@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OPT-UDF</label>
+    <description>(BY SHUNG LIN)_OPT UDF BY M_MRPL_DATE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-OPT-UDF</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

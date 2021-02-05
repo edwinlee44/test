@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>SupOspRights</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/SupOspRights.sql</sql>
+    <description/>
+</extractionRequest>

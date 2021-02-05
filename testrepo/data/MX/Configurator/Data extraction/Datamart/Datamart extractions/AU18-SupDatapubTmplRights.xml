@@ -1,0 +1,15 @@
+<batch>
+    <label>AU18-SupDatapubTmplRights</label>
+    <description>Lists groups and details on the datapublisher template of each group</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupDatapubTmplRights">SupDatapublisherTmplRights</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

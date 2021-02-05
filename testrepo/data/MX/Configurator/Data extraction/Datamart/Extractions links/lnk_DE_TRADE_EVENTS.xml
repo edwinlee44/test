@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_TRADE_EVENTS</label>
+    <batchFile>DE_TRADE_EVENTS.xml</batchFile>
+    <description/>
+    <category>REPORT_BO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

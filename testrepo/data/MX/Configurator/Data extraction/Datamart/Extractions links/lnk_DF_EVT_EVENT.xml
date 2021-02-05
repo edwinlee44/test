@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_EVT_EVENT</label>
+    <batchFile>DF_EVT_EVENT.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

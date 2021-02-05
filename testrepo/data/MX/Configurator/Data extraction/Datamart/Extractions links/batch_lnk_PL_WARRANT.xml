@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>PL_WARRANT</label>
+    <batchFile>PL_WARRANT.xml</batchFile>
+    <description>(EQ1) Reporting Data Model: [ PL_WARRANT ]  --Feed PL_WARRANT</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PL_WARRANT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

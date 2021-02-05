@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_EQD_DERIVATIVE</label>
+    <batchFile>MO_EQD_DERIVATIVE.xml</batchFile>
+    <description>[MX3-MO] MO_EQD_DERIVATIVE</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

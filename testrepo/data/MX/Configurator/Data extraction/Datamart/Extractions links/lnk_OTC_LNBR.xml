@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>OTC_LNBR</label>
+    <batchFile>OTC_LNBR.xml</batchFile>
+    <description>[OTC]Feed deals including late deals - LNBR</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

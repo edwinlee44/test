@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM08-MarginCall_FO</label>
+    <batchFile>CM08-MarginCall_FO.xml</batchFile>
+    <description>Summary of the Margin call and Expected margin call allocation details</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_ROLLOVER_ALL_SETTING</label>
+    <batchFile>FOBO_ROLLOVER_ALL_SETTING.xml</batchFile>
+    <description>FOBO_ROLLOVER_ALL_SETTING BY SHUNG LIN</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

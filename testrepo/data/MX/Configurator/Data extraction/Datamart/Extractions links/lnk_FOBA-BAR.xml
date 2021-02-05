@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-BAR</label>
+    <batchFile>FOBA-BAR.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OPT-PREEVENT-ALL-CONFIRM</label>
+    <batchFile>FOBO-OPT-PREEVENT-ALL-CONFIRM.xml</batchFile>
+    <description>(BY SHUNG LIN)CONFIRM TODAY DEAL FOR MONITOR_OPTION_AFTER_EVENT</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_SIMM_SCH_NOT_FX_REP</label>
+    <batchFile>F_SIMM_SCH_NOT_FX_REP.xml</batchFile>
+    <description>Single Feeder for SIMM_SCH_NOT_FX_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

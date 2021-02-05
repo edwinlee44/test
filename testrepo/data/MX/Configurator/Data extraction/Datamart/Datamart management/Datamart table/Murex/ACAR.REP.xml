@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<table>
+    <nameTable>ACAR.REP</nameTable>
+    <descTable/>
+    <basedOn>
+        <dynTable>
+            <isBuiltOnConso>False</isBuiltOnConso>
+            <ClassificationType>0</ClassificationType>
+            <filterClass>
+                <class>Copy creation</class>
+            </filterClass>
+            <nameDynTable>DYN_ACAR</nameDynTable>
+            <dirDynTable>Murex</dirDynTable>
+        </dynTable>
+    </basedOn>
+    <links/>
+    <dataHisTable>none</dataHisTable>
+    <typeTable>dynamic</typeTable>
+    <murex>1</murex>
+    <columns>
+        <column>
+            <nameColumn>MX_REF_JOB</nameColumn>
+            <descColumn>Murex job reference</descColumn>
+            <typeColumn>G</typeColumn>
+            <width>10</width>
+            <dec>0</dec>
+            <defaultValue/>
+        </column>
+        <column>
+            <nameColumn>REF_DATA</nameColumn>
+            <descColumn>Murex dataset reference</descColumn>
+            <typeColumn>G</typeColumn>
+            <width>10</width>
+            <dec>0</dec>
+            <defaultValue/>
+        </column>
+        <column>
+            <nameColumn>RULE_LB</nameColumn>
+            <descColumn/>
+            <typeColumn>C</typeColumn>
+            <width>100</width>
+            <dec>0</dec>
+            <dynField>RULE_LB</dynField>
+        </column>
+        <column>
+            <nameColumn>RULE_NB</nameColumn>
+            <descColumn/>
+            <typeColumn>N</typeColumn>
+            <width>10</width>
+            <dec>0</dec>
+            <dynField>RULE_NB</dynField>
+        </column>
+    </columns>
+    <indexes>
+        <index>
+            <nameIndex>ACAR_REF_DATA</nameIndex>
+            <flag>0</flag>
+            <columnsIndex>
+                <columnIndex>REF_DATA</columnIndex>
+            </columnsIndex>
+        </index>
+    </indexes>
+    <mraNotification/>
+</table>

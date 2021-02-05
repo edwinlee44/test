@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-GENERATOR_all</label>
+    <batchFile>FOBO-GENERATOR_all.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO_COLLATERAL_AGREEMENT</label>
+    <description/>
+    <type>Extraction</type>
+    <category>OIS</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO_COLLATERAL_AGREEMENT</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-EVENT_REFRESH</label>
+    <batchFile>FOBO-EVENT_REFRESH.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MLC_GRKS_BAT</label>
+    <batchFile>MLC_GRKS_BAT.xml</batchFile>
+    <description>Mlc Data Model: [ mlc_greeks ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_GRKS_FDR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

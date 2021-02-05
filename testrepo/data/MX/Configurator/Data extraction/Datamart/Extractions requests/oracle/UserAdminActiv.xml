@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>UserAdminActiv</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/UserAdminActiv.sql</sql>
+    <description>Audit log of all Admin activity</description>
+</extractionRequest>

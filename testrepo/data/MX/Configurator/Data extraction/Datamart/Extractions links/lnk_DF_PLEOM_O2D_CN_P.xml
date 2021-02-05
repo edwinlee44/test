@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_PLEOM_O2D_CN_P</label>
+    <batchFile>DF_PLEOM_O2D_CN_P.xml</batchFile>
+    <description>(MXFORP-MX3)</description>
+    <category>T-MXFORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

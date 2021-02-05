@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_FCY_BOND</label>
+    <batchFile>MO_FCY_BOND.xml</batchFile>
+    <description>MO_FCY_BOND</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_FCY_BOND.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MO_FCY_BOND.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BO_OTC_REMCAP</label>
+    <batchFile>BO_OTC_REMCAP.xml</batchFile>
+    <description>(OTC) Reporting Data Model: remaining capital</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

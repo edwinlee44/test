@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_IRD_SV</label>
+    <batchFile>DF_IRD_SV.xml</batchFile>
+    <description>(MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

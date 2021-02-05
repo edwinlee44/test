@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_O2D_OPT_OBU_S</label>
+    <batchFile>DE_AC_O2D_OPT_OBU_S.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CURR_CS_HK</label>
+    <batchFile>BF_CURR_CS_HK.xml</batchFile>
+    <description>(MXDM-MX3)匯率類CASH FLOW</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_CURR_CS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_CURR_HK.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

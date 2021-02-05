@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_MV_DBF</label>
+    <batchFile>MLC_MV_DBF.xml</batchFile>
+    <description>To generate MLC_MV_DBF</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_MV_OPT_FDR</label>
+    <batchFile>MLC_MV_OPT_FDR.xml</batchFile>
+    <description/>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

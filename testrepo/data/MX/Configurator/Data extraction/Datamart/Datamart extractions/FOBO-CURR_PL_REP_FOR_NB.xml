@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-CURR_PL_REP_FOR_NB</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-CURR_PL_REP</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

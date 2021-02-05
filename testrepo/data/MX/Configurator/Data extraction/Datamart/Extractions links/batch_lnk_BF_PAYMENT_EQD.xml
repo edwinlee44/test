@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_PAYMENT_EQD</label>
+    <batchFile>BF_PAYMENT_EQD.xml</batchFile>
+    <description>[MX3] MXDM-BO intraDay Feeder for EQD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>INTRAD_PAYMENT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

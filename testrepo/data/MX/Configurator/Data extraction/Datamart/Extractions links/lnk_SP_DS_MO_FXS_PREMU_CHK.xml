@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_DS_MO_FXS_PREMU_CHK</label>
+    <batchFile>SP_DS_MO_FXS_PREMU_CHK.xml</batchFile>
+    <description>[MX3-MO] EXEC DS_MO_FXS_PREMU_CHK</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

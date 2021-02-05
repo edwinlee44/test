@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CON_PL_TP_O4</label>
+    <batchFile>BF_CON_PL_TP_O4.xml</batchFile>
+    <description>(MXDM-MX3)TAIPEI OLD IRD DEAL</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_CONSO_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_TP_O_IRD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

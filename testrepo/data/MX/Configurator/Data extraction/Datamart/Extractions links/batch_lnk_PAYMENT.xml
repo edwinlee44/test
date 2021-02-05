@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>PAYMENT</label>
+    <batchFile>PAYMENT.xml</batchFile>
+    <description>Reporting Data Model: [ PAYMENT ]  --Feed PAYMENT</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PAYMENT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>PAYMENT_GLOBAL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

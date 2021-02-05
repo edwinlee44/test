@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_IRD_OS</label>
+    <description/>
+    <type>Extraction</type>
+    <category>REPORT_AC</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>DE_AC_IRD_OS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

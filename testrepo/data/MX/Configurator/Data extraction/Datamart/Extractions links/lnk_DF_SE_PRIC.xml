@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_SE_PRIC</label>
+    <batchFile>DF_SE_PRIC.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

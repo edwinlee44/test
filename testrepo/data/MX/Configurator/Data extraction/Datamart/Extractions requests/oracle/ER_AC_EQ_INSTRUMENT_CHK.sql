@@ -1,0 +1,12 @@
+SELECT
+       DATA_DATE,
+       PORTFOLIO,
+       INSTRUMENT,
+       STRATEGY,
+       ACC_SECTION,
+       SIGINED_QUANT,
+       AVP_AMT,
+       BAL_AMT,
+       DIFF
+  FROM    V_AC_EQ_OS_CHK_INSTRUM_REP TP
+where DATA_DATE @I_DT:D

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DT_BOND_INFO2</label>
+    <batchFile>DT_BOND_INFO2.xml</batchFile>
+    <description>[MXFORP-MX3] bond info2 table feeder for FO Report-golive version</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

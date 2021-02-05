@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM03-CashCollateralBalance</label>
+    <batchFile>CM03-CashCollateralBalance.xml</batchFile>
+    <description>Inventory of cash collateral</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

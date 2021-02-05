@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_FCY_BOND</label>
+    <batchFile>MO_FCY_BOND.xml</batchFile>
+    <description>MO_FCY_BOND</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

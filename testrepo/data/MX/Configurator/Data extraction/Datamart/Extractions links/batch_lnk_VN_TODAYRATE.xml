@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>VN_TODAYRATE</label>
+    <batchFile>VN_TODAYRATE.xml</batchFile>
+    <description>[MX3-FO] Golive version-VN discount Rate</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>VN_TODAYRATE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>Contextual today.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

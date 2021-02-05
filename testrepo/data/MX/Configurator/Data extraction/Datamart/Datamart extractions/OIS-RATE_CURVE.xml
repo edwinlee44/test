@@ -1,0 +1,15 @@
+<batch>
+    <label>OIS-RATE_CURVE</label>
+    <description>SHUNGLIN</description>
+    <type>Extraction</type>
+    <category>OIS</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>OIS-RATE_CURVE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

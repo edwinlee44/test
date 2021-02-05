@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>XG</label>
+    <batchFile>XG.xml</batchFile>
+    <description>Reporting Data Model: [ XG ]  --Feed XG</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>XG.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

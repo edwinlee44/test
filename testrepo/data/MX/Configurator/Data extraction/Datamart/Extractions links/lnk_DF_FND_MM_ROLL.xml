@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FND_MM_ROLL</label>
+    <batchFile>DF_FND_MM_ROLL.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

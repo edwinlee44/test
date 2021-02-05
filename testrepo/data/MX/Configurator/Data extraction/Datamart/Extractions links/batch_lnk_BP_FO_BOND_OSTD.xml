@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_FO_BOND_OSTD</label>
+    <batchFile>BP_FO_BOND_OSTD.xml</batchFile>
+    <description>[MX3-FO] Execution SP_DM_FO_BOND_OSTD</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DM_FO_BOND_OSTD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

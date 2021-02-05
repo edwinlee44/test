@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>TP_SIM</label>
+    <batchFile>TP_SIM.xml</batchFile>
+    <description>(IRD) Reporting Data Model: [ TP_SIM ]  --Feed TP_SIM</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TP_SIM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>TP_SIM.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

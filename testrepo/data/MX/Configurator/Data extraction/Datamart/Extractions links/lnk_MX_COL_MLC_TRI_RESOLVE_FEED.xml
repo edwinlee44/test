@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_MLC_TRI_RESOLVE_FEED</label>
+    <batchFile>MX_COL_MLC_TRI_RESOLVE_FEED.xml</batchFile>
+    <description>Data feeder for COL_MLC_TRIRESOL_REP table</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

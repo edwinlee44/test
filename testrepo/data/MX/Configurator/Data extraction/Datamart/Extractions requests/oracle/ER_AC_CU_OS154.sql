@@ -1,0 +1,4 @@
+SELECT  *
+  FROM    V_AC_CU_OS154_REP TP
+where ENTITY @I_ENTITY:C
+   and to_date(DATA_DT,'YYYYMMDD') @I_DT:D

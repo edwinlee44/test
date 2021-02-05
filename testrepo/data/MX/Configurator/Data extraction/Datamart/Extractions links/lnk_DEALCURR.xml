@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEALCURR</label>
+    <batchFile>DEALCURR.xml</batchFile>
+    <description>Reporting Data Model: DEALCURR</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

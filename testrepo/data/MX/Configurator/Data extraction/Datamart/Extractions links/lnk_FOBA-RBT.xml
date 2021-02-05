@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-RBT</label>
+    <batchFile>FOBA-RBT.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_AC_IR_BOND_RECLASS_Q</label>
+    <batchFile>DEQ_AC_IR_BOND_RECLASS_Q.xml</batchFile>
+    <description>(MXACRP-MX3)每季報給會計師 重分類相關資料</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

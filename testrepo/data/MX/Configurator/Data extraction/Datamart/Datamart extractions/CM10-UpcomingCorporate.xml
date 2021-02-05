@@ -1,0 +1,30 @@
+<batch>
+    <label>CM10-UpcomingCorporate</label>
+    <description>Summary of upcoming corporate actions filtered out on assets held or pledged as collateral</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_CORP_ACT</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_CORP_ACT_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_INVENTORY</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_INVENTORY_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM10-UpcomingCorporate">CM10-UCA-Request</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

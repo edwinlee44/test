@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_AGREEMENT_FEED</label>
+    <batchFile>MX_COL_AGREEMENT_FEED.xml</batchFile>
+    <description>Data feeder for COL_AGREEMENT_FB_REP</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

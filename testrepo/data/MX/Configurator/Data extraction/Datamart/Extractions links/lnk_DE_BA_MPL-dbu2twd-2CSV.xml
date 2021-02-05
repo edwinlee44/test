@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_BA_MPL-dbu2twd-2CSV</label>
+    <batchFile>DE_BA_MPL-dbu2twd-2CSV.xml</batchFile>
+    <description>[MX3-FO] DE_BA_MPL-dbu2twd-2CSV</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_AC_MA_PL_M</label>
+    <batchFile>BF_AC_MA_PL_M.xml</batchFile>
+    <description>(MXACRP-SQL_RP-MX3)當月月初至報表日損益資料</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_AC_MA_PL_M.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

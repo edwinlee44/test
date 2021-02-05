@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_PL_GREEK_AM3</label>
+    <batchFile>MO_PL_GREEK_AM3.xml</batchFile>
+    <description>[MX3-MO] MO_PL_GREEKS_AM3 (Live Trade)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_PL_GREEKS_AM3.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

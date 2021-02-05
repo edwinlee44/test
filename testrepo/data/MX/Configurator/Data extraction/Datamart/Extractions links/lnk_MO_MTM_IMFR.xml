@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_MTM_IMFR</label>
+    <batchFile>MO_MTM_IMFR.xml</batchFile>
+    <description>[MX3-MO] Implied forward rate - MTM</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

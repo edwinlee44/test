@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>NP_UDF_LTI</label>
+    <batchFile>NP_UDF_LTI.xml</batchFile>
+    <description>Reporting Data Model: NP_UDF_LTI</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

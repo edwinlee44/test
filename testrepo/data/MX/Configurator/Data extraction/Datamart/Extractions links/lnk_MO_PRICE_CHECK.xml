@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_PRICE_CHECK</label>
+    <batchFile>MO_PRICE_CHECK.xml</batchFile>
+    <description>MO_PRICE_CHECK</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

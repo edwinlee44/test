@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_AC_CAL_INFO</label>
+    <batchFile>BF_AC_CAL_INFO.xml</batchFile>
+    <description>(MXACRP)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_AC_CAL_INFO.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

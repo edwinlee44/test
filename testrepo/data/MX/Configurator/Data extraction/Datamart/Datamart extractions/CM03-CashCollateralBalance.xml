@@ -1,0 +1,51 @@
+<batch>
+    <label>CM03-CashCollateralBalance</label>
+    <description>Inventory of cash collateral</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_ASSET_COL_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_CURR_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_PARTIES_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_SEC_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_INVENTORY</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_INVENTORY_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM03-CashCollateralInventory">CM03-04-Request</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

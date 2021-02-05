@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBA-ALL_OPT_EXR</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBA-ALL_OPT_EXR</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

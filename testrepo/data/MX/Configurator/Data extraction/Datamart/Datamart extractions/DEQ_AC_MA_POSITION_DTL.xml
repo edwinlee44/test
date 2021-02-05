@@ -1,0 +1,15 @@
+<batch>
+    <label>DEQ_AC_MA_POSITION_DTL</label>
+    <description>(MXACRP-MX3)取會計當日損益明細_單號</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_AC_MA_PO_DTL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_MA_PL_M_SUM</label>
+    <batchFile>DE_AC_MA_PL_M_SUM.xml</batchFile>
+    <description>(MXACRP-MX3)中台計算基準使用報表日匯率折台數</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

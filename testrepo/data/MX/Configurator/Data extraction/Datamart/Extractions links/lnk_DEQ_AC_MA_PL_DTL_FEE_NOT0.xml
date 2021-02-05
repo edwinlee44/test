@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_AC_MA_PL_DTL_FEE_NOT0</label>
+    <batchFile>DEQ_AC_MA_PL_DTL_FEE_NOT0.xml</batchFile>
+    <description>(MXACRP-MX3)取會計當日損益明細_損益結轉用</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

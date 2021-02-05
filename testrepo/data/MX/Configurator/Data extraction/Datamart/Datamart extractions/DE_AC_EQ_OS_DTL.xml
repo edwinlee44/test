@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_EQ_OS_DTL</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="DE_AC_EQ_OS_DTL_VW">ER_AC_EQ_OS_DTL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_IR_OS_INFO</label>
+    <batchFile>DF_AC_IR_OS_INFO.xml</batchFile>
+    <description>(MXACRP-SQL_RP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-V_BO_OTC_FLX</label>
+    <batchFile>FOBO-V_BO_OTC_FLX.xml</batchFile>
+    <description>(BY SHUNG LIN)V_BO_OTC_FLX</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>TRN_BOND</label>
+    <batchFile>TRN_BOND.xml</batchFile>
+    <description>(BOND) Reporting Data Model: BOND_CS,BOND_MV,BOND_TP,BOND_XG</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

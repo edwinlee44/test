@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-TRN-SI</label>
+    <batchFile>FOBO-TRN-SI.xml</batchFile>
+    <description>(BY SHUNG LIN)FOR DAILY/PERIOD TRNS SSI</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

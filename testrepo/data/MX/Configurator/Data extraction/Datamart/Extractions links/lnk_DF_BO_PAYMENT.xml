@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_PAYMENT</label>
+    <batchFile>DF_BO_PAYMENT.xml</batchFile>
+    <description>(MX3_BO) MX_PAYMENT_REP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

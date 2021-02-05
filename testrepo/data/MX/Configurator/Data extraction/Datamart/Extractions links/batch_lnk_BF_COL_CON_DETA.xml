@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_COL_CON_DETA</label>
+    <batchFile>BF_COL_CON_DETA.xml</batchFile>
+    <description>Batch of feeder for COL_CON_DETAIL_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_COL_CON_DETAIL_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MX_COL_MLC_GF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

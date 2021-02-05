@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_FO_EOD_PL_TR</label>
+    <batchFile>BP_FO_EOD_PL_TR.xml</batchFile>
+    <description>(MXFORP-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_EOD_PL_TR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

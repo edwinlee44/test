@@ -1,0 +1,23 @@
+<batch>
+    <label>CM05-ExposuresByAgreement</label>
+    <description>Collateral exposures aggregated by legal agreement</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_MLC_EXPAGG</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_MLC_EXPAGGFB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM05-ExposuresByAgreement">CM05-ExposuresByAgreement</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

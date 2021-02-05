@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_FX_T_FDR</label>
+    <batchFile>MLC_FX_T_FDR.xml</batchFile>
+    <description/>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

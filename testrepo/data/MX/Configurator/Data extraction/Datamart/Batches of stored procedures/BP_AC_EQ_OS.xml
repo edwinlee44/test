@@ -1,0 +1,37 @@
+<set>
+    <label>BP_AC_EQ_OS</label>
+    <type>Batch of stored procedures</type>
+    <filter/>
+    <datamartObjects>
+        <datamartObject>
+            <datamartObjectLabel>PKG_DM_AC_EQD_OS</datamartObjectLabel>
+            <parameters>
+                <parameter>
+                    <parLabel>I_DATE</parLabel>
+                    <parType>Date</parType>
+                    <parValue>27/11/20</parValue>
+                    <parDateOffset>0</parDateOffset>
+                    <parDateType>Reporting date</parDateType>
+                    <parDateValue>00000000</parDateValue>
+                    <parDateShifter/>
+                </parameter>
+                <parameter>
+                    <parLabel>I_ENTITY</parLabel>
+                    <parType>String</parType>
+                    <parValue>MA</parValue>
+                </parameter>
+            </parameters>
+        </datamartObject>
+    </datamartObjects>
+    <description>(MXAC-MX3)</description>
+    <optional>N</optional>
+    <canBeOverwritten>N</canBeOverwritten>
+    <dataSetLabel>FeedAll</dataSetLabel>
+    <dataSetDate>
+        <dateType>Reporting date</dateType>
+    </dataSetDate>
+    <dataPrecomputed>Y</dataPrecomputed>
+    <dataComputedByBatches>N</dataComputedByBatches>
+    <dataPublished>Y</dataPublished>
+    <historizationMode>One data set</historizationMode>
+</set>

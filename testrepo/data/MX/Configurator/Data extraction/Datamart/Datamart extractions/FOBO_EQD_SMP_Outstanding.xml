@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO_EQD_SMP_Outstanding</label>
+    <description>FOBO_EQD_SMP Outstanding</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO_EQD_SMP_Outstanding</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-SUPPRESSED-DOC</label>
+    <batchFile>FOBO-OSP-SUPPRESSED-DOC.xml</batchFile>
+    <description>(BY SHUNG LIN)OSP</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

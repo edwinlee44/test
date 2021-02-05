@@ -1,0 +1,1685 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_PL_012</Name>
+    <Description>Reporting Data Model: Detailed P&amp;L between three dates</Description>
+    <Type>Transaction</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class>DYN_TRNRP_PL</Class>
+    <History>His3_21</History>
+    <Alias>TRNRP_PL.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>ACC_CUR</Label>
+            <Description>Accounting Currency</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CENV("CUR_ACC")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>BUY_AMT</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>23</Length>
+            <Decimal>4</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_BS=='B',TP_IQTY,TP_QTYEQ)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>BUY_CCY</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_BS=='B',TP_FXUND,TP_FXBASE)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CRT_BND10</Label>
+            <Description/>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DENV("CRT_BND10")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CRT_BND11</Label>
+            <Description/>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DENV("CRT_BND11")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CRT_BND12</Label>
+            <Description/>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DENV("CRT_BND12")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DF_TWD</Label>
+            <Description>TWD discount factor from today to expiry date</Description>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">RTECV('TWD:TWD FX SWAP',DENV('CRT_BND12'),TP_DTEEXP)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_ACC0</Label>
+            <Description>Accruals at date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CSNFRV0+PL_FPNFRV0)+PLIRDACS10*SPTCV(PLIRDCUR1,C_CUR_PL,DENV("CRT_BND10"))+PLIRDACS20*SPTCV(PLIRDCUR2,C_CUR_PL,DENV("CRT_BND10"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_ACC1</Label>
+            <Description>Accruals at date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CSNFRV1+PL_FPNFRV1)+PLIRDACS11*SPTCV(PLIRDCUR1,C_CUR_PL,DENV("CRT_BND11"))+PLIRDACS21*SPTCV(PLIRDCUR2,C_CUR_PL,DENV("CRT_BND11"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_ACC2</Label>
+            <Description>Accruals at date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CSNFRV2+PL_FPNFRV2)+PLIRDACS12*SPTCV(PLIRDCUR1,C_CUR_PL,DENV("CRT_BND12"))+PLIRDACS22*SPTCV(PLIRDCUR2,C_CUR_PL,DENV("CRT_BND12"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_ACCMV0</Label>
+            <Description>MV Accrual at date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PLIRDACS10*SPTCV(PLIRDCUR1,C_CUR_PL,DENV("CRT_BND10"))+PLIRDACS20*SPTCV(PLIRDCUR2,C_CUR_PL,DENV("CRT_BND10"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_ACCMV1</Label>
+            <Description>MV Accrual at date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PLIRDACS11*SPTCV(PLIRDCUR1,C_CUR_PL,DENV("CRT_BND11"))+PLIRDACS21*SPTCV(PLIRDCUR2,C_CUR_PL,DENV("CRT_BND11"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_ACCMV2</Label>
+            <Description>MV Accrual at date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PLIRDACS12*SPTCV(PLIRDCUR1,C_CUR_PL,DENV("CRT_BND12"))+PLIRDACS22*SPTCV(PLIRDCUR2,C_CUR_PL,DENV("CRT_BND12"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CG0</Label>
+            <Description>Capital Gain Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CGU0+PL_CGR0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CG1</Label>
+            <Description>Capital Gain Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CGU1+PL_CGR1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CG2</Label>
+            <Description>Capital Gain Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CGU2+PL_CGR2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CR0</Label>
+            <Description>Capital Gain &amp; Revenues Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CGU0+PL_RVU0+PL_CGR0+PL_RVR0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CR1</Label>
+            <Description>Capital Gain &amp; Revenues Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CGU1+PL_RVU1+PL_CGR1+PL_RVR1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CR2</Label>
+            <Description>Capital Gain &amp; Revenues Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CGU2+PL_RVU2+PL_CGR2+PL_RVR2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CRRA0</Label>
+            <Description>Capital Gain &amp; Revenues Realized Adjusted Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CGRA0+PL_RVRA0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CRRA1</Label>
+            <Description>Capital Gain &amp; Revenues Realized Adjusted Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CGRA1+PL_RVRA1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CRRA2</Label>
+            <Description>Capital Gain &amp; Revenues Realized Adjusted Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CGRA2+PL_RVRA2)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CRUA0</Label>
+            <Description>Capital Gain &amp; Revenues Realized Adjusted Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CGUA0+PL_RVUA0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CRUA1</Label>
+            <Description>Capital Gain &amp; Revenues Realized Adjusted Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CGUA1+PL_RVUA1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CRUA2</Label>
+            <Description>Capital Gain &amp; Revenues Realized Adjusted Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CGUA2+PL_RVUA2)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CS0</Label>
+            <Description>NF Cash Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CSNF0+PL_FPNFCP0+PL_FPNFRV0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CS1</Label>
+            <Description>NF Cash Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CSNF1+PL_FPNFCP1+PL_FPNFRV1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CS2</Label>
+            <Description>NF Cash Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CSNF2+PL_FPNFCP2+PL_FPNFRV2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CSRV0</Label>
+            <Description>NF Cash on Revenue Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CSNFRV0+PL_FPNFRV0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CSRV1</Label>
+            <Description>NF Cash on Revenue Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CSNFRV1+PL_FPNFRV1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CSRV2</Label>
+            <Description>NF Cash on Revenue Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CSNFRV2+PL_FPNFRV2)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CUR</Label>
+            <Description>P&amp;L currency for equity derivatives and purged deals</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_FMLY=="EQD",TP_NOMCUR,C_CUR_PL)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_GEPL0</Label>
+            <Description>Gross Economic P&amp;L Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CG0+PL_RV0+PL_CSFI0+PL_FTFI0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_GEPL1</Label>
+            <Description>Gross Economic P&amp;L Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CG1+PL_RV1+PL_CSFI1+PL_FTFI1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_GEPL2</Label>
+            <Description>Gross Economic P&amp;L Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_CG2+PL_RV2+PL_CSFI2+PL_FTFI2)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_NEPL0</Label>
+            <Description>Net Economic P&amp;L Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_GEPL0+PL_FE0+PL_FEFI0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_NEPL1</Label>
+            <Description>Net Economic P&amp;L Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_GEPL1+PL_FE1+PL_FEFI1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_NEPL2</Label>
+            <Description>Net Economic P&amp;L Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_GEPL2+PL_FE2+PL_FEFI2)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_PVC0</Label>
+            <Description>Present Value Effect on Cap.Gain Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_FPFCP0-PL_FPNFCP0)+(PL_MVFCP0-PL_MVNFCP0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_PVC1</Label>
+            <Description>Present Value Effect on Cap.Gain Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_FPFCP1-PL_FPNFCP1)+(PL_MVFCP1-PL_MVNFCP1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_PVC2</Label>
+            <Description>Present Value Effect on Cap.Gain Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(PL_FPFCP2-PL_FPNFCP2)+(PL_MVFCP2-PL_MVNFCP2)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_PVR0</Label>
+            <Description>Present Value Effect on Revenue Change Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_GEPL0-(PL_CG0+PL_CSRV0+PL_ACCMV0+PL_PVC0+PL_CSFI0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_PVR1</Label>
+            <Description>Present Value Effect on Revenue Change Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_GEPL1-(PL_CG1+PL_CSRV1+PL_ACCMV1+PL_PVC1+PL_CSFI1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_PVR2</Label>
+            <Description>Present Value Effect on Revenue Change Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_GEPL2-(PL_CG2+PL_CSRV2+PL_ACCMV2+PL_PVC2+PL_CSFI2)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_RV0</Label>
+            <Description>Revenue Date 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_RVU0+PL_RVR0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_RV1</Label>
+            <Description>Revenue Date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_RVU1+PL_RVR1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_RV2</Label>
+            <Description>Revenue Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_RVU2+PL_RVR2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC0_DT_AC</Label>
+            <Description>Spot Conversion Delta currency to Accounting currency at date 0</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(C_PL_DT,ACC_CUR,DENV("CRT_BND10"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC0_IR1_PL</Label>
+            <Description>Spot Conversion IR Trade Leg 1  to PL currency at date 0</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PLIRDCUR1,C_CUR_PL,DENV('CRT_BND10'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC0_IR2_PL</Label>
+            <Description>Spot Conversion IR Trade Leg 2  to PL currency at date 0</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PLIRDCUR2,C_CUR_PL,DENV('CRT_BND10'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC0_NC_USD</Label>
+            <Description>Spot Conversion Nominal Curr to USD Date 0</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(TP_NOMCUR,'USD',DENV("CRT_BND10"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC0_PL_AC</Label>
+            <Description>Spot Conversion P&amp;L to Acc Currency Date 0</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PL_CUR,ACC_CUR,DENV("CRT_BND10"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC0_PL_UC</Label>
+            <Description>Spot Conversion P&amp;L to User Currency Date 0</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PL_CUR,USER_CUR,DENV("CRT_BND10"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_DT_AC</Label>
+            <Description>Spot Conversion Delta currency to Accounting currency at date 1</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(C_PL_DT,ACC_CUR,DENV("CRT_BND11"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_IR1_PL</Label>
+            <Description>Spot Conversion IR Trade Leg 1  to PL currency at date 1</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PLIRDCUR1,C_CUR_PL,DENV('CRT_BND11'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_IR2_PL</Label>
+            <Description>Spot Conversion IR Trade Leg 2  to PL currency at date 1</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PLIRDCUR2,C_CUR_PL,DENV('CRT_BND11'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_NC_USD</Label>
+            <Description>Spot Conversion Nominal Curr to USD Date 1</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(TP_NOMCUR,'USD',DENV("CRT_BND11"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_PL_AC</Label>
+            <Description>Spot Conversion P&amp;L to Acc Currency Date 1</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PL_CUR,ACC_CUR,DENV("CRT_BND11"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_PL_UC</Label>
+            <Description>Spot Conversion P&amp;L to User Currency Date 1</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PL_CUR,USER_CUR,DENV("CRT_BND11"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_DT_AC</Label>
+            <Description>Spot Conversion Delta currency to Accounting currency at date 2</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(C_PL_DT,ACC_CUR,DENV("CRT_BND12"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_IR1_PL</Label>
+            <Description>Spot Conversion IR Trade Leg 1  to PL currency at date 2</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PLIRDCUR1,C_CUR_PL,DENV('CRT_BND12'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_IR2_PL</Label>
+            <Description>Spot Conversion IR Trade Leg 2  to PL currency at date 2</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PLIRDCUR2,C_CUR_PL,DENV('CRT_BND12'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_NC_USD</Label>
+            <Description>Spot Conversion Nominal Curr to USD Date 3</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(TP_NOMCUR,'USD',DENV("CRT_BND12"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_PL_AC</Label>
+            <Description>Spot Conversion P&amp;L to Acc Currency Date 2</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PL_CUR,ACC_CUR,DENV("CRT_BND12"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_PL_UC</Label>
+            <Description>Spot Conversion P&amp;L to User Currency Date 2</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(PL_CUR,USER_CUR,DENV("CRT_BND12"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SELL_AMT</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>23</Length>
+            <Decimal>4</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_BS=='S',TP_IQTY,TP_QTYEQ)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SELL_CCY</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_BS=='S',TP_FXUND,TP_FXBASE)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TP_BS</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_TYPE='XSW'.AND.QTY_INDEX=1.OR.(TRN_TYPE='XSW'.AND.TP_INT='Y'.AND.QTY_INDEX=1.AND.TP_BS1='B'),IIF(TP_BS1='B','S','B'),TP_BS1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TP_BS1</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(ISBLANK(TP_BUY_E)=0,TP_BUY_E,TP_BUY)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>USER_CUR</Label>
+            <Description>User defined currency if any, accounting currency otherwise</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(ISBLANK(CINTFIELD("CURRENCY"))=1,ACC_CUR,CINTFIELD("CURRENCY"))</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>CURRENCY</Label>
+            <Description>Report Output Currency</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula>" "</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SCAN_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>PL_CGU</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CGR</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RVU</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RVR</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CGUA</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CGRA</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RVUA</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RVRA</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_ASS</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_ALL</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSFI</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FTFI</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FE</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FEFI</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSNF</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSNFR</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSFR</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_NFMV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FMV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_NFMVCL</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FMVCL</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PLIRDCUR1</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PLIRDACC1</Label>
+            <Type>American</Type>
+            <Length>22</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>PLIRDFCS1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PLIRDCUR2</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PLIRDACC2</Label>
+            <Type>American</Type>
+            <Length>22</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>PLIRDFCS2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>S_DELTA</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>S_GAMMA</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>S_THETA</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>S_VEGA</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>S_RHO</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>S_RHOF</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>S_ZCSNV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>S_ZCCNV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>SVRTEQVAL</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>SVRTEQLB1</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>SVRTEQLB2</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_UPRC</Label>
+            <Type>Number</Type>
+            <Length>27</Length>
+            <Decimal>11</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_UDDRP1</Label>
+            <Type>Number</Type>
+            <Length>9</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_UDDRP2</Label>
+            <Type>Number</Type>
+            <Length>9</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_UDEXR</Label>
+            <Type>Number</Type>
+            <Length>9</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_USEXR</Label>
+            <Type>Number</Type>
+            <Length>9</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_SPOT</Label>
+            <Type>Number</Type>
+            <Length>18</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_SWAP</Label>
+            <Type>Number</Type>
+            <Length>21</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_VOL</Label>
+            <Type>Number</Type>
+            <Length>9</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_R</Label>
+            <Type>Number</Type>
+            <Length>11</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_RF</Label>
+            <Type>Number</Type>
+            <Length>18</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>C_CUR_PL</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>C_PL_DT</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSNFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSNFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPNFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPNFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVNFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVNFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PLIRDACS1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PLIRDACS2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_UPRCIS</Label>
+            <Type>Number</Type>
+            <Length>21</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_TLOSS</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>QTY_INDEX</Label>
+            <Type>Integer</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_INT</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BUY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BUY_E</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IQTY</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEEXP</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NOMCUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_QTYEQ</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FXBASE</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FXUND</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>XSUM_COUNT</Label>
+            <Type>American</Type>
+            <Length>12</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>XSUM_DET</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_MOPLST</Label>
+            <Type>Integer</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_MOPLSTL</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FXCTNUM</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FXCTDEN</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_MOPLSTD</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_CANCBY</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACC_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>BUY_AMT</Label>
+            <Type>Number</Type>
+            <Length>23</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>BUY_CCY</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CRT_BND10</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CRT_BND11</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CRT_BND12</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DF_TWD</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_ACC0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_ACC1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_ACC2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_ACCMV0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_ACCMV1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_ACCMV2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CG0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CG1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CG2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CR0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CR1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CR2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CRRA0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CRRA1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CRRA2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CRUA0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CRUA1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CRUA2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CS0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CS1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CS2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSRV0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSRV1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSRV2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_GEPL0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_GEPL1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_GEPL2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_NEPL0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_NEPL1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_NEPL2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_PVC0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_PVC1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_PVC2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_PVR0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_PVR1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_PVR2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RV0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RV1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RV2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>SC0_DT_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC0_IR1_PL</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC0_IR2_PL</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC0_NC_USD</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC0_PL_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC0_PL_UC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_DT_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_IR1_PL</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_IR2_PL</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_NC_USD</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_PL_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_PL_UC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_DT_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_IR1_PL</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_IR2_PL</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_NC_USD</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_PL_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_PL_UC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SELL_AMT</Label>
+            <Type>Number</Type>
+            <Length>23</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>SELL_CCY</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BS</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BS1</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>USER_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>No</ComputeSensitivities>
+        <ComputeDelta/>
+        <ComputeGamma/>
+        <ComputeTheta/>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega/>
+        <ComputeRR2/>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="1">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="0">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="2">
+                <Type>Date reporting</Type>
+                <DateOutput>20201127</DateOutput>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

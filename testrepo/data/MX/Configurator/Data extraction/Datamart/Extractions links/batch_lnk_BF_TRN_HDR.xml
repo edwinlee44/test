@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_TRN_HDR</label>
+    <batchFile>BF_TRN_HDR.xml</batchFile>
+    <description>(MXDM-DELETE)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_TRN_HDR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

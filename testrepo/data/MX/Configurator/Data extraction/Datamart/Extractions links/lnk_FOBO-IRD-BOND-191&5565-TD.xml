@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-IRD-BOND-191&amp;5565-TD</label>
+    <batchFile>FOBO-IRD-BOND-191&amp;5565-TD.xml</batchFile>
+    <description>IRD/BOND DEAL INFORMATION FOR 兼營證券 BY TRADE DATE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>TRN_LNBR</label>
+    <batchFile>TRN_LNBR.xml</batchFile>
+    <description>(MM) Reporting Data Model: LNBR_TP,LNBR_CS,LNBR_MV,LNBR_XG</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-CONFIG-delivery-template</label>
+    <description>(BY SHUNG LIN)FOBO-CONFIG-delivery-template</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-CONFIG-delivery-template</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

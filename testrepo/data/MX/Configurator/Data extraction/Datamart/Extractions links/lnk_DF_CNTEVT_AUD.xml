@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_CNTEVT_AUD</label>
+    <batchFile>DF_CNTEVT_AUD.xml</batchFile>
+    <description/>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

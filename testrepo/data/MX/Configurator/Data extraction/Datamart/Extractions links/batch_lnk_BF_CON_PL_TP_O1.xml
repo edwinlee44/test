@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CON_PL_TP_O1</label>
+    <batchFile>BF_CON_PL_TP_O1.xml</batchFile>
+    <description>(MXDM-MX3)TAIPEI OLD FLEX DEAL</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_CONSO_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_TP_O_CURR_FLEX.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

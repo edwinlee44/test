@@ -1,0 +1,73 @@
+<filterTemplate>
+    <Label>TODAY_CONSO</Label>
+    <Description/>
+    <Owner>MUREXBO</Owner>
+    <Group>BO</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>E</UpdateRight>
+    <CreationClass/>
+    <ClassType>Simulation</ClassType>
+    <ClassSubType>1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <Description/>
+                <DateOutput>20201130</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>4</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+        </Dates>
+        <Filter>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

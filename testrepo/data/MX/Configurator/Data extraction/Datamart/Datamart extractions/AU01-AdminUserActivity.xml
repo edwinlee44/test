@@ -1,0 +1,15 @@
+<batch>
+    <label>AU01-AdminUserActivity</label>
+    <description>Audit log of all Admin activity</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="UserAdminActiv">UserAdminActiv</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

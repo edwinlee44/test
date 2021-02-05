@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_BIM_SIMM_NOM_REP</label>
+    <batchFile>F_BIM_SIMM_NOM_REP.xml</batchFile>
+    <description>Single Feeder for BIM_SIMM_NOM_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

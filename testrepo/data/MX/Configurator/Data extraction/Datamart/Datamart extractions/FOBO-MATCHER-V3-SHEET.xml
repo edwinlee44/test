@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-MATCHER-V3-SHEET</label>
+    <description>matcher v3 strem by shung.lin</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-MATCHER-V3-SHEET</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

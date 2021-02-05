@@ -1,0 +1,99 @@
+<filterTemplate>
+    <Label>F_EOY_DT</Label>
+    <Description/>
+    <Owner>ITOP001</Owner>
+    <Group>AC_MOP</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>E</UpdateRight>
+    <CreationClass>DYN_SIMUL</CreationClass>
+    <ClassType>simulation</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <ByPfolio>Y</ByPfolio>
+    <Options>
+        <Dates>
+            <Date Nb="0">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="2">
+                <Type>Reporting date</Type>
+                <Description/>
+                <DateOutput>20201127</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>4</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+        </Dates>
+        <Filter>
+            <Portfolios>
+                <Portfolio>FNBD</Portfolio>
+                <Portfolio>FX</Portfolio>
+                <Portfolio>Funding</Portfolio>
+                <Portfolio>HKCB</Portfolio>
+                <Portfolio>HKCYFX</Portfolio>
+                <Portfolio>HKCYIR</Portfolio>
+                <Portfolio>HKFD</Portfolio>
+                <Portfolio>HKIN</Portfolio>
+                <Portfolio>HKSL</Portfolio>
+                <Portfolio>IRD</Portfolio>
+                <Portfolio>Investment</Portfolio>
+                <Portfolio>SGCYFX</Portfolio>
+                <Portfolio>SGCYIR</Portfolio>
+                <Portfolio>SGFD</Portfolio>
+                <Portfolio>SGIN</Portfolio>
+                <Portfolio>Sales</Portfolio>
+                <Portfolio>TPEM</Portfolio>
+            </Portfolios>
+            <TransactionTypes>
+                <TransactionType>CURR|OPT|LST</TransactionType>
+                <TransactionType>CURR|FUT|FUT</TransactionType>
+                <TransactionType>IRD|BOND|</TransactionType>
+                <TransactionType>IRD|BOND|CALL</TransactionType>
+            </TransactionTypes>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>Yes</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

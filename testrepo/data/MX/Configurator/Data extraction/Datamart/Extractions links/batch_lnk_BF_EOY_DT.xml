@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EOY_DT</label>
+    <batchFile>BF_EOY_DT.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EOY_DT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_EOY_DT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

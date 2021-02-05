@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_PAST_CASH_BK</label>
+    <batchFile>BASEL_PAST_CASH_BK.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

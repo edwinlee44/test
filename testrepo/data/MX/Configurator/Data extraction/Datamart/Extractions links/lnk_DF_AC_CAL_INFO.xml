@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_CAL_INFO</label>
+    <batchFile>DF_AC_CAL_INFO.xml</batchFile>
+    <description>(MXACRP)</description>
+    <category>T-MXAC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_FO_STAKEHOLD</label>
+    <batchFile>BF_FO_STAKEHOLD.xml</batchFile>
+    <description>(MXFORP-SQL_RP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_FO_STAKEHOLD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

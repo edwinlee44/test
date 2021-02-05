@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_BA_PortfolioGrpRightAud</label>
+    <batchFile>DE_BA_PortfolioGrpRightAud.xml</batchFile>
+    <description>[MX3-FO] BA - User Group Portfolio Right Audit</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

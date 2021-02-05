@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_SPOTRATE</label>
+    <batchFile>MO_SPOTRATE.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

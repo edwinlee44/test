@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MX_COL_INTR_PAY</label>
+    <batchFile>MX_COL_INTR_PAY.xml</batchFile>
+    <description>Batch of feeders for COL_INTR_PAY_FEED</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MX_COL_INTR_PAY_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

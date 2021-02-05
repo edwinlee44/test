@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>UI_MATCH_VN6_IN</label>
+    <batchFile>UI_MATCH_VN6_IN.xml</batchFile>
+    <description>[MX3-FO] Golive version</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>UI_MATCH_VN6_IN.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

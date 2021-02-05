@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-TABLE-EVT_MAP_DBF</label>
+    <description>(BY SHUNG LIN)EVT_MAP_DBF</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-TABLE-EVT_MAP_DBF</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

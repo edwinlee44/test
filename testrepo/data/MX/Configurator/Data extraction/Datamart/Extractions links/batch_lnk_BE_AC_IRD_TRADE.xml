@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_AC_IRD_TRADE</label>
+    <batchFile>BE_AC_IRD_TRADE.xml</batchFile>
+    <description>(MXACRP-MX3)DEL</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_IRD_TRADE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

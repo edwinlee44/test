@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-DLV-FLOWTYPE</label>
+    <description>(BY SHUNG LIN)FLOW_TYPO_dbf</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-DLV-FLOWTYPE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_MO_FB_IB_MTM</label>
+    <description>[MX3-MO] DE_MO_FB_IB_MTM  FUBON VS IB MTM</description>
+    <type>Extraction</type>
+    <category>REPORT_MO</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_MO_FB_IB_MTM</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

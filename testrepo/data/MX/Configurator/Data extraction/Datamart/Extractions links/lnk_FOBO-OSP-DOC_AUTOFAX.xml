@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-DOC_AUTOFAX</label>
+    <batchFile>FOBO-OSP-DOC_AUTOFAX.xml</batchFile>
+    <description>OSP DOCUMENT LIST FOR AUTO FAX DOCUMENT RECONCILE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

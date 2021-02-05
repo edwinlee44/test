@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_LNBR_INT1</label>
+    <batchFile>BF_LNBR_INT1.xml</batchFile>
+    <description>(MM) Reporting Data Model: [ FeedAll ]  --Feed Internal deal (LN_BR) &lt;=2008</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_LNBR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_LNBR_INT1.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

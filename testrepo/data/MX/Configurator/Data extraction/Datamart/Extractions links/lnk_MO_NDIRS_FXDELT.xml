@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_NDIRS_FXDELT</label>
+    <batchFile>MO_NDIRS_FXDELT.xml</batchFile>
+    <description>[MX3-MO] MO for ExoticIRD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

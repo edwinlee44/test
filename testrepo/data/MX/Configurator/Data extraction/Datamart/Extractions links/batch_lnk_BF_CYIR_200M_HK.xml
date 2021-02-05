@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_CYIR_200M_HK</label>
+    <batchFile>BF_CYIR_200M_HK.xml</batchFile>
+    <description>[MX3-FO] CYIR_200MIO_HK feeder</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_CYIR_200MIO_HK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

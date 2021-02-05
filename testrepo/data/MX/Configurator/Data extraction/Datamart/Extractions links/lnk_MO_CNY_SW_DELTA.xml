@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_CNY_SW_DELTA</label>
+    <batchFile>MO_CNY_SW_DELTA.xml</batchFile>
+    <description>[MX3-MO] MO_CNY_SW_DELTA</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

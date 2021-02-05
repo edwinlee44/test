@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OPTION_EXECRISE_sysDate</label>
+    <batchFile>FOBO-OPTION_EXECRISE_sysDate.xml</batchFile>
+    <description>UI OPTION_EXECRISE_sysDate</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,15 @@
+<setDefinition>
+    <label>BEM_AC_IR_TP</label>
+    <batchFile>BEM_AC_IR_TP.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_IR_BOND_REPO_TRADE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_ACCRUAL.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_TAX.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_TRADE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_TRADE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

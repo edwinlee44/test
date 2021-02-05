@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_INT_O_FOCH_N</label>
+    <batchFile>BF_INT_O_FOCH_N.xml</batchFile>
+    <description>(EX) Reporting Data Model: [ FeedAll ]  --Feed Internal deal (FXO) in 2yrs</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_INT_FXO_FOCH_N.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

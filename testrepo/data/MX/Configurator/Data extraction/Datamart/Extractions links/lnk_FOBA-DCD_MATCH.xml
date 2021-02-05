@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-DCD_MATCH</label>
+    <batchFile>FOBA-DCD_MATCH.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

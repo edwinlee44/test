@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ERQ_AC_YEAREND_PVE_NOT_0</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ERQ_AC_YEAREND_PVE_NOT_0.sql</sql>
+    <description>(MXACRP-MX3)年結--PVE不為零的資料</description>
+</extractionRequest>

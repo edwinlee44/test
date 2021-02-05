@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-TABLE-Event origin Id</label>
+    <batchFile>FOBO-TABLE-Event origin Id.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

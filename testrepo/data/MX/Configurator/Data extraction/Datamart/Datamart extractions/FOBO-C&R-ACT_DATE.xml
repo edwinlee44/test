@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-C&amp;R-ACT_DATE</label>
+    <description>(BY SHUNG LIN)CANCEL AND REISSUE TOM</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-C&amp;R-ACT_DATE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-IRD-REPO-191&amp;5565-EXPIRY</label>
+    <batchFile>FOBO-IRD-REPO-191&amp;5565-EXPIRY.xml</batchFile>
+    <description>IRD/REPO DEAL INFORMATION FOR 兼營證券 BY REPO EXPIRY DATE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

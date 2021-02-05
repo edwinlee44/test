@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>B_COVAL_TRADE</label>
+    <batchFile>B_COVAL_TRADE.xml</batchFile>
+    <description>coval trade</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_COVAL_TRADE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>TODAY_ALL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

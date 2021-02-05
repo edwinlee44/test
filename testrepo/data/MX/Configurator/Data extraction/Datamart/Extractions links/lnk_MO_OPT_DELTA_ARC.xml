@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_OPT_DELTA_ARC</label>
+    <batchFile>MO_OPT_DELTA_ARC.xml</batchFile>
+    <description>[MX3-MO] MO OPTION DELTA ARC</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

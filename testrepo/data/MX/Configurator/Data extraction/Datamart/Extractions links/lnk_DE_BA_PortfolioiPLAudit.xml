@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_BA_PortfolioiPLAudit</label>
+    <batchFile>DE_BA_PortfolioiPLAudit.xml</batchFile>
+    <description>Murex Portfolios PL</description>
+    <category>REPORT_FO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

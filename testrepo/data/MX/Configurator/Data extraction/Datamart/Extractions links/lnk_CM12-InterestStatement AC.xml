@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM12-InterestStatement AC</label>
+    <batchFile>CM12-InterestStatement AC.xml</batchFile>
+    <description>Cash collateral balances daily accruals, between two valuation dates</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

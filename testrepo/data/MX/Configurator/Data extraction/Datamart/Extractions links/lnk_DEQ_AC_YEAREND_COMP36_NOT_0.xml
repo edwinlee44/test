@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_AC_YEAREND_COMP36_NOT_0</label>
+    <batchFile>DEQ_AC_YEAREND_COMP36_NOT_0.xml</batchFile>
+    <description>(MXACRP-MX3)年結使用--IRD_BOND_COMP3 &amp; COMP6不為零的資料</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

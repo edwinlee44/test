@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM05-ExposuresByAgreement</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM05-ExposuresByAgreement.sql</sql>
+    <description>CM05 SQL request</description>
+</extractionRequest>

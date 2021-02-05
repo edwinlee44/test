@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-SALES_OPT_LIST</label>
+    <batchFile>FOBA-SALES_OPT_LIST.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,1 @@
+select * from v_dm_ac_ird_os_rep where cast(M_TP_PFOLIO as char(50))@MxAuthorizedPortfolio:C

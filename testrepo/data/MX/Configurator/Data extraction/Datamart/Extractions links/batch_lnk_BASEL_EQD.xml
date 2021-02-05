@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BASEL_EQD</label>
+    <batchFile>BASEL_EQD.xml</batchFile>
+    <description>Basel Model: [ BASEL ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_EQD_DELTA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

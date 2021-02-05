@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_FO_IN_RP_OUT</label>
+    <batchFile>BE_FO_IN_RP_OUT.xml</batchFile>
+    <description>[MXFORP-MX3] IN_RP_OUTSTANDING_Date</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

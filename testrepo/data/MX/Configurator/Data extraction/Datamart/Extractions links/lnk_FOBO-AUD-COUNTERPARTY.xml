@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUD-COUNTERPARTY</label>
+    <batchFile>FOBO-AUD-COUNTERPARTY.xml</batchFile>
+    <description>(BY SHUNG LIN) COUNTERPARTY AUDIT LOG</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

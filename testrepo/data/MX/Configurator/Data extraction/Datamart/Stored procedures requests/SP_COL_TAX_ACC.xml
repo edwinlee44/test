@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>SP_COL_TAX_ACC</label>
+    <description/>
+    <procedure>CREATE OR REPLACE Function FSP_COL_TAX_ACC Return Number
+
+--Authid Current_User
+
+ As
+  Pragma Autonomous_Transaction;
+
+  ERRNO     Number := 0;
+  ERRMSG    Varchar(400);
+  V_FNCNAME Varchar(400) := 'FSP_COL_TAX_ACC';
+Begin
+    SP_COL_TAX_ACC;
+  Return ERRNO;
+Exception
+  When Others Then
+    ERRNO  := -1;
+    ERRMSG := V_FNCNAME || ' had error!!' || Sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    Return ERRNO;
+End;
+</procedure>    <functionName>FSP_COL_TAX_ACC</functionName>
+    <mainTable>COL_TAX_ACC.DBF</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>10</returnLength>
+</storedProcedure>

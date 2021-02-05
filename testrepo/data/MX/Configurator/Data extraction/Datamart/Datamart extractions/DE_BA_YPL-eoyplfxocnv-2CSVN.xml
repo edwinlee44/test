@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_BA_YPL-eoyplfxocnv-2CSVN</label>
+    <description>[MX3-FO] DE_BA_YPL-eoyplfxocnv-2CSVN</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="BA_YPL-eoyplfxocnv-2CSVN">BA_YPL-eoyplfxocnv-2CSVN</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

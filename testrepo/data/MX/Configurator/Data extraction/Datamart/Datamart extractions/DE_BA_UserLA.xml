@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_BA_UserLA</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="UserLoginActivT::UserLoginActiv">UserLoginActivT</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

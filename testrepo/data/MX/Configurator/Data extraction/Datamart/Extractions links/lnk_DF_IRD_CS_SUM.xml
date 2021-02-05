@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_IRD_CS_SUM</label>
+    <batchFile>DF_IRD_CS_SUM.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

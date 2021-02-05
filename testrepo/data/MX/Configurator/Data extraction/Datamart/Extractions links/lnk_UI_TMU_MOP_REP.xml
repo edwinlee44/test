@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>UI_TMU_MOP_REP</label>
+    <batchFile>UI_TMU_MOP_REP.xml</batchFile>
+    <description>[MX3] Golive version</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

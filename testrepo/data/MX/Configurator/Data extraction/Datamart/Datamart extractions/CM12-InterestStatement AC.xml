@@ -1,0 +1,23 @@
+<batch>
+    <label>CM12-InterestStatement AC</label>
+    <description>Cash collateral balances daily accruals, between two valuation dates</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_INTERESTS</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_INTERESTS_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM12-InterestStatement">CM12-Request</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

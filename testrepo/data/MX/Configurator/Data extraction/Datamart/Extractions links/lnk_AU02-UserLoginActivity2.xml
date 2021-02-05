@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU02-UserLoginActivity2</label>
+    <batchFile>AU02-UserLoginActivity2.xml</batchFile>
+    <description>VER2</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

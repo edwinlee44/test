@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_INT_XSW_5</label>
+    <batchFile>BF_INT_XSW_5.xml</batchFile>
+    <description>(EX) Reporting Data Model: [ FeedAll ]  --Feed Internal deal (XSW) in 20092</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_INT_XSW_5.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

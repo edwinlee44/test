@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>G_CMPL.2_1</label>
+    <batchFile>G_CMPL.2_1.xml</batchFile>
+    <description>MKPL_01, MKBK_2</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>G_CMPL.2_1.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>G_CMPL.2_1.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

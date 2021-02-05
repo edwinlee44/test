@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MLC_CS_BAT</label>
+    <batchFile>MLC_CS_BAT.xml</batchFile>
+    <description>Mlc Data Model: [ mlc_cs_dbf ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_CS_DBF.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MLC_CS.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

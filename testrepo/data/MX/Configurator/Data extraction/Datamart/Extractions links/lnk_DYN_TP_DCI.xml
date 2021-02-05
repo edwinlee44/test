@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DYN_TP_DCI</label>
+    <batchFile>DYN_TP_DCI.xml</batchFile>
+    <description>[MX3-MO]</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

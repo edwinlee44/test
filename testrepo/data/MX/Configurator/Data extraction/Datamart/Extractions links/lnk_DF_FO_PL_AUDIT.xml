@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FO_PL_AUDIT</label>
+    <batchFile>DF_FO_PL_AUDIT.xml</batchFile>
+    <description>(MXFORP-SQL_RP-MX3)</description>
+    <category>REPORT_FO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

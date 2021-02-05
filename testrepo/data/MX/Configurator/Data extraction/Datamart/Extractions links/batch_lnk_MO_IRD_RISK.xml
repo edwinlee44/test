@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_IRD_RISK</label>
+    <batchFile>MO_IRD_RISK.xml</batchFile>
+    <description>[MX3-MO] MO_IRD_RISK FOR MDP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_IRD_RISK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MO_IRD_RISK.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

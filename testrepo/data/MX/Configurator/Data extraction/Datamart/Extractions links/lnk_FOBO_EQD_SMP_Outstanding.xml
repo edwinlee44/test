@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_EQD_SMP_Outstanding</label>
+    <batchFile>FOBO_EQD_SMP_Outstanding.xml</batchFile>
+    <description>FOBO_EQD_SMP Outstanding</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

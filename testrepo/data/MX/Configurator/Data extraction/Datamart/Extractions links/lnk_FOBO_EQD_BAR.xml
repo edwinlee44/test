@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_EQD_BAR</label>
+    <batchFile>FOBO_EQD_BAR.xml</batchFile>
+    <description>EQD_BAR transaction</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

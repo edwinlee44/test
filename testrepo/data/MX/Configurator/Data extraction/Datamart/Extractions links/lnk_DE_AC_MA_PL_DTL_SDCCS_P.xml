@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_MA_PL_DTL_SDCCS_P</label>
+    <batchFile>DE_AC_MA_PL_DTL_SDCCS_P.xml</batchFile>
+    <description>(MXACRP-MX3) 外幣多利 group by package no.</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

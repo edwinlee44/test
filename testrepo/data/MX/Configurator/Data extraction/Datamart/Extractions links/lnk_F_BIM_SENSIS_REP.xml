@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_BIM_SENSIS_REP</label>
+    <batchFile>F_BIM_SENSIS_REP.xml</batchFile>
+    <description>Single Feeder for datamart table BIM_SENSIS_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

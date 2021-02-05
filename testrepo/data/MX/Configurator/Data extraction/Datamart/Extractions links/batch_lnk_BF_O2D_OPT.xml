@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_O2D_OPT</label>
+    <batchFile>BF_O2D_OPT.xml</batchFile>
+    <description>[MX3-FO] MXDM-FO BF_O2D_OPT for eod</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_O2D_OPT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_MA_30360_INT_CHK_HK</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_MA_30360_INT_CHK_HK.sql</sql>
+    <description>(MXACRP-MX3)</description>
+</extractionRequest>

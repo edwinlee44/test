@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_MA_PL_DTL</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_MA_PL_DTL.sql</sql>
+    <description>(MXACRP-MX3)</description>
+</extractionRequest>

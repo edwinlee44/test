@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_B527877_HBS</label>
+    <batchFile>BF_B527877_HBS.xml</batchFile>
+    <description>(MXFORP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_B527877_HBS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

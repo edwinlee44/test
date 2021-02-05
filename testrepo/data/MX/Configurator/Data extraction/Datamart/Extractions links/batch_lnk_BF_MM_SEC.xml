@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_MM_SEC</label>
+    <batchFile>BF_MM_SEC.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_MM_SEC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

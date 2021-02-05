@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-CURR-FUT-LST-PERIOD</label>
+    <description>BO CURR FUT LST PERIOD TRANSACTION</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-CURR-FUT-LST-PERIOD</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

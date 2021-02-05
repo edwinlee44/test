@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_AC_MA_PL_TDB_CHK</label>
+    <batchFile>DEQ_AC_MA_PL_TDB_CHK.xml</batchFile>
+    <description>(MXACRP-MX3)會計當日損益檢核 BY PORTFOLIO</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

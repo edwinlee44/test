@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBA-DCD_MATCH</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBA-DCD_MATCH</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

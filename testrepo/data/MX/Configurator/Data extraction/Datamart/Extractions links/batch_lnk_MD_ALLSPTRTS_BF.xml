@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MD_ALLSPTRTS_BF</label>
+    <batchFile>MD_ALLSPTRTS_BF.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MD_ALL_SPTRTS_F.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_MD_ALL_SPTRTS.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

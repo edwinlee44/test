@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>UserGroupList</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/UserGroupList.sql</sql>
+    <description>List of users per group and vice versa</description>
+</extractionRequest>

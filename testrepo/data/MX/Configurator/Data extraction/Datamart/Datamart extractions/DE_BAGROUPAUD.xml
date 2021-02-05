@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_BAGROUPAUD</label>
+    <description>[MX3-FO] BA Group Audit - Groups Navigation templates Audit</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>BA_GrpAccessRights</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_SEC_FEED</label>
+    <batchFile>MX_COL_SEC_FEED.xml</batchFile>
+    <description>Data feeder for COL_SECURITIES_REP</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

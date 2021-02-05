@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-IRD-BOND-ISSUED BOND OS</label>
+    <batchFile>FOBO-IRD-BOND-ISSUED BOND OS.xml</batchFile>
+    <description>FOBO-IRD-BOND-ISSUED BOND OS</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

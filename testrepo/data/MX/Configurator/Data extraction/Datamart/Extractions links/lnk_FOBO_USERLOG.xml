@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_USERLOG</label>
+    <batchFile>FOBO_USERLOG.xml</batchFile>
+    <description>SHUNG</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

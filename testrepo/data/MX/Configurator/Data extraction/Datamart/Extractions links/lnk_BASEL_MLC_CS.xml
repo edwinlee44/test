@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_MLC_CS</label>
+    <batchFile>BASEL_MLC_CS.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

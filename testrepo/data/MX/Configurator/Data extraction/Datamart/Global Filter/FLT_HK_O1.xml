@@ -1,0 +1,80 @@
+<filterTemplate>
+    <Label>FLT_HK_O1</Label>
+    <Description>(MX3-MXDM)Feed HONGKONG,OLD TRADE,OPTION FLEX deal</Description>
+    <Owner>MUREXBO</Owner>
+    <Group>CONFIG</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>E</UpdateRight>
+    <CreationClass>DYN_TRNRP_PL</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="0">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>not connected</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>not connected</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="2">
+                <Type>Reporting date</Type>
+                <Description/>
+                <DateOutput>20201127</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>not connected</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>4</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+        </Dates>
+        <Filter>
+            <TransactionTypes>
+                <TransactionType>CURR|OPT|FLEX</TransactionType>
+            </TransactionTypes>
+            <Entities>
+                <Entity>HONGKONG</Entity>
+            </Entities>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <FilterExpression Type="ExcludePLAdjustment">TRN_EXP&lt;=DT_SHIFTER(DENV('CRT_BND12'),'-10 OPEN DAYS','TAIPEI-EOD')</FilterExpression>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

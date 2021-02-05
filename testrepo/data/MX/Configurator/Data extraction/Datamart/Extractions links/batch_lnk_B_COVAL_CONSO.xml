@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>B_COVAL_CONSO</label>
+    <batchFile>B_COVAL_CONSO.xml</batchFile>
+    <description>coval conso</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_COVAL_CONSO.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>TODAY_CONSO.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

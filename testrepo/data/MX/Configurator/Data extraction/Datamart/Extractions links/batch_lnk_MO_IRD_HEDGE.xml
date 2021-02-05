@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_IRD_HEDGE</label>
+    <batchFile>MO_IRD_HEDGE.xml</batchFile>
+    <description>[MX3-MO] MO_IRD_HEDGE</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_IRD_HEDGE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

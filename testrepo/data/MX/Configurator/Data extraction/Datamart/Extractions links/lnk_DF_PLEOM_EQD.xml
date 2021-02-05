@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_PLEOM_EQD</label>
+    <batchFile>DF_PLEOM_EQD.xml</batchFile>
+    <description>(MXDM-MX3-EOM)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

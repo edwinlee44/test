@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_AC_TDA_EQD</label>
+    <batchFile>BP_AC_TDA_EQD.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PKG_EOD_AC_TDA_EQD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

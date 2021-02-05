@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_INT_SCF_O</label>
+    <batchFile>BF_INT_SCF_O.xml</batchFile>
+    <description>(EX) Reporting Data Model: [ FeedAll ]  --Feed Internal deal (SCF) &lt; 2011</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_INT_SCF_O.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

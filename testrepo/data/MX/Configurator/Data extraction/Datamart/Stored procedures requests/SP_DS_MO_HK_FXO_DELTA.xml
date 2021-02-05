@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>SP_DS_MO_HK_FXO_DELTA</label>
+    <description>[MX3-MO] DS_MO_HK_FXO_DELTA</description>
+    <procedure>create or replace function FSP_DS_MO_HK_FXO_DELTA (I_DATE date) return number
+
+Authid Current_User
+
+ as
+  pragma autonomous_transaction;
+
+  ERRNO     number := 0;
+  LOGSEQ    number := 0;
+  ERRMSG    varchar(400);
+  V_FNCNAME varchar(400) := 'FSP_DS_MO_HK_FXO_DELTA';
+  I_DT      varchar(8) := TO_CHAR(I_DATE, 'YYYYMMDD');
+begin
+  SELECT TO_CHAR(M_DATE_REP,'YYYYMMDD') INTO I_DT FROM MX_PS_DATE_REP ;
+  DS_MO_HK_FXO_DELTA(ERRNO, ERRMSG, LOGSEQ , I_DT, 'ITOP001');
+  return ERRNO;
+exception
+  when others then
+    ERRNO  := -1;
+    ERRMSG := V_FNCNAME || ' had error!!' || sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    return ERRNO;
+end;
+</procedure>    <functionName>FSP_DS_MO_HK_FXO_DELTA</functionName>
+    <mainTable>DYN_AUDIT.REP</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>10</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>I_DATE</paramLabel>
+            <paramType>date</paramType>
+            <paramLength>8</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

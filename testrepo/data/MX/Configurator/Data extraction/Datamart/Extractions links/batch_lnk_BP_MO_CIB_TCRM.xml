@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_CIB_TCRM</label>
+    <batchFile>BP_MO_CIB_TCRM.xml</batchFile>
+    <description> [MX3-MO] DS_MO_CIBPOSITION</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_CIBPOSITION.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

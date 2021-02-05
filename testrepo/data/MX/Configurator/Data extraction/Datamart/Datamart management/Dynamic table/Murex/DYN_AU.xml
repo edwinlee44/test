@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_AU</Name>
+    <Description>Reporting Data Model: Audit on Deals and Ctp btw two dates</Description>
+    <Type>Copy creation</Type>
+    <Directory>Murex</Directory>
+    <Class/>
+    <History>AU</History>
+    <Alias>TRN_AUD</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>G_ACT_TYPE</Label>
+            <Description>Type ID (MOD, INS or DEL)</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF("Insertion"$ACT_COM0,"INS",IIF("Deleting"$ACT_COM0,"DEL",IIF("MOD"$ACTION,"MOD","")))</Formula>
+        </Field>
+        <Field>
+            <Label>ID</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DATE_CMP</Label>
+            <Type>Date</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DATE</Label>
+            <Type>Date</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TIME_ZONE</Label>
+            <Type>Number</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TIME_CMP</Label>
+            <Type>Number</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>BO_FO</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>USR_NAME</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>USR_GROUP</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>USR_DESK</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TYPE</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACTION</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACT_NB0</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACT_NB1</Label>
+            <Type>Number</Type>
+            <Length>17</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>ACT_NB2</Label>
+            <Type>Number</Type>
+            <Length>17</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>ACT_COM0</Label>
+            <Type>Character</Type>
+            <Length>100</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACT_COM1</Label>
+            <Type>Character</Type>
+            <Length>100</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACT_COM2</Label>
+            <Type>Character</Type>
+            <Length>100</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>G_ACT_TYPE</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes/>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="ExcludePLAdjustment">DATE&gt;=DENV("CRT_BND11").AND.DATE&lt;=DENV("CRT_BND12")             </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation>
+            <Source>TRN_AUD</Source>
+            <DirectoryType>Default</DirectoryType>
+            <DirectoryPath/>
+            <MarketParameter>
+                <DeskDefined>No</DeskDefined>
+                <Desk/>
+                <Date>
+                    <Dates>
+                        <Date Nb="2">
+                            <Type>Contextual today</Type>
+                            <DateOutput>20201130</DateOutput>
+                        </Date>
+                        <Date Nb="1">
+                            <Type>Contextual yesterday</Type>
+                            <DateOutput>20201127</DateOutput>
+                        </Date>
+                        <Date Nb="0">
+                            <Type>No selection</Type>
+                        </Date>
+                    </Dates>
+                </Date>
+                <RootFile>No</RootFile>
+            </MarketParameter>
+            <Merge>
+                <Active>No</Active>
+                <SourceTable/>
+                <SourceField/>
+                <DestinationField/>
+                <DestinationKey/>
+            </Merge>
+        </Creation>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>Yes</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>Contextual yesterday</Type>
+                <DateOutput>20201127</DateOutput>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BASEL_PL_PCASH</label>
+    <batchFile>BASEL_PL_PCASH.xml</batchFile>
+    <description>BASEL PAST CASH</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_PAST_CASH_BK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASEL_PCASH_DEAD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

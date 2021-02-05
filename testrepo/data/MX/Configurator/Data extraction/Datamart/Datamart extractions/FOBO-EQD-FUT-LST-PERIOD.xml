@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-EQD-FUT-LST-PERIOD</label>
+    <description>BO EQD FUT LST PERIOD TRANSACTION</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-EQD-FUT-LST-PERIOD</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

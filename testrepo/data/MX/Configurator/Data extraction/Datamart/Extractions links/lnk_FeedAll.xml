@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FeedAll</label>
+    <batchFile>FeedAll.xml</batchFile>
+    <description>Reporting Data Model: TP,PL_012_WITHUSD,CS,XG,MV_012</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

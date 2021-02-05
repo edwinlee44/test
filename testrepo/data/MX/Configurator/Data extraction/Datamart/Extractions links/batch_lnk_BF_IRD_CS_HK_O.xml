@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_IRD_CS_HK_O</label>
+    <batchFile>BF_IRD_CS_HK_O.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_IRD_CS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_HK_O.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

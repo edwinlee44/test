@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-SI</label>
+    <batchFile>FOBO-OSP-SI.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

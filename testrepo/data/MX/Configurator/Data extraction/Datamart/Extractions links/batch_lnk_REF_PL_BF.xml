@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>REF_PL_BF</label>
+    <batchFile>REF_PL_BF.xml</batchFile>
+    <description>Batch of feeders for REF_PL_REP feed</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>REF_PL_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REF_PL_TODAY.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

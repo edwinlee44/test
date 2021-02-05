@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-FIXING-VALUE</label>
+    <batchFile>FOBO-FIXING-VALUE.xml</batchFile>
+    <description>SHUNG</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

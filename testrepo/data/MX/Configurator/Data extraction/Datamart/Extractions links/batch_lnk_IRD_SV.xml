@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>IRD_SV</label>
+    <batchFile>IRD_SV.xml</batchFile>
+    <description>(IR) Reporting Data Model: [ IRD_SV ]  --Feed IRD_SV</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>IRD_SV.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_IRD_SV.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

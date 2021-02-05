@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AM_AC_CURR_OST</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AM_AC_CURR_OST.sql</sql>
+    <description>(MXACRP-MX3)</description>
+</extractionRequest>

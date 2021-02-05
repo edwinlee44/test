@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BASEL_DV01_VEGA</label>
+    <batchFile>BASEL_DV01_VEGA.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_DV01_VEGA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASEL_DV01_VEGA.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

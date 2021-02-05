@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_CM05_AGREXPO</label>
+    <batchFile>BE_CM05_AGREXPO.xml</batchFile>
+    <description>BE_CM05_AGREXPO</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM05-ExposuresByAgreement.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

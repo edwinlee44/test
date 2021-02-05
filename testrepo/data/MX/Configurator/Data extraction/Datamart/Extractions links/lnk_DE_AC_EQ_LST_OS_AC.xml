@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_EQ_LST_OS_AC</label>
+    <batchFile>DE_AC_EQ_LST_OS_AC.xml</batchFile>
+    <description>(MXACRP-MX3)股權期貨選擇權庫存帳務報表</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>DEALIRD</label>
+    <batchFile>DEALIRD.xml</batchFile>
+    <description>(IR) Reporting Data Model: [  ]  --Feed DEALIRD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DEALIRD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

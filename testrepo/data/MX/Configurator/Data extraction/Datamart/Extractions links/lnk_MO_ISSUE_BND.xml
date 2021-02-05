@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_ISSUE_BND</label>
+    <batchFile>MO_ISSUE_BND.xml</batchFile>
+    <description>MO_ISSUE_BND</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

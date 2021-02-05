@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-PAYMENT-LCR-BACK_DATE</label>
+    <description>(BY SHUNG LIN)FOBO-PAYMENT-LCR-BACK_DATE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-PAYMENT-LCR-BACK_DATE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

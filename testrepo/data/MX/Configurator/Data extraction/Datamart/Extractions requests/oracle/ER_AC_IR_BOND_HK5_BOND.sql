@@ -1,0 +1,3 @@
+SELECT  *
+  FROM    V_AC_IR_BOND_HK5_BOND_REP  TP
+where DATA_DT @I_DT:D

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM14-CollateralOrchestratorAud</label>
+    <batchFile>CM14-CollateralOrchestratorAud.xml</batchFile>
+    <description>Audit DetailsOn Daily Generation of Margin Calls</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-TASK-LIST</label>
+    <batchFile>FOBO-OSP-TASK-LIST.xml</batchFile>
+    <description>(BY SHUNG LIN)OSP</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

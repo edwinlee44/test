@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-V_PAYMENT2</label>
+    <batchFile>FOBO-V_PAYMENT2.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBA-TW1CHECK_RPT</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBA-TW1CHECK_RPT</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

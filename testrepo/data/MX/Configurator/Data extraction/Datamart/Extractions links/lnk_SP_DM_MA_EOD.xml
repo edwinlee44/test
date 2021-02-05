@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_DM_MA_EOD</label>
+    <batchFile>SP_DM_MA_EOD.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

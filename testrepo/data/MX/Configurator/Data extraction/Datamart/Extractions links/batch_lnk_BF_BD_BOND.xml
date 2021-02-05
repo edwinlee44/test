@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_BD_BOND</label>
+    <batchFile>BF_BD_BOND.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_BD_BOND.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,1338 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>MLC_TRNRP_PL_DEAD</Name>
+    <Description>MLC - Greeks extraction for dead deals</Description>
+    <Type>Transaction</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class>DYN_TRNRP_PL</Class>
+    <History>His3_27</History>
+    <Alias>TRNRP_PL.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>CNTRT_NO</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>11</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CNTRT_NOR</Formula>
+            <Formula Nb="1">CNTRT_NOR</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CNTRT_NOR</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>11</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CTBLFIELD('TABLE#DATA#DEALCURR.CONTRACTNO','NB',STR(NB))</Formula>
+            <Formula Nb="1">CTBLFIELD('TABLE#DATA#DEALCURR.CONTRACTNO','NB',STR(NB))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CONSO_KEY</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">LTRIM(TRIM(TP_PFOLIO))+LTRIM(TRIM(PL_INSCUR))</Formula>
+            <Formula Nb="1">LTRIM(TRIM(TP_PFOLIO))+LTRIM(TRIM(PL_INSCUR))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CON_DELTA</Label>
+            <Description/>
+            <Type>American</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(C_PL_DT+',0',PL_INSCUR,DENV('CRT_BND12'))*S_DELTA2</Formula>
+            <Formula Nb="1">SPTCV(C_PL_DT+',0',PL_INSCUR,DENV('CRT_BND12'))*S_DELTA2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CUR_DISFAC</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DATE2</Label>
+            <Description/>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DENV('CRT_BND12')</Formula>
+            <Formula Nb="1">DENV('CRT_BND12')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DEAL_PRICE</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DELTA_CUR</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CTBLFIELD('FX_CNT.DELTAQUOT','LABEL',INSTRUMENT)</Formula>
+            <Formula Nb="1">CTBLFIELD('FX_CNT.DELTAQUOT','LABEL',INSTRUMENT)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>EXT_ADDON</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>EXT_MTM</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>EXT_MTMCRE</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FIRST_ET</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">'N'</Formula>
+            <Formula Nb="1">'N'</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FIXED</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">"N"</Formula>
+            <Formula Nb="1">"N"</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>F_AMOUNT</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>F_CURRENCY</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_NOMCUR</Formula>
+            <Formula Nb="1">TP_NOMCUR</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>F_PFOLIO</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_PFOLIO</Formula>
+            <Formula Nb="1">TP_PFOLIO</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>F_VALUE</Label>
+            <Description/>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DENV('CRT_BND12')</Formula>
+            <Formula Nb="1">DENV('CRT_BND12')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>IS_MARGIN</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IS_MARGINR</Formula>
+            <Formula Nb="1">IS_MARGINR</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>IS_MARGINR</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(CTBLFIELD('TABLE#DATA#DEALCURR.MARGIN','NB',STR(NB))&lt;&gt;'',CTBLFIELD('TABLE#DATA#DEALCURR.MARGIN','NB',STR(NB)),'N')</Formula>
+            <Formula Nb="1">IIF(CTBLFIELD('TABLE#DATA#DEALCURR.MARGIN','NB',STR(NB))&lt;&gt;'',CTBLFIELD('TABLE#DATA#DEALCURR.MARGIN','NB',STR(NB)),'N')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>IS_NDF</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(SUBSTR(TRIM(LTRIM(SUBSTR(TP_MKTNDX,STRLEN(INSTRUMENT)+1,10))),1,3)="NDF","Y","N")</Formula>
+            <Formula Nb="1">IIF(SUBSTR(TRIM(LTRIM(SUBSTR(TP_MKTNDX,STRLEN(INSTRUMENT)+1,10))),1,3)="NDF","Y","N")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>IS_SPOT</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">'N'</Formula>
+            <Formula Nb="1">'N'</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>LINKED_ID</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NB</Formula>
+            <Formula Nb="1">NB</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>LINKED_IDR</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NB</Formula>
+            <Formula Nb="1">NB</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>LNK_IDX</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NB</Formula>
+            <Formula Nb="1">NB</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>LNK_IDXR</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NB</Formula>
+            <Formula Nb="1">NB</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MKT_SPOT</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MP_SPOT2</Formula>
+            <Formula Nb="1">MP_SPOT2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MOP_OP</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">''</Formula>
+            <Formula Nb="1">''</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MOP_OP_R</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">''</Formula>
+            <Formula Nb="1">''</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_CUR</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_FXBASE</Formula>
+            <Formula Nb="1">TP_FXUND</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_DELTA2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">S_DELTA2</Formula>
+            <Formula Nb="1">S_DELTA2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FFP2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_FPFCP2</Formula>
+            <Formula Nb="1">PL_FPFCP2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_FMV2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_GAMMA2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">S_GAMMA2</Formula>
+            <Formula Nb="1">S_GAMMA2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_IQTY</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_BUY='B',IIF(QTY_INDEX=0,TP_IQTYS,-TP_IQTYS),IIF(QTY_INDEX=1,-TP_IQTYS,TP_IQTYS))</Formula>
+            <Formula Nb="1">IIF(TP_BUY='B',IIF(QTY_INDEX=0,TP_IQTYS,-TP_IQTYS),IIF(QTY_INDEX=1,-TP_IQTYS,TP_IQTYS))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_NFFP2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_NOM</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(MV_CUR=TP_FXBASE,MV_QTYEQ,MV_IQTY)</Formula>
+            <Formula Nb="1">IIF(MV_CUR=TP_FXBASE,MV_QTYEQ,MV_IQTY)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_PFOLIO</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_PFOLIO</Formula>
+            <Formula Nb="1">TP_PFOLIO</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_QTYEQ</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_BUY='B',IIF(QTY_INDEX=1,TP_QTYEQS,-TP_QTYEQS),IIF(QTY_INDEX=0,-TP_QTYEQS,TP_QTYEQS))</Formula>
+            <Formula Nb="1">IIF(TP_BUY='B',IIF(QTY_INDEX=1,TP_QTYEQS,-TP_QTYEQS),IIF(QTY_INDEX=0,-TP_QTYEQS,TP_QTYEQS))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_RHO2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">S_RHO2</Formula>
+            <Formula Nb="1">S_RHO2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_SPOT</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>25</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MP_SPOT2</Formula>
+            <Formula Nb="1">MP_SPOT2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_SPOT_V</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MP_SPOT2</Formula>
+            <Formula Nb="1">MP_SPOT2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_STATUS</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">LTRIM(TRIM(TP_STATUS2))</Formula>
+            <Formula Nb="1">LTRIM(TRIM(TP_STATUS2))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_THETA2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">S_THETA2</Formula>
+            <Formula Nb="1">S_THETA2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV_VEGA2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">S_VEGA2</Formula>
+            <Formula Nb="1">S_VEGA2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>ORIG_DEAL</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">""</Formula>
+            <Formula Nb="1">""</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>ORIG_DEALR</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">""</Formula>
+            <Formula Nb="1">""</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PLMTHEND</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PLTODAY</Label>
+            <Description/>
+            <Type>American</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_CSFCP2+PL_RVR2+PL_CSFRV2+PL_RVU2+PL_FPFCP2+PL_FPFRV2+PL_MVFCP2+PL_MVFRV2</Formula>
+            <Formula Nb="1">PL_CSFCP2+PL_RVR2+PL_CSFRV2+PL_RVU2+PL_FPFCP2+PL_FPFRV2+PL_MVFCP2+PL_MVFRV2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PLYREND</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">0</Formula>
+            <Formula Nb="1">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PL_CUR</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">PL_INSCUR</Formula>
+            <Formula Nb="1">PL_INSCUR</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>QR_BRANCH</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNUDT('QR_BRANCH')</Formula>
+            <Formula Nb="1">C_TRNUDT('QR_BRANCH')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>QR_BRANCHR</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CTBLFIELD('TABLE#DATA#DEALCURR.QR_BRANCH','NB',STR(NB))</Formula>
+            <Formula Nb="1">CTBLFIELD('TABLE#DATA#DEALCURR.QR_BRANCH','NB',STR(NB))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SETTLED</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">"N"</Formula>
+            <Formula Nb="1">"N"</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>S_DELTAC</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(STRLEN(SUBFIELD(INSTRUMENT,2,"/"))=0,INSTRUMENT,C_PL_DT)</Formula>
+            <Formula Nb="1">IIF(STRLEN(SUBFIELD(INSTRUMENT,2,"/"))=0,INSTRUMENT,C_PL_DT)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TP_PRICEDV</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_PRICED</Formula>
+            <Formula Nb="1">TP_PRICED</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TRN_STAT</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">"DEAD"</Formula>
+            <Formula Nb="1">"DEAD"</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>USD_STPTDY</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">1</Formula>
+            <Formula Nb="1">1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>ZEROSPOT</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">1</Formula>
+            <Formula Nb="1">1</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description>Reporting config</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>PL_CGR</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RVU</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_RVR</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>S_DELTA</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>S_GAMMA</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>S_THETA</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>S_VEGA</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>S_RHO</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>5</Decimal>
+        </Field>
+        <Field>
+            <Label>MP_SPOT</Label>
+            <Type>Number</Type>
+            <Length>18</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>C_PL_DT</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSNFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSNFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVNFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVNFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVFRV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>INSTRUMENT</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_INSCUR</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_MKTNDX</Label>
+            <Type>Character</Type>
+            <Length>40</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_CNTRP</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_ENTITY</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>QTY_INDEX</Label>
+            <Type>Integer</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_INT</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BUY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTETRN</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IQTY</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEPMT</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEPMT2</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEEXP</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NOMINAL</Label>
+            <Type>American</Type>
+            <Length>25</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NOMCUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_QTYEQ</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PRICED</Label>
+            <Type>Number</Type>
+            <Length>25</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_UQTY</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FXBASE</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FXUND</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IQTYS</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_QTYEQS</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_MOPLSTL</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_STATUS2</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NBLTI</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FXCTCAL</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_TYPO</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_VALSTAT</Label>
+            <Type>Character</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CNTRT_NO</Label>
+            <Type>Character</Type>
+            <Length>11</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CNTRT_NOR</Label>
+            <Type>Character</Type>
+            <Length>11</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CONSO_KEY</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>CON_DELTA</Label>
+            <Type>American</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>CUR_DISFAC</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>DATE2</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DEAL_PRICE</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>DELTA_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>EXT_ADDON</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>EXT_MTM</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>EXT_MTMCRE</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>FIRST_ET</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>FIXED</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>F_AMOUNT</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>F_CURRENCY</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>F_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>F_VALUE</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>IS_MARGIN</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>IS_MARGINR</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>IS_NDF</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>IS_SPOT</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>LINKED_ID</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>LINKED_IDR</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>LNK_IDX</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>LNK_IDXR</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MKT_SPOT</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MOP_OP</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MOP_OP_R</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_DELTA2</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FFP2</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_FMV2</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_GAMMA2</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_IQTY</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NFFP2</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_NOM</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_QTYEQ</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_RHO2</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_SPOT</Label>
+            <Type>Number</Type>
+            <Length>25</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_SPOT_V</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_STATUS</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_THETA2</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>MV_VEGA2</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>ORIG_DEAL</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ORIG_DEALR</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PLMTHEND</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>PLTODAY</Label>
+            <Type>American</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>PLYREND</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>QR_BRANCH</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>QR_BRANCHR</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>SETTLED</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>S_DELTAC</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PRICEDV</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_STAT</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>USD_STPTDY</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ZEROSPOT</Label>
+            <Type>Number</Type>
+            <Length>30</Length>
+            <Decimal>10</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes>
+                <TransactionType>CURR|FXD|FXD</TransactionType>
+                <TransactionType>CURR|FXD|FXDS</TransactionType>
+                <TransactionType>CURR|FXD|XSW</TransactionType>
+            </TransactionTypes>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="ExcludePLAdjustment">TRN_STATUS="DEAD".AND.(MOP_LAST&lt;&gt;3.AND.MOP_LAST&lt;&gt;5.AND.MOP_LAST&lt;&gt;6.AND.MOP_LAST&lt;&gt;7).AND.(SUBSTR(BPFOLIO,1,2)&lt;&gt;"MO".OR.SUBSTR(SPFOLIO,1,2)&lt;&gt;"MO")                                                </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>Yes</Active>
+            <Times>2</Times>
+            <FilterExpression Nb="0"/>
+            <FilterExpression Nb="1"/>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>Yes</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

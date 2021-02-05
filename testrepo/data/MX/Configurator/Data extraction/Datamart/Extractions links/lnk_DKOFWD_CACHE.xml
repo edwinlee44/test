@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DKOFWD_CACHE</label>
+    <batchFile>DKOFWD_CACHE.xml</batchFile>
+    <description>DKOFWD_CACHE</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

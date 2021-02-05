@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_BIM_CRIF</label>
+    <batchFile>BF_BIM_CRIF.xml</batchFile>
+    <description>Batch of Feeder for BIM_CRIF  Generate from SIMM instance</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_BIM_CRIF_SIMM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_REP_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

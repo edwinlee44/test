@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_COL_TAX</label>
+    <batchFile>BF_COL_TAX.xml</batchFile>
+    <description>(MXACRP)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_COL_TAX.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

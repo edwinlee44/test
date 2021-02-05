@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>Funding Swap by MM</label>
+    <batchFile>Funding Swap by MM.xml</batchFile>
+    <description>Funding Swap by Money Market</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

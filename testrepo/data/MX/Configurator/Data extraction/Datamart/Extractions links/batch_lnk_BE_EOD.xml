@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_EOD</label>
+    <batchFile>BE_EOD.xml</batchFile>
+    <description/>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

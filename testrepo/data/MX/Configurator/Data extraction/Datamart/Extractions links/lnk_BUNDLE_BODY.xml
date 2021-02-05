@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BUNDLE_BODY</label>
+    <batchFile>BUNDLE_BODY.xml</batchFile>
+    <description>Reporting Data Model: BUNDLE#BODY</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

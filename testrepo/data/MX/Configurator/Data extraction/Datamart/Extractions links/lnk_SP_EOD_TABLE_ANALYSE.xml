@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_EOD_TABLE_ANALYSE</label>
+    <batchFile>SP_EOD_TABLE_ANALYSE.xml</batchFile>
+    <description>EXEC SP_EOD_TABLE_ANALYSE</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

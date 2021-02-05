@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CombinedPortfoliosRights</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CombinedPortfoliosRights.sql</sql>
+    <description/>
+</extractionRequest>

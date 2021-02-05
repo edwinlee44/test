@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBA_SELLDOWN</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBA_SELLDOWN</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

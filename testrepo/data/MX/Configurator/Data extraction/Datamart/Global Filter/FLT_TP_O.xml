@@ -1,0 +1,122 @@
+<filterTemplate>
+    <Label>FLT_TP_O</Label>
+    <Description>(MX3-MXDM) Feed TAIPEI,OLD TRADE</Description>
+    <Owner>MUREXBO</Owner>
+    <Group>CONFIG</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>E</UpdateRight>
+    <CreationClass>DYN_TRNRP_PL</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="0">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>not connected</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>not connected</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="2">
+                <Type>Reporting date</Type>
+                <Description/>
+                <DateOutput>20201127</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>not connected</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>4</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+        </Dates>
+        <Filter>
+            <TransactionTypes>
+                <TransactionType>IRD|IRS|</TransactionType>
+                <TransactionType>IRD|CS|</TransactionType>
+                <TransactionType>IRD|FRA|</TransactionType>
+                <TransactionType>IRD|CF|</TransactionType>
+                <TransactionType>IRD|OSWP|</TransactionType>
+                <TransactionType>CURR|OPT|LST</TransactionType>
+                <TransactionType>CURR|OPT|BAR</TransactionType>
+                <TransactionType>CURR|OPT|BAR2</TransactionType>
+                <TransactionType>CURR|FXD|FXD</TransactionType>
+                <TransactionType>CURR|FXD|XSW</TransactionType>
+                <TransactionType>CURR|FXD|SWLEG</TransactionType>
+                <TransactionType>CURR|FUT|FUT</TransactionType>
+                <TransactionType>IRD|BOND|CALL</TransactionType>
+                <TransactionType>SCF|SCF|SCF</TransactionType>
+                <TransactionType>IRD|LN_BR|</TransactionType>
+                <TransactionType>EQD|EQS|</TransactionType>
+                <TransactionType>IRD|ASWP|</TransactionType>
+                <TransactionType>CRD|OBDS|</TransactionType>
+                <TransactionType>IRD|REPO|REPO</TransactionType>
+                <TransactionType>EQD|LB|</TransactionType>
+                <TransactionType>IRD|BSB|</TransactionType>
+                <TransactionType>CURR|OPT|SMP</TransactionType>
+                <TransactionType>CURR|OPT|SMPS</TransactionType>
+                <TransactionType>CURR|OPT|ASN</TransactionType>
+                <TransactionType>CURR|OPT|KIKO</TransactionType>
+                <TransactionType>CURR|OPT|RBT</TransactionType>
+                <TransactionType>IRD|BOND|</TransactionType>
+                <TransactionType>IRD|SFUT|</TransactionType>
+                <TransactionType>IRD|LFUT|</TransactionType>
+                <TransactionType>IRD|OPT|OTC</TransactionType>
+                <TransactionType>IRD|OPT|ORG</TransactionType>
+                <TransactionType>EQD|EQUIT|</TransactionType>
+                <TransactionType>EQD|EQUIT|FWD</TransactionType>
+                <TransactionType>EQD|WARNT|</TransactionType>
+                <TransactionType>EQD|FUT|</TransactionType>
+                <TransactionType>EQD|OPT|ORG</TransactionType>
+                <TransactionType>EQD|OPT|OTC</TransactionType>
+                <TransactionType>EQD|OPT|BAR</TransactionType>
+                <TransactionType>EQD|OPT|ASI</TransactionType>
+                <TransactionType>EQD|OPT|LKB</TransactionType>
+                <TransactionType>EQD|BOND|CNV</TransactionType>
+                <TransactionType>EQD|BOND|IDX</TransactionType>
+                <TransactionType>EQD|OPT|RNBW</TransactionType>
+            </TransactionTypes>
+            <Entities>
+                <Entity>TAIPEI</Entity>
+            </Entities>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <FilterExpression Type="ExcludePLAdjustment">TRN_EXP&lt;=DT_SHIFTER(DENV('CRT_BND12'),'-10 OPEN DAYS','TAIPEI-EOD')</FilterExpression>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

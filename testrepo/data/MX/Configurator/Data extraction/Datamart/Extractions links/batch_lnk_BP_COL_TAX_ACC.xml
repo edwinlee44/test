@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_COL_TAX_ACC</label>
+    <batchFile>BP_COL_TAX_ACC.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_COL_TAX_ACC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

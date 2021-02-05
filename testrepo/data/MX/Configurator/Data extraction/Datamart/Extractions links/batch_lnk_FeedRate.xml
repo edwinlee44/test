@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>FeedRate</label>
+    <batchFile>FeedRate.xml</batchFile>
+    <description>Reporting Data Model: [ FeedRate ]  --Feed TRN_ENTD,FX_CURR (copy creation)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>FeedRate.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

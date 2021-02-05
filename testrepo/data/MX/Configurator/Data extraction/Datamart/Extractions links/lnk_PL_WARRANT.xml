@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PL_WARRANT</label>
+    <batchFile>PL_WARRANT.xml</batchFile>
+    <description>(EQ) Reporting Data Model: PL_WARRANT</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

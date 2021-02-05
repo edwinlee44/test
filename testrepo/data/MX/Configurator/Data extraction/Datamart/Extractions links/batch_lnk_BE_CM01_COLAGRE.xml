@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_CM01_COLAGRE</label>
+    <batchFile>BE_CM01_COLAGRE.xml</batchFile>
+    <description>BE_CM01_COLAGRE</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM01-CollateralAgreement.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

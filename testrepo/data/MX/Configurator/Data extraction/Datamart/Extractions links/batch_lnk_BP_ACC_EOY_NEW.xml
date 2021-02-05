@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_ACC_EOY_NEW</label>
+    <batchFile>BP_ACC_EOY_NEW.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_ACC_EOY_NEW.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

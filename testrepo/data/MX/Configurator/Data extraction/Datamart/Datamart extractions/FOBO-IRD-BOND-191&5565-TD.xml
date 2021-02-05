@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-IRD-BOND-191&amp;5565-TD</label>
+    <description>IRD/BOND DEAL INFORMATION FOR 兼營證券 BY TRADE DATE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-IRD-BOND-191&amp;5565-TD</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

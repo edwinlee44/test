@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_DKO_DELTA</label>
+    <batchFile>BASEL_DKO_DELTA.xml</batchFile>
+    <description>MOIT-FXO_SPOTDELTA</description>
+    <category>Basel</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

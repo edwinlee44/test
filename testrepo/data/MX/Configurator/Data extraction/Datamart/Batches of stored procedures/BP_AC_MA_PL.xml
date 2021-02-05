@@ -1,0 +1,32 @@
+<set>
+    <label>BP_AC_MA_PL</label>
+    <type>Batch of stored procedures</type>
+    <filter/>
+    <datamartObjects>
+        <datamartObject>
+            <datamartObjectLabel>PKG_DM_AC_MA_PL</datamartObjectLabel>
+            <parameters>
+                <parameter>
+                    <parLabel>I_DATE</parLabel>
+                    <parType>Date</parType>
+                    <parValue>27/11/20</parValue>
+                    <parDateOffset>0</parDateOffset>
+                    <parDateType>Reporting date</parDateType>
+                    <parDateValue>00000000</parDateValue>
+                    <parDateShifter/>
+                </parameter>
+            </parameters>
+        </datamartObject>
+    </datamartObjects>
+    <description>(MXACRP-MX3)</description>
+    <optional>N</optional>
+    <canBeOverwritten>N</canBeOverwritten>
+    <dataSetLabel>FeedAll</dataSetLabel>
+    <dataSetDate>
+        <dateType>Reporting date</dateType>
+    </dataSetDate>
+    <dataPrecomputed>Y</dataPrecomputed>
+    <dataComputedByBatches>N</dataComputedByBatches>
+    <dataPublished>Y</dataPublished>
+    <historizationMode>One data set</historizationMode>
+</set>

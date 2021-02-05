@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>UPG_MV_B</label>
+    <batchFile>UPG_MV_B.xml</batchFile>
+    <description>Batch of feeder for MV Reconciliation</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>UPG_MV_FEEDER.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>SupervisorsessionAudit</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/SupervisorsessionAudit.sql</sql>
+    <description/>
+</extractionRequest>

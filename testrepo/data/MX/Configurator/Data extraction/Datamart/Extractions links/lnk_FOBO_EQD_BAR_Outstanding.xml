@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_EQD_BAR_Outstanding</label>
+    <batchFile>FOBO_EQD_BAR_Outstanding.xml</batchFile>
+    <description>EQD_BAR Outstanding</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

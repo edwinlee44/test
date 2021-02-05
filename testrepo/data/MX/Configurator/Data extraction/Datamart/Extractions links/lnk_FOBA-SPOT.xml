@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-SPOT</label>
+    <batchFile>FOBA-SPOT.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

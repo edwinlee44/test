@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQD_CBC</label>
+    <batchFile>BF_EQD_CBC.xml</batchFile>
+    <description>(EQ) Reporting Data Model: [ EQD_CBC ]  --Feed EQD_CBC Before 1600</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_EQD_CBC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EQD_CBC.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

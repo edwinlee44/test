@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-DLV_id</label>
+    <batchFile>FOBO-DLV_id.xml</batchFile>
+    <description>(BY SHUNG LIN)for dlv STPDLV_ENTRY_TABLE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-FLEX_SCHEDULE</label>
+    <batchFile>FOBA-FLEX_SCHEDULE.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-STPFC_ENTRY_TABLE</label>
+    <batchFile>FOBO-OSP-STPFC_ENTRY_TABLE.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-OSP-STPFC_ENTRY_TABLE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

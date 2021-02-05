@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_PLEOM_FDSWP</label>
+    <batchFile>DF_PLEOM_FDSWP.xml</batchFile>
+    <description>(MXFORP_MX3)</description>
+    <category>T-MXFORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,15 @@
+<setDefinition>
+    <label>BEM_AC_PLTR_HK</label>
+    <batchFile>BEM_AC_PLTR_HK.xml</batchFile>
+    <description>(MXACRP-MX3)香港損益結轉相關</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_MA_PL_HK1.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PL_HK2.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PL_HK3.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_O2D_HKD_2D.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_O2D_MM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

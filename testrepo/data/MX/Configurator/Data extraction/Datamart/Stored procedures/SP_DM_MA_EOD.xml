@@ -1,0 +1,15 @@
+<batch>
+    <label>SP_DM_MA_EOD</label>
+    <description>(MXDM-MX3)</description>
+    <type>Stored procedure</type>
+    <category>T-MXDM</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>SP_DM_MA_EOD</storedProcedure>
+    </storedProcedures>
+</batch>

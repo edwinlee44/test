@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_AC_ISID_PL</label>
+    <batchFile>BF_AC_ISID_PL.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_AC_ISID_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

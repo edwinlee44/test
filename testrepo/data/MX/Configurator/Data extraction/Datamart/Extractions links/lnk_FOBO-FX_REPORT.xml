@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-FX_REPORT</label>
+    <batchFile>FOBO-FX_REPORT.xml</batchFile>
+    <description>(BY SHUNG LIN)BO_OPTION</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

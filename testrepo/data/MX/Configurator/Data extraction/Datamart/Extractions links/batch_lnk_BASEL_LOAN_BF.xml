@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BASEL_LOAN_BF</label>
+    <batchFile>BASEL_LOAN_BF.xml</batchFile>
+    <description>BASEL_LOAN_BF</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_LOAN_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

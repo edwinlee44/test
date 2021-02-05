@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MD_FXSPTRT_BF</label>
+    <batchFile>MD_FXSPTRT_BF.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MD_FX_SPOTRATE_F.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_MD_FX_SPOTRATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

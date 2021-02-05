@@ -1,0 +1,19 @@
+<setDefinition>
+    <label>BED_AC_CU_HK</label>
+    <batchFile>BED_AC_CU_HK.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_EXET.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_EXPIRE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_FXD_OS.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_OPT_OS.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_OS_ROLLOVER.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_SETTLE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_SWAP_POINT.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_TRADE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_TRADE_BACKDATE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

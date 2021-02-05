@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FXFLEX#FXBK2468</label>
+    <batchFile>FXFLEX#FXBK2468.xml</batchFile>
+    <description>(FX) Reporting Data Model: FXFLEX#FXBK2468</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

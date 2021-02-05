@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>OTC_IRD</label>
+    <batchFile>OTC_IRD.xml</batchFile>
+    <description>[OTC]Feed deals including late deals - IRD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

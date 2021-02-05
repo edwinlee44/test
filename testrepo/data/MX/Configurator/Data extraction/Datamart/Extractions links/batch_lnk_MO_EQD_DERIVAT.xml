@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_EQD_DERIVAT</label>
+    <batchFile>MO_EQD_DERIVAT.xml</batchFile>
+    <description>[MX3-MO] MO_EQD_DERIVAT</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_EQD_DERIVATIVE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

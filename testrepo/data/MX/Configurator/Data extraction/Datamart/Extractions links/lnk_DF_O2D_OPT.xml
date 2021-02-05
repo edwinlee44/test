@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_O2D_OPT</label>
+    <batchFile>DF_O2D_OPT.xml</batchFile>
+    <description>(MX3_FO) MX3_O2D_OPT.DBF</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>RT_LNGN</label>
+    <batchFile>RT_LNGN.xml</batchFile>
+    <description>(BOND)Reporting Data Model: RT_LNGN</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

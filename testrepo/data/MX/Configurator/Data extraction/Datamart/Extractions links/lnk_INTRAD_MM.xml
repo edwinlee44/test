@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>INTRAD_MM</label>
+    <batchFile>INTRAD_MM.xml</batchFile>
+    <description>[MX3] MXDM-FO intraDay Feeder for MM</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

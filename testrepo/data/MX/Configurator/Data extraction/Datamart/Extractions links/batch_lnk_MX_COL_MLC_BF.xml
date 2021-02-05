@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>MX_COL_MLC_BF</label>
+    <batchFile>MX_COL_MLC_BF.xml</batchFile>
+    <description>Batch of feeders for COL_MLC_TRIRESOL_REP and COL_MLC_EXPAGG.REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MX_COL_MLCEXPAGG_FEED.xml</datamartObjectFile>
+            <datamartObjectFile>MX_COL_MLC_TRI_RESOLVE_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MX_COL_MLC_GF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

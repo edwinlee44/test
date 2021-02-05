@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-AUD-TRN-CNTORG</label>
+    <description>(BY SHUNG LIN)FOR CONTORIG</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-AUD-TRN-CNTORG</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>FX_CURR_EOM</label>
+    <batchFile>FX_CURR_EOM.xml</batchFile>
+    <description>(IR) Reporting Data Mode: [ FX_CURR_HIST ]  --Feed FX_CURR_HIST</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>FX_CURR_EOM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MX_COL_INV_BF</label>
+    <batchFile>MX_COL_INV_BF.xml</batchFile>
+    <description>Batch of feeders for COL_INVENTORY_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MX_COL_INVENTORY_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MX_COL_INVT_GF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

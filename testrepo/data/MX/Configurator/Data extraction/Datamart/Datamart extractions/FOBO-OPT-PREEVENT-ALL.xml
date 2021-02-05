@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OPT-PREEVENT-ALL</label>
+    <description>(BY SHUNG LIN)FOR MONITOR_OPTION BEFORE EVENT</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-OPT-PREEVENT-ALL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

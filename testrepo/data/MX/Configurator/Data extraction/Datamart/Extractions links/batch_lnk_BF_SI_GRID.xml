@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_SI_GRID</label>
+    <batchFile>BF_SI_GRID.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_SI_GRID.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

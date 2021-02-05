@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MATCHERV3</label>
+    <batchFile>MATCHERV3.xml</batchFile>
+    <description>Reporting Data Model: [ MATCHER ] - feed matching result</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MATCHERV3.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

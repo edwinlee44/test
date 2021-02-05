@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_RT_LNGN</label>
+    <batchFile>BF_RT_LNGN.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_RT_LNGN.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

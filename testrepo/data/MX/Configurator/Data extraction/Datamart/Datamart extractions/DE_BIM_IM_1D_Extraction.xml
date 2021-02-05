@@ -1,0 +1,23 @@
+<batch>
+    <label>DE_BIM_IM_1D_Extraction</label>
+    <description/>
+    <type>Extraction</type>
+    <category>OIS</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>BIM_IM_RESULTS1D.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>BIM_IM_1D_Extraction</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

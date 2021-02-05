@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-FLEX-ALL_OS</label>
+    <batchFile>FOBO-FLEX-ALL_OS.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-FLEX-ALL_OS</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

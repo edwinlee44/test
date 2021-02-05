@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BASEL_MLC_CS</label>
+    <batchFile>BASEL_MLC_CS.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_MLC_CS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASELNEW.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

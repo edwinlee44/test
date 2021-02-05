@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EXT_SCF</label>
+    <batchFile>BF_EXT_SCF.xml</batchFile>
+    <description>(EX) Reporting Data Model: [ FeedAll ] External deal (SCF)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EXT_SCF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

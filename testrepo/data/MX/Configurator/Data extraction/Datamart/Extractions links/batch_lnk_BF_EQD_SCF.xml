@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQD_SCF</label>
+    <batchFile>BF_EQD_SCF.xml</batchFile>
+    <description>(EQ) Reporting Data Model: [ EQD ]  --Feed equity deal (SCF &amp; TYPO=STK OPT EX)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_EQD_CBC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EQD_SCF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-DLV_id</label>
+    <description>(BY SHUNG LIN)for dlv STPDLV_ENTRY_TABLE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-DLV_id</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

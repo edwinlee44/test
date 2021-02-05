@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_IRD_INT</label>
+    <batchFile>BF_IRD_INT.xml</batchFile>
+    <description>(IRD) Reporting Data Model: [ FeedAll ]  --Feed Internal deal (IRD)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_IRD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_IRD_INT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

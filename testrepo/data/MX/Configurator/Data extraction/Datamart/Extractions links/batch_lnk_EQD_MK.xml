@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>EQD_MK</label>
+    <batchFile>EQD_MK.xml</batchFile>
+    <description>(EQ1) Reporting Data Model: [ EQD_MK ]  --Feed EQD_MK</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EQD_MK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

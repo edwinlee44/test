@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>BED_AC_CR_TP</label>
+    <batchFile>BED_AC_CR_TP.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CR_OS.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CR_SETTLE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CR_TRADE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

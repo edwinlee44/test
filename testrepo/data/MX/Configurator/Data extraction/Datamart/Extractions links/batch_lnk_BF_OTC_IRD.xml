@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_OTC_IRD</label>
+    <batchFile>BF_OTC_IRD.xml</batchFile>
+    <description>[OTC]feeder for OTC late IRD deals</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>OTC_IRD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_OTC_IRD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_SIMM_CRD_REP</label>
+    <batchFile>BF_SIMM_CRD_REP.xml</batchFile>
+    <description>Batch of Feeder for SIMM_CRD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_SIMM_CQ_DELTA_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_ALL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

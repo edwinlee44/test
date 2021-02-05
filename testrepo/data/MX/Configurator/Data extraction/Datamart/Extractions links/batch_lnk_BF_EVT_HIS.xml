@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EVT_HIS</label>
+    <batchFile>BF_EVT_HIS.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EVT_HIS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_EVT_HIS.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

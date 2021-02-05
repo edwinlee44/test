@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>SP_EOD_TABLE_ANALYSE</label>
+    <description>EXEC SP_EOD_TABLE_ANALYSE</description>
+    <procedure>Create Or Replace Function FSP_EOD_TABLE_ANALYSE(SCHEMANAME Varchar2,
+                                                 TABLENAME  Varchar2) Return Number
+
+Authid Current_User
+
+ As
+  Pragma Autonomous_Transaction;
+
+  ERRNO  Number := 0;
+  ERRMSG Varchar(400);
+Begin
+  SP_EOD_TABLE_ANALYSE(ERRNO, ERRMSG, SCHEMANAME, TABLENAME);
+  Return ERRNO;
+Exception
+  When Others Then
+    ERRNO  := -1;
+    ERRMSG := 'SPR_EOD_TABLE_ANALYSE had error!!' || Sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    Return ERRNO;
+End;</procedure>
+    <functionName>FSP_EOD_TABLE_ANALYSE</functionName>
+    <mainTable>DYN_AUDT.REP</mainTable>
+    <returnName>returnval</returnName>
+    <returnLength>10</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>SCHEMANAME</paramLabel>
+            <paramType>char</paramType>
+            <paramLength>400</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+        <parameter>
+            <paramLabel>TABLENAME</paramLabel>
+            <paramType>char</paramType>
+            <paramLength>400</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

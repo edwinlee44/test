@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_XG</label>
+    <batchFile>BASEL_XG.xml</batchFile>
+    <description>Basel Model: BASELXG</description>
+    <category>Basel</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

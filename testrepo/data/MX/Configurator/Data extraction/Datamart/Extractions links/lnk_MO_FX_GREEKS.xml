@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_FX_GREEKS</label>
+    <batchFile>MO_FX_GREEKS.xml</batchFile>
+    <description>[MX3-MO] MO FX GREEKS for CCR</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

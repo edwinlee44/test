@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM08-request</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM08-request.sql</sql>
+    <description>Margin Call report request</description>
+</extractionRequest>

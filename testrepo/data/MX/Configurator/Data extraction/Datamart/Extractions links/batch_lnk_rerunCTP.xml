@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>rerunCTP</label>
+    <batchFile>rerunCTP.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>COUNTERPARTY.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

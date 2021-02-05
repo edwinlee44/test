@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-FLEX-ALL_OS</label>
+    <description>(BY SHUNG LIN)FOBO-FLEX-ALL_OS</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-FLEX-ALL_OS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

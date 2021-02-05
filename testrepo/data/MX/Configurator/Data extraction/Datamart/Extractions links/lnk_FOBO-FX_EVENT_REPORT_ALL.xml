@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-FX_EVENT_REPORT_ALL</label>
+    <batchFile>FOBO-FX_EVENT_REPORT_ALL.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

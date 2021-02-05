@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FO_OPT_PER_CTL</label>
+    <batchFile>DF_FO_OPT_PER_CTL.xml</batchFile>
+    <description>(MX3_FO) MX_OPT_PER_CTL_REP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

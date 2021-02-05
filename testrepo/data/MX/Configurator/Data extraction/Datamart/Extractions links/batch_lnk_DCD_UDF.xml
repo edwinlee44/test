@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>DCD_UDF</label>
+    <batchFile>DCD_UDF.xml</batchFile>
+    <description>(MM) Reporting Data Model: [ DCD_UDF ]  --Feed DCD UDF</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DCD_UDF.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

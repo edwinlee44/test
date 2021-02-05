@@ -1,0 +1,151 @@
+<filterTemplate>
+    <Label>BASEL_PCASH_ARC</Label>
+    <Description>ARC &amp; ALL</Description>
+    <Owner>ITOP001</Owner>
+    <Group>IT_CONFR</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>E</UpdateRight>
+    <CreationClass>DYN_TRNRP_PL</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <Description/>
+                <DateOutput>20201130</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>4</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+        </Dates>
+        <Filter>
+            <Portfolios>
+                <Portfolio>CYIR888110011</Portfolio>
+                <Portfolio>EQOF0019</Portfolio>
+                <Portfolio>EQOF001910011</Portfolio>
+                <Portfolio>EQOF0029</Portfolio>
+                <Portfolio>EQOF002910011</Portfolio>
+                <Portfolio>FDFD000140011</Portfolio>
+                <Portfolio>FDFD000140081</Portfolio>
+                <Portfolio>FDFD000140111</Portfolio>
+                <Portfolio>FDFD000140181</Portfolio>
+                <Portfolio>FDFD000170011</Portfolio>
+                <Portfolio>FDFD000190081</Portfolio>
+                <Portfolio>FDFD000240011</Portfolio>
+                <Portfolio>FDFD000290081</Portfolio>
+                <Portfolio>FDFD000540081</Portfolio>
+                <Portfolio>FDFD007140211</Portfolio>
+                <Portfolio>FDFD007140281</Portfolio>
+                <Portfolio>FDFD007170211</Portfolio>
+                <Portfolio>FDFD007190281</Portfolio>
+                <Portfolio>FDFD888110011</Portfolio>
+                <Portfolio>FDFD888210081</Portfolio>
+                <Portfolio>FDFD888310011</Portfolio>
+                <Portfolio>PREQ</Portfolio>
+                <Portfolio>PREQ0021</Portfolio>
+                <Portfolio>PREQ002110011</Portfolio>
+                <Portfolio>PREQ002120011</Portfolio>
+                <Portfolio>PREQ0025</Portfolio>
+                <Portfolio>PREQ002510011</Portfolio>
+                <Portfolio>PREQ0026</Portfolio>
+                <Portfolio>PREQ002610011</Portfolio>
+                <Portfolio>PREQ0029</Portfolio>
+                <Portfolio>PREQ002910011</Portfolio>
+                <Portfolio>PREQ0031</Portfolio>
+                <Portfolio>PREQ003110011</Portfolio>
+                <Portfolio>PREQ003110031</Portfolio>
+                <Portfolio>PREQ003110041</Portfolio>
+                <Portfolio>PREQ003120011</Portfolio>
+                <Portfolio>PREQ0035</Portfolio>
+                <Portfolio>PREQ003510011</Portfolio>
+                <Portfolio>PREQ0036</Portfolio>
+                <Portfolio>PREQ003610011</Portfolio>
+                <Portfolio>PREQ0039</Portfolio>
+                <Portfolio>PREQ003910011</Portfolio>
+                <Portfolio>PREQ0041</Portfolio>
+                <Portfolio>PREQ004110011</Portfolio>
+                <Portfolio>PREQ004110031</Portfolio>
+                <Portfolio>PREQ004110041</Portfolio>
+                <Portfolio>PREQ004110111</Portfolio>
+                <Portfolio>PREQ004120011</Portfolio>
+                <Portfolio>PREQ004140011</Portfolio>
+                <Portfolio>PREQ0045</Portfolio>
+                <Portfolio>PREQ004510011</Portfolio>
+                <Portfolio>PREQ0046</Portfolio>
+                <Portfolio>PREQ004610011</Portfolio>
+                <Portfolio>PREQ0049</Portfolio>
+                <Portfolio>PREQ004910011</Portfolio>
+                <Portfolio>PREQ0056</Portfolio>
+                <Portfolio>PREQ005610011</Portfolio>
+                <Portfolio>SLFI888110011</Portfolio>
+                <Portfolio>SLGB888110011</Portfolio>
+                <Portfolio>SLHK888110011</Portfolio>
+                <Portfolio>SLJB888110011</Portfolio>
+                <Portfolio>SLSM888110011</Portfolio>
+                <Portfolio>CBCB888110011</Portfolio>
+                <Portfolio>CYFO888110011</Portfolio>
+                <Portfolio>CYFX000140011</Portfolio>
+                <Portfolio>CYFX001170011</Portfolio>
+                <Portfolio>CYFX009110011</Portfolio>
+                <Portfolio>CYFX009110111</Portfolio>
+                <Portfolio>CYFX888110011</Portfolio>
+                <Portfolio>CYFX888210011</Portfolio>
+            </Portfolios>
+            <ScannedTables>
+                <ScannedTable>Adjustments</ScannedTable>
+                <ScannedTable>Archives</ScannedTable>
+                <ScannedTable>Internal Brokerag</ScannedTable>
+                <ScannedTable>Transfers</ScannedTable>
+            </ScannedTables>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

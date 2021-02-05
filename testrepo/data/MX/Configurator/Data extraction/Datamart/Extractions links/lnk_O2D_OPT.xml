@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>O2D_OPT</label>
+    <batchFile>O2D_OPT.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU16-SupReportingTmplRights</label>
+    <batchFile>AU16-SupReportingTmplRights.xml</batchFile>
+    <description>Lists groups and details on the reporting template of each group</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

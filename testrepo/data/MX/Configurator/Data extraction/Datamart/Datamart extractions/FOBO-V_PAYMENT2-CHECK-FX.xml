@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-V_PAYMENT2-CHECK-FX</label>
+    <description>(BY SHUNG LIN)FOBO-V_PAYMENT2-CHECK-FX ONLY FOR MONITOR DURING GO LIVE_SPOT_OUTRIGHT_SWAP</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-V_PAYMENT2-CHECK-FX</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

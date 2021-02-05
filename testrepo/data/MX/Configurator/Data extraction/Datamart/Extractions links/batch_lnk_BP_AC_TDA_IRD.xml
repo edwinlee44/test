@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_AC_TDA_IRD</label>
+    <batchFile>BP_AC_TDA_IRD.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PKG_EOD_AC_TDA_IRD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

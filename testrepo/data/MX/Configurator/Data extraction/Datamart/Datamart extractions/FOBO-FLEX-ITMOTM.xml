@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-FLEX-ITMOTM</label>
+    <description>[BO] FOBO-FLEX-ITMOTM</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-FLEX-ITMOTM</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-TABLE-REP-V_Z_OTC_FXO2_OS</label>
+    <description>(BY SHUNG LIN) FOBO-TABLE-REP-V_Z_OTC_FXO2_OS</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-TABLE-REP-V_Z_OTC_FXO2_OS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

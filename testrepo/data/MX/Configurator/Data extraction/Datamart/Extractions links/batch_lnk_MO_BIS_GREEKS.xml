@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_BIS_GREEKS</label>
+    <batchFile>MO_BIS_GREEKS.xml</batchFile>
+    <description>[MX3-MO] MO FX GREEKS for BIS</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_BIS_FXGREEKS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

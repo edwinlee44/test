@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DT_MO_CR01</Name>
+    <Description>DT_MO_CR01_4intra-day</Description>
+    <Type>Simulation</Type>
+    <Directory>ClientAdditional</Directory>
+    <ViewLabel>MO_RPT_Credit_CR01_intra-day_TWD</ViewLabel>
+    <Class>DYN_SIMUL</Class>
+    <History>His3_133</History>
+    <Alias>simul.dbf</Alias>
+    <SubType>Detailed</SubType>
+    <SubTypeL2>By trade</SubTypeL2>
+    <SimulationByPfolio>N</SimulationByPfolio>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description>Reporting config</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula>'&lt;SIMULAT._VAR&gt;'</Formula>
+        </Field>
+        <Field>
+            <Label>CR01__PAR</Label>
+            <Type>American</Type>
+            <Length>12</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <output>
+                    <objectID>0_0.66_66.39_39.41_41.197_197.198_198.45_72</objectID>
+                    <instance>0</instance>
+                </output>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>CURRENCY</Label>
+            <Type>Character</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>167_0.4_0</objectID>
+                    <instance>0</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>CURVE_NAM</Label>
+            <Type>Character</Type>
+            <Length>16</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>0_0.66_66.39_39.41_41.197_197.198_198.46_1.56_56.57_57</objectID>
+                    <instance>1</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>DATE</Label>
+            <Type>Character</Type>
+            <Length>64</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>0_0.66_66.39_39.41_41.197_197.198_198.58_2</objectID>
+                    <instance>2</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes/>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>Yes</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+        <PublishViewerTotals>No</PublishViewerTotals>
+        <CounterpartSideSimulation>No</CounterpartSideSimulation>
+    </Options>
+</Table>

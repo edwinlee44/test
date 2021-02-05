@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQD_CS_BO</label>
+    <batchFile>BF_EQD_CS_BO.xml</batchFile>
+    <description>[MX3] MXDM-BO intraDay Feeder</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>INTRAD_EQD_CS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BO_INTRA_EQD_FLT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

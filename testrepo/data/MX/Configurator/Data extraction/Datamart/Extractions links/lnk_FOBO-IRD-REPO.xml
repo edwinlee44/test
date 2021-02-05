@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-IRD-REPO</label>
+    <batchFile>FOBO-IRD-REPO.xml</batchFile>
+    <description>IRD/REPO DEAL INFORMATION</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

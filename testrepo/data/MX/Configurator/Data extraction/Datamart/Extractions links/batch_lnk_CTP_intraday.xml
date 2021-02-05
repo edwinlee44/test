@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>CTP_intraday</label>
+    <batchFile>CTP_intraday.xml</batchFile>
+    <description>(IR) Reporting Data Model: [  ]  --Feed COUNTERPARTY,SI,FXMM_MOP,DEALCURR,BUNDLE,HALF_DEALCURR...</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>COUNTERPARTY.xml</datamartObjectFile>
+            <datamartObjectFile>DEALCURR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

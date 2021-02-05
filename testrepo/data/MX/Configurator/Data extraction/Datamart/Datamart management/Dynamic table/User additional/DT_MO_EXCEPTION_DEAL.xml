@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DT_MO_EXCEPTION_DEAL</Name>
+    <Description>Portfolio Control : Abnormal and Exception deals</Description>
+    <Type>Transaction</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class>DYN_TRNRP_PL</Class>
+    <History>His3_129</History>
+    <Alias>TRNRP_PL.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Interactive">
+            <Label>CURRENCY</Label>
+            <Description>Report Output Currency</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula>" "</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SCAN_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>PL_FMV</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSNFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPFCP</Label>
+            <Type>American</Type>
+            <Length>23</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_INT</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTETRN</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTESYS</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEEXP</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NOMCUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_CMNT</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_MOPLSTL</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>AMD_STS</Label>
+            <Type>Character</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="ExcludePLAdjustment">RQWHERE("TRN_HDR_DBF.M_NB in (
+
+SELECT t.M_NB
+  FROM MXREP_PROD.MXDM_CONSO_PL_REP t
+ WHERE T.M_TP_PFOLIO IN ( 'FDFD000140011','FDFD000140111','FDFD000140081','FDFD000140181','FDFD000340181',
+                          'FDFD007140211','FDFD007140281','FDFD000240081','FDFD000340081','FDFD007340281',
+                          'FDFD000540081','FDFD000240011','FDFD000440081','FDFD009140711','FDFD009140811',
+                          'FDFD009140781','FDFD009140881','FDFD009340781','FDFD009340881' )
+   AND NVL(t.M_TP_CMNT2,'NULL') NOT IN ('ROLL-OVER','ROLLOVER','SELL DOWN','Accrual SellDown')
+   AND NVL(t.M_TP_TYPE,'NULL') &lt;&gt; 'ARC'
+   AND NVL(t.M_TP_TYPO,'NULL') NOT IN ('EOY_PL','OBU_PL_CONV')
+   AND NVL(t.M_AMD_STS2,'NULL') NOT IN ('CL','NA','CA')
+   OR   t.M_NB = 16211445
+   OR   t.M_NB = 19005726
+
+  UNION ALL
+
+SELECT t.M_NB
+  FROM MXREP_PROD.MXDM_CONSO_PL_REP t
+ WHERE T.M_TP_PFOLIO IN ( 'FDFD000110061','FDFD000110071','FDFD007110271','ININ002110161','ININ002110061',
+                          'ININ002320132','ININ002320032','ININ002810032','ININ002810132','ININ002810062',
+                          'ININ002810162','FDFD001880061','FDFD000880061','ININ006110732','ININ006110762',
+                          'ININ006110832','ININ006110862','ININ005110232','ININ005110262','ININ002320022',
+                          'ININ002320122','ININ006210722','ININ006210822',
+                          'FDFD001880011','FDFD000880051' )
+   AND t.M_TP_INT = 'Y'                                         
+   AND NVL(t.M_TP_CMNT2,'NULL') NOT IN ('ROLL-OVER','ROLLOVER','SELL DOWN','Accrual SellDown')
+   AND NVL(t.M_TP_TYPE,'NULL') &lt;&gt; 'ARC'
+   AND NVL(t.M_TP_TYPO,'NULL') NOT IN ('EOY_PL','OBU_PL_CONV')
+   AND NVL(t.M_AMD_STS2,'NULL') NOT IN ('CL','NA','CA')
+
+  UNION ALL
+
+SELECT t.M_NB
+  FROM MXREP_PROD.MXDM_CONSO_PL_REP t
+ WHERE t.M_TP_PFOLIO IN ( 'FDFD000180011','FDFD007180211','FDFD000180111','FDFD009180711','FDFD009180811' ) 
+   AND t.M_NB &lt;&gt; 0
+   AND ( t.M_TP_CNTRP NOT IN ('FUND TRANSFER','TD-COLLATERAL') OR t.M_TRN_FMLY &lt;&gt; 'SCF' )
+
+
+          )","")                                                           </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>No</ComputeSensitivities>
+        <ComputeDelta/>
+        <ComputeGamma/>
+        <ComputeTheta/>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega/>
+        <ComputeRR2/>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="1">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="0">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="2">
+                <Type>Date reporting</Type>
+                <DateOutput>20201127</DateOutput>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

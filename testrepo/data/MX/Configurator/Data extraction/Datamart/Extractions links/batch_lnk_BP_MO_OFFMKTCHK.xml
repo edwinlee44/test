@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_OFFMKTCHK</label>
+    <batchFile>BP_MO_OFFMKTCHK.xml</batchFile>
+    <description> [MX3-MO] DS_MO_OFF_MKT_CHK</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_OFF_MKT_CHK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

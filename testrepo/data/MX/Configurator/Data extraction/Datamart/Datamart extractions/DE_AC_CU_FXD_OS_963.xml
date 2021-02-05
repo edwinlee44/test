@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_CU_FXD_OS_963</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="ER_AC_CU_FXD_OS_VN::DE_AC_CU_FXD_OS_VW">ER_AC_CU_FXD_OS_VN</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,32 @@
+<set>
+    <label>BP_MO_BTB</label>
+    <type>Batch of stored procedures</type>
+    <filter/>
+    <datamartObjects>
+        <datamartObject>
+            <datamartObjectLabel>SP_DS_MO_CHECK_BTB</datamartObjectLabel>
+            <parameters>
+                <parameter>
+                    <parLabel>I_DATE</parLabel>
+                    <parType>Date</parType>
+                    <parValue>27/11/20</parValue>
+                    <parDateOffset>0</parDateOffset>
+                    <parDateType>Reporting date</parDateType>
+                    <parDateValue>00000000</parDateValue>
+                    <parDateShifter/>
+                </parameter>
+            </parameters>
+        </datamartObject>
+    </datamartObjects>
+    <description> [MX3-MO] DS_MO_CHECK_BTB</description>
+    <optional>N</optional>
+    <canBeOverwritten>N</canBeOverwritten>
+    <dataSetLabel/>
+    <dataSetDate>
+        <dateType>No selection</dateType>
+    </dataSetDate>
+    <dataPrecomputed>N</dataPrecomputed>
+    <dataComputedByBatches>N</dataComputedByBatches>
+    <dataPublished>Y</dataPublished>
+    <historizationMode>One data set</historizationMode>
+</set>

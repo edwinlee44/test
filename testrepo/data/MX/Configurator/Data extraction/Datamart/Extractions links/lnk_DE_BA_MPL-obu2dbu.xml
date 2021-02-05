@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_BA_MPL-obu2dbu</label>
+    <batchFile>DE_BA_MPL-obu2dbu.xml</batchFile>
+    <description>[MX3-FO] DE_BA_MPL-obu2dbu</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

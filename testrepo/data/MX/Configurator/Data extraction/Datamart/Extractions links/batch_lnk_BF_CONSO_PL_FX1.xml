@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CONSO_PL_FX1</label>
+    <batchFile>BF_CONSO_PL_FX1.xml</batchFile>
+    <description>(IR) Reporting Data Model: [ CONSO_PL ]  --Feed CONSO_PL (FMLY=CURR TYPE=FXDS,XSW)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_CONSO_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_CONSO_PL_FXD1.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

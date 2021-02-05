@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FXMM_MOP</label>
+    <batchFile>FXMM_MOP.xml</batchFile>
+    <description>Reporting Data Model: FXMM_MOP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

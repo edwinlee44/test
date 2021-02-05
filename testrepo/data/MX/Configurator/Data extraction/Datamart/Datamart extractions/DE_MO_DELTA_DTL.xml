@@ -1,0 +1,23 @@
+<batch>
+    <label>DE_MO_DELTA_DTL</label>
+    <description>[MX3-MO]</description>
+    <type>Extraction</type>
+    <category>REPORT_MO</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DT_CURR_PL</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>MXDM_CURR_PL.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_MO_DELTA_DTL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

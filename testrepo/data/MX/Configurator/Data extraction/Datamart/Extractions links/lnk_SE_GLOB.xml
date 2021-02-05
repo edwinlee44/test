@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SE_GLOB</label>
+    <batchFile>SE_GLOB.xml</batchFile>
+    <description>Reporting Data Model: SE_GLOB</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

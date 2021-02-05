@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>SupDatapublisherTmplRights</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/SupDatapublisherTmplRights.sql</sql>
+    <description/>
+</extractionRequest>

@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_DM_AC_CURR_OS</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="ER_DM_AC_CURR_OS::E_DM_AC_CURR_OS::DTEST1_VW">ER_DM_AC_CURR_OS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

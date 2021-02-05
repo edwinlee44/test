@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_MA_PL_M_SUM</label>
+    <description>(MXACRP-MX3)中台計算基準使用報表日匯率折台數</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_AC_MA_PL_M_SUM</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

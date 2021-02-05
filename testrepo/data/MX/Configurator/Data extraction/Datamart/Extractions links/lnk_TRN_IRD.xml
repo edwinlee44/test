@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>TRN_IRD</label>
+    <batchFile>TRN_IRD.xml</batchFile>
+    <description>(IR) Reporting Data Model: TP,PL,CS,MV,XG,DT</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

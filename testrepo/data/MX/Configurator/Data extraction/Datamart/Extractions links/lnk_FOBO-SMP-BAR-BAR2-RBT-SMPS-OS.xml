@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-SMP-BAR-BAR2-RBT-SMPS-OS</label>
+    <batchFile>FOBO-SMP-BAR-BAR2-RBT-SMPS-OS.xml</batchFile>
+    <description>(BY SHUNG LIN)BO SMP BAR BAR2 RBT SMPS-Outstanding</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

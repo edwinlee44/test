@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>TMU_BookingTime</label>
+    <batchFile>TMU_BookingTime.xml</batchFile>
+    <description>TMU_BookingTime</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

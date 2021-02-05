@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MM_RECONCILE</label>
+    <batchFile>MM_RECONCILE.xml</batchFile>
+    <description>(MM) Reporting Data Model: Money Market Reconcile Check Report</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

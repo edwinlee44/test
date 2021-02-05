@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>XG</label>
+    <batchFile>XG.xml</batchFile>
+    <description>Reporting Data Model: XG</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

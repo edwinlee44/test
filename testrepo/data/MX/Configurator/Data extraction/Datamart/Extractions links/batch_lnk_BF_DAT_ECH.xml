@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_DAT_ECH</label>
+    <batchFile>BF_DAT_ECH.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_DAT_ECH.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

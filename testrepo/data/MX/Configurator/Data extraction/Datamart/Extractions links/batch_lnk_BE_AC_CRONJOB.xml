@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_AC_CRONJOB</label>
+    <batchFile>BE_AC_CRONJOB.xml</batchFile>
+    <description>(MXACRP-MX3)執行MXACRP系統</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

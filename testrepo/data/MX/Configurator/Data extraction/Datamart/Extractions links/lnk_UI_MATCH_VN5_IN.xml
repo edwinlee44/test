@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>UI_MATCH_VN5_IN</label>
+    <batchFile>UI_MATCH_VN5_IN.xml</batchFile>
+    <description>[MX3] Golive version</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

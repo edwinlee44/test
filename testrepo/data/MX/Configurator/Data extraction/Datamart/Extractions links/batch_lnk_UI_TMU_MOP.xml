@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>UI_TMU_MOP</label>
+    <batchFile>UI_TMU_MOP.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>UI_TMU_MOP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

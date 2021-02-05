@@ -1,0 +1,15 @@
+<batch>
+    <label>DEQ_EOD_BATCH_INFO_TD</label>
+    <description>(MXDM-MX3)查詢當日非MUREX批次執行時間</description>
+    <type>Extraction</type>
+    <category>T-MXDM</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ERQ_EOD_BATCH_INFO_TD</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

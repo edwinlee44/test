@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>TRN_DETAIL</label>
+    <batchFile>TRN_DETAIL.xml</batchFile>
+    <description>Reporting Data Model: TRN_DETAIL</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

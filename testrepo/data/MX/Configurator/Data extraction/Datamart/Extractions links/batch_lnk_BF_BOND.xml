@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_BOND</label>
+    <batchFile>BF_BOND.xml</batchFile>
+    <description>(BOND) Reporting Data Model:[FeedAll]--BOND_CS, BOND_MV, BOND_TP, BOND_XG</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_BOND.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_BOND.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_EXCH_POS</label>
+    <batchFile>DF_AC_EXCH_POS.xml</batchFile>
+    <description>(MXACRP-SQL_MX-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

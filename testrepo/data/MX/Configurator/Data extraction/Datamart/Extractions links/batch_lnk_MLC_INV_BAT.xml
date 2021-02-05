@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MLC_INV_BAT</label>
+    <batchFile>MLC_INV_BAT.xml</batchFile>
+    <description>MLC_INV_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_INV.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MX_COL_INVT_GF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

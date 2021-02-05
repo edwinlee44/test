@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_MO_EQD_FX</label>
+    <batchFile>BF_MO_EQD_FX.xml</batchFile>
+    <description>for EQD FX</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_EQD_FXD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

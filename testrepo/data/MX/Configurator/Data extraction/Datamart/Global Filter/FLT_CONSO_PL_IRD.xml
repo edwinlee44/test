@@ -1,0 +1,99 @@
+<filterTemplate>
+    <Label>FLT_CONSO_PL_IRD</Label>
+    <Description>(IR) Reporting Data Model: All deal for IRD</Description>
+    <Owner>ITSO001</Owner>
+    <Group>IT_CONF</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>E</UpdateRight>
+    <CreationClass>DYN_TRNRP_PL</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="1">
+                <Type>Reporting date</Type>
+                <Description/>
+                <DateOutput>20201127</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="2">
+                <Type>Reporting date</Type>
+                <Description/>
+                <DateOutput>20201127</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>0</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+            <Date Nb="0">
+                <Type>Reporting date</Type>
+                <Description>PL_DATE0</Description>
+                <DateOutput>20201127</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+        </Dates>
+        <Filter>
+            <TransactionTypes>
+                <TransactionType>IRD|ASWP|</TransactionType>
+                <TransactionType>IRD|CF|</TransactionType>
+                <TransactionType>IRD|CS|</TransactionType>
+                <TransactionType>IRD|FRA|</TransactionType>
+                <TransactionType>IRD|INFLS|</TransactionType>
+                <TransactionType>IRD|IRG|</TransactionType>
+                <TransactionType>IRD|IRS|</TransactionType>
+                <TransactionType>IRD|LB|</TransactionType>
+                <TransactionType>IRD|LFUT|</TransactionType>
+                <TransactionType>IRD|OCF|</TransactionType>
+                <TransactionType>IRD|OPT|ASI</TransactionType>
+                <TransactionType>IRD|OPT|BAR</TransactionType>
+                <TransactionType>IRD|OPT|FLEX</TransactionType>
+                <TransactionType>IRD|OPT|LAD</TransactionType>
+                <TransactionType>IRD|OPT|ORG</TransactionType>
+                <TransactionType>IRD|OPT|OTC</TransactionType>
+                <TransactionType>IRD|OPT|RAT</TransactionType>
+                <TransactionType>IRD|OSWP|</TransactionType>
+                <TransactionType>IRD|SFUT|</TransactionType>
+                <TransactionType>IRD|TRS|</TransactionType>
+                <TransactionType>IRD|WARNT|</TransactionType>
+                <TransactionType>IRD|CD|</TransactionType>
+            </TransactionTypes>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

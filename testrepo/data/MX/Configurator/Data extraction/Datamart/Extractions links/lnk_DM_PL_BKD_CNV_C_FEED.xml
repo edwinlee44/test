@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DM_PL_BKD_CNV_C_FEED</label>
+    <batchFile>DM_PL_BKD_CNV_C_FEED.xml</batchFile>
+    <description>Data feeder for DM_PL_BKD_CNV_C_REP table</description>
+    <category>ComputeAndStorePL</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

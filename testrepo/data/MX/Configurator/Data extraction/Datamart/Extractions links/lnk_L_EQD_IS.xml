@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>L_EQD_IS</label>
+    <batchFile>L_EQD_IS.xml</batchFile>
+    <description>(BOND)Reporting Data Model: L_EQD_IS</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

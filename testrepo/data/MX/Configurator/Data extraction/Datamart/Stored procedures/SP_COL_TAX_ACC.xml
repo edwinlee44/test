@@ -1,0 +1,15 @@
+<batch>
+    <label>SP_COL_TAX_ACC</label>
+    <description/>
+    <type>Stored procedure</type>
+    <category>T-MXACRP</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>SP_COL_TAX_ACC</storedProcedure>
+    </storedProcedures>
+</batch>

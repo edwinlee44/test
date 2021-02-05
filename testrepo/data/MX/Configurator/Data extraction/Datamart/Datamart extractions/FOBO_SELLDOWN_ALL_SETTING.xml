@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO_SELLDOWN_ALL_SETTING</label>
+    <description>FOBO_SELLDOWN_ALL_SETTING BY SHUNG LIN</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO_SELLDOWN_ALL_SETTING</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

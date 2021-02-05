@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>SP_EOD_PL_TR</label>
+    <description>(MXFORP-MX3)</description>
+    <procedure>create or replace function FSP_EOD_PL_TR(I_DATE date) return number
+
+authid current_user
+
+ as
+  pragma autonomous_transaction;
+
+  ERRNO     number := 0;
+  ERRMSG    varchar(400);
+  V_FNCNAME varchar(400) := 'FSP_EOD_PL_TR';
+  I_DT      varchar(8) := TO_CHAR(I_DATE, 'YYYYMMDD');
+begin
+  SP_EOD_PL_TR(ERRNO, ERRMSG, I_DT);
+  return ERRNO;
+exception
+  when others then
+    ERRNO  := -1;
+    ERRMSG := V_FNCNAME || ' had error!!' || sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    return ERRNO;
+end;</procedure>
+    <functionName>FSP_EOD_PL_TR</functionName>
+    <mainTable>MXDM_PLTR_OPT.REP</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>1</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>I_DATE</paramLabel>
+            <paramType>date</paramType>
+            <paramLength>0</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

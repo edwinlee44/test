@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-EQD-OPT-NOLIST-PERIOD</label>
+    <batchFile>FOBO-EQD-OPT-NOLIST-PERIOD.xml</batchFile>
+    <description>FOBO-EQD-OPT-NOLIST-PERIOD</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

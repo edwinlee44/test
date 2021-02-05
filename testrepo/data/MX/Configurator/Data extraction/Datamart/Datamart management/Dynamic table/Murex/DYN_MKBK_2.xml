@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_MKBK_2</Name>
+    <Description>Reporting Data Model: Broker Movements</Description>
+    <Type>Transaction</Type>
+    <Directory>Murex</Directory>
+    <Class>DYN_TRNRP_MK</Class>
+    <History>MKBK_2</History>
+    <Alias>TRNRP_MK.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>AMNT</Label>
+            <Description>Amount to be paid or received on Date 2</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(DTOC(TP_DTETRN)=D2,D_FEE,0)</Formula>
+            <Formula Nb="1">IIF(AMNT_CAT="PS".AND.DTOC(TP_IPAYDTE)=D2,IIF(TP_BUY="B",(-1)*TP_IPAY,TP_IPAY),PL_CSCNF2-PL_CSCNF1)</Formula>
+            <Formula Nb="2">(PL_MVCNF2+PL_MVRNF2)-(PL_MVCNF1+PL_MVRNF1)</Formula>
+            <Formula Nb="3">IIF(MK_LEVEL="3".AND.DTOC(MK_DTE)=D2,PL_CSCNF2+PL_CSRNF2+PL_FPCNF2+PL_FPRNF2,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_CAT</Label>
+            <Description>Movement category : Daily Activity / Premium Settlement / Margin Call / Option Premium / Netting</Description>
+            <Type>Character</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">"DA"</Formula>
+            <Formula Nb="1">IIF(TRN_GRP="OPT","PS","MC")</Formula>
+            <Formula Nb="2">"OP"</Formula>
+            <Formula Nb="3">"NT"</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_CUR</Label>
+            <Description>Movement currency : Clearer Ccy, Premium Ccy, Margin Calls Ccy</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_FEETYP0="CLEARING".AND.TP_FEE0&lt;&gt;0,TP_FEECUR0,IIF(TP_FEETYP1="CLEARING".AND.TP_FEE1&lt;&gt;0,TP_FEECUR1,IIF(TP_FEETYP2="CLEARING".AND.TP_FEE2&lt;&gt;0,TP_FEECUR2,IIF(TP_FEETYP3="CLEARING".AND.TP_FEE3&lt;&gt;0,TP_FEECUR3," "))))</Formula>
+            <Formula Nb="1">IIF(TRN_GRP="OPT",TP_IPAYCUR,MK_PLCUR)</Formula>
+            <Formula Nb="2">MK_PLCUR</Formula>
+            <Formula Nb="3">MK_PLCUR</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_INID</Label>
+            <Description>Movement initialisation date : trn date for DA / OP / MC, MOP date for NT, Premium date for PS</Description>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_DTETRN</Formula>
+            <Formula Nb="1">IIF(AMNT_CAT='PS',TP_IPAYDTE,TP_DTETRN)</Formula>
+            <Formula Nb="2">TP_DTETRN</Formula>
+            <Formula Nb="3">MK_DTE</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_OPEN</Label>
+            <Description>Open position as of date 2 - cumulated amount as of date 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(DTOC(TP_DTETRN)&lt;=D1,D_FEE,0)</Formula>
+            <Formula Nb="1">IIF(DTOC(TP_IPAYDTE)&lt;=D1.AND.AMNT_CAT="PS",IIF(TP_BUY="B",(-1)*TP_IPAY,TP_IPAY),PL_CSCNF1)</Formula>
+            <Formula Nb="2">PL_MVCNF1+PL_MVRNF1</Formula>
+            <Formula Nb="3">IIF(MK_LEVEL="3".AND.DTOC(MK_DTE)&lt;=D1,PL_CSCNF1+PL_CSRNF1+PL_FPCNF1+PL_FPRNF1,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CLEARER</Label>
+            <Description>Clearer Label</Description>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_FEETYP0="CLEARING".AND.TP_FEE0&lt;&gt;0,TP_BROKER0,IIF(TP_FEETYP1="CLEARING".AND.TP_FEE1&lt;&gt;0,TP_BROKER1,IIF(TP_FEETYP2="CLEARING".AND.TP_FEE2&lt;&gt;0,TP_BROKER2,IIF(TP_FEETYP3="CLEARING".AND.TP_FEE3&lt;&gt;0,TP_BROKER3," "))))</Formula>
+            <Formula Nb="1">IIF(TP_FEETYP0="CLEARING".AND.TP_FEE0&lt;&gt;0,TP_BROKER0,IIF(TP_FEETYP1="CLEARING".AND.TP_FEE1&lt;&gt;0,TP_BROKER1,IIF(TP_FEETYP2="CLEARING".AND.TP_FEE2&lt;&gt;0,TP_BROKER2,IIF(TP_FEETYP3="CLEARING".AND.TP_FEE3&lt;&gt;0,TP_BROKER3," "))))</Formula>
+            <Formula Nb="2">IIF(TP_FEETYP0="CLEARING".AND.TP_FEE0&lt;&gt;0,TP_BROKER0,IIF(TP_FEETYP1="CLEARING".AND.TP_FEE1&lt;&gt;0,TP_BROKER1,IIF(TP_FEETYP2="CLEARING".AND.TP_FEE2&lt;&gt;0,TP_BROKER2,IIF(TP_FEETYP3="CLEARING".AND.TP_FEE3&lt;&gt;0,TP_BROKER3," "))))</Formula>
+            <Formula Nb="3">IIF(TP_FEETYP0="CLEARING".AND.TP_FEE0&lt;&gt;0,TP_BROKER0,IIF(TP_FEETYP1="CLEARING".AND.TP_FEE1&lt;&gt;0,TP_BROKER1,IIF(TP_FEETYP2="CLEARING".AND.TP_FEE2&lt;&gt;0,TP_BROKER2,IIF(TP_FEETYP3="CLEARING".AND.TP_FEE3&lt;&gt;0,TP_BROKER3," "))))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>D1</Label>
+            <Description>Intermediate computation : Boundary Date 1 (to avoid truncation)</Description>
+            <Type>Character</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DTOC(DENV('CRT_BND11'))</Formula>
+            <Formula Nb="1">DTOC(DENV('CRT_BND11'))</Formula>
+            <Formula Nb="2">DTOC(DENV('CRT_BND11'))</Formula>
+            <Formula Nb="3">DTOC(DENV('CRT_BND11'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>D2</Label>
+            <Description>Intermediate computation : Boundary Date 2 (to avoid truncation)</Description>
+            <Type>Character</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DTOC(DENV('CRT_BND12'))</Formula>
+            <Formula Nb="1">DTOC(DENV('CRT_BND12'))</Formula>
+            <Formula Nb="2">DTOC(DENV('CRT_BND12'))</Formula>
+            <Formula Nb="3">DTOC(DENV('CRT_BND12'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>D_FEE</Label>
+            <Description>Intermediate computation : : Clearing Fees</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_FEETYP0="CLEARING".AND.TP_FEE0&lt;&gt;0,TP_FEE0,IIF(TP_FEETYP1="CLEARING".AND.TP_FEE1&lt;&gt;0,TP_FEE1,IIF(TP_FEETYP2="CLEARING".AND.TP_FEE2&lt;&gt;0,TP_FEE2,IIF(TP_FEETYP3="CLEARING".AND.TP_FEE3&lt;&gt;0,TP_FEE3,0))))</Formula>
+            <Formula Nb="1">0</Formula>
+            <Formula Nb="2">0</Formula>
+            <Formula Nb="3">0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>D_TD</Label>
+            <Description>Intermediate computation :Trn.Dte in Characters (to avoid tuncation)</Description>
+            <Type>Character</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DTOC(TP_DTETRN)</Formula>
+            <Formula Nb="1">DTOC(TP_DTETRN)</Formula>
+            <Formula Nb="2">DTOC(TP_DTETRN)</Formula>
+            <Formula Nb="3">DTOC(TP_DTETRN)</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>D_DATE_REF</Label>
+            <Description>Reference date</Description>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Direct</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SCAN_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>PL_MVCNF</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSCNF</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPCNF</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_MVRNF</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_CSRNF</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PL_FPRNF</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BROKER</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FEE</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>3</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FEECUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_FEETYP</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>QTY_INDEX</Label>
+            <Type>Integer</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BUY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTETRN</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IPAY</Label>
+            <Type>American</Type>
+            <Length>22</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IPAYCUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IPAYDTE</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_STATUS2</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_CAT</Label>
+            <Type>Character</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_INID</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_OPEN</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CLEARER</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code>ACTIVATE_OUTSTANDING_QUANTITY</Code>
+        <Filter>
+            <TransactionTypes>
+                <TransactionType>CURR|OPT|LST</TransactionType>
+                <TransactionType>CURR|FUT|FUT</TransactionType>
+                <TransactionType>EQD|OPT|ORG</TransactionType>
+                <TransactionType>EQD|FUT|</TransactionType>
+                <TransactionType>IRD|OPT|ORG</TransactionType>
+                <TransactionType>IRD|LFUT|</TransactionType>
+                <TransactionType>IRD|SFUT|</TransactionType>
+            </TransactionTypes>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables>
+                <ScannedTable>Transactions</ScannedTable>
+            </ScannedTables>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>Yes</Active>
+            <Times>4</Times>
+            <FilterExpression Nb="0">.T.</FilterExpression>
+            <FilterExpression Nb="1">((TRN_GRP="OPT".OR."FUT"$TRN_GRP).AND.ISBLANK(MK_TYPE)=1)</FilterExpression>
+            <FilterExpression Nb="2">TP_STATUS2&lt;&gt;"DEAD".AND.ISBLANK(MK_TYPE)=1</FilterExpression>
+            <FilterExpression Nb="3">MK_TYPE="NET"</FilterExpression>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>No</ComputeSensitivities>
+        <ComputeDelta/>
+        <ComputeGamma/>
+        <ComputeTheta/>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega/>
+        <ComputeRR2/>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="0">
+                <Type>Origin (Monthly)</Type>
+                <DateOutput>00000000</DateOutput>
+            </Date>
+        </Dates>
+        <IncludeTradeInsertion>Yes</IncludeTradeInsertion>
+        <IncludeDirectModifyEvents>No</IncludeDirectModifyEvents>
+    </Options>
+</Table>

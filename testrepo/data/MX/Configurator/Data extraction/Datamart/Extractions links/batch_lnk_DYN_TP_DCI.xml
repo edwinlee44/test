@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>DYN_TP_DCI</label>
+    <batchFile>DYN_TP_DCI.xml</batchFile>
+    <description>[MX3-MO] MO DYN TP DCI</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DYN_TP_DCI.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_DYN_DCI.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

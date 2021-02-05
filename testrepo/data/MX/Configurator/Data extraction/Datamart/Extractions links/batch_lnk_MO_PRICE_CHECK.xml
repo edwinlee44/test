@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_PRICE_CHECK</label>
+    <batchFile>MO_PRICE_CHECK.xml</batchFile>
+    <description>MO_PRICE_CHECK</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_PRICE_CHECK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

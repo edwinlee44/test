@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DYN_PL_ARC</label>
+    <batchFile>DYN_PL_ARC.xml</batchFile>
+    <description/>
+    <category>Fubon</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

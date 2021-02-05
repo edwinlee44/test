@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_DYN_CHECK_PL</label>
+    <batchFile>DF_DYN_CHECK_PL.xml</batchFile>
+    <description>(MX3-RECON)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

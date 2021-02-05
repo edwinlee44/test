@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BE_FIR_OFF_PREMISES</label>
+    <batchFile>BE_FIR_OFF_PREMISES.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

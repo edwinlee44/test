@@ -1,0 +1,37 @@
+<batch>
+    <label>EXT_SIMM_SCH_NOT</label>
+    <description>Single Extraction for all SIMM Schedule Based Notional</description>
+    <type>Extraction</type>
+    <category>MLC</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DYN_SIMM_SCH_NOT</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>SIMM_SCH_NOT.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_SIMM_SCH_NOT_FX</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>SIMM_SCH_NOT_FX.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_SIMM_TP_ALL</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>SIMM_TP_ALL.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="EXT_SIMM_SCH_NOT_VW">EXT_SIMM_SCH_NOT</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

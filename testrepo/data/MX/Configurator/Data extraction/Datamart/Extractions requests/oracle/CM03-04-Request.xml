@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM03-04-Request</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM03-04-Request.sql</sql>
+    <description>CM03 and CM04 SQL Request</description>
+</extractionRequest>

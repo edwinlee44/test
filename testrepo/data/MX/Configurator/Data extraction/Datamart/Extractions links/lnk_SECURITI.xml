@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SECURITI</label>
+    <batchFile>SECURITI.xml</batchFile>
+    <description>(BOND)Reporting Data Model: SECURITI</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

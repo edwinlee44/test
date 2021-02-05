@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQD_CS</label>
+    <batchFile>BF_EQD_CS.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EQD_CS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_MXDM_EQD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

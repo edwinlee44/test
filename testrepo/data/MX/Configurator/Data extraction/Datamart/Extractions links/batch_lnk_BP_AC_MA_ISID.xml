@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_AC_MA_ISID</label>
+    <batchFile>BP_AC_MA_ISID.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PKG_DM_AC_MA_ISID.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

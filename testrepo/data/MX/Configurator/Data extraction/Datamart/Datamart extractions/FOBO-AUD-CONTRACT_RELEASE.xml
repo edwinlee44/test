@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-AUD-CONTRACT_RELEASE</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-AUD-CONTRACT_RELEASE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

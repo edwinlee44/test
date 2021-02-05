@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_BA_MPL-other2dbu</label>
+    <description>[MX3-FO] DE_BA_MPL-other2dbu</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>BA_MPL-other2dbu</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

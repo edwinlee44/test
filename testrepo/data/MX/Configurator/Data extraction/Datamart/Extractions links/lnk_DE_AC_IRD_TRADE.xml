@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_IRD_TRADE</label>
+    <batchFile>DE_AC_IRD_TRADE.xml</batchFile>
+    <description>(MXACRP-MX3)DEL</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

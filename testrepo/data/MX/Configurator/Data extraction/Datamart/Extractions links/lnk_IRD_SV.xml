@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>IRD_SV</label>
+    <batchFile>IRD_SV.xml</batchFile>
+    <description>(IR) Reporting Data Model: IRD_SV</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

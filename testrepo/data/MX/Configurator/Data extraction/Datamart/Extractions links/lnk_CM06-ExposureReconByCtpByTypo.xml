@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM06-ExposureReconByCtpByTypo</label>
+    <batchFile>CM06-ExposureReconByCtpByTypo.xml</batchFile>
+    <description>Collateralized trades exposure by counterparty by contract typology</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

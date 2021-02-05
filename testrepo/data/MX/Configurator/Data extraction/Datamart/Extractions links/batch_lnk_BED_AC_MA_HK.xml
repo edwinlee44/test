@@ -1,0 +1,14 @@
+<setDefinition>
+    <label>BED_AC_MA_HK</label>
+    <batchFile>BED_AC_MA_HK.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_FXRULE_CHK.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_DERIVE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_30360_INT_CHK_HK.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PAYROUND_CHK_HK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

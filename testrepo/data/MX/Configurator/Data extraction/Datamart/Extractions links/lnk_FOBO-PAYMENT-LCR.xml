@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-PAYMENT-LCR</label>
+    <batchFile>FOBO-PAYMENT-LCR.xml</batchFile>
+    <description>(BY SHUNG LIN)LCR PAYMENT</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FLEX_MTM_UPD</label>
+    <batchFile>FLEX_MTM_UPD.xml</batchFile>
+    <description>for FLEX MTM</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

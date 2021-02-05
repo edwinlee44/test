@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_PAYMENT</label>
+    <batchFile>BF_PAYMENT.xml</batchFile>
+    <description>(MXBORP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_PAYMENT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_PAYMENT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

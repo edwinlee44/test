@@ -1,0 +1,15 @@
+<batch>
+    <label>SP_DM_FO_BOND_OSTD</label>
+    <description>[MX3-FO] Execution SP_DM_FO_BOND_OSTD</description>
+    <type>Stored procedure</type>
+    <category>REPORT_FO</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>SP_DM_FO_BOND_OSTD</storedProcedure>
+    </storedProcedures>
+</batch>

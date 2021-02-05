@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_SIMM_SCH_PV_N_REP</label>
+    <batchFile>F_SIMM_SCH_PV_N_REP.xml</batchFile>
+    <description>Single Feeder for Datamart Table SIMM_SCH_PV_N_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

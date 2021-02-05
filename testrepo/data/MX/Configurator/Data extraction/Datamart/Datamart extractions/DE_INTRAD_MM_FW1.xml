@@ -1,0 +1,30 @@
+<batch>
+    <label>DE_INTRAD_MM_FW1</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>INTRAD_MM_FW1.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>Funding Swap for ED</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>INTRAD_MM_FW1_DM.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="MM_FW1_VW">ER_MM_FW1</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

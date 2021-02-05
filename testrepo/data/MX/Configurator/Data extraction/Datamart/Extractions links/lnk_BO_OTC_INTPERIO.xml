@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BO_OTC_INTPERIO</label>
+    <batchFile>BO_OTC_INTPERIO.xml</batchFile>
+    <description>(FX) Reporting Data Model: BO_OTC_INTPERIOD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_BOND_INFO2</label>
+    <batchFile>BF_BOND_INFO2.xml</batchFile>
+    <description>[MX3-FO] MXDM-FO bond DV01 &amp; Duraction</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DT_BOND_INFO2.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

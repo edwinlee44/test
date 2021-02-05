@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>MO_BOND_STATIC_DATA</Name>
+    <Description>MO_BOND_STATIC_DATA</Description>
+    <Type>Transaction</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class>DYN_TRNRP_PL</Class>
+    <History>His3_92</History>
+    <Alias>TRNRP_PL.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>BOND_TYPE</Label>
+            <Description>BOND TYPE</Description>
+            <Type>Character</Type>
+            <Length>60</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.BOND_TYPE","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CLN_REF_E1</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.CLN_REF_E1","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CLN_REF_E2</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.CLN_REF_E2","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CLN_REF_E3</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.CLN_REF_E3","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CLN_REF_E4</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.CLN_REF_E4","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CLN_REF_E5</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.CLN_REF_E5","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CRT_LIMIT</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>9</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.CRT_LIMIT","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FX_TWD</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>20</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_NOMCUR='TWD',1,CVFXSPT(TP_NOMCUR+'TWD',DENV("CRT_BND12"),DENV("CRT_BND12")))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FX_TWD_0</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>20</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_NOMCUR='TWD',1,SPTCV(TP_NOMCUR+',0','TWD',DENV("CRT_BND12")))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GRT_RATE1</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",NTBLFIELD("TABLE#DATA#SECURITI.GRT_RATE1","SE_LABEL",INSTRUMENT),0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GRT_RATE2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",NTBLFIELD("TABLE#DATA#SECURITI.GRT_RATE2","SE_LABEL",INSTRUMENT),0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GRT_RATE3</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",NTBLFIELD("TABLE#DATA#SECURITI.GRT_RATE3","SE_LABEL",INSTRUMENT),0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GRT_RATE4</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",NTBLFIELD("TABLE#DATA#SECURITI.GRT_RATE4","SE_LABEL",INSTRUMENT),0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GRT_RATE5</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",NTBLFIELD("TABLE#DATA#SECURITI.GRT_RATE5","SE_LABEL",INSTRUMENT),0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GUARANTOR1</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.GUARANTOR1","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GUARANTOR2</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.GUARANTOR2","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GUARANTOR3</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.GUARANTOR3","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GUARANTOR4</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.GUARANTOR4","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GUARANTOR5</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.GUARANTOR5","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>ISSUER</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.ISSUER","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MLC_CON</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>20</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">FX_TWD*TP_LQTYS2*TP_SECLOT</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MLC_CON_0</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>20</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">FX_TWD_0*TP_LQTYS2*TP_SECLOT</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MLC_GROUP</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>12</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(SECOND_ODR='Y','Subordinated',IIF(SUBSTR(TP_PFOLIO,1,4)=='FDFD'.OR.SUBSTR(TP_PFOLIO,1,4)=='INCI'.OR.SUBSTR(TP_PFOLIO,1,4)=='INWM'.OR.SUBSTR(TP_PFOLIO,1,7)=='ININ002','Investment','Trading'))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MLC_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">'MX'+LTRIM(STR(NB))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MLC_TB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(MLC_GROUP='Investment',IIF(TP_DTEEXP-DENV('CRT_BND12')&gt;=379,'LT','ST'),'Inf')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>RT_RIC</Label>
+            <Description>Reuters Ric Code</Description>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP=='BOND',CTBLFIELD('SE_HEAD. SE_RTF0','SE_LABEL',INSTRUMENT),'')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SECOND_ODR</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="BOND",CTBLFIELD("TABLE#DATA#SECURITI.SECOND_ODR","SE_LABEL",INSTRUMENT),"")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SYS_DATE</Label>
+            <Description/>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">DENV('CRT_BND12')</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description>Reporting config</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>S_CBBDFLR</Label>
+            <Type>Number</Type>
+            <Length>16</Length>
+            <Decimal>11</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>INSTRUMENT</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_ENTITY</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_INT</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BUY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTETRN</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTESYS</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEEXP</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NOMINAL</Label>
+            <Type>American</Type>
+            <Length>25</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NOMCUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_SECCOD</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_SECLOT</Label>
+            <Type>Number</Type>
+            <Length>17</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IPAYDTE</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_LQTY</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IQTYS</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_LQTYS</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_STATUS2</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_TYPO</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>BOND_TYPE</Label>
+            <Type>Character</Type>
+            <Length>60</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>RT_RIC</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="Restricted">TRN_GRP=="BOND"                                                 </FilterExpression>
+            <FilterExpression Type="ExcludePLAdjustment">.T.                                                             </FilterExpression>
+            <FilterExpression Type="PostFilter">.T.                                                             </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>No</ComputeSensitivities>
+        <ComputeDelta/>
+        <ComputeGamma/>
+        <ComputeTheta/>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega/>
+        <ComputeRR2/>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Inception</Type>
+                <DateOutput>00000000</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>Inception</Type>
+                <DateOutput>00000000</DateOutput>
+            </Date>
+            <Date Nb="0">
+                <Type>Inception</Type>
+                <DateOutput>00000000</DateOutput>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

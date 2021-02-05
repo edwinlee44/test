@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-EVENT</label>
+    <batchFile>FOBO-OSP-EVENT.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

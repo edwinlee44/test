@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-DOC_id</label>
+    <description>(BY SHUNG LIN)for osp doc last valid STPDOC_ENTRY_TABLE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-DOC_id</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

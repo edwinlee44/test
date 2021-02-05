@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_DEALEQD_BO</label>
+    <batchFile>BF_DEALEQD_BO.xml</batchFile>
+    <description>[MX3] MXDM-BO intraDay Feeder</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>INTRAD_DEALEQD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

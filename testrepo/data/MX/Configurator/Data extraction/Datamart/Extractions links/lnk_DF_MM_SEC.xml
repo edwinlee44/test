@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_MM_SEC</label>
+    <batchFile>DF_MM_SEC.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

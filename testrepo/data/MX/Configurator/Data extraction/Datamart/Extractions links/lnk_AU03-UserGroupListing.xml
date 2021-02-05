@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU03-UserGroupListing</label>
+    <batchFile>AU03-UserGroupListing.xml</batchFile>
+    <description>List of users per group and vice versa</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

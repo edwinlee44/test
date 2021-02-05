@@ -1,0 +1,23 @@
+<batch>
+    <label>CM14-CollateralOrchestratorAud</label>
+    <description>Audit DetailsOn Daily Generation of Margin Calls</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_ORCH_AUD_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM14-ExtractonView">CM14-Request</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

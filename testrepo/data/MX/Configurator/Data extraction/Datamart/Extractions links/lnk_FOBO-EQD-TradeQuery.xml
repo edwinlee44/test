@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-EQD-TradeQuery</label>
+    <batchFile>FOBO-EQD-TradeQuery.xml</batchFile>
+    <description>FOBO-EQD-TradeQuery - EQD-LB</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

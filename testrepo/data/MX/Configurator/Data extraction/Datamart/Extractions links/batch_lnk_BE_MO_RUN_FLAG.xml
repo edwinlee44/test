@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_MO_RUN_FLAG</label>
+    <batchFile>BE_MO_RUN_FLAG.xml</batchFile>
+    <description>[MX3-MO] MO RUN FLAG</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

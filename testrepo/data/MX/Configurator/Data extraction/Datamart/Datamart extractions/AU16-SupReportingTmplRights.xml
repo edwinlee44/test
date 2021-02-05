@@ -1,0 +1,15 @@
+<batch>
+    <label>AU16-SupReportingTmplRights</label>
+    <description>Lists groups and details on the reporting template of each group</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupReportingTmplRights">ReportingTemplates</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

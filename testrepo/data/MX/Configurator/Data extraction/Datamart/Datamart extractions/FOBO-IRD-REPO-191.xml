@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-IRD-REPO-191</label>
+    <description>FOBO-IRD-REPO-191</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-IRD-REPO-191</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

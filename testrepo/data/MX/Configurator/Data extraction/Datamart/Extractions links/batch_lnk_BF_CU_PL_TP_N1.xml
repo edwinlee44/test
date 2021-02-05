@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CU_PL_TP_N1</label>
+    <batchFile>BF_CU_PL_TP_N1.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_CURR_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_TP_N1.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

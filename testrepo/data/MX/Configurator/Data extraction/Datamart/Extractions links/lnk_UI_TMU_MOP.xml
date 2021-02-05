@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>UI_TMU_MOP</label>
+    <batchFile>UI_TMU_MOP.xml</batchFile>
+    <description/>
+    <category>REPORT_FO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,37 @@
+<batch>
+    <label>CM08-MarginCall</label>
+    <description>Summary of the Margin call and Expected margin call allocation details</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_ORCH_AUD_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_PARTIES_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_EXC_ALLOC</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_EXC_ALLOC_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM08-MarginCall">CM08-request</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>EQ_SPB</label>
+    <batchFile>EQ_SPB.xml</batchFile>
+    <description>MO FOR EQUITY</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

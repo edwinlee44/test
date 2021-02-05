@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_ISID_PL</label>
+    <batchFile>DF_AC_ISID_PL.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

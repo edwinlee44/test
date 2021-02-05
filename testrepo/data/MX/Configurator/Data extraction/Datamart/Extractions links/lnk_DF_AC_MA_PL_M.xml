@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_MA_PL_M</label>
+    <batchFile>DF_AC_MA_PL_M.xml</batchFile>
+    <description>(MXACRP-SQL_RP-MX3)DM_AC_MA_PL當月月初至報表日資料</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

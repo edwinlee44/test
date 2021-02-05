@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_BO_IRD_RPRSC</label>
+    <batchFile>BF_BO_IRD_RPRSC.xml</batchFile>
+    <description>(MXDM-MX3) RPRS CS</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_BO_IRD_RPRS_CS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_BO_RPRS_1500.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

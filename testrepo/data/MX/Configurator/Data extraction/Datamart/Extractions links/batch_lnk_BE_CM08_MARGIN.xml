@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_CM08_MARGIN</label>
+    <batchFile>BE_CM08_MARGIN.xml</batchFile>
+    <description>BE_CM08_MARGIN</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM08-MarginCall.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

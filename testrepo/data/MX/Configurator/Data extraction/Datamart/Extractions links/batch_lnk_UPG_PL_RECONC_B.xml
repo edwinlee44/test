@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>UPG_PL_RECONC_B</label>
+    <batchFile>UPG_PL_RECONC_B.xml</batchFile>
+    <description>Batch containing the feeder UPG_PL_RECONC_FEEDER used in the P&amp;L reconciliation testing package</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>UPG_PL_RECONC_FEEDER.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>UPG_PL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

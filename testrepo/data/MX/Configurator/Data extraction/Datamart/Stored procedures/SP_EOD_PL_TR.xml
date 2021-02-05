@@ -1,0 +1,15 @@
+<batch>
+    <label>SP_EOD_PL_TR</label>
+    <description>(MXFORP-MX3)</description>
+    <type>Stored procedure</type>
+    <category>T-MXFORP</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>SP_EOD_PL_TR</storedProcedure>
+    </storedProcedures>
+</batch>

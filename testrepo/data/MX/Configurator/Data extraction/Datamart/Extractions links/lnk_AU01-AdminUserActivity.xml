@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU01-AdminUserActivity</label>
+    <batchFile>AU01-AdminUserActivity.xml</batchFile>
+    <description>Audit log of all Admin activity</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

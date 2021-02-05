@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FX_CURR_BRANCH</label>
+    <batchFile>DF_FX_CURR_BRANCH.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

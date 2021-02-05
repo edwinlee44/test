@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBA-FUNDINGSWAP_CHECK</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBA-FUNDINGSWAP_CHECK</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

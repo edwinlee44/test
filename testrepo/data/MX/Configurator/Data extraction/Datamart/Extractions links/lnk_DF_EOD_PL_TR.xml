@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_EOD_PL_TR</label>
+    <batchFile>DF_EOD_PL_TR.xml</batchFile>
+    <description>(MX3_FO) MX3_EOD_PL_TR.DBF</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

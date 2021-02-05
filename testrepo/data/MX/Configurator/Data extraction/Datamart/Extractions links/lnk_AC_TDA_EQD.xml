@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AC_TDA_EQD</label>
+    <batchFile>AC_TDA_EQD.xml</batchFile>
+    <description>(FIFO)AC Trade Day Accounting</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

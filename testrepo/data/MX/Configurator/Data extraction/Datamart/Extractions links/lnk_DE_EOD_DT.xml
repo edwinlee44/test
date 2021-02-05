@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_EOD_DT</label>
+    <batchFile>DE_EOD_DT.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

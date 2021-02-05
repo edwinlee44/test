@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_MDDM_BOND</label>
+    <batchFile>BF_MDDM_BOND.xml</batchFile>
+    <description>[MX3-FO] MXDM-FO MDDM BOND SRC</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_MDDM_BOND_SRC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

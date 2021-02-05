@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BASEL_XG</label>
+    <batchFile>BASEL_XG.xml</batchFile>
+    <description>Basel Model: [ BASEL ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_XG.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASEL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

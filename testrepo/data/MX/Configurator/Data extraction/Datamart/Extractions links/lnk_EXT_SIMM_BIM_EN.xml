@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>EXT_SIMM_BIM_EN</label>
+    <batchFile>EXT_SIMM_BIM_EN.xml</batchFile>
+    <description>Single Extraction for SIM_BIM_ENRICH_REP and SIMM_TP_ALL_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

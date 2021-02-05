@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_TP_FEED</label>
+    <batchFile>MX_COL_TP_FEED.xml</batchFile>
+    <description>Data feeder for COL_TP_REP table</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

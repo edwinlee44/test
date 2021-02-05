@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_CORP_ACTIONS_FEED</label>
+    <batchFile>MX_COL_CORP_ACTIONS_FEED.xml</batchFile>
+    <description>Data feeder for COL_CORP_ACTIONS_REP table</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

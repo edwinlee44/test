@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>TRN_EQD_CBC</label>
+    <batchFile>TRN_EQD_CBC.xml</batchFile>
+    <description>(EQ) Reporting Data Model: EQD_TP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

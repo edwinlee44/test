@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_NDF_FD</label>
+    <batchFile>BF_NDF_FD.xml</batchFile>
+    <description>[MX3-FO] NDF Fixing Date Batch feeder for TIP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_NDF_FD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

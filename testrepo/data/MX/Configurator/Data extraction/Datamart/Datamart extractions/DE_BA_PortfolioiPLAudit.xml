@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_BA_PortfolioiPLAudit</label>
+    <description>Murex Portfolios PL</description>
+    <type>Extraction</type>
+    <category>REPORT_FO</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>DE_BA_PortfolioiPLAudit</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

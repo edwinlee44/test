@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_OTC_FXD</label>
+    <batchFile>BF_OTC_FXD.xml</batchFile>
+    <description>[OTC]feeder for OTC late FXD deals</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>OTC_FXD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_OTC_FXD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

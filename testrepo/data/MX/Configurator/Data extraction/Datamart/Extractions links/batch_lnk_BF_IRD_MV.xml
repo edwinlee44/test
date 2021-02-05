@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BF_IRD_MV</label>
+    <batchFile>BF_IRD_MV.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

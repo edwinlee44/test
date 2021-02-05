@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_MM_SELLDOWN</label>
+    <batchFile>BF_MM_SELLDOWN.xml</batchFile>
+    <description>[MX3] MM Selldown for EOD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_MM_SELLDOWN_VN.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

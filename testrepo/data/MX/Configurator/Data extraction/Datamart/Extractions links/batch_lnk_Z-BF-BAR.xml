@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>Z-BF-BAR</label>
+    <batchFile>Z-BF-BAR.xml</batchFile>
+    <description>(EX) Reporting Data Model: [ FeedAll ] External deal (Option)-NB</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>Z-BAR.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

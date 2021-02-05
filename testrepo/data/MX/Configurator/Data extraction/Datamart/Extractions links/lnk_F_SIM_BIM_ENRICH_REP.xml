@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_SIM_BIM_ENRICH_REP</label>
+    <batchFile>F_SIM_BIM_ENRICH_REP.xml</batchFile>
+    <description/>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

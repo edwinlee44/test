@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_PAYMENT</label>
+    <batchFile>DF_PAYMENT.xml</batchFile>
+    <description>(MXBORP-MX3) MX_PAYMENT_REP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

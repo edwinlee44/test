@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM11-Request</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM11-Request.sql</sql>
+    <description/>
+</extractionRequest>

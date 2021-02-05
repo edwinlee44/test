@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SCF Deal Extraction</label>
+    <batchFile>SCF Deal Extraction.xml</batchFile>
+    <description>Today's SCF Deals Extraction for current user</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

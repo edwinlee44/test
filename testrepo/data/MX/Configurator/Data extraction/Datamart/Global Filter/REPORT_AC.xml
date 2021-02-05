@@ -1,0 +1,83 @@
+<filterTemplate>
+    <Label>REPORT_AC</Label>
+    <Description>FXD/FXDS/XSW - TRADE / EXPIRE ON REPORTING DATE</Description>
+    <Owner>ITOP001</Owner>
+    <Group>MO_EOD</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>O</UpdateRight>
+    <CreationClass>DYN_TRNRP_PL</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="2">
+                <Type>Reporting date</Type>
+                <Description/>
+                <DateOutput>20201127</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>0</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+            <Date Nb="1">
+                <Type>Reporting date shifter</Type>
+                <Shifter>-1 OPEN DAY</Shifter>
+                <Description/>
+                <DateOutput>20201126</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="0">
+                <Type>Reporting date shifter</Type>
+                <Shifter>MTHEND_REP</Shifter>
+                <Description/>
+                <DateOutput>20201030</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+        </Dates>
+        <Filter>
+            <TransactionTypes>
+                <TransactionType>CURR|FXD|FXD</TransactionType>
+                <TransactionType>CURR|FXD|FXDS</TransactionType>
+                <TransactionType>CURR|FXD|XSW</TransactionType>
+            </TransactionTypes>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <FilterExpression Type="ExcludePLAdjustment">(TRN_DATE=DENV('CRT_BND12').OR.TRN_EXP=DENV('CRT_BND12')).AND.'TW'$INSTRUMENT</FilterExpression>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

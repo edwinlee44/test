@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>EOD_PL_TR_MM</label>
+    <batchFile>EOD_PL_TR_MM.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EOD_PL_TR_MM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EOD_PL_TR_MM.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

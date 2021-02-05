@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BF_CURR_XG</label>
+    <batchFile>BF_CURR_XG.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

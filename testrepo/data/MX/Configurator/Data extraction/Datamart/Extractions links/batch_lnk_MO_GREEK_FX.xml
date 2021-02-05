@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_GREEK_FX</label>
+    <batchFile>MO_GREEK_FX.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_GREEK_FX.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASELNEW.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

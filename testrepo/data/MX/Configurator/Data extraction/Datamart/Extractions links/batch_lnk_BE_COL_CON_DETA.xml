@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_COL_CON_DETA</label>
+    <batchFile>BE_COL_CON_DETA.xml</batchFile>
+    <description>Batches of extraction for COL_CON_DETAIL_REP</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EXT_COL_CON_DETAIL_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>DE_AC_IRD_OS</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/DE_AC_IRD_OS.sql</sql>
+    <description/>
+</extractionRequest>

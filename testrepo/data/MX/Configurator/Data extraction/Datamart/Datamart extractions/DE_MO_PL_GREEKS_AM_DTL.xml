@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_MO_PL_GREEKS_AM_DTL</label>
+    <description>[MX3-MO] DE_MO_PL_GREEKS_AM_DTL</description>
+    <type>Extraction</type>
+    <category>REPORT_MO</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_MO_PL_GREEKS_AM_DTL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

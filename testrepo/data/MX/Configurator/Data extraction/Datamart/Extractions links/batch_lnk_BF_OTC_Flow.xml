@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_OTC_Flow</label>
+    <batchFile>BF_OTC_Flow.xml</batchFile>
+    <description>Reporting Data Model: [ FeedOTC ] -- Feed BO_OTC_REMCAP, BO_OTC_INTPERIOD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BO_OTC_INTPERIO.xml</datamartObjectFile>
+            <datamartObjectFile>BO_OTC_REMCAP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

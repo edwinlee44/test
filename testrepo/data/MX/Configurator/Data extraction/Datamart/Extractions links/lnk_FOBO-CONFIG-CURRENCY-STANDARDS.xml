@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-CONFIG-CURRENCY-STANDARDS</label>
+    <batchFile>FOBO-CONFIG-CURRENCY-STANDARDS.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

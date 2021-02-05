@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_MPX_SPOT_ID</label>
+    <batchFile>DF_MPX_SPOT_ID.xml</batchFile>
+    <description>[MXFORP-MX3] MPX_SPOT Feeder in Intraday -golive version</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

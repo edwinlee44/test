@@ -1,0 +1,37 @@
+<set>
+    <label>BP_AC_CU_ADJ</label>
+    <type>Batch of stored procedures</type>
+    <filter/>
+    <datamartObjects>
+        <datamartObject>
+            <datamartObjectLabel>PKG_DM_AC_CURR_FWD_ADJ</datamartObjectLabel>
+            <parameters>
+                <parameter>
+                    <parLabel>I_DATE</parLabel>
+                    <parType>Date</parType>
+                    <parValue>27/11/20</parValue>
+                    <parDateOffset>0</parDateOffset>
+                    <parDateType>Reporting date</parDateType>
+                    <parDateValue>00000000</parDateValue>
+                    <parDateShifter/>
+                </parameter>
+                <parameter>
+                    <parLabel>I_ENTITY</parLabel>
+                    <parType>String</parType>
+                    <parValue>MA</parValue>
+                </parameter>
+            </parameters>
+        </datamartObject>
+    </datamartObjects>
+    <description>(MXACRP-MX3)</description>
+    <optional>N</optional>
+    <canBeOverwritten>N</canBeOverwritten>
+    <dataSetLabel/>
+    <dataSetDate>
+        <dateType>No selection</dateType>
+    </dataSetDate>
+    <dataPrecomputed>N</dataPrecomputed>
+    <dataComputedByBatches>N</dataComputedByBatches>
+    <dataPublished>Y</dataPublished>
+    <historizationMode>One data set</historizationMode>
+</set>

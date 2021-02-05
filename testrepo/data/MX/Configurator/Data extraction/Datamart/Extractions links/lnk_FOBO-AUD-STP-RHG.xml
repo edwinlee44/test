@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUD-STP-RHG</label>
+    <batchFile>FOBO-AUD-STP-RHG.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

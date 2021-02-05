@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_BIM_SCH_PV_N</label>
+    <batchFile>BF_BIM_SCH_PV_N.xml</batchFile>
+    <description>Batch of Feeder for BIM_SCH_PV_N_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_BIM_SCH_PV_N_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_REP_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_PL_GREEKS_AM</label>
+    <batchFile>MO_PL_GREEKS_AM.xml</batchFile>
+    <description>[MX3-MO] MO_PL_GREEKS_AM (SLST088_Maching)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_PL_GREEKS_AM3.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

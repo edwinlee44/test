@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-HIGHRISK</label>
+    <batchFile>FOBA-HIGHRISK.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

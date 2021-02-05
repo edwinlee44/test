@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_CU_TRADE_SG</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_CU_TRADE_SG.sql</sql>
+    <description>(MXACRP-MX3)</description>
+</extractionRequest>

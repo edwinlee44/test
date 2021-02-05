@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_DELTA_PLUS_X</label>
+    <batchFile>MO_DELTA_PLUS_X.xml</batchFile>
+    <description>[MX3-MO] MO DELTA PLUS XX1 STEP 3</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_DELTA_PLUS_XX1.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

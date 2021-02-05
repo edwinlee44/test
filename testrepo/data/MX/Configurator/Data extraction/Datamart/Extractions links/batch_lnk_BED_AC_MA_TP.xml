@@ -1,0 +1,15 @@
+<setDefinition>
+    <label>BED_AC_MA_TP</label>
+    <batchFile>BED_AC_MA_TP.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_FXRULE_CHK.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_30360_INT_CHK_DBU.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_30360_INT_CHK_OBU.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PAYROUND_CHK_DBU.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PAYROUND_CHK_OBU.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

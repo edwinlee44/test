@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>PAY_FUNDSTRANS</label>
+    <batchFile>PAY_FUNDSTRANS.xml</batchFile>
+    <description>(MM) Reporting Data Model: [ PAYMENT ]  --Feed PAYMENT for FUNDS TRANSFER</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PAY_FUNDSTRANS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>PAYMENT_GLOBAL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

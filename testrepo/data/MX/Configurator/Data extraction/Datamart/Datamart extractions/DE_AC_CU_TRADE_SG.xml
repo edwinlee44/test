@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_CU_TRADE_SG</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="DE_AC_CU_TRADE_VW_SG">ER_AC_CU_TRADE_SG</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

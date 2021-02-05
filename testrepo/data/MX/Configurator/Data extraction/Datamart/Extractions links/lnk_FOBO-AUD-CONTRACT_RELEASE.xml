@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUD-CONTRACT_RELEASE</label>
+    <batchFile>FOBO-AUD-CONTRACT_RELEASE.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

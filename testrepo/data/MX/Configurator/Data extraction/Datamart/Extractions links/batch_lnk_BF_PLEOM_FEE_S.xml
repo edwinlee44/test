@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_PLEOM_FEE_S</label>
+    <batchFile>BF_PLEOM_FEE_S.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_PLEOM_FEE_S.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_PLEOM_FEE_S.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

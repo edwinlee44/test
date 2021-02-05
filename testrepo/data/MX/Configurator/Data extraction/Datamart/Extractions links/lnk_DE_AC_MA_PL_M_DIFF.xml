@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_MA_PL_M_DIFF</label>
+    <batchFile>DE_AC_MA_PL_M_DIFF.xml</batchFile>
+    <description>(MXACRP-MX3)新總帳新增與中台核兌損益報表，不同匯率計算方式所產生的差</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

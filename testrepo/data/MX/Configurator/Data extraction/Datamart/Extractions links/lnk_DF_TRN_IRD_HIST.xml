@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_TRN_IRD_HIST</label>
+    <batchFile>DF_TRN_IRD_HIST.xml</batchFile>
+    <description>(MXDM-SQL_RP-MX3)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

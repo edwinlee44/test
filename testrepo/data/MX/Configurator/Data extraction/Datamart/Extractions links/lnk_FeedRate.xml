@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FeedRate</label>
+    <batchFile>FeedRate.xml</batchFile>
+    <description>Reporting Data Model: TRN_ENTD,FX_CURR by copy creation</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

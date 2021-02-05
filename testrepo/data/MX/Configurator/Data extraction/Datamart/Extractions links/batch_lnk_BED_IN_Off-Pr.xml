@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BED_IN_Off-Pr</label>
+    <batchFile>BED_IN_Off-Pr.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BE_ININ_OFF_PREMISES.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

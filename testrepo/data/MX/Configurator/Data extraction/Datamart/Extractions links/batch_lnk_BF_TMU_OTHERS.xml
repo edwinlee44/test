@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_TMU_OTHERS</label>
+    <batchFile>BF_TMU_OTHERS.xml</batchFile>
+    <description>[MX3-FO] MXDM-FO TMU Revenue</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>RP_TMU_OTHERS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

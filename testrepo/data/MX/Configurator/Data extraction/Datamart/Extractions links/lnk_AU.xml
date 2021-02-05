@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU</label>
+    <batchFile>AU.xml</batchFile>
+    <description/>
+    <category>Fubon</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

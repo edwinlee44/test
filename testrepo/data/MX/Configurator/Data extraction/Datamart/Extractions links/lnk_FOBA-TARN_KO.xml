@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-TARN_KO</label>
+    <batchFile>FOBA-TARN_KO.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

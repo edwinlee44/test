@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBA-FLEX_SCHEDULE</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBA-FLEX_SCHEDULE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

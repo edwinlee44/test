@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_DS_MO_EQUITY_CONSO</label>
+    <batchFile>SP_DS_MO_EQUITY_CONSO.xml</batchFile>
+    <description>[MX3-MO] EXEC DS_MO_EQUITY_CONSO</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

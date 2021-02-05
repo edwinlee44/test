@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>ADD_FLOW</label>
+    <batchFile>ADD_FLOW.xml</batchFile>
+    <description>Reporting Data Model: [ ADD_FLOW ]  --Feed ADD_FLOW (copy creation)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>ADD_FLOW.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_EOD_PL_TR</label>
+    <batchFile>BF_EOD_PL_TR.xml</batchFile>
+    <description>[MX3-FO] MXDM-FO Feeder for eod</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EOD_PL_TR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

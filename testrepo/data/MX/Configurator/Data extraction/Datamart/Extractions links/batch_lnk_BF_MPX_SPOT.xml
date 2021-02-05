@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_MPX_SPOT</label>
+    <batchFile>BF_MPX_SPOT.xml</batchFile>
+    <description>[MX3-FO] MXDM-FO MPX_SPOT intraDay Feeder</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_MPX_SPOT_ID.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

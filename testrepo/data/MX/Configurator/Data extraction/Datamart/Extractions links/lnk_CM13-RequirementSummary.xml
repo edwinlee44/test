@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM13-RequirementSummary</label>
+    <batchFile>CM13-RequirementSummary.xml</batchFile>
+    <description>Requirement summary</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>AU17-SupChineseWallRights</label>
+    <description>Lists groups and details on the chinese wall template of each group</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupChineseWallRights">SupChineseWallsRights</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-UDF-COLUMN-LIST-DEALIRD</label>
+    <description>(BY SHUNG LIN)MAX(M_nb)</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-UDF-COLUMN-LIST-DEALIRD</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

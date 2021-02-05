@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM07-TriResolveReconREQ</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM07-TriResolveReconREQ.sql</sql>
+    <description>CM06 and CM07 SQL Request</description>
+</extractionRequest>

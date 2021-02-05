@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>MLC_FX_Trading</Name>
+    <Description>FX Rates for MLC (Trading)</Description>
+    <Type>Copy creation</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class/>
+    <History>His3_43</History>
+    <Alias>FX_CURR.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>DEN</Label>
+            <Description>MLC Currency</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CINTFIELD("MLC_CURR")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NUM</Label>
+            <Description>Other Currency</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">LABEL</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>QR_BRANCH</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNUDT('QR_BRANCH')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>RATE</Label>
+            <Description>FX 0 discount rate</Description>
+            <Type>Number</Type>
+            <Length>20</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(LABEL=DEN,1,SPTCV(LABEL+',0',DEN,DENV("CRT_BND12")))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>RATE_M</Label>
+            <Description>FX rate</Description>
+            <Type>Number</Type>
+            <Length>20</Length>
+            <Decimal>10</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(LABEL=DEN,1,CVFXSPT(LABEL+DEN,DENV("CRT_BND12"),DENV("CRT_BND12")))</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>MLC_CURR</Label>
+            <Description>MLC Currency</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula>"TWD"</Formula>
+        </Field>
+        <Field>
+            <Label>LABEL</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DEN</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NUM</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>QR_BRANCH</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>RATE</Label>
+            <Type>Number</Type>
+            <Length>20</Length>
+            <Decimal>10</Decimal>
+        </Field>
+        <Field>
+            <Label>RATE_M</Label>
+            <Type>Number</Type>
+            <Length>20</Length>
+            <Decimal>10</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes/>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation>
+            <Source>FX_CURR.DBF</Source>
+            <DirectoryType>Default</DirectoryType>
+            <DirectoryPath/>
+            <MarketParameter>
+                <DeskDefined>No</DeskDefined>
+                <Desk/>
+                <Date>
+                    <Dates>
+                        <Date Nb="2">
+                            <Type>Contextual today</Type>
+                            <DateOutput>20201130</DateOutput>
+                        </Date>
+                        <Date Nb="1">
+                            <Type>No selection</Type>
+                        </Date>
+                        <Date Nb="0">
+                            <Type>No selection</Type>
+                        </Date>
+                    </Dates>
+                </Date>
+                <RootFile>No</RootFile>
+            </MarketParameter>
+            <Merge>
+                <Active>No</Active>
+                <SourceTable/>
+                <SourceField/>
+                <DestinationField/>
+                <DestinationKey/>
+            </Merge>
+        </Creation>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>Yes</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

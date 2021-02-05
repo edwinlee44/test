@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>OIS-RATE_CURVE_SETTING</label>
+    <batchFile>OIS-RATE_CURVE_SETTING.xml</batchFile>
+    <description>SHUNGLIN</description>
+    <category>OIS</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_MA_PL_HK2</label>
+    <batchFile>DE_AC_MA_PL_HK2.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

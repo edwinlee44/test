@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEALSCF</label>
+    <batchFile>DEALSCF.xml</batchFile>
+    <description>(EQ) Reporting Data Model: DEALSCF</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

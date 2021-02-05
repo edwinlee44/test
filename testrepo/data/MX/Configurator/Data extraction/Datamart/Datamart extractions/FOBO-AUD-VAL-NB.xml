@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-AUD-VAL-NB</label>
+    <description>(BY SHUNG LIN)</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-AUD-VAL-NB</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

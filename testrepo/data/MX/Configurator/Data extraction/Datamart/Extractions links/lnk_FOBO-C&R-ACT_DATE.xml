@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-C&amp;R-ACT_DATE</label>
+    <batchFile>FOBO-C&amp;R-ACT_DATE.xml</batchFile>
+    <description>(BY SHUNG LIN)CANCEL AND REISSUE TOM</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

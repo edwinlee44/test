@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>EQ_MAIN_2</label>
+    <batchFile>EQ_MAIN_2.xml</batchFile>
+    <description>[MX3-MO] Reporting Data Model: [ EQ_MAIN ]  --Feed EQ_MAIN, EQ_OPT_MAIN</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EQ_MAIN.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>Reporting_Date_EQ_C.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

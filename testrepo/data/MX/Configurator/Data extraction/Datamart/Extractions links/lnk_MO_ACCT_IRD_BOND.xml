@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_ACCT_IRD_BOND</label>
+    <batchFile>MO_ACCT_IRD_BOND.xml</batchFile>
+    <description>[MX3-MO] MO_ACCT_IRD_BOND</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

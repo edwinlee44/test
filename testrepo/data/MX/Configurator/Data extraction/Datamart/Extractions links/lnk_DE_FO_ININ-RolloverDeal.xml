@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_FO_ININ-RolloverDeal</label>
+    <batchFile>DE_FO_ININ-RolloverDeal.xml</batchFile>
+    <description>[MX3-FO] DE_FO_ININ-RolloverDeal</description>
+    <category>REPORT_FO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

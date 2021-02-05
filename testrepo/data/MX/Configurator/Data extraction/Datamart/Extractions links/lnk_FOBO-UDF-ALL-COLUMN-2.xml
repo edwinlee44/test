@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-UDF-ALL-COLUMN-2</label>
+    <batchFile>FOBO-UDF-ALL-COLUMN-2.xml</batchFile>
+    <description>(BY SHUNG LIN)DESCRIPTION</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

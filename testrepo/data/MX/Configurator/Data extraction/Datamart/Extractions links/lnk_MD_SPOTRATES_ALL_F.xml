@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MD_SPOTRATES_ALL_F</label>
+    <batchFile>MD_SPOTRATES_ALL_F.xml</batchFile>
+    <description/>
+    <category>Market Data</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

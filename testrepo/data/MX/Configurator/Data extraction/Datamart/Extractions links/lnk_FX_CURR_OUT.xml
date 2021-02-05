@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FX_CURR_OUT</label>
+    <batchFile>FX_CURR_OUT.xml</batchFile>
+    <description>(IR) Reporting Data Model: FX_CURR_OUT</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

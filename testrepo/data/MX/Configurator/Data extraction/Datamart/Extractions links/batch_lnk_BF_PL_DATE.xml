@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_PL_DATE</label>
+    <batchFile>BF_PL_DATE.xml</batchFile>
+    <description>Reporting Data Model: [ PL_DATE ]  --Feed CONSO_PL (daily pl pfolio and curreny pair)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_CONSO_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FeedAll-DMY-2.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>AU22-SupGroupDetailsRights</label>
+    <description>Lists rights and templates used by each group</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupGroupDetailsRights">SupGroupDetails</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PSEUDO_DEALCURR</label>
+    <batchFile>PSEUDO_DEALCURR.xml</batchFile>
+    <description>Reporting Data Model: V_PSEUDO_DEALCURR</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_DAT_ECH</label>
+    <batchFile>DF_DAT_ECH.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

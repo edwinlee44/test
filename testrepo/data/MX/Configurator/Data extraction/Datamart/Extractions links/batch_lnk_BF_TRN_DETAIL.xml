@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_TRN_DETAIL</label>
+    <batchFile>BF_TRN_DETAIL.xml</batchFile>
+    <description>(MXDM-DELETE)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_TRN_DETAIL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_PLEOM_FDSWP</label>
+    <batchFile>BF_PLEOM_FDSWP.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_PLEOM_FDSWP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

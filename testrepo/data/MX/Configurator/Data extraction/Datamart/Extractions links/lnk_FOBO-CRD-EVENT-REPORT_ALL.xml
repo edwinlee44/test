@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-CRD-EVENT-REPORT_ALL</label>
+    <batchFile>FOBO-CRD-EVENT-REPORT_ALL.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

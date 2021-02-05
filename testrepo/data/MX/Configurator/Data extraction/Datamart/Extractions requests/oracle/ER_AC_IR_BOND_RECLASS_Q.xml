@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_IR_BOND_RECLASS_Q</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_IR_BOND_RECLASS_Q.sql</sql>
+    <description>(MXACRP-MX3)每季報給會計師 重分類相關資料</description>
+</extractionRequest>

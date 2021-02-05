@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-EVENT_REFRESH CHECK</label>
+    <description>REFRESH Event Check</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="FOBO-EVENT_REFRESH  CHECK">FOBO-EVENT_REFRESH CHECK</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

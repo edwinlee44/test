@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-AUTOFEED-IN_OFFICE</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-AUTOFEED-IN_OFFICE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

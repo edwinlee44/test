@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MX_COL_CORP_BF</label>
+    <batchFile>MX_COL_CORP_BF.xml</batchFile>
+    <description>Batch of feeders for COL_CORP_ACTIONS_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MX_COL_CORP_ACTIONS_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MX_COL_CORP_ACT_GF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

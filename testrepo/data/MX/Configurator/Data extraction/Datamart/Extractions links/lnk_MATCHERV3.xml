@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MATCHERV3</label>
+    <batchFile>MATCHERV3.xml</batchFile>
+    <description>Reporting Data Model : MATCHV3_RESULT_REP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

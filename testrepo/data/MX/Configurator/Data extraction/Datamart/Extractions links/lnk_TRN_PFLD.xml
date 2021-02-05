@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>TRN_PFLD</label>
+    <batchFile>TRN_PFLD.xml</batchFile>
+    <description>(BOND)Reporting Data Model: TRN_PFLD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

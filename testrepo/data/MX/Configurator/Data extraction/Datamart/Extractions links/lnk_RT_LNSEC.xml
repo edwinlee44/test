@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>RT_LNSEC</label>
+    <batchFile>RT_LNSEC.xml</batchFile>
+    <description>(FIFO)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

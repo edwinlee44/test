@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_BAGROUPAUD</label>
+    <batchFile>BF_BAGROUPAUD.xml</batchFile>
+    <description>[MX3-FO] MXDM-BA Group Audit</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_BAGROUPAUD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

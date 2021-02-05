@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEALIRD</label>
+    <batchFile>DEALIRD.xml</batchFile>
+    <description>(IR) Reporting Data Model: DEALIRD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

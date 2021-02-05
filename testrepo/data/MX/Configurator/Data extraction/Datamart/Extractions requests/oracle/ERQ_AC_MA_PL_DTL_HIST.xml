@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ERQ_AC_MA_PL_DTL_HIST</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ERQ_AC_MA_PL_DTL_HIST.sql</sql>
+    <description>(MXACRP-MX3)取會計歷史損益明細_單號</description>
+</extractionRequest>

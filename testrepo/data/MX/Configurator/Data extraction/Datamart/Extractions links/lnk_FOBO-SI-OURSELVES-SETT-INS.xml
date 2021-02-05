@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-SI-OURSELVES-SETT-INS</label>
+    <batchFile>FOBO-SI-OURSELVES-SETT-INS.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-SI-OURSELVES-SETT-INS</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

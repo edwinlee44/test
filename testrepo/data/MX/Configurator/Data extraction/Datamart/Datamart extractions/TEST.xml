@@ -1,0 +1,23 @@
+<batch>
+    <label>TEST</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DYN_TP</dapLabel>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>TP.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>BASEL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

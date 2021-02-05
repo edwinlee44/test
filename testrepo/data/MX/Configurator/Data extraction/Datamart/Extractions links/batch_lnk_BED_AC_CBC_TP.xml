@@ -1,0 +1,17 @@
+<setDefinition>
+    <label>BED_AC_CBC_TP</label>
+    <batchFile>BED_AC_CBC_TP.xml</batchFile>
+    <description>(MXACRP-MX3)央報</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_CBC_FWD_DTL.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_CBC_POSITION_DTL.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_OPT_CBC_DELTA.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_1921_CHK_GL.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_1921_CHK_PFOLIO.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_1921_CHK_PROD.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_CBC_OS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

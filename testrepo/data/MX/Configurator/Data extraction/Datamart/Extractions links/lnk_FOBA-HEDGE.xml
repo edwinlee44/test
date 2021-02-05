@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-HEDGE</label>
+    <batchFile>FOBA-HEDGE.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUTOFEED-IN_OFFICE</label>
+    <batchFile>FOBO-AUTOFEED-IN_OFFICE.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

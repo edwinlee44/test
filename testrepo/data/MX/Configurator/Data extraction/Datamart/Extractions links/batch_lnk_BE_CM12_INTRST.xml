@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_CM12_INTRST</label>
+    <batchFile>BE_CM12_INTRST.xml</batchFile>
+    <description>BE_CM12_INTRST</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM12-InterestStatement AC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

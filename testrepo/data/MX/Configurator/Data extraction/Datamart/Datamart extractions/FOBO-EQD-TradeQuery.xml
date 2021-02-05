@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-EQD-TradeQuery</label>
+    <description>FOBO-EQD-TradeQuery - EQD-LB</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-EQD-TradeQuery</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM15-CollateralAssetEligibilit</label>
+    <batchFile>CM15-CollateralAssetEligibilit.xml</batchFile>
+    <description>Collateral Asset Eligibility Report</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

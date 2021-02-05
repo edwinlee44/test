@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MLC_CNCL_MKTOPT</label>
+    <batchFile>MLC_CNCL_MKTOPT.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_MV_OPT_FDR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MLC_CNCL_MKTOPT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

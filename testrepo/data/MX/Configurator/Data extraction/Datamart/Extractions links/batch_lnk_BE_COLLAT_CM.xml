@@ -1,0 +1,16 @@
+<setDefinition>
+    <label>BE_COLLAT_CM</label>
+    <batchFile>BE_COLLAT_CM.xml</batchFile>
+    <description>Collateral CM extraction</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM03-CashCollateralBalance.xml</datamartObjectFile>
+            <datamartObjectFile>CM04-SecurityCollateralInvtry.xml</datamartObjectFile>
+            <datamartObjectFile>CM05-ExposuresByAgreement.xml</datamartObjectFile>
+            <datamartObjectFile>CM11-SummaryPendingDisputes.xml</datamartObjectFile>
+            <datamartObjectFile>CM13-RequirementSummary.xml</datamartObjectFile>
+            <datamartObjectFile>CM13-RequirementSummary_FO.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_AC_MA_PL</label>
+    <batchFile>DEQ_AC_MA_PL.xml</batchFile>
+    <description>(MXACRP-MX3)取會計當日/歷史損益彙總</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

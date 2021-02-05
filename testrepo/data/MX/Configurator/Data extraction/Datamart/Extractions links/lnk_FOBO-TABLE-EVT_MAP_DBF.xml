@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-TABLE-EVT_MAP_DBF</label>
+    <batchFile>FOBO-TABLE-EVT_MAP_DBF.xml</batchFile>
+    <description>(BY SHUNG LIN)EVT_MAP_DBF</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_AC_MA_POSI_TDB_TRN</label>
+    <batchFile>DEQ_AC_MA_POSI_TDB_TRN.xml</batchFile>
+    <description>(MXACRP-MX3)會計當日過兌換檢核 BY PORTFOLIO - 交易明細</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

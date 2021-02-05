@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>OTC_FXD</label>
+    <batchFile>OTC_FXD.xml</batchFile>
+    <description>[OTC]Feed deals including late deals - FXD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-TRN_HDR_FOR NB</label>
+    <batchFile>FOBO-TRN_HDR_FOR NB.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-TRN_HDR_FOR NB</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

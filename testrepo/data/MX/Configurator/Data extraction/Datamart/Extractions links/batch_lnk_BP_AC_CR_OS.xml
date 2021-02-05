@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_AC_CR_OS</label>
+    <batchFile>BP_AC_CR_OS.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PKG_DM_AC_CRD_OS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

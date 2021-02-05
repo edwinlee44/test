@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-CURR_PL_REP_FOR_NB</label>
+    <batchFile>FOBO-CURR_PL_REP_FOR_NB.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

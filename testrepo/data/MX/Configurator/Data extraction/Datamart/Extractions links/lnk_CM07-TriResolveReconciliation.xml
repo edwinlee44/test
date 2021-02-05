@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM07-TriResolveReconciliation</label>
+    <batchFile>CM07-TriResolveReconciliation.xml</batchFile>
+    <description>Collateralized trades for external reconciliation with TriResolve</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

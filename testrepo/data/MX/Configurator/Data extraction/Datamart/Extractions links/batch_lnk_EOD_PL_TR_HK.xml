@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>EOD_PL_TR_HK</label>
+    <batchFile>EOD_PL_TR_HK.xml</batchFile>
+    <description>PL CONV ~ HK2D</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EOD_PL_TR_HK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

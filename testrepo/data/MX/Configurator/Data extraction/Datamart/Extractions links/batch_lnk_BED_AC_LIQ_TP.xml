@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BED_AC_LIQ_TP</label>
+    <batchFile>BED_AC_LIQ_TP.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM12-InterestStatement AC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_TPCL_2</Name>
+    <Description>Reporting Data Model: Transaction per clearer</Description>
+    <Type>Transaction</Type>
+    <Directory>Murex</Directory>
+    <Class>DYN_TRNRP_PL</Class>
+    <History>TPCL_2</History>
+    <Alias>TRNRP_PL.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>CLEARER</Label>
+            <Description>Clearer</Description>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_RPOCL</Formula>
+            <Formula Nb="1">TP_RPOCL2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DLV_CUR</Label>
+            <Description>Delivery Flow Currency</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP=="REPO",TP_NOMCUR,TP_IPAYCUR)</Formula>
+            <Formula Nb="1">TP_NOMCUR</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DLV_DATE</Label>
+            <Description>Delivery Date</Description>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_DTEPMT</Formula>
+            <Formula Nb="1">TP_DTEPMT2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DLV_FLOW</Label>
+            <Description>Delivery Flow</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP="REPO",TP_RPO_AMT,TP_IPAY)</Formula>
+            <Formula Nb="1">TP_RPOAMT2</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DLV_STOCK</Label>
+            <Description>Delivery Stock</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TP_LQTYS2</Formula>
+            <Formula Nb="1">(-1)*TP_LQTYS2</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SCAN_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>QTY_INDEX</Label>
+            <Type>Integer</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BUY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PRICE</Label>
+            <Type>Number</Type>
+            <Length>25</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEPMT</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEPMT2</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NOMINAL</Label>
+            <Type>American</Type>
+            <Length>25</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NOMCUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_SECMKT</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_RPO_AMT</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_RPOAMT2</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_RPOCL</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_RPOCL2</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IPAY</Label>
+            <Type>American</Type>
+            <Length>22</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_IPAYCUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_LQTY</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_LQTYS</Label>
+            <Type>American</Type>
+            <Length>24</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>CLEARER</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DLV_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DLV_DATE</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DLV_FLOW</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>DLV_STOCK</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables>
+                <ScannedTable>Transactions</ScannedTable>
+            </ScannedTables>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="Restricted">(TRN_FMLY=="IRD".AND.(TRN_GRP=="BOND".OR.TRN_GRP=="REPO".OR.TRN_GRP=="WARNT")).OR.(TRN_FMLY=="EQD".AND.(TRN_GRP=="EQUIT".OR.TRN_GRP=="OPT".OR.TRN_GRP=="REPO".OR.TRN_GRP=="WARNT"))             </FilterExpression>
+            <FilterExpression Type="ExcludePLAdjustment">(((TRN_STATUS&lt;&gt;"DEAD").OR.(OPT_MOPLST&gt;DENV('CRT_BND12'))))      </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>Yes</Active>
+            <Times>2</Times>
+            <FilterExpression Nb="0">.T.</FilterExpression>
+            <FilterExpression Nb="1">TRN_GRP="REPO"</FilterExpression>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>Yes</DisableCompute>
+        <ComputeSensitivities/>
+        <ComputeDelta/>
+        <ComputeGamma/>
+        <ComputeTheta/>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega/>
+        <ComputeRR2/>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OPT-UDF</label>
+    <batchFile>FOBO-OPT-UDF.xml</batchFile>
+    <description>(BY SHUNG LIN)_OPT UDF BY M_MRPL_DATE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

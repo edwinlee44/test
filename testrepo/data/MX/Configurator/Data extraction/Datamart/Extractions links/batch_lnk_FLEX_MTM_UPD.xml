@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>FLEX_MTM_UPD</label>
+    <batchFile>FLEX_MTM_UPD.xml</batchFile>
+    <description>for FLEX MTM</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>FLEX_MTM_UPD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

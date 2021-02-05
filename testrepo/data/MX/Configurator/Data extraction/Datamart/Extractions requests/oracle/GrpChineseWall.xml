@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>GrpChineseWall</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/GrpChineseWall.sql</sql>
+    <description>Chinese wall template and counterparts by group</description>
+</extractionRequest>

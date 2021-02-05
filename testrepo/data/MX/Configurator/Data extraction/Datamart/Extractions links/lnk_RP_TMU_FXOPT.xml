@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>RP_TMU_FXOPT</label>
+    <batchFile>RP_TMU_FXOPT.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

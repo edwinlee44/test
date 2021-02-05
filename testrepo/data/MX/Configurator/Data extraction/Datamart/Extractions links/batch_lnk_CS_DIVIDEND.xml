@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>CS_DIVIDEND</label>
+    <batchFile>CS_DIVIDEND.xml</batchFile>
+    <description>(EQ1) Reporting Data Model: [ CS_DIVIDEND ]  --Feed CS_DIVIDEND</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CS_DIVIDEND.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_CS_DIVIDEND.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

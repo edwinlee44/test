@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>SV</label>
+    <batchFile>SV.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SV.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>SV.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

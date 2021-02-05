@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_IR_LNBR_TAX</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_IR_LNBR_TAX.sql</sql>
+    <description>(MXACRP-MX3)</description>
+</extractionRequest>

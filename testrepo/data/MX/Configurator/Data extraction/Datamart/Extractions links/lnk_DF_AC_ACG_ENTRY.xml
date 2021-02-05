@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_ACG_ENTRY</label>
+    <batchFile>DF_AC_ACG_ENTRY.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

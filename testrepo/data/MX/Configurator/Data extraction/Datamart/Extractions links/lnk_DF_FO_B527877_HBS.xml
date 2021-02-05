@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FO_B527877_HBS</label>
+    <batchFile>DF_FO_B527877_HBS.xml</batchFile>
+    <description>(MX3_FO)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

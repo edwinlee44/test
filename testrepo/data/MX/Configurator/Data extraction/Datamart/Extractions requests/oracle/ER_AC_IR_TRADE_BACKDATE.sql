@@ -1,0 +1,5 @@
+SELECT
+       *
+  FROM    V_AC_IR_TRADE_BACKDATE_REP TP
+where to_date(DATA_DT,'YYYYMMDD') @I_DT:D
+   and ENTITY @I_ENTITY:C

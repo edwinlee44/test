@@ -1,0 +1,90 @@
+<filterTemplate>
+    <Label>BO_INTRA_EQD_FLT</Label>
+    <Description>[MX3] MXDM-BO intraDay Filter</Description>
+    <Owner>MUREXBO</Owner>
+    <Group>CONFIG</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>O</UpdateRight>
+    <CreationClass>DYN_TRNRP_PL</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <Description/>
+                <DateOutput>20201130</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>4</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+        </Dates>
+        <Filter>
+            <TransactionTypes>
+                <TransactionType>EQD|OPT|ORG</TransactionType>
+                <TransactionType>EQD|OPT|OTC</TransactionType>
+                <TransactionType>EQD|OPT|BAR</TransactionType>
+                <TransactionType>EQD|OPT|ASI</TransactionType>
+                <TransactionType>EQD|OPT|LKB</TransactionType>
+                <TransactionType>EQD|BOND|CNV</TransactionType>
+                <TransactionType>EQD|BOND|IDX</TransactionType>
+                <TransactionType>EQD|OPT|RNBW</TransactionType>
+                <TransactionType>EQD|EQS|</TransactionType>
+                <TransactionType>EQD|LB|</TransactionType>
+                <TransactionType>EQD|EQUIT|</TransactionType>
+                <TransactionType>EQD|EQUIT|FWD</TransactionType>
+                <TransactionType>EQD|WARNT|</TransactionType>
+                <TransactionType>EQD|FUT|</TransactionType>
+            </TransactionTypes>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <FilterExpression Type="ExcludePLAdjustment">TRN_DATE=DENV('CRT_BND12')</FilterExpression>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

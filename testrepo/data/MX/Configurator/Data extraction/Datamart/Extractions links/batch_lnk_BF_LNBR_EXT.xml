@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_LNBR_EXT</label>
+    <batchFile>BF_LNBR_EXT.xml</batchFile>
+    <description>(MM) Reporting Data Model: [ FeedAll ]  --Feed External deal (LN_BR)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_LNBR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_LNBR_EXT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

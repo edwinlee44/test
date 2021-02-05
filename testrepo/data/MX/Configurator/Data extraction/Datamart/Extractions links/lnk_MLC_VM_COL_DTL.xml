@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_VM_COL_DTL</label>
+    <batchFile>MLC_VM_COL_DTL.xml</batchFile>
+    <description>extraction from COL_CON_DETAIL_REP</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

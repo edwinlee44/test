@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-DLV_CASH_BU_PRODUCER</label>
+    <description>(BY SHUNG LIN)FOBO-DLV_CASH_DBF BY_ORIG_PROD</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-DLV_CASH_BU_PRODUCER</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

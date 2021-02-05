@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BO_UpdateDeal</label>
+    <batchFile>BO_UpdateDeal.xml</batchFile>
+    <description>set Deal No. for updating deal status "Dead" to "Live"</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_MO_CRON_RPT</label>
+    <batchFile>BE_MO_CRON_RPT.xml</batchFile>
+    <description>[MX3-MO]</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

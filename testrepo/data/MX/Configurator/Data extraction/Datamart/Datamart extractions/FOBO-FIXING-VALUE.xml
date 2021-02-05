@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-FIXING-VALUE</label>
+    <description>SHUNG</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-FIXING-VALUE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

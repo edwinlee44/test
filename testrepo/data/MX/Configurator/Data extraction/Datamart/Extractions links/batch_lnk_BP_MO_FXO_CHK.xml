@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_FXO_CHK</label>
+    <batchFile>BP_MO_FXO_CHK.xml</batchFile>
+    <description> [MX3-MO] DS_MO_FXO_PREMU_CHK</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_FXO_PREMU_CHK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

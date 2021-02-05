@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BF_RISK_SECTION</label>
+    <batchFile>BF_RISK_SECTION.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_CU_SWAP_NEAR_HK</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="DE_AC_CU_SWAP_NEAR_HK_VW">ER_AC_CU_SWAP_NEAR_HK</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

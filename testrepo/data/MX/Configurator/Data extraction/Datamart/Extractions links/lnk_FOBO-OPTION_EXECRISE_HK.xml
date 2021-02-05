@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OPTION_EXECRISE_HK</label>
+    <batchFile>FOBO-OPTION_EXECRISE_HK.xml</batchFile>
+    <description>UI OPTION_EXECRISE_HONGKONG</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

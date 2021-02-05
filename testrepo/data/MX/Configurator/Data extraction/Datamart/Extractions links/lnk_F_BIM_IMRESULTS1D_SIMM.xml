@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_BIM_IMRESULTS1D_SIMM</label>
+    <batchFile>F_BIM_IMRESULTS1D_SIMM.xml</batchFile>
+    <description>Single Feeder for BIM_IMRESULT 1D generate from SIMM INSTANCE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

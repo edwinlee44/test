@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_PL_NDF</label>
+    <batchFile>MLC_PL_NDF.xml</batchFile>
+    <description>To generate MLC_PL_NDF</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

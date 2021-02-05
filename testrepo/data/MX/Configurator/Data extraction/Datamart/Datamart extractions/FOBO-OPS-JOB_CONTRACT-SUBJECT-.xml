@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OPS-JOB_CONTRACT-SUBJECT-</label>
+    <description>(BY SHUNG LIN)FOR SETTLEMENT FOBO-OPS-JOB_CONTRACT-SUBJECT- BY CONTRACT</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-OPS-JOB_CONTRACT-SUBJECT-</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

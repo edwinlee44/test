@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-DLV-FLOWTYPE</label>
+    <batchFile>FOBO-DLV-FLOWTYPE.xml</batchFile>
+    <description>(BY SHUNG LIN)FLOW_TYPO_dbf</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

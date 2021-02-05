@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ERQ_EOD_BATCH_INFO_TD</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ERQ_EOD_BATCH_INFO_TD.sql</sql>
+    <description>(MXDM-MX3)查詢當日非MUREX批次執行時間</description>
+</extractionRequest>

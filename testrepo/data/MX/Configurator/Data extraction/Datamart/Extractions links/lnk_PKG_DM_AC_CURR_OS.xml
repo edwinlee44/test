@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PKG_DM_AC_CURR_OS</label>
+    <batchFile>PKG_DM_AC_CURR_OS.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_FO_CRONJOB</label>
+    <batchFile>BE_FO_CRONJOB.xml</batchFile>
+    <description>(MXFORP-MX3)執行MXFORP系統</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_QU_CAL_INFO</label>
+    <batchFile>BP_QU_CAL_INFO.xml</batchFile>
+    <description>(MXQU-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DM_QU_CAL_CP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

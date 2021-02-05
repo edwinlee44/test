@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-ALL_OPT_EXR</label>
+    <batchFile>FOBA-ALL_OPT_EXR.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

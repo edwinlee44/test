@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-V_PAYMENT2_IRD</label>
+    <description>(BY SHUNG LIN)</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-V_PAYMENT2_IRD</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

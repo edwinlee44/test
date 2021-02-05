@@ -1,0 +1,20 @@
+<setDefinition>
+    <label>COUNTERPARTY</label>
+    <batchFile>COUNTERPARTY.xml</batchFile>
+    <description>(IR) Reporting Data Model: [  ]  --Feed COUNTERPARTY,SI,FXMM_MOP,DEALCURR,BUNDLE,HALF_DEALCURR...</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BUNDLE_BODY.xml</datamartObjectFile>
+            <datamartObjectFile>CALENDAR.xml</datamartObjectFile>
+            <datamartObjectFile>COUNTERPARTY.xml</datamartObjectFile>
+            <datamartObjectFile>DEALCURR.xml</datamartObjectFile>
+            <datamartObjectFile>DEALIRD.xml</datamartObjectFile>
+            <datamartObjectFile>DEALSCF.xml</datamartObjectFile>
+            <datamartObjectFile>FXMM_MOP.xml</datamartObjectFile>
+            <datamartObjectFile>NP_UDF_LTI.xml</datamartObjectFile>
+            <datamartObjectFile>PSEUDO_DEALCURR.xml</datamartObjectFile>
+            <datamartObjectFile>SI.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

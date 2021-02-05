@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_NDF_FD</label>
+    <batchFile>DF_NDF_FD.xml</batchFile>
+    <description>[MX3-FO] NDF Fixing Date for TIP</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

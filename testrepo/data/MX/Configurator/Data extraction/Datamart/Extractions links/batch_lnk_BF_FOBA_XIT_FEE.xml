@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_FOBA_XIT_FEE</label>
+    <batchFile>BF_FOBA_XIT_FEE.xml</batchFile>
+    <description>[MXFORP-MX3] FO BA Unwind Fee - FOBA_XIT_FEE</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_FOBA_XIT_FEE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>unwindFee.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

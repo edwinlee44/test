@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_TRN_IRD</label>
+    <batchFile>BF_TRN_IRD.xml</batchFile>
+    <description>(MXDM-SQL_RP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_TRN_IRD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

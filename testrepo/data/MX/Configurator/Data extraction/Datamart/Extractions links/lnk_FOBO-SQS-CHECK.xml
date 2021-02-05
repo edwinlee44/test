@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-SQS-CHECK</label>
+    <batchFile>FOBO-SQS-CHECK.xml</batchFile>
+    <description>(BY SHUNG LIN)BO</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

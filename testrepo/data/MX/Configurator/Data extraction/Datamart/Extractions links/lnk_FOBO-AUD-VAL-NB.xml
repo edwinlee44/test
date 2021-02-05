@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUD-VAL-NB</label>
+    <batchFile>FOBO-AUD-VAL-NB.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

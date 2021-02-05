@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASIS_PAR_RATE</label>
+    <batchFile>BASIS_PAR_RATE.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

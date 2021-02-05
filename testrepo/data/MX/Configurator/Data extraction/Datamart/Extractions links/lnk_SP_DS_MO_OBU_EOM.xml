@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_DS_MO_OBU_EOM</label>
+    <batchFile>SP_DS_MO_OBU_EOM.xml</batchFile>
+    <description>[MX3-MO] EXEC DS_MO_OBU_EOM</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

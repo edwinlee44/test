@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BO_UpdateDeal</label>
+    <batchFile>BO_UpdateDeal.xml</batchFile>
+    <description>set Deal No. for updating deal status "Dead" to "Live"</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BO_UpdateDeal.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

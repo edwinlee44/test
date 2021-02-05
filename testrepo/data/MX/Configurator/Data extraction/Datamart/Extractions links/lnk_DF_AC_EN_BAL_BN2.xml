@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_EN_BAL_BN2</label>
+    <batchFile>DF_AC_EN_BAL_BN2.xml</batchFile>
+    <description>(MXACRP-SQL_RP-MX3)  --RPT_DT, RPT_DT_LD, RPT_DT_LM</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

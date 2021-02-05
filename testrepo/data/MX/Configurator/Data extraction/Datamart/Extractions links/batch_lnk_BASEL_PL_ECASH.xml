@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BASEL_PL_ECASH</label>
+    <batchFile>BASEL_PL_ECASH.xml</batchFile>
+    <description>EXP DEAL</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_PAST_CASH_BK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASEL_PCASH_EXP.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

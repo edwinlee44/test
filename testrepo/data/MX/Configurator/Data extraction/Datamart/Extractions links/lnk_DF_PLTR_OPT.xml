@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_PLTR_OPT</label>
+    <batchFile>DF_PLTR_OPT.xml</batchFile>
+    <description>(MXFORP-MX3)</description>
+    <category>T-MXFORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

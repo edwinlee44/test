@@ -1,0 +1,23 @@
+<batch>
+    <label>MLC_VM_COL_DTL</label>
+    <description>extraction from COL_CON_DETAIL_REP</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>COL_CON_DETAIL</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_CON_DETAIL.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="MLC_VM_COL_MTM">EXT_MLC_VM_COL_MTM</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

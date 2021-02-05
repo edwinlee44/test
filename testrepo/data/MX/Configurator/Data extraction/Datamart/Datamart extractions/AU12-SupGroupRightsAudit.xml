@@ -1,0 +1,15 @@
+<batch>
+    <label>AU12-SupGroupRightsAudit</label>
+    <description>Lists operations occuring in the supervisor and configurator tables</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupGroupRightsAudit">SupervisorsessionAudit</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BED_AC_CU_FWDAD</label>
+    <batchFile>BED_AC_CU_FWDAD.xml</batchFile>
+    <description>(MXACRP-MX3)Test</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_FWD_ADJ.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

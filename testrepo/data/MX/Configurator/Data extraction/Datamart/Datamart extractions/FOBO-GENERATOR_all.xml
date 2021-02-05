@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-GENERATOR_all</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-GENERATOR_all</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

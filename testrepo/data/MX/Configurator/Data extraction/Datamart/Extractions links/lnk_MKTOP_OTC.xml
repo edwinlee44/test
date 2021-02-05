@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MKTOP_OTC</label>
+    <batchFile>MKTOP_OTC.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

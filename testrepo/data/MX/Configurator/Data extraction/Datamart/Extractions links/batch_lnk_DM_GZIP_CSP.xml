@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>DM_GZIP_CSP</label>
+    <batchFile>DM_GZIP_CSP.xml</batchFile>
+    <description>[MX3-MO]</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

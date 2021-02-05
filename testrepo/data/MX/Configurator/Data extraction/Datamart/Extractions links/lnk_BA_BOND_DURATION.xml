@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BA_BOND_DURATION</label>
+    <batchFile>BA_BOND_DURATION.xml</batchFile>
+    <description>BOND_DURATION</description>
+    <category>Fubon</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

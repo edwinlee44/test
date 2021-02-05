@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_OTCIP</label>
+    <batchFile>BP_MO_OTCIP.xml</batchFile>
+    <description> [MX3-MO] DS_MO_OTCIP</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_OTCIP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

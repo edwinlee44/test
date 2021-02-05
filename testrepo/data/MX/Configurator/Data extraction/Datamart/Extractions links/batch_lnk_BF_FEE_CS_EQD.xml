@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_FEE_CS_EQD</label>
+    <batchFile>BF_FEE_CS_EQD.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_FEE_CS_EQD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_FEE_CS_EQD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

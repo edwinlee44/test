@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_runBefMvDate</label>
+    <batchFile>BE_runBefMvDate.xml</batchFile>
+    <description>process runs before fo date moving</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

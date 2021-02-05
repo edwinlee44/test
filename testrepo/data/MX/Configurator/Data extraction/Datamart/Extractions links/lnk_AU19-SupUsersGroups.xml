@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU19-SupUsersGroups</label>
+    <batchFile>AU19-SupUsersGroups.xml</batchFile>
+    <description>List groups and all users belonging to this group</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

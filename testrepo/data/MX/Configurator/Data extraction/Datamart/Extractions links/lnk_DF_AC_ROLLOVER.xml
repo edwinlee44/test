@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_ROLLOVER</label>
+    <batchFile>DF_AC_ROLLOVER.xml</batchFile>
+    <description>(MXACRP-SQLRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

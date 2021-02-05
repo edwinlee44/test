@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_BA_YPL-eoyplhkconv-2CSVN</label>
+    <batchFile>DE_BA_YPL-eoyplhkconv-2CSVN.xml</batchFile>
+    <description>[MX3-FO] DE_BA_YPL-eoyplhkconv-2CSVN</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

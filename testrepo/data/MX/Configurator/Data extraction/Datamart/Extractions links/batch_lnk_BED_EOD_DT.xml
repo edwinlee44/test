@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BED_EOD_DT</label>
+    <batchFile>BED_EOD_DT.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_EOD_DT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

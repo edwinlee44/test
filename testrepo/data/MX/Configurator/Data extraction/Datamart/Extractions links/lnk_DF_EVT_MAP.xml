@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_EVT_MAP</label>
+    <batchFile>DF_EVT_MAP.xml</batchFile>
+    <description/>
+    <category>Static Data</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

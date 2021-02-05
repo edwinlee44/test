@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_INTR_PAY_FEED</label>
+    <batchFile>MX_COL_INTR_PAY_FEED.xml</batchFile>
+    <description>Data feeder for COL_INTR_PAY_REP table</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

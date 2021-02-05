@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_IR_BOND_INT</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="DE_AC_IR_BOND_INT_VW">ER_AC_IR_BOND_INT</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

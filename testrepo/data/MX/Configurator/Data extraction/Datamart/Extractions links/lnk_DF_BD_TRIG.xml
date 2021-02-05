@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BD_TRIG</label>
+    <batchFile>DF_BD_TRIG.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

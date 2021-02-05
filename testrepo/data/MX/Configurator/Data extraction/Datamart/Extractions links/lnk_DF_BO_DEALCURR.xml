@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_DEALCURR</label>
+    <batchFile>DF_BO_DEALCURR.xml</batchFile>
+    <description>(MXBORP-MX3)</description>
+    <category>T-MXBORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

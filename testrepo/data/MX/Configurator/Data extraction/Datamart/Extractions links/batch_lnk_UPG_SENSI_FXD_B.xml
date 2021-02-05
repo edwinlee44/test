@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>UPG_SENSI_FXD_B</label>
+    <batchFile>UPG_SENSI_FXD_B.xml</batchFile>
+    <description>Batch containing the feeder UPG_SENSI_FXD_FEEDER used in the Sensitiv reconciliation testing package</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>UPG_SENSI_FXD_FEEDER.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>PKG_DM_AC_MA_PL_P_DTL</label>
+    <description>(MXACRP-MX3)EXEC PKG_DM_AC_MA_PL.P_DTL</description>
+    <procedure>create or replace function FPKG_DM_AC_MA_PL_P_DTL
+(
+  I_DATE        date,
+  I_M_TP_ENTITY in varchar2,
+  I_M_TRN_FMLY  in varchar2,
+  I_M_TRN_GRP   in varchar2,
+  I_M_TRN_TYPE  in varchar2
+) return number
+
+authid current_user
+
+ as
+  pragma autonomous_transaction;
+
+  ERRNO         number := 0;
+  ERRMSG        varchar2(4000);
+  V_DT          varchar(8) := TO_CHAR(I_DATE, 'YYYYMMDD');
+  V_M_TP_ENTITY varchar(40) := NVL(trim(I_M_TP_ENTITY), 'MA');
+  V_M_TRN_FMLY  varchar(40) := NVL(trim(I_M_TRN_FMLY), 'MA');
+  V_M_TRN_GRP   varchar(40) := NVL(trim(I_M_TRN_GRP), 'MA');
+  V_M_TRN_TYPE  varchar(40) := NVL(trim(I_M_TRN_TYPE), 'MA');
+  V_COMMENT     varchar2(4000);
+  V_FNC_NM      varchar2(4000) := 'FPKG_DM_AC_MA_PL_P_DTL';
+  V_INPUT       varchar2(4000) := '輸入參數~' || 'I_DATE:' || V_DT ||
+                                  '、I_M_TP_ENTITY:' || V_M_TP_ENTITY ||
+                                  '、I_M_TRN_FMLY:' || V_M_TRN_FMLY ||
+                                  '、I_M_TRN_GRP:' || V_M_TRN_GRP ||
+                                  '、I_M_TRN_TYPE:' || V_M_TRN_TYPE || ';';
+  V_PID         number := 0;
+
+begin
+
+  V_COMMENT := '1/1:' || V_FNC_NM || '執行~PKG_DM_AC_MA_PL.P_DTL~' || V_INPUT;
+  SP_EOD_BATCH_INFO(V_DT, V_FNC_NM, V_COMMENT, 'START', V_PID); --約分
+
+  PKG_DM_AC_MA_PL.P_DTL(ERRNO,
+                        ERRMSG,
+                        V_DT,
+                        V_M_TP_ENTITY,
+                        V_M_TRN_FMLY,
+                        V_M_TRN_GRP,
+                        V_M_TRN_TYPE);
+
+  V_COMMENT := '1/1:' || V_FNC_NM || '執行~PKG_DM_AC_MA_PL.P_DTL~' || V_INPUT;
+  SP_EOD_BATCH_INFO(V_DT, V_FNC_NM, V_COMMENT, 'END', V_PID); --約分
+
+  return ERRNO;
+
+exception
+  when others then
+    ERRNO  := -1;
+    ERRMSG := V_FNC_NM || ' had error!!' || sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    return ERRNO;
+end;</procedure>
+    <functionName>FPKG_DM_AC_MA_PL_P_DTL</functionName>
+    <mainTable>DYN_AUDIT.REP</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>10</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>I_DATE</paramLabel>
+            <paramType>date</paramType>
+            <paramLength>0</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+        <parameter>
+            <paramLabel>I_M_TP_ENTITY</paramLabel>
+            <paramType>char</paramType>
+            <paramLength>40</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+        <parameter>
+            <paramLabel>I_M_TRN_FMLY</paramLabel>
+            <paramType>char</paramType>
+            <paramLength>40</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+        <parameter>
+            <paramLabel>I_M_TRN_GRP</paramLabel>
+            <paramType>char</paramType>
+            <paramLength>40</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+        <parameter>
+            <paramLabel>I_M_TRN_TYPE</paramLabel>
+            <paramType>char</paramType>
+            <paramLength>40</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

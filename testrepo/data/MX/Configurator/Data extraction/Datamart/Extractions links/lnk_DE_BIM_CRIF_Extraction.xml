@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_BIM_CRIF_Extraction</label>
+    <batchFile>DE_BIM_CRIF_Extraction.xml</batchFile>
+    <description/>
+    <category>OIS</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

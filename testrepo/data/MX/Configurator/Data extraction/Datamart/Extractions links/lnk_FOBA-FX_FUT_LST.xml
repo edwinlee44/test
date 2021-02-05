@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-FX_FUT_LST</label>
+    <batchFile>FOBA-FX_FUT_LST.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

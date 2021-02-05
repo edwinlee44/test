@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>R_FUNDMM_VN</label>
+    <batchFile>R_FUNDMM_VN.xml</batchFile>
+    <description>R_FUNDMM_VN</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,74 @@
+<filterTemplate>
+    <Label>MLC_MV_OPT</Label>
+    <Description/>
+    <Owner>ITOP001</Owner>
+    <Group>IT_CONFR</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>O</UpdateRight>
+    <CreationClass>DYN_TRNRP_MV</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <Description/>
+                <DateOutput>20201130</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>0</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+        </Dates>
+        <Filter>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <FilterExpression Type="ExcludePLAdjustment">((TRN_FMLY=="CURR".AND.TRN_GRP=="OPT".AND.TRN_TYPE&lt;&gt;"FLEX").OR.(TRN_FMLY=="CURR".AND.TRN_GRP=="OPT".AND.TRN_TYPE=="FLEX".AND.INSTRUMENT&lt;&gt;'USD/CNH'.AND.INSTRUMENT&lt;&gt;'USD/CN1')).AND.(MOP_LAST=1.OR.(TRN_TYPE=="FLEX".AND.MOP_LAST=2)).AND.(BINTERNAL&lt;&gt;SINTERNAL).AND.(OPT_MOPLSD&gt;=DENV("CRT_BND12"))</FilterExpression>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

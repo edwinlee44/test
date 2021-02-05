@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_DERIVE</label>
+    <batchFile>BF_DERIVE.xml</batchFile>
+    <description>(MXDM-SQL_RP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_DERIVE_INFO.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

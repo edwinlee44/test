@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO_COLLATERAL_CP_CCY</label>
+    <description/>
+    <type>Extraction</type>
+    <category>OIS</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO_COLLATERAL_CP_CCY</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

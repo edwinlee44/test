@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_PARTIES_FEED</label>
+    <batchFile>MX_COL_PARTIES_FEED.xml</batchFile>
+    <description>Data feeder for COL_PARTIES_REP</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

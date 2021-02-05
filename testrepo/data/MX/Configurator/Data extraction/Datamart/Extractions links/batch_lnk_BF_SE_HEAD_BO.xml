@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_SE_HEAD_BO</label>
+    <batchFile>BF_SE_HEAD_BO.xml</batchFile>
+    <description>[MX3] MXDM-BO intraDay Feeder</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>INTRAD_SE_HEAD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

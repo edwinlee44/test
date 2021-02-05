@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU14-SupSimplePortfolioRights</label>
+    <batchFile>AU14-SupSimplePortfolioRights.xml</batchFile>
+    <description>Lists rights on simple portfolios used by groups</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

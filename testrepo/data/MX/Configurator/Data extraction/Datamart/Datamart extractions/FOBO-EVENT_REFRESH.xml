@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-EVENT_REFRESH</label>
+    <description>(BY SHUNG LIN)</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-EVENT_REFRESH</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

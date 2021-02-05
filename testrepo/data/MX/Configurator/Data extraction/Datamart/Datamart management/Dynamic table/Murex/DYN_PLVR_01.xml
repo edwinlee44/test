@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_PLVR_01</Name>
+    <Description>Reporting Data Model: P&amp;L Variance</Description>
+    <Type>Transaction</Type>
+    <Directory>Murex</Directory>
+    <Class>DYN_TRN_PLVR</Class>
+    <History>PLVR_01</History>
+    <Alias>TRN_PLVR.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>ACC_CUR</Label>
+            <Description>Accounting currency</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CENV("CUR_ACC")</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FCP0</Label>
+            <Description>Future Cash Proceeds at date0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">FPNFU_CAP0+FPNFU_REV0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FCP1</Label>
+            <Description>Future Cash Proceeds at date1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">FPNFU_CAP1+FPNFU_REV1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FIN0</Label>
+            <Description>Financing 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(CSFR_CAP0-CSNFR_CAP0)+(CSFR_REV0-CSNFR_REV0)+(CSFU_CAP0-CSNFU_CAP0)+(CSFU_REV0-CSNFU_REV0)+(F_ALL0-NF_ALL0)+(F_ASS0-NF_ASS0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FIN1</Label>
+            <Description>Financing 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(CSFR_CAP1-CSNFR_CAP1)+(CSFR_REV1-CSNFR_REV1)+(CSFU_CAP1-CSNFU_CAP1)+(CSFU_REV1-CSNFU_REV1)+(F_ALL1-NF_ALL1)+(F_ASS1-NF_ASS1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>G_MT_ODESC</Label>
+            <Description>Analysis key - maturity &amp; option description: maturity, strike, call/put, american/european</Description>
+            <Type>Character</Type>
+            <Length>28</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TRIM(DTOC(TP_DTEEXP))+LTRIM(TRIM(STR(TP_STRIKE,18,8)))+TRIM(TP_CP)+TRIM(TP_AE)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV0</Label>
+            <Description>NF Market Value at date0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MVNF_CAP0+MVNF_REV0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>MV1</Label>
+            <Description>NF Market Value at date1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">MVNF_CAP1+MVNF_REV1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PCP0</Label>
+            <Description>Past Cash Proceeds 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(CSNFR_CAP0)+CSNFR_REV0+CSNFU_CAP0+CSNFU_REV0+NF_ALL0+NF_ASS0</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PCP1</Label>
+            <Description>Past Cash Proceeds 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CSNFR_CAP1+CSNFR_REV1+CSNFU_CAP1+CSNFU_REV1+NF_ALL1+NF_ASS1</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PVE0</Label>
+            <Description>PV Effect 0</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(MVF_CAP0-MVNF_CAP0)+(MVF_REV0-MVNF_REV0)+(FPFR_CAP0-FPNFR_CAP0)+(FPFR_REV0-FPNFR_REV0)+(FPFU_CAP0-FPNFU_CAP0)+(FPFU_REV0-FPNFU_REV0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PVE1</Label>
+            <Description>PV Effect 1</Description>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">(MVF_CAP1-MVNF_CAP1)+(MVF_REV1-MVNF_REV1)+(FPFR_CAP1-FPNFR_CAP1)+(FPFR_REV1-FPNFR_REV1)+(FPFU_CAP1-FPNFU_CAP1)+(FPFU_REV1-FPNFU_REV1)</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description>Reporting config</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>VAR_CONFIG</Label>
+            <Description>VarConfig</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>PARAMETER</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CSFR_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSFR_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSFU_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSFU_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSNFR_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSNFR_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSNFU_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSNFU_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FPFR_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FPFR_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FPFU_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FPFU_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FPNFR_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FPNFR_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FPNFU_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FPNFU_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MVF_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MVF_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MVNF_CAP</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MVNF_REV</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>NF_BRKR</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>NF_ALL</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>NF_ASS</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>F_ALL</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>F_ASS</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CONV_NF</Label>
+            <Type>Number</Type>
+            <Length>16</Length>
+            <Decimal>11</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>INSTRUMENT</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEEXP</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_STRIKE</Label>
+            <Type>Number</Type>
+            <Length>18</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_CP</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_AE</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACC_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>FCP0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FCP1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FIN0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>FIN1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>G_MT_ODESC</Label>
+            <Type>Character</Type>
+            <Length>28</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>MV0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>MV1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PCP0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PCP1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PVE0</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>PVE1</Label>
+            <Type>American</Type>
+            <Length>16</Length>
+            <Decimal>2</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code>FORWARD</Code>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>No</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn BreakdownMode="0" ClassificationType="0">Consolidated base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>Contextual today</Type>
+                <Description>Analysis End Date</Description>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

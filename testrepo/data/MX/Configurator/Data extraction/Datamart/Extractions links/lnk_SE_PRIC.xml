@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SE_PRIC</label>
+    <batchFile>SE_PRIC.xml</batchFile>
+    <description>Reporting Data Model: SE_PRIC</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

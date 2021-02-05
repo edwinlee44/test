@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_ARC</label>
+    <batchFile>BF_ARC.xml</batchFile>
+    <description>NON TRANSACTION</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_ARC.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

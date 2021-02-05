@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_DYN_CHK_CSSW</label>
+    <batchFile>BF_DYN_CHK_CSSW.xml</batchFile>
+    <description>(MX3-RECON)SWAP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_DYN_CHECK_CSSW.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

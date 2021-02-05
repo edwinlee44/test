@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-FIXING-PROCEDURE</label>
+    <batchFile>FOBO-FIXING-PROCEDURE.xml</batchFile>
+    <description>(BY SHUNG LIN)FOR BOAD FIXING-PROCEDURE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

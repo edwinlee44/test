@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-OPT_PREM</label>
+    <batchFile>FOBA-OPT_PREM.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_EQD_SMP</label>
+    <batchFile>FOBO_EQD_SMP.xml</batchFile>
+    <description>FOBO_EQD_SMP transaction</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

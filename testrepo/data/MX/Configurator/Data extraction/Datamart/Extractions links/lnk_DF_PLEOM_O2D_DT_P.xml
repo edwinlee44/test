@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_PLEOM_O2D_DT_P</label>
+    <batchFile>DF_PLEOM_O2D_DT_P.xml</batchFile>
+    <description/>
+    <category>T-MXFORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

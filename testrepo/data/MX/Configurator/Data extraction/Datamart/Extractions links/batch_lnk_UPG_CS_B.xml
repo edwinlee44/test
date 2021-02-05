@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>UPG_CS_B</label>
+    <batchFile>UPG_CS_B.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>UPG_CS_FEEDER.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

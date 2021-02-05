@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_COL_TAX_ACC</label>
+    <batchFile>SP_COL_TAX_ACC.xml</batchFile>
+    <description/>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

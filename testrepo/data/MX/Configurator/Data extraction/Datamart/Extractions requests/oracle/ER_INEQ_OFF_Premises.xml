@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_INEQ_OFF_Premises</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_INEQ_OFF_Premises.sql</sql>
+    <description>(MXDM-MX3)</description>
+</extractionRequest>

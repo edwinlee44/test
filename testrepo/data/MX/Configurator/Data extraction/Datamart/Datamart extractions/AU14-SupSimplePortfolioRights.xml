@@ -1,0 +1,15 @@
+<batch>
+    <label>AU14-SupSimplePortfolioRights</label>
+    <description>Lists rights on simple portfolios used by groups</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupSimplePortfolioRights">SimplePortfoliosRights</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

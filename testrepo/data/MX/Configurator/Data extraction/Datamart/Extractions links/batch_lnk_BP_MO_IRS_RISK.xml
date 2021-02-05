@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_IRS_RISK</label>
+    <batchFile>BP_MO_IRS_RISK.xml</batchFile>
+    <description> [MX3-MO] DS_MO_IRS_RISK_CTRL</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_IRS_RISK_CTRL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

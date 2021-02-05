@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SI_GRID</label>
+    <batchFile>SI_GRID.xml</batchFile>
+    <description>Reporting Data Model: SI_GRID for retrieve settlement</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

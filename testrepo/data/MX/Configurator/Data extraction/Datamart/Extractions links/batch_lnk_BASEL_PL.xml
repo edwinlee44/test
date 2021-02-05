@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BASEL_PL</label>
+    <batchFile>BASEL_PL.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASEL_PL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

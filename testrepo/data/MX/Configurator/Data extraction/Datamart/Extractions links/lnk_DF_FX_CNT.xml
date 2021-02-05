@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FX_CNT</label>
+    <batchFile>DF_FX_CNT.xml</batchFile>
+    <description>(MX3-MXDM)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

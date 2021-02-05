@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQD_BOND_TP</label>
+    <batchFile>BF_EQD_BOND_TP.xml</batchFile>
+    <description>(FIFO) Reporting Data Model: [ EQD ]  --Feed equity deal (BOND)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_EQD_CBC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EQD_BOND_TP.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

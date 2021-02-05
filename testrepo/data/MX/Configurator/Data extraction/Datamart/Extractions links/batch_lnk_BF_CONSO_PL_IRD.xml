@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CONSO_PL_IRD</label>
+    <batchFile>BF_CONSO_PL_IRD.xml</batchFile>
+    <description>(IR) Reporting Data Model: [ CONSO_PL ]  --Feed CONSO_PL (FMLY=IRD)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_CONSO_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_CONSO_PL_IRD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

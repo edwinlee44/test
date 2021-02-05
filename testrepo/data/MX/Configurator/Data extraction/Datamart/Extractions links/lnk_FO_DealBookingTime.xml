@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FO_DealBookingTime</label>
+    <batchFile>FO_DealBookingTime.xml</batchFile>
+    <description>FO_DealBookingTime</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

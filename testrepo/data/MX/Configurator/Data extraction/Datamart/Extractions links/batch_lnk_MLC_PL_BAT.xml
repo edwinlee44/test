@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MLC_PL_BAT</label>
+    <batchFile>MLC_PL_BAT.xml</batchFile>
+    <description>MLC DATA MODEL_PL</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_PL_NDF.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

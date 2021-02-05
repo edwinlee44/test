@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-TRN-SI</label>
+    <description>(BY SHUNG LIN)FOR DAILY/PERIOD TRNS SSI</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-TRN-SI</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

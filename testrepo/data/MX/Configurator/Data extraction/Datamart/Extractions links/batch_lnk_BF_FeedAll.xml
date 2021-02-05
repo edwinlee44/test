@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_FeedAll</label>
+    <batchFile>BF_FeedAll.xml</batchFile>
+    <description>Reporting Data Model: [ F_FeedAll ]  --Feed TP,PL,CS,MV,XG</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>NO_FILTER.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

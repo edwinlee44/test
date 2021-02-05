@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_MA_30360_INT_CHK_HK</label>
+    <batchFile>DE_AC_MA_30360_INT_CHK_HK.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

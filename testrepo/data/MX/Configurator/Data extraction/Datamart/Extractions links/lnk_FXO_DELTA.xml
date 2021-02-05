@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FXO_DELTA</label>
+    <batchFile>FXO_DELTA.xml</batchFile>
+    <description>FX OPTION DELTA</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

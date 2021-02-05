@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_MM_SELLDOWN_VN</label>
+    <batchFile>DF_MM_SELLDOWN_VN.xml</batchFile>
+    <description>[MX-MX3]</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

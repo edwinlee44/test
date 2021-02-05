@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_EXC_ALLOC_FEED</label>
+    <batchFile>MX_COL_EXC_ALLOC_FEED.xml</batchFile>
+    <description>Data feeder for COL_EXC_ALLOC_REP table</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

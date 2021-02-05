@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_SCF_MV_SG</label>
+    <batchFile>BF_SCF_MV_SG.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_SCF_MV.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_SG.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

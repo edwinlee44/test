@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_EQ_CONSO</label>
+    <batchFile>BP_MO_EQ_CONSO.xml</batchFile>
+    <description> [MX3-MO] DS_MO_EQUITY_CONSNO</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_EQUITY_CONSO.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_O2D_OPT_OBU</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_AC_O2D_OPT_OBU</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

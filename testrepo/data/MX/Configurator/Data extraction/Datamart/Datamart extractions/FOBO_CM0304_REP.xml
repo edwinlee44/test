@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO_CM0304_REP</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO_CM0304_REP</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

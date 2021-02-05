@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ERQ_VIEW_JOB</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ERQ_VIEW_JOB.sql</sql>
+    <description>(MXDM-MX3)查詢當日View Execution Jobs</description>
+</extractionRequest>

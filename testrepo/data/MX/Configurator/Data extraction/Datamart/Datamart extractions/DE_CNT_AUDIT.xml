@@ -1,0 +1,30 @@
+<batch>
+    <label>DE_CNT_AUDIT</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>MXDM_EVT_MAPPING.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DT_EVT_HIS</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>MXDM_EVT_HIS.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="DE_CNT_AUDIT_VW">AUD_CNT_FIELD_CHANGE_SQL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

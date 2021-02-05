@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>Z_CONSOPL_0924</label>
+    <batchFile>Z_CONSOPL_0924.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_CONSO_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_CONSO_PL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

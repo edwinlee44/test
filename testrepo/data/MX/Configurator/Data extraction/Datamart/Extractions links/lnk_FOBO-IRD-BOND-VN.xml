@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-IRD-BOND-VN</label>
+    <batchFile>FOBO-IRD-BOND-VN.xml</batchFile>
+    <description>IRD/BOND DEAL INFORMATION FOR VIETNAM</description>
+    <category>REPORT_BO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

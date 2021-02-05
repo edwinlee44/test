@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_MDDM_BOND_SRC</label>
+    <batchFile>DF_MDDM_BOND_SRC.xml</batchFile>
+    <description>[mx3]</description>
+    <category>REPORT_FO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

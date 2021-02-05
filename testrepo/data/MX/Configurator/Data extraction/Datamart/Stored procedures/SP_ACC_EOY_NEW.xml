@@ -1,0 +1,15 @@
+<batch>
+    <label>SP_ACC_EOY_NEW</label>
+    <description/>
+    <type>Stored procedure</type>
+    <category>T-MXACRP</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>SP_ACC_EOY_NEW</storedProcedure>
+    </storedProcedures>
+</batch>

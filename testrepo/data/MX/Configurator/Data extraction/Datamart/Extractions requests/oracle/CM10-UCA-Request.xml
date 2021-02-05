@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM10-UCA-Request</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM10-UCA-Request.sql</sql>
+    <description>CM10 SQL request</description>
+</extractionRequest>

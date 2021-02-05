@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-VN-FUNDTRANSFER_SI</label>
+    <description>FOBO-VN-FUNDTRANSFER_SI</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-VN-FUNDTRANSFER_SI</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

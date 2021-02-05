@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_TRN_ACA1</label>
+    <batchFile>BF_TRN_ACA1.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_TRN_ACA1.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

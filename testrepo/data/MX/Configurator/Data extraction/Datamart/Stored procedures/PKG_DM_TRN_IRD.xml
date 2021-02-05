@@ -1,0 +1,15 @@
+<batch>
+    <label>PKG_DM_TRN_IRD</label>
+    <description>EXEC FPKG_DM_TRN_IRD</description>
+    <type>Stored procedure</type>
+    <category>T-MXDM</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>PKG_DM_TRN_IRD</storedProcedure>
+    </storedProcedures>
+</batch>

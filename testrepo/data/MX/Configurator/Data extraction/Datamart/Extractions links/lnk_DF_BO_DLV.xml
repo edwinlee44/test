@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_DLV</label>
+    <batchFile>DF_BO_DLV.xml</batchFile>
+    <description>(MX3_BO)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

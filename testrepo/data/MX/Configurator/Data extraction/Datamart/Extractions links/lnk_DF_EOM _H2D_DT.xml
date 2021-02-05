@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_EOM _H2D_DT</label>
+    <batchFile>DF_EOM _H2D_DT.xml</batchFile>
+    <description/>
+    <category>T-MXFORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

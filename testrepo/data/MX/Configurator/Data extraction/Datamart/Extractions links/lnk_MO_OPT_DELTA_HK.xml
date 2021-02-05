@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_OPT_DELTA_HK</label>
+    <batchFile>MO_OPT_DELTA_HK.xml</batchFile>
+    <description>[MX3-MO] MO_OPT_DELTA_HK</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

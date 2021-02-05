@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>UserLoginActiv</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/UserLoginActiv.sql</sql>
+    <description>User login activity report</description>
+</extractionRequest>

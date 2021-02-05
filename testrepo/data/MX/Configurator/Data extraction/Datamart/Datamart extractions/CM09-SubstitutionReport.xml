@@ -1,0 +1,37 @@
+<batch>
+    <label>CM09-SubstitutionReport</label>
+    <description>Daily collateral substitutions report</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel/>
+            <directory>Murex</directory>
+            <filter/>
+            <outputTable>COL_PARTIES_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_EXC_ALLOC</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_EXC_ALLOC_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_EXC_MR</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_EXC_MR_FB.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM09-DailySubstitutionReport">CM09-Substitution request</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

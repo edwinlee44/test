@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MM_RECONCILE</label>
+    <batchFile>MM_RECONCILE.xml</batchFile>
+    <description>(MM) Reporting Data Model: [ MM_RECONCILE ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MM_RECONCILE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

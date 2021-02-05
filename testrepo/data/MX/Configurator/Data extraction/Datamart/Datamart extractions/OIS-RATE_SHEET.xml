@@ -1,0 +1,15 @@
+<batch>
+    <label>OIS-RATE_SHEET</label>
+    <description/>
+    <type>Extraction</type>
+    <category>OIS</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>OIS-RATE_SHEET</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,15 @@
+<batch>
+    <label>AU19-SupUsersGroups</label>
+    <description>List groups and all users belonging to this group</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupUsersGroups">SupGroupsUsers</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

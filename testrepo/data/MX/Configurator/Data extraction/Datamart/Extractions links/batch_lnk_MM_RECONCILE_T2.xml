@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MM_RECONCILE_T2</label>
+    <batchFile>MM_RECONCILE_T2.xml</batchFile>
+    <description>MM_RECONCILE_T2</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MM_RECONCILE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MM_RECONCILE_T2.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

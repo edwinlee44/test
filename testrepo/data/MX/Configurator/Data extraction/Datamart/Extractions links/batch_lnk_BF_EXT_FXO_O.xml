@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EXT_FXO_O</label>
+    <batchFile>BF_EXT_FXO_O.xml</batchFile>
+    <description>(EX) Reporting Data Model: [ FeedAll ] External deal (Option)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EXT_FXO_O.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

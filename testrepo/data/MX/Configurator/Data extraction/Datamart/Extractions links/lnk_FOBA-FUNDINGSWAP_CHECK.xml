@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-FUNDINGSWAP_CHECK</label>
+    <batchFile>FOBA-FUNDINGSWAP_CHECK.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

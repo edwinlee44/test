@@ -1,0 +1,101 @@
+<filterTemplate>
+    <Label>FLT_IRD_EXT</Label>
+    <Description>(IRD) Reporting Data Model: External deal for IRD</Description>
+    <Owner>ITSO001</Owner>
+    <Group>IT_CONF</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>E</UpdateRight>
+    <CreationClass>DYN_TRNRP_XG</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="0">
+                <Type>Inception</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>Inception</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="2">
+                <Type>Reporting date</Type>
+                <Description/>
+                <DateOutput>20201127</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>0</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+        </Dates>
+        <Filter>
+            <ScannedTables>
+                <ScannedTable>Transactions</ScannedTable>
+            </ScannedTables>
+            <TransactionTypes>
+                <TransactionType>IRD|FRA|</TransactionType>
+                <TransactionType>IRD|INFLS|</TransactionType>
+                <TransactionType>IRD|ASWP|</TransactionType>
+                <TransactionType>IRD|CD|</TransactionType>
+                <TransactionType>IRD|CF|</TransactionType>
+                <TransactionType>IRD|CS|</TransactionType>
+                <TransactionType>IRD|IRG|</TransactionType>
+                <TransactionType>IRD|IRS|</TransactionType>
+                <TransactionType>IRD|LB|</TransactionType>
+                <TransactionType>IRD|LFUT|</TransactionType>
+                <TransactionType>IRD|OCF|</TransactionType>
+                <TransactionType>IRD|OPT|ASI</TransactionType>
+                <TransactionType>IRD|OPT|BAR</TransactionType>
+                <TransactionType>IRD|OPT|FLEX</TransactionType>
+                <TransactionType>IRD|OPT|LAD</TransactionType>
+                <TransactionType>IRD|OPT|ORG</TransactionType>
+                <TransactionType>IRD|OPT|OTC</TransactionType>
+                <TransactionType>IRD|OPT|RAT</TransactionType>
+                <TransactionType>IRD|OSWP|</TransactionType>
+                <TransactionType>IRD|SFUT|</TransactionType>
+                <TransactionType>IRD|TRS|</TransactionType>
+                <TransactionType>IRD|WARNT|</TransactionType>
+            </TransactionTypes>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <FilterExpression Type="ExcludePLAdjustment">SYS_DATE&lt;=DENV('CRT_BND12').AND.BINTERNAL&lt;&gt;SINTERNAL</FilterExpression>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

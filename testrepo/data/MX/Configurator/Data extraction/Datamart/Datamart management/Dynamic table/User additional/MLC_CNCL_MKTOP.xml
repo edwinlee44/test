@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>MLC_CNCL_MKTOP</Name>
+    <Description/>
+    <Type>Copy creation</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class/>
+    <History>His3_66</History>
+    <Alias>TRN_AUD</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field>
+            <Label>DATE</Label>
+            <Type>Date</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACTION</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACT_NB0</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes/>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="ExcludePLAdjustment">DATE=DENV('CRT_BND12').AND.ACTION='CNCL'                        </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation>
+            <Source>TRN_AUD</Source>
+            <DirectoryType>Default</DirectoryType>
+            <DirectoryPath/>
+            <MarketParameter>
+                <DeskDefined>No</DeskDefined>
+                <Desk/>
+                <Date>
+                    <Dates>
+                        <Date Nb="2">
+                            <Type>Contextual today</Type>
+                            <DateOutput>20201130</DateOutput>
+                        </Date>
+                        <Date Nb="1">
+                            <Type>No selection</Type>
+                        </Date>
+                        <Date Nb="0">
+                            <Type>No selection</Type>
+                        </Date>
+                    </Dates>
+                </Date>
+                <RootFile>No</RootFile>
+            </MarketParameter>
+            <Merge>
+                <Active>No</Active>
+                <SourceTable/>
+                <SourceField/>
+                <DestinationField/>
+                <DestinationKey/>
+            </Merge>
+        </Creation>
+        <ConsolidationFilter>
+            <Active>Yes</Active>
+            <FilterExpression>DATE=DENV('CRT_BND12').AND.ACTION='CNCL'</FilterExpression>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>Yes</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>Yes</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

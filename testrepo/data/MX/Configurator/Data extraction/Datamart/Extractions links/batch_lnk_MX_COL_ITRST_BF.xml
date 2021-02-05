@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MX_COL_ITRST_BF</label>
+    <batchFile>MX_COL_ITRST_BF.xml</batchFile>
+    <description>Batch of feeders for COL_INTERESTS_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MX_COL_INTEREST_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MX_COL_ITRST_GF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_400DCI_EXP</label>
+    <batchFile>DF_400DCI_EXP.xml</batchFile>
+    <description>[MXFO-MX3] 201611</description>
+    <category>REPORT_FO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

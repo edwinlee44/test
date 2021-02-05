@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>FX_CURR_OUT</label>
+    <batchFile>FX_CURR_OUT.xml</batchFile>
+    <description>(IR) Reporting Data Mode: [ FX_CURR_HIST ]  --Feed FX_CURR_OUT</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>FX_CURR_OUT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

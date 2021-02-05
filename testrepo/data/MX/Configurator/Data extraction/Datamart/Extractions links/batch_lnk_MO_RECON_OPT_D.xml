@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_RECON_OPT_D</label>
+    <batchFile>MO_RECON_OPT_D.xml</batchFile>
+    <description>[MX3-MO] MO_RECON_OPT_DELTA</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_RECON_OPT_DELTA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

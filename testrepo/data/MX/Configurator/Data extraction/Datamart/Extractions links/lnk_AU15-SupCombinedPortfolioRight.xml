@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU15-SupCombinedPortfolioRight</label>
+    <batchFile>AU15-SupCombinedPortfolioRight.xml</batchFile>
+    <description>Lists rights on combined portfolios used by groups</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

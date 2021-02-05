@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BE_CM13_REQSUM</label>
+    <batchFile>BE_CM13_REQSUM.xml</batchFile>
+    <description>BE_CM13_REQSUM</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM13-RequirementSummary.xml</datamartObjectFile>
+            <datamartObjectFile>CM13-RequirementSummary_FO.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

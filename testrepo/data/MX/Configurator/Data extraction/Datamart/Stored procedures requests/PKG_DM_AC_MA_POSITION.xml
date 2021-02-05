@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>PKG_DM_AC_MA_POSITION</label>
+    <description>(MXACRP-MX3) EXEC PKG_DM_AC_MA_POSITION</description>
+    <procedure>CREATE OR REPLACE Function FPKG_DM_AC_MA_POSITION(I_DATE   Date,
+                                                  I_ENTITY Varchar2) Return Number
+
+Authid Current_User
+
+ As
+  Pragma Autonomous_Transaction;
+
+  ERRNO     Number := 0;
+  ERRMSG    Varchar(400);
+  V_FNCNAME Varchar(400) := 'FPKG_DM_AC_MA_POSITION';
+  I_DT      Varchar(8) := TO_CHAR(I_DATE, 'YYYYMMDD');
+Begin
+  PKG_DM_AC_MA_POSITION.P_BATCH(ERRNO, ERRMSG, I_DT);
+  Return ERRNO;
+Exception
+  When Others Then
+    ERRNO  := -1;
+    ERRMSG := V_FNCNAME || ' had error!!' || Sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    Return ERRNO;
+End;</procedure>
+    <functionName>FPKG_DM_AC_MA_POSITION</functionName>
+    <mainTable>DYN_AUDIT.REP</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>10</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>I_DATE</paramLabel>
+            <paramType>date</paramType>
+            <paramLength>8</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+        <parameter>
+            <paramLabel>I_ENTITY</paramLabel>
+            <paramType>char</paramType>
+            <paramLength>10</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

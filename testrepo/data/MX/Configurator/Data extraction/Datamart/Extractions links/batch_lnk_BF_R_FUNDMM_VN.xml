@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_R_FUNDMM_VN</label>
+    <batchFile>BF_R_FUNDMM_VN.xml</batchFile>
+    <description>BF_R_FUNDMM_VN</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>R_FUNDMM_VN.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

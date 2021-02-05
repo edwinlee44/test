@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OPTION_EXECRISE_HK</label>
+    <description>UI OPTION_EXECRISE_HONGKONG</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>UI OPTION_EXECRISE_HONGKONG</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

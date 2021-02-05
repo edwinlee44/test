@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_MA_30360_INT_CHK_HK</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_AC_MA_30360_INT_CHK_HK</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MRDM_FXO_DELTA_ARC</label>
+    <batchFile>MRDM_FXO_DELTA_ARC.xml</batchFile>
+    <description>[MX3-MO] MRDM_FXO_DELTA_ARC</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

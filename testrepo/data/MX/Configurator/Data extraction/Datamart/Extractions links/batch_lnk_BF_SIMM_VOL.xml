@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>BF_SIMM_VOL</label>
+    <batchFile>BF_SIMM_VOL.xml</batchFile>
+    <description>Batch of Feeder for SIMM Cap Floor, Swaption Vol and Bond Vol</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_SIMM_CAP_VOL_REP.xml</datamartObjectFile>
+            <datamartObjectFile>F_SIMM_SWAP_VOL_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_VOL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

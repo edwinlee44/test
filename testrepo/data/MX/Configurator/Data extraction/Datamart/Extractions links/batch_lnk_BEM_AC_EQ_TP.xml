@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>BEM_AC_EQ_TP</label>
+    <batchFile>BEM_AC_EQ_TP.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_EQ_LST_TRADE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_EQ_MMF_M_CHK.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_EQ_TRADE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

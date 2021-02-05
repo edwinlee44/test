@@ -1,0 +1,15 @@
+<batch>
+    <label>IRD_DETAIL</label>
+    <description>SHUNGLIN</description>
+    <type>Extraction</type>
+    <category>BA_IRD</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>IRD_DETAIL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

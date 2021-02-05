@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OPT-PREEVENT-ALL-PERIOD</label>
+    <batchFile>FOBO-OPT-PREEVENT-ALL-PERIOD.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

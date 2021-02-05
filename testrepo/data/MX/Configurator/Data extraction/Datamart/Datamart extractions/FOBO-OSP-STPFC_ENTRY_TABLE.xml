@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OSP-STPFC_ENTRY_TABLE</label>
+    <description>(BY SHUNG LIN)FOBO-OSP-STPFC_ENTRY_TABLE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-OSP-STPFC_ENTRY_TABLE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

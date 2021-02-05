@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_IRD_RPRS_CS</label>
+    <batchFile>DF_BO_IRD_RPRS_CS.xml</batchFile>
+    <description>(MXDM-MX3) BO RPRS CS</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

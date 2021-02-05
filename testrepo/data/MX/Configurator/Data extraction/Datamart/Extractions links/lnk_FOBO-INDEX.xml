@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-INDEX</label>
+    <batchFile>FOBO-INDEX.xml</batchFile>
+    <description>FOR TRIM(M_ARCH_LABEL)='T6165(TWD-1)'</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

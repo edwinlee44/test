@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>UPG_SENSI_EQD_FEEDER</label>
+    <batchFile>UPG_SENSI_EQD_FEEDER.xml</batchFile>
+    <description>Feeder for table UPG_SENSI_EQD_REP used in the Sensitivities Reconciliation testing package</description>
+    <category>Reconciliation</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

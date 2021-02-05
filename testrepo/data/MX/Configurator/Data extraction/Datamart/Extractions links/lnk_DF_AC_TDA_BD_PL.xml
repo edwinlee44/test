@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_TDA_BD_PL</label>
+    <batchFile>DF_AC_TDA_BD_PL.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <category>T-MXAC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

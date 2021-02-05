@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>L_MOP_TY</label>
+    <batchFile>L_MOP_TY.xml</batchFile>
+    <description>(BOND)Reporting Data Model: L_MOP_TY</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

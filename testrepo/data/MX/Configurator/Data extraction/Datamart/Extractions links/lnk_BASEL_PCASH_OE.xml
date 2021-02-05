@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_PCASH_OE</label>
+    <batchFile>BASEL_PCASH_OE.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

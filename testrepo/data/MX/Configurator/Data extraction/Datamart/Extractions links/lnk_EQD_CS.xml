@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>EQD_CS</label>
+    <batchFile>EQD_CS.xml</batchFile>
+    <description>(EQ) Reporting Data Model: EQD_CS</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

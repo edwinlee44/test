@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU18-SupDatapubTmplRights</label>
+    <batchFile>AU18-SupDatapubTmplRights.xml</batchFile>
+    <description>Lists groups and details on the datapublisher template of each group</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

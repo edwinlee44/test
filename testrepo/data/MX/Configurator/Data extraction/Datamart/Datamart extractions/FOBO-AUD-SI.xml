@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-AUD-SI</label>
+    <description>(BY SHUNG LIN) SI AUDIT LOG</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-AUD-SI</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

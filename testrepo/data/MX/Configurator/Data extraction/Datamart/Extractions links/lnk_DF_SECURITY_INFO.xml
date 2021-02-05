@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_SECURITY_INFO</label>
+    <batchFile>DF_SECURITY_INFO.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

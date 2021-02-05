@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_SIMM_IR_DELTA_XC_REP</label>
+    <batchFile>F_SIMM_IR_DELTA_XC_REP.xml</batchFile>
+    <description>Single Table feeder for SIMM_IR_DELTA_XC_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

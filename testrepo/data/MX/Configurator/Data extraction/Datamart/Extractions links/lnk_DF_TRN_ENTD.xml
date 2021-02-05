@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_TRN_ENTD</label>
+    <batchFile>DF_TRN_ENTD.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

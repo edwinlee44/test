@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_CRD_MV</label>
+    <batchFile>DF_CRD_MV.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

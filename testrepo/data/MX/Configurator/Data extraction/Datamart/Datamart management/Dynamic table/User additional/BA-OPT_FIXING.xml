@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>BA-OPT_FIXING</Name>
+    <Description>list of DCD FX option deals intended to fixing</Description>
+    <Type>Transaction</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class>DYN_TRNRP_MK</Class>
+    <History>His3_89</History>
+    <Alias>TRNRP_MK.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>EXRFLAG</Label>
+            <Description>flag of fixing or not</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TP_STATUS2=='DEAD',IIF(MK_TYPE=='EXR','1','0'),'')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>GID</Label>
+            <Description>G.ID of deals</Description>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CTBLFIELD('TRN_HDR.GID','NB',STR(NB,10,0))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>XGRTE</Label>
+            <Description>DCD fixing rate</Description>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>5</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(MK_TYPE='EXR'.OR.MK_TYPE='EXP',NTBLFIELD('MKT_OP.S_PRICE','NB',STR(MK_NB,10,0)),0)</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description>Reporting config</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>MK_STLPRC</Label>
+            <Type>Number</Type>
+            <Length>16</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_CNTRP</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_STRTGY</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_INT</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BUY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTETRN</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DTEEXP</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_STATUS2</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_NBLTI</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_VALSTAT</Label>
+            <Type>Character</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>EXRFLAG</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>GID</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>XGRTE</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>5</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code>ACTIVATE_OUTSTANDING_QUANTITY</Code>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios>
+                <Portfolio>SLST088110011</Portfolio>
+                <Portfolio>CYFO002140111</Portfolio>
+                <Portfolio>CYFO002140011</Portfolio>
+                <Portfolio>CYFO001140111</Portfolio>
+                <Portfolio>CYFO001140011</Portfolio>
+                <Portfolio>SLWG088110113</Portfolio>
+                <Portfolio>SLWG088110013</Portfolio>
+                <Portfolio>SLWG001110113</Portfolio>
+                <Portfolio>SLWG001110013</Portfolio>
+                <Portfolio>SLST088110111</Portfolio>
+            </Portfolios>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="Restricted">TRN_FMLY=='CURR'.AND.TRN_GRP=='OPT'                             </FilterExpression>
+            <FilterExpression Type="ExcludePLAdjustment">TRN_EXP=DENV('DATE_FO').AND.BINTERNAL&lt;&gt;SINTERNAL
+.AND.
+VAL_STATUS&lt;&gt;'FO'
+.AND.
+VAL_STATUS&lt;&gt;'FOCH'
+.AND.
+VAL_STATUS&lt;&gt;'FOMU'
+.AND.
+VAL_STATUS&lt;&gt;'FNAC'                                              </FilterExpression>
+            <FilterExpression Type="PostFilter">.T.                                                             </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>No</ComputeSensitivities>
+        <ComputeDelta/>
+        <ComputeGamma/>
+        <ComputeTheta/>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega/>
+        <ComputeRR2/>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+        <IncludeTradeInsertion>Yes</IncludeTradeInsertion>
+        <IncludeDirectModifyEvents>No</IncludeDirectModifyEvents>
+    </Options>
+</Table>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-V_PAYMENT2-CHECK-FX</label>
+    <batchFile>FOBO-V_PAYMENT2-CHECK-FX.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-V_PAYMENT2-CHECK-FX ONLY FOR MONITOR DURING GO LIVE_SPOT_OUTRIGHT_SWAP</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

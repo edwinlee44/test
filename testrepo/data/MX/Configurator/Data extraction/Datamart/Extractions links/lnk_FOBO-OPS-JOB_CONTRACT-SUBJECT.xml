@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OPS-JOB_CONTRACT-SUBJECT</label>
+    <batchFile>FOBO-OPS-JOB_CONTRACT-SUBJECT.xml</batchFile>
+    <description>(BY SHUNG LIN) FOR SETTLEMENT JOB_CONTRACT-SUBJECT-ALL</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

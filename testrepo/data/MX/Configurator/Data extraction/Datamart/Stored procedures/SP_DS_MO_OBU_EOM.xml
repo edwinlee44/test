@@ -1,0 +1,15 @@
+<batch>
+    <label>SP_DS_MO_OBU_EOM</label>
+    <description>[MX3-MO] EXEC DS_MO_OBU_EOM</description>
+    <type>Stored procedure</type>
+    <category>REPORT_MO</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>SP_DS_MO_OBU_EOM</storedProcedure>
+    </storedProcedures>
+</batch>

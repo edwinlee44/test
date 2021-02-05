@@ -1,0 +1,20 @@
+<setDefinition>
+    <label>BE_BA_YearlyPL</label>
+    <batchFile>BE_BA_YearlyPL.xml</batchFile>
+    <description>[MX3-FO] BE_BA_YearlyPL</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_BA_MPL-dbaccdtl-2CSV.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoyplaccrual-2CSVN.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoypleqd-2CSVN.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoyplfee-2CSVN.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoyplfxo-2CSVN.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoyplfxocnv-2CSVN.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoyplhkconv-2CSVN.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoyplmanual-2CSVN.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoyplnfxo-2CSVN.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_YPL-eoyplsd-2CSVN.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

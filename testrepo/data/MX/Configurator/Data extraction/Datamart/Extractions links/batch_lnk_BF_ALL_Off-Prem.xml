@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_ALL_Off-Prem</label>
+    <batchFile>BF_ALL_Off-Prem.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_ALL_Off-Premises TR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

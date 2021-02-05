@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_GRKS_FDR</label>
+    <batchFile>MLC_GRKS_FDR.xml</batchFile>
+    <description/>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

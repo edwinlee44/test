@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CNTEVT_AUD</label>
+    <batchFile>BF_CNTEVT_AUD.xml</batchFile>
+    <description>(MXBORP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_CNTEVT_AUD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_CNTEVT_AUD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

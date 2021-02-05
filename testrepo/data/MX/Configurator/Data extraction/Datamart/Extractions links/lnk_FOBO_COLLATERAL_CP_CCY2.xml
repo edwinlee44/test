@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_COLLATERAL_CP_CCY2</label>
+    <batchFile>FOBO_COLLATERAL_CP_CCY2.xml</batchFile>
+    <description/>
+    <category>OIS</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

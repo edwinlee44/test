@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>VN_TODAYRATE</label>
+    <batchFile>VN_TODAYRATE.xml</batchFile>
+    <description>[MX3] Golive version-VN discount reate</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

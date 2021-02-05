@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<table>
+    <nameTable>REF_PL.REP</nameTable>
+    <descTable>Reference PL table (Consolidated Cash/MV bkdwn)</descTable>
+    <basedOn>
+        <dynTable>
+            <isSimulation>True</isSimulation>
+            <isBuiltOnConso>True</isBuiltOnConso>
+            <ClassificationType>1</ClassificationType>
+            <filterClass>
+                <class>Simulation</class>
+            </filterClass>
+            <nameDynTable>DYN_REF_PL</nameDynTable>
+            <dirDynTable>Murex</dirDynTable>
+        </dynTable>
+    </basedOn>
+    <links/>
+    <dataHisTable>none</dataHisTable>
+    <typeTable>dynamic</typeTable>
+    <murex>1</murex>
+    <columns>
+        <column>
+            <nameColumn>CNT_DSC</nameColumn>
+            <descColumn>(Risk Engine).CNT_DSC</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>50</width>
+            <dec>0</dec>
+            <dynField>CNT_DSC</dynField>
+        </column>
+        <column>
+            <nameColumn>CNT_TYPO</nameColumn>
+            <descColumn>(Risk Engine).CNT_TYPO</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>20</width>
+            <dec>0</dec>
+            <dynField>CNT_TYPO</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFR_ALL</nameColumn>
+            <descColumn>(Risk Engine).CSFR_ALL</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFR_ALL</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFR_ASS</nameColumn>
+            <descColumn>(Risk Engine).CSFR_ASS</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFR_ASS</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFR_CAP</nameColumn>
+            <descColumn>(Risk Engine).CSFR_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFR_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFR_FEE</nameColumn>
+            <descColumn>Financing of past realized fees</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFR_FEE</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFR_FEE1</nameColumn>
+            <descColumn>(Risk Engine).CSFR_FEE1</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFR_FEE1</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFR_REV</nameColumn>
+            <descColumn>(Risk Engine).CSFR_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFR_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFR_SM</nameColumn>
+            <descColumn>(Risk Engine).CSFR_SM</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFR_SM</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFU_ALL</nameColumn>
+            <descColumn>(Risk Engine).CSFU_ALL</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFU_ALL</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFU_ASS</nameColumn>
+            <descColumn>(Risk Engine).CSFU_ASS</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFU_ASS</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFU_CAP</nameColumn>
+            <descColumn>(Risk Engine).CSFU_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFU_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFU_FEE</nameColumn>
+            <descColumn>(Risk Engine).CSFU_FEE</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFU_FEE</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFU_REV</nameColumn>
+            <descColumn>(Risk Engine).CSFU_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFU_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>CSFU_SM</nameColumn>
+            <descColumn>(Risk Engine).CSFU_SM</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSFU_SM</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFR_ALL</nameColumn>
+            <descColumn>(Risk Engine).CSNFR_ALL</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFR_ALL</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFR_ASS</nameColumn>
+            <descColumn>(Risk Engine).CSNFR_ASS</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFR_ASS</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFR_CAP</nameColumn>
+            <descColumn>(Risk Engine).CSNFR_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFR_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFR_FEE</nameColumn>
+            <descColumn>(Risk Engine).CSNFR_FEE</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFR_FEE</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFR_REV</nameColumn>
+            <descColumn>(Risk Engine).CSNFR_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFR_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFR_SM</nameColumn>
+            <descColumn>(Risk Engine).CSNFR_SM</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFR_SM</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFU_ALL</nameColumn>
+            <descColumn>(Risk Engine).CSNFU_ALL</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFU_ALL</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFU_ASS</nameColumn>
+            <descColumn>(Risk Engine).CSNFU_ASS</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFU_ASS</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFU_CAP</nameColumn>
+            <descColumn>(Risk Engine).CSNFU_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFU_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFU_FEE</nameColumn>
+            <descColumn>(Risk Engine).CSNFU_FEE</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFU_FEE</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFU_REV</nameColumn>
+            <descColumn>(Risk Engine).CSNFU_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFU_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>CSNFU_SM</nameColumn>
+            <descColumn>(Risk Engine).CSNFU_SM</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>CSNFU_SM</dynField>
+        </column>
+        <column>
+            <nameColumn>FPFR_CAP</nameColumn>
+            <descColumn>(Risk Engine).FPFR_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>FPFR_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>FPFR_REV</nameColumn>
+            <descColumn>(Risk Engine).FPFR_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>FPFR_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>FPFU_CAP</nameColumn>
+            <descColumn>(Risk Engine).FPFU_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>FPFU_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>FPFU_REV</nameColumn>
+            <descColumn>(Risk Engine).FPFU_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>FPFU_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>FPNFR_CAP</nameColumn>
+            <descColumn>(Risk Engine).FPNFR_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>FPNFR_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>FPNFR_REV</nameColumn>
+            <descColumn>(Risk Engine).FPNFR_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>FPNFR_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>FPNFU_CAP</nameColumn>
+            <descColumn>(Risk Engine).FPNFU_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>FPNFU_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>FPNFU_REV</nameColumn>
+            <descColumn>(Risk Engine).FPNFU_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>FPNFU_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>INSTRUMENT</nameColumn>
+            <descColumn>(Risk Engine).INSTRUMENT</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>35</width>
+            <dec>0</dec>
+            <dynField>INSTRUMEN</dynField>
+        </column>
+        <column>
+            <nameColumn>INST_REF</nameColumn>
+            <descColumn>(Risk Engine).INST_REF</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>20</width>
+            <dec>0</dec>
+            <dynField>INST_REF</dynField>
+        </column>
+        <column>
+            <nameColumn>MDSET</nameColumn>
+            <descColumn>(Risk Engine).MDSET</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>16</width>
+            <dec>0</dec>
+            <dynField>MDSET</dynField>
+        </column>
+        <column>
+            <nameColumn>MVF_CAP</nameColumn>
+            <descColumn>(Risk Engine).MVF_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>MVF_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>MVF_REV</nameColumn>
+            <descColumn>(Risk Engine).MVF_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>MVF_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>MVNF_CAP</nameColumn>
+            <descColumn>(Risk Engine).MVNF_CAP</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>MVNF_CAP</dynField>
+        </column>
+        <column>
+            <nameColumn>MVNF_REV</nameColumn>
+            <descColumn>(Risk Engine).MVNF_REV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>MVNF_REV</dynField>
+        </column>
+        <column>
+            <nameColumn>MX_REF_JOB</nameColumn>
+            <descColumn>Murex job reference</descColumn>
+            <typeColumn>G</typeColumn>
+            <width>10</width>
+            <dec>0</dec>
+            <defaultValue/>
+        </column>
+        <column>
+            <nameColumn>NB</nameColumn>
+            <descColumn>(Risk Engine).NB</descColumn>
+            <typeColumn>N</typeColumn>
+            <width>10</width>
+            <dec>0</dec>
+            <dynField>NB</dynField>
+        </column>
+        <column>
+            <nameColumn>ORIG_NB</nameColumn>
+            <descColumn>(Risk Engine).ORIG_NB</descColumn>
+            <typeColumn>N</typeColumn>
+            <width>10</width>
+            <dec>0</dec>
+            <dynField>ORIG_NB</dynField>
+        </column>
+        <column>
+            <nameColumn>PL_ACC</nameColumn>
+            <descColumn>(Risk Engine).PL_ACC</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>PL_ACC</dynField>
+        </column>
+        <column>
+            <nameColumn>PL_CS_MV</nameColumn>
+            <descColumn>(Risk Engine).PL_CS_MV</descColumn>
+            <typeColumn>A</typeColumn>
+            <width>23</width>
+            <dec>6</dec>
+            <dynField>PL_CS_MV</dynField>
+        </column>
+        <column>
+            <nameColumn>PL_INSCUR</nameColumn>
+            <descColumn>(Risk Engine).PL_INSCUR</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>3</width>
+            <dec>0</dec>
+            <dynField>PL_INSCUR</dynField>
+        </column>
+        <column>
+            <nameColumn>PL_KEY1</nameColumn>
+            <descColumn>(Risk Engine).PL_KEY1</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>30</width>
+            <dec>0</dec>
+            <dynField>PL_KEY1</dynField>
+        </column>
+        <column>
+            <nameColumn>POS_ID</nameColumn>
+            <descColumn>(Risk Engine).POS_ID</descColumn>
+            <typeColumn>N</typeColumn>
+            <width>10</width>
+            <dec>0</dec>
+            <dynField>POS_ID</dynField>
+        </column>
+        <column>
+            <nameColumn>REF_DATA</nameColumn>
+            <descColumn>Murex dataset reference</descColumn>
+            <typeColumn>G</typeColumn>
+            <width>10</width>
+            <dec>0</dec>
+            <defaultValue/>
+        </column>
+        <column>
+            <nameColumn>RSKSECTION</nameColumn>
+            <descColumn>(Risk Engine).RSKSECTION</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>20</width>
+            <dec>0</dec>
+            <dynField>RSKSECTIO</dynField>
+        </column>
+        <column>
+            <nameColumn>SC2_PL_UC</nameColumn>
+            <descColumn>Spot Conversion P&amp;L to User Currency Date 2</descColumn>
+            <typeColumn>N</typeColumn>
+            <width>16</width>
+            <dec>7</dec>
+            <dynField>SC2_PL_UC</dynField>
+        </column>
+        <column>
+            <nameColumn formula="ISVALID('PFOLIO','PORTFOLIO')">TP_PFOLIO</nameColumn>
+            <descColumn>(Risk Engine).TP_PFOLIO</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>15</width>
+            <dec>0</dec>
+            <dynField>TP_PFOLIO</dynField>
+        </column>
+        <column>
+            <nameColumn>TRN_FMLY</nameColumn>
+            <descColumn>(Risk Engine).TRN_FMLY</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>5</width>
+            <dec>0</dec>
+            <dynField>TRN_FMLY</dynField>
+        </column>
+        <column>
+            <nameColumn>TRN_GRP</nameColumn>
+            <descColumn>(Risk Engine).TRN_GRP</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>5</width>
+            <dec>0</dec>
+            <dynField>TRN_GRP</dynField>
+        </column>
+        <column>
+            <nameColumn>TRN_TYPE</nameColumn>
+            <descColumn>(Risk Engine).TRN_TYPE</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>5</width>
+            <dec>0</dec>
+            <dynField>TRN_TYPE</dynField>
+        </column>
+        <column>
+            <nameColumn>USER_CUR</nameColumn>
+            <descColumn>User defined currency if any, accounting currency otherwise</descColumn>
+            <typeColumn>C</typeColumn>
+            <width>3</width>
+            <dec>0</dec>
+            <dynField>USER_CUR</dynField>
+        </column>
+    </columns>
+    <indexes>
+        <index>
+            <nameIndex>REF_PL_REF_DATA</nameIndex>
+            <flag>0</flag>
+            <columnsIndex>
+                <columnIndex>REF_DATA</columnIndex>
+            </columnsIndex>
+        </index>
+        <index>
+            <nameIndex>REF_PL_REF_JOB</nameIndex>
+            <flag>0</flag>
+            <columnsIndex>
+                <columnIndex>MX_REF_JOB</columnIndex>
+            </columnsIndex>
+        </index>
+    </indexes>
+    <mraNotification/>
+</table>

@@ -1,0 +1,15 @@
+<batch>
+    <label>OPTION_EXECRISE</label>
+    <description>OPTION_EXECRISE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="OPTION_EXECRISE">ER_OPT_EXERCISE</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

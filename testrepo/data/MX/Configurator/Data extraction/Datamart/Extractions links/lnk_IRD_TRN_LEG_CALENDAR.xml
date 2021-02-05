@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>IRD_TRN_LEG_CALENDAR</label>
+    <batchFile>IRD_TRN_LEG_CALENDAR.xml</batchFile>
+    <description>LIVE DEAL TWO LEG CALENDAR FOR SHUNGLIN</description>
+    <category>BA_IRD</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

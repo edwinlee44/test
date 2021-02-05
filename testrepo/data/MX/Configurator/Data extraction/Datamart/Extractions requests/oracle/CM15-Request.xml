@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM15-Request</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM15-Request.sql</sql>
+    <description/>
+</extractionRequest>

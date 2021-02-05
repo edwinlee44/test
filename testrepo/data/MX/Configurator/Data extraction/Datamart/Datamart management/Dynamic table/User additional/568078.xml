@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>568078</Name>
+    <Description>Portal Case 568078</Description>
+    <Type>Transaction</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class>DYN_TRNRP_PL</Class>
+    <History>His3_125</History>
+    <Alias>TRNRP_PL.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>ACC_TAR</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF( TP_DSCEXO2= = 'TARNF',VAL(TP_DSCEXO1),ACC_TAR2 -  VAL(TP_DSCEXO0))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>ACC_TAR2</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">TARGET_TAR + TAR_PIV+TAR_TAR_KO +
+IIF(TP_DSCEXO2 =='DKOFWD',DKOFWD_LEV,0.0)
++
+IIF(TP_DSCEXO2=='TARNF',TARNF_OTM,0.0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DKOFWD_LEV</Label>
+            <Description>DKOFWD_LVERAGE</Description>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">VAL(TP_DSCEXO0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TARGET_TAR</Label>
+            <Description>Original TARN Target</Description>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTBLFIELD('FXFLEX#FXBK2.XFIGUR','INT_NB',STR(NTBLFIELD('FXFLEX#FXBKSKL.BK_INT_N','INT_NB',STR(NTBLFIELD('TRN_FLXH.INT_NB','NB',STR(NB))))))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TARNF_OTM</Label>
+            <Description>TARNF_ACCUM_OTM</Description>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">VAL(TP_DSCEXO0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TARN_TAR</Label>
+            <Description>Original Target TARN Target</Description>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTBLFIELD('FXFLEX#FXBK2.XFIGUR','INT_NB',STR(NTBLFIELD('FXFLEX#FXBKSKL.BK_INT_N','INT_NB',STR(NTBLFIELD('TRN_FLXH.INT_NB','NB',STR(NB))))))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TAR_PIV</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTBLFIELD('FXFLEX#FXBK4.XFIGUR','INT_NB',
+STR(NTBLFIELD('FXFLEX#FXBKSKL.BK_INT_N','INT_NB',
+STR(NTBLFIELD('TRN_FLXH.INT_NB','NB',STR(NB))))))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>TAR_TAR_KO</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTBLFIELD('FXFLEX#FXBK6.XFIGUR','INT_NB',
+STR(NTBLFIELD('FXFLEX#FXBKSKL.BK_INT_N','INT_NB',
+STR(NTBLFIELD('TRN_FLXH.INT_NB','NB',STR(NB))))))</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description>Reporting config</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DSCEXO</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DSCEXO0</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DSCEXO1</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DSCEXO2</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CNT_TYPO</Label>
+            <Type>Character</Type>
+            <Length>21</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DSCEXO3</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACC_TAR</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>ACC_TAR2</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>DKOFWD_LEV</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TARGET_TAR</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TARNF_OTM</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TARN_TAR</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TAR_PIV</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>TAR_TAR_KO</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>6</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>Yes</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

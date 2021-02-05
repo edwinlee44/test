@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_EQD_CBC</label>
+    <batchFile>MO_EQD_CBC.xml</batchFile>
+    <description>[MX3-MO] MO EQD CBC LIQUIDATION</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

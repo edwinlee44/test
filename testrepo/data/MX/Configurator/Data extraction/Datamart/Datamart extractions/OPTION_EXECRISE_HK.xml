@@ -1,0 +1,15 @@
+<batch>
+    <label>OPTION_EXECRISE_HK</label>
+    <description>OPTION_EXECRISE_HONGKONG</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="OPTION_EXECRISE">ER_OPT_EXERCISE_HK</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

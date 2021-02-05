@@ -1,0 +1,16 @@
+<setDefinition>
+    <label>MX_COL_STA_BF</label>
+    <batchFile>MX_COL_STA_BF.xml</batchFile>
+    <description>Batch of feeders for COL_ASSET_COL,COL_SECURITIES,COL_CURR,COL_ORCH_AUDIT &amp; COL_PARTIES REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MX_COL_ASSET_FEED.xml</datamartObjectFile>
+            <datamartObjectFile>MX_COL_CURR_FEED.xml</datamartObjectFile>
+            <datamartObjectFile>MX_COL_ORCH_FEED.xml</datamartObjectFile>
+            <datamartObjectFile>MX_COL_PARTIES_FEED.xml</datamartObjectFile>
+            <datamartObjectFile>MX_COL_SEC_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MX_COL_STA_GF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-DKOF</label>
+    <batchFile>FOBA-DKOF.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_LOAN_FEED</label>
+    <batchFile>BASEL_LOAN_FEED.xml</batchFile>
+    <description>BASEL_LOAN_FEED</description>
+    <category>Basel</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

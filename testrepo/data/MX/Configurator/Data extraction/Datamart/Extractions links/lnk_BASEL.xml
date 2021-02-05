@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL</label>
+    <batchFile>BASEL.xml</batchFile>
+    <description>Basel Model: BASEL,BASEL_MV</description>
+    <category>Basel</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

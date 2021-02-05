@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_BIM_IMRESULT</label>
+    <batchFile>BF_BIM_IMRESULT.xml</batchFile>
+    <description>Batch of Feeder for BIM_IMRESULTS1D Generate from SIMM instance</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_BIM_IMRESULTS1D_SIMM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_REP_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

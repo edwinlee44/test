@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>EQD_MK</label>
+    <batchFile>EQD_MK.xml</batchFile>
+    <description>(EQ) Reporting Data Model: EQD_MK</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_FX_GREEKS_5</label>
+    <batchFile>MO_FX_GREEKS_5.xml</batchFile>
+    <description>[MX3-MO] MO FX GREEKS for CCR by using Date5 filter</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_FX_GREEKS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MO_FX_GREEKS_DATE_E.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

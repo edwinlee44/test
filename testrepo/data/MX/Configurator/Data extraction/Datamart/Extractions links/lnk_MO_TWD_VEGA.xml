@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_TWD_VEGA</label>
+    <batchFile>MO_TWD_VEGA.xml</batchFile>
+    <description>MO_TWD_VEGA (RISK MATRICES)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

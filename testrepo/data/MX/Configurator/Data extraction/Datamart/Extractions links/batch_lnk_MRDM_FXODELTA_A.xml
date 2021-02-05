@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MRDM_FXODELTA_A</label>
+    <batchFile>MRDM_FXODELTA_A.xml</batchFile>
+    <description>[MX3-MO] MRDM_FXO_DELTA_ARC</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MRDM_FXO_DELTA_ARC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

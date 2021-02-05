@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>INTRAD_MMFW1_PL</label>
+    <batchFile>INTRAD_MMFW1_PL.xml</batchFile>
+    <description>[MX3-FO]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>INTRAD_MM_FW1_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_MM_FW1_PL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

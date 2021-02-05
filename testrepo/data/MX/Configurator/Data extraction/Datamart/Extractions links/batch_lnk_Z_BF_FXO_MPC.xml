@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>Z_BF_FXO_MPC</label>
+    <batchFile>Z_BF_FXO_MPC.xml</batchFile>
+    <description>(MPC-TEST)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>Z_FLT_FXO_MPC.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

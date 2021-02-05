@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_EQ_LST_FUT_OS</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_EQ_LST_FUT_OS.sql</sql>
+    <description>(MXACRP-MX3)股權期貨選擇權庫存報表</description>
+</extractionRequest>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_IRD_HEDGE</label>
+    <batchFile>MO_IRD_HEDGE.xml</batchFile>
+    <description>[MX3-MO] MO_IRD_HEDGE</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

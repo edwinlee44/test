@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_FXBK2468</label>
+    <batchFile>DF_BO_FXBK2468.xml</batchFile>
+    <description>(MX3_BO) MX_FXBK2468_REP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

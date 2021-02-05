@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_COL_CON_DETAIL_REP</label>
+    <batchFile>F_COL_CON_DETAIL_REP.xml</batchFile>
+    <description>feeder for COL_CON_DETAIL_REP</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

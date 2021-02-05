@@ -1,0 +1,15 @@
+<batch>
+    <label>PKG_DM_AC_IRD_OS</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Stored procedure</type>
+    <category>T-MXACRP</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>PKG_DM_AC_IRD_OS</storedProcedure>
+    </storedProcedures>
+</batch>

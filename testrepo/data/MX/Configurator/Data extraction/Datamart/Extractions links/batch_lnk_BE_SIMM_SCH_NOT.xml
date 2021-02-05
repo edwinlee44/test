@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_SIMM_SCH_NOT</label>
+    <batchFile>BE_SIMM_SCH_NOT.xml</batchFile>
+    <description>Batch of Extraction for SIMM Schedule Based Notional</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EXT_SIMM_SCH_NOT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

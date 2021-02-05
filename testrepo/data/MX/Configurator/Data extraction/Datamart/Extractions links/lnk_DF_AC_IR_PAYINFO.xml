@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_IR_PAYINFO</label>
+    <batchFile>DF_AC_IR_PAYINFO.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <category>T-MXAC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

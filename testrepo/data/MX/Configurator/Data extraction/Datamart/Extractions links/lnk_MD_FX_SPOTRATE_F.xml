@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MD_FX_SPOTRATE_F</label>
+    <batchFile>MD_FX_SPOTRATE_F.xml</batchFile>
+    <description/>
+    <category>Market Data</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

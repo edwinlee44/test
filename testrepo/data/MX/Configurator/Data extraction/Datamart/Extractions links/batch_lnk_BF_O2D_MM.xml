@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_O2D_MM</label>
+    <batchFile>BF_O2D_MM.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>O2D_MM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

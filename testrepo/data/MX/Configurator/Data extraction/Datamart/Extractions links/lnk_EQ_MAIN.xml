@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>EQ_MAIN</label>
+    <batchFile>EQ_MAIN.xml</batchFile>
+    <description>[MX3-MO] MO FOR EQUITY</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

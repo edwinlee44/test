@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM09-Substitution request</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM09-Substitution request.sql</sql>
+    <description>Substitution report sql request</description>
+</extractionRequest>

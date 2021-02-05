@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_MO_PL_GREEKS_AM_DTL</label>
+    <batchFile>DE_MO_PL_GREEKS_AM_DTL.xml</batchFile>
+    <description>[MX3-MO] DE_MO_PL_GREEKS_AM_DTL</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BEM_AC_CU_REAL</label>
+    <batchFile>BEM_AC_CU_REAL.xml</batchFile>
+    <description>(MXACRP-MX3) FX_REALIZE &amp; FM11</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_REALIZE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_OBU_FM11.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

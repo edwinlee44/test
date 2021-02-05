@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>OIS-RATE_SHEET</label>
+    <batchFile>OIS-RATE_SHEET.xml</batchFile>
+    <description/>
+    <category>OIS</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

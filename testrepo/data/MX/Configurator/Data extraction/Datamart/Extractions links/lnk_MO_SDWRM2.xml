@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_SDWRM2</label>
+    <batchFile>MO_SDWRM2.xml</batchFile>
+    <description>[MX3-MO] MO Structure Deposit feeder</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_AC_TDA_EQ_PL</label>
+    <batchFile>BF_AC_TDA_EQ_PL.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_AC_TDA_EQ_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_AC_TDA_EQ.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

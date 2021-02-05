@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>EOD_PL_TR_HK</label>
+    <batchFile>EOD_PL_TR_HK.xml</batchFile>
+    <description>PL CONV ~ HK2D</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

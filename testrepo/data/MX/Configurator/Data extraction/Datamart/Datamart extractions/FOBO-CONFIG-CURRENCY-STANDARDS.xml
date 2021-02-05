@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-CONFIG-CURRENCY-STANDARDS</label>
+    <description>(BY SHUNG LIN)</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-CONFIG-CURRENCY-STANDARDS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

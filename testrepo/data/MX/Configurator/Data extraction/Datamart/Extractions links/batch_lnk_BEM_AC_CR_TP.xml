@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BEM_AC_CR_TP</label>
+    <batchFile>BEM_AC_CR_TP.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CR_TRADE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

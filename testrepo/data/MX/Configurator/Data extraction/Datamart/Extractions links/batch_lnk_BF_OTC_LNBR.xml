@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_OTC_LNBR</label>
+    <batchFile>BF_OTC_LNBR.xml</batchFile>
+    <description>[OTC]feeder for OTC late LNBR deals</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>OTC_LNBR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_OTC_LNBR.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

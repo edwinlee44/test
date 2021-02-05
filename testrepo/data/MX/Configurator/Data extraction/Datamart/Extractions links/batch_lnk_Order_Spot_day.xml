@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>Order_Spot_day</label>
+    <batchFile>Order_Spot_day.xml</batchFile>
+    <description>[MX3-FO] Golive version-Reporting Data Model: [ SPOT_DAY ]  --Feed SPOT_DAY for Order System</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>Order_Spot_day.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

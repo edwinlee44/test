@@ -1,0 +1,15 @@
+<batch>
+    <label>AU20-SupOspTmplRights</label>
+    <description>List groups and details on the Osp Rights template of each group</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupOspTmplRights">SupOspRights</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

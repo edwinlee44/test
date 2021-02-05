@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_CURR_MK</label>
+    <batchFile>DF_CURR_MK.xml</batchFile>
+    <description>(MX3-MXDM)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

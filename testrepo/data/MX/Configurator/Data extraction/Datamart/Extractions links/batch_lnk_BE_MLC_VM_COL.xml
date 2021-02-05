@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_MLC_VM_COL</label>
+    <batchFile>BE_MLC_VM_COL.xml</batchFile>
+    <description>Batches of extraction for COL_CON_DETAIL_REP</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_VM_COL_DTL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

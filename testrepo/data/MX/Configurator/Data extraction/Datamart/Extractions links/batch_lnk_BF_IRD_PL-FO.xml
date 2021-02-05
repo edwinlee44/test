@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_IRD_PL-FO</label>
+    <batchFile>BF_IRD_PL-FO.xml</batchFile>
+    <description>[MX3-FO] MXDM-FO intraDay Feeder</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>INTRAD_IRD_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FO_Intra_CBC_Filter.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>DEQ_VIEW_JOB_REP</label>
+    <description>(MXDM-MX3)查詢當日View Execution Jobs</description>
+    <type>Extraction</type>
+    <category>T-MXDM</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ERQ_VIEW_JOB</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

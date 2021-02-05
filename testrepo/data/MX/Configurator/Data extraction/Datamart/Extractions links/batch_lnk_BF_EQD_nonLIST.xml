@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQD_nonLIST</label>
+    <batchFile>BF_EQD_nonLIST.xml</batchFile>
+    <description>(EQ) Reporting Data Model: [ EQD ]  --Feed equity deal (CRD,IRD,CB)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EQD_CS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EQD_nonLIST.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

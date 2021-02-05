@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_MO_FB_IB_MTM</label>
+    <batchFile>BE_MO_FB_IB_MTM.xml</batchFile>
+    <description>[MX3-MO] BE_MO_FB_IB_MTM</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_MO_FB_IB_MTM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

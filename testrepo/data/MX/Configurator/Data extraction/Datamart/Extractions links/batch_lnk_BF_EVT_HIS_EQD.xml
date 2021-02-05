@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EVT_HIS_EQD</label>
+    <batchFile>BF_EVT_HIS_EQD.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EVT_HIS_EQD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_EVT_HIS_EQD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

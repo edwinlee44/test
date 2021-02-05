@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_TP_ARC</label>
+    <batchFile>BF_TP_ARC.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_TP_ARC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_ARC.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,32 @@
+<set>
+    <label>BP_FO_BOND_OSTD</label>
+    <type>Batch of stored procedures</type>
+    <filter/>
+    <datamartObjects>
+        <datamartObject>
+            <datamartObjectLabel>SP_DM_FO_BOND_OSTD</datamartObjectLabel>
+            <parameters>
+                <parameter>
+                    <parLabel>I_DATE</parLabel>
+                    <parType>Date</parType>
+                    <parValue>27/11/20</parValue>
+                    <parDateOffset>0</parDateOffset>
+                    <parDateType>Reporting date</parDateType>
+                    <parDateValue>20160718</parDateValue>
+                    <parDateShifter/>
+                </parameter>
+            </parameters>
+        </datamartObject>
+    </datamartObjects>
+    <description>[MX3-FO] Execution SP_DM_FO_BOND_OSTD</description>
+    <optional>N</optional>
+    <canBeOverwritten>N</canBeOverwritten>
+    <dataSetLabel>FeedAll</dataSetLabel>
+    <dataSetDate>
+        <dateType>Reporting date</dateType>
+    </dataSetDate>
+    <dataPrecomputed>Y</dataPrecomputed>
+    <dataComputedByBatches>N</dataComputedByBatches>
+    <dataPublished>Y</dataPublished>
+    <historizationMode>One data set</historizationMode>
+</set>

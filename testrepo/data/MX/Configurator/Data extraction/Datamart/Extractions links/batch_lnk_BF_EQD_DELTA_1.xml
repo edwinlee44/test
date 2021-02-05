@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQD_DELTA_1</label>
+    <batchFile>BF_EQD_DELTA_1.xml</batchFile>
+    <description>(EQ) Reporting Data Model: [ EQD_DELTA ]  --Feed EQD_DELTA (7FBx0-7FBxB)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EQD_DELTA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EQ_DELTA_1.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

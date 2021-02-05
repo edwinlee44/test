@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_STPDOC</label>
+    <batchFile>DF_BO_STPDOC.xml</batchFile>
+    <description>(MXBORP-MX3) stpdoc for tracer</description>
+    <category>T-MXBORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

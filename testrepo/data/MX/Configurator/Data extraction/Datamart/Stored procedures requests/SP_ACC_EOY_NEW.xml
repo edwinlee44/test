@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>SP_ACC_EOY_NEW</label>
+    <description/>
+    <procedure>CREATE OR REPLACE Function FSP_ACC_EOY_NEW Return Number
+
+--Authid Current_User
+
+ As
+  Pragma Autonomous_Transaction;
+
+  ERRNO     Number := 0;
+  ERRMSG    Varchar(400);
+  V_FNCNAME Varchar(400) := 'FSP_ACC_EOY_NEW';
+Begin
+    ACC_EOY_NEW;
+  Return ERRNO;
+Exception
+  When Others Then
+    ERRNO  := -1;
+    ERRMSG := V_FNCNAME || ' had error!!' || Sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    Return ERRNO;
+End;
+</procedure>    <functionName>FSP_ACC_EOY_NEW</functionName>
+    <mainTable>ACC_EOY.DBF</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>10</returnLength>
+</storedProcedure>

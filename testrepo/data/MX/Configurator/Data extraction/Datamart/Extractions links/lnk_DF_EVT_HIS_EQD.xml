@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_EVT_HIS_EQD</label>
+    <batchFile>DF_EVT_HIS_EQD.xml</batchFile>
+    <description/>
+    <category>Trade Repository</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

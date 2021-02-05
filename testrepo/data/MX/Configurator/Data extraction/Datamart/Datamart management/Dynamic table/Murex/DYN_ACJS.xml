@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_ACJS</Name>
+    <Description>Reporting Data Model: Accounting Balance (Journal Summary)</Description>
+    <Type>Copy creation</Type>
+    <Directory>Murex</Directory>
+    <Class/>
+    <History>ACJS</History>
+    <Alias>TRN_ACJS</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field>
+            <Label>EN_DATE</Label>
+            <Type>Date</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>EN_ACCOUNT</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>EN_AMTD</Label>
+            <Type>Number</Type>
+            <Length>25</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>EN_AMTC</Label>
+            <Type>Number</Type>
+            <Length>25</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>ENTITY</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes/>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation>
+            <Source>TRN_ACJS</Source>
+            <DirectoryType>Default</DirectoryType>
+            <DirectoryPath/>
+            <MarketParameter>
+                <DeskDefined>No</DeskDefined>
+                <Desk/>
+                <Date>
+                    <Dates>
+                        <Date Nb="2">
+                            <Type>Date reporting</Type>
+                            <DateOutput>20201127</DateOutput>
+                        </Date>
+                        <Date Nb="1">
+                            <Type>Date reporting shifter</Type>
+                            <DateShifter>-1 OPEN DAY</DateShifter>
+                            <DateOutput>20201126</DateOutput>
+                        </Date>
+                        <Date Nb="0">
+                            <Type>Inception</Type>
+                            <DateOutput>00000000</DateOutput>
+                        </Date>
+                    </Dates>
+                </Date>
+                <RootFile>No</RootFile>
+            </MarketParameter>
+            <Merge>
+                <Active>No</Active>
+                <SourceTable/>
+                <SourceField/>
+                <DestinationField/>
+                <DestinationKey/>
+            </Merge>
+        </Creation>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>No</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Date reporting</Type>
+                <DateOutput>20201127</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>Date reporting shifter</Type>
+                <DateShifter>-1 OPEN DAY</DateShifter>
+                <DateOutput>20201126</DateOutput>
+            </Date>
+            <Date Nb="0">
+                <Type>Inception</Type>
+                <DateOutput>00000000</DateOutput>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

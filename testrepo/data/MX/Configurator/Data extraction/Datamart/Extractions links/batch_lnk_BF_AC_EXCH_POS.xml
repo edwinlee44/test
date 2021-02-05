@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_AC_EXCH_POS</label>
+    <batchFile>BF_AC_EXCH_POS.xml</batchFile>
+    <description>(MXACRP-SQL_MX-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_AC_EXCH_POS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

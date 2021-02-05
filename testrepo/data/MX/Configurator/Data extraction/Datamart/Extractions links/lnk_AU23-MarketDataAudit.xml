@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU23-MarketDataAudit</label>
+    <batchFile>AU23-MarketDataAudit.xml</batchFile>
+    <description>Audit on Market data</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

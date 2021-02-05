@@ -1,0 +1,15 @@
+<batch>
+    <label>DEQ_AC_YEAREND_PVE_NOT_0</label>
+    <description>(MXACRP-MX3)年結使用--PVE不為零的資料</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ERQ_AC_YEAREND_PVE_NOT_0</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

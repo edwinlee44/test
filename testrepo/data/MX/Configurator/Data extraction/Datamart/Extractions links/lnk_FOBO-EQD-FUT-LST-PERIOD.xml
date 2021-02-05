@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-EQD-FUT-LST-PERIOD</label>
+    <batchFile>FOBO-EQD-FUT-LST-PERIOD.xml</batchFile>
+    <description>BO EQD FUT LST PERIOD TRANSACTION</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

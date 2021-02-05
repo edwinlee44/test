@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_AC_CU_SETTLE</label>
+    <batchFile>BE_AC_CU_SETTLE.xml</batchFile>
+    <description>(MXACRP-MX3)DEL</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_SETTLE_VN963.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

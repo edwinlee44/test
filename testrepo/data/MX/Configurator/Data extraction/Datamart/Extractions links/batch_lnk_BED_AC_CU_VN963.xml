@@ -1,0 +1,17 @@
+<setDefinition>
+    <label>BED_AC_CU_VN963</label>
+    <batchFile>BED_AC_CU_VN963.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_EXET_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_EXPIRE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_FXD_OS_963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_OS_ROLLOVER_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_SETTLE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_SWAP_POINT_963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_TRADE_VN963.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

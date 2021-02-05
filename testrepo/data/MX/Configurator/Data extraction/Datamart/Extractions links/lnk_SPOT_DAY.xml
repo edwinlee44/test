@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SPOT_DAY</label>
+    <batchFile>SPOT_DAY.xml</batchFile>
+    <description>[MX3] Golive version-Reporting Data Model: SPOT_DAY</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

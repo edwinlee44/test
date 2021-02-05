@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-SMP-BAR-BAR2-RBT-SMPS-OS</label>
+    <description>(BY SHUNG LIN)BO SMP BAR BAR2 RBT SMPS-Outstanding</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-SMP-BAR-BAR2-RBT-SMP-OS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

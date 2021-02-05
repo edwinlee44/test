@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_CHECK_MV</label>
+    <batchFile>DF_CHECK_MV.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

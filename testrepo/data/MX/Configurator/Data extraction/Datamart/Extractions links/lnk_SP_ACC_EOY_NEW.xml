@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_ACC_EOY_NEW</label>
+    <batchFile>SP_ACC_EOY_NEW.xml</batchFile>
+    <description/>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

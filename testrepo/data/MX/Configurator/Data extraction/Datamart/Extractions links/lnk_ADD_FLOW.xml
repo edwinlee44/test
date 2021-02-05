@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>ADD_FLOW</label>
+    <batchFile>ADD_FLOW.xml</batchFile>
+    <description>(EQ) Reporting Data Model: ADD_FLOW</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

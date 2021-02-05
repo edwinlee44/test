@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CONSO_PL_FXD</label>
+    <batchFile>BF_CONSO_PL_FXD.xml</batchFile>
+    <description>Reporting Data Model: [ CONSO_PL ]  -- Feed CONSO_PL -- GRP=FXD &amp; TYPE&lt;&gt;XSW</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_CONSO_PL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_CONSO_PL_FXD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

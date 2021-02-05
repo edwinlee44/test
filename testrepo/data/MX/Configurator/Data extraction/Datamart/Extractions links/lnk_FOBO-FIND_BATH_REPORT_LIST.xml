@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-FIND_BATH_REPORT_LIST</label>
+    <batchFile>FOBO-FIND_BATH_REPORT_LIST.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

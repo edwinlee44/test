@@ -1,0 +1,15 @@
+<batch>
+    <label>DEQ_AC_YEAR_PL</label>
+    <description>(MXACRP-MX3)年結作業使用--彙總資料</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ERQ_AC_YEAR_PL</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

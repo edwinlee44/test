@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_CONSO_PL</label>
+    <batchFile>F_CONSO_PL.xml</batchFile>
+    <description>Reporting Data Model: CONSO_PL</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

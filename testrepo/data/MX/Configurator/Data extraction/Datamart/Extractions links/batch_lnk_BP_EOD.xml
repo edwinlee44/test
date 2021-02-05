@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_EOD</label>
+    <batchFile>BP_EOD.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DM_MA_EOD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_NDIRS_FXDELT</label>
+    <batchFile>MO_NDIRS_FXDELT.xml</batchFile>
+    <description>[MX3-MO] MO for ExoticIRD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_NDIRS_FXDELT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_FIR_OFF_Premises</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_FIR_OFF_Premises.sql</sql>
+    <description>FIR_Off-Premises TR</description>
+</extractionRequest>

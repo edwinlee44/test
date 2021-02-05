@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>INTRAD_EQD_PL</label>
+    <batchFile>INTRAD_EQD_PL.xml</batchFile>
+    <description>[MX3] MXDM-BO intraDay Feeder</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

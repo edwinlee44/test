@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_DELTA_SG</label>
+    <batchFile>BP_MO_DELTA_SG.xml</batchFile>
+    <description> [MX3-MO] DS_MO_DELTA_CONSO_SG</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_DELTA_CONSO_SG.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

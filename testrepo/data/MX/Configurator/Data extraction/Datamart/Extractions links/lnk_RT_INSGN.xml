@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>RT_INSGN</label>
+    <batchFile>RT_INSGN.xml</batchFile>
+    <description>(BOND)Reporting Data Model: RT_INSGN</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

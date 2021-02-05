@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>ATF_SPOT_DAY</label>
+    <batchFile>ATF_SPOT_DAY.xml</batchFile>
+    <description>spot day for autofeed</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

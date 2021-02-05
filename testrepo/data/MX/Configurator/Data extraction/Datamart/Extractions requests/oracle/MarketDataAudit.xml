@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>MarketDataAudit</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/MarketDataAudit.sql</sql>
+    <description>MarketDataAudit</description>
+</extractionRequest>

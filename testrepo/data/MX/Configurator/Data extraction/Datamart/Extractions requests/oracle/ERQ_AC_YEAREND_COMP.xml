@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ERQ_AC_YEAREND_COMP</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ERQ_AC_YEAREND_COMP.sql</sql>
+    <description>(MXACRP-MX3)年結--IRD_BOND_COMP3&amp;COMP6不為零的資料</description>
+</extractionRequest>

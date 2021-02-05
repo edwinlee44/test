@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_TRN_ACJS</label>
+    <batchFile>BF_TRN_ACJS.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_TRN_ACJS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

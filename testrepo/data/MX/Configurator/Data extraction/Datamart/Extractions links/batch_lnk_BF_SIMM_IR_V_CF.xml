@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_SIMM_IR_V_CF</label>
+    <batchFile>BF_SIMM_IR_V_CF.xml</batchFile>
+    <description>Batch of Feeder for SIMM_IR_V_CF_VOL_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_SIMM_IR_V_CF_VOL_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_REP_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

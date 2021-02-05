@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUD-PAY-SWIFT-RELEASE</label>
+    <batchFile>FOBO-AUD-PAY-SWIFT-RELEASE.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

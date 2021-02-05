@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_IR_EXPIRE_VN963</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="ER_AC_IR_EXPIRE_VN963::DE_AC_IR_EXPIRE_VW">ER_AC_IR_EXPIRE_VN963</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_CM11_PENDDIS</label>
+    <batchFile>BE_CM11_PENDDIS.xml</batchFile>
+    <description>BE_CM11_PENDDIS</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>CM11-SummaryPendingDisputes.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

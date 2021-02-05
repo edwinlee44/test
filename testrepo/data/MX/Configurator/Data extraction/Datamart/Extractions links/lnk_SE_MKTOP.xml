@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SE_MKTOP</label>
+    <batchFile>SE_MKTOP.xml</batchFile>
+    <description>(BOND)Reporting Data Model: SE_MKTOP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_BO_RBO</label>
+    <batchFile>BE_BO_RBO.xml</batchFile>
+    <description>(MXBORP-MX3)執行MXBORP系統~次日帳</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

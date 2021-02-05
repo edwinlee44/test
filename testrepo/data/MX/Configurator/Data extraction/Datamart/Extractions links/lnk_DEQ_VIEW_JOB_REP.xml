@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_VIEW_JOB_REP</label>
+    <batchFile>DEQ_VIEW_JOB_REP.xml</batchFile>
+    <description>(MXDM-MX3)查詢當日View Execution Jobs</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

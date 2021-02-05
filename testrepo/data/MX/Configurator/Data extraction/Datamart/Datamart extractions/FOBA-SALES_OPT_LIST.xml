@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBA-SALES_OPT_LIST</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBA-SALES_OPT_LIST</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

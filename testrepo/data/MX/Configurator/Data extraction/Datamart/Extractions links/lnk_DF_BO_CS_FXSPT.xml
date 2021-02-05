@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_CS_FXSPT</label>
+    <batchFile>DF_BO_CS_FXSPT.xml</batchFile>
+    <description>(MXBORP-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_ISSUE_BND_IR</label>
+    <batchFile>MO_ISSUE_BND_IR.xml</batchFile>
+    <description>MO_ISSUE_BND_IR</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_ISSUE_BND_IR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_MO_ISSUE_BND_IR.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

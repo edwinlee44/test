@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-CONFIG-DLV-WINDOWS</label>
+    <description>(BY SHUNG LIN)deliverable windows</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-CONFIG-DLV-WINDOWS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

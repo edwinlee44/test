@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_MA_PL_HK3</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_AC_MA_PL_HK3</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

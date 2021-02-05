@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_CONSO_PL_H</label>
+    <batchFile>DF_CONSO_PL_H.xml</batchFile>
+    <description>(MXDM-SQL_RP-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ERQ_AC_MA_PL_TDB_AC</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ERQ_AC_MA_PL_TDB_AC.sql</sql>
+    <description>(MXACRP-MX3)會計當日損益檢核 BY PORTFOLIO - 帳務明細</description>
+</extractionRequest>

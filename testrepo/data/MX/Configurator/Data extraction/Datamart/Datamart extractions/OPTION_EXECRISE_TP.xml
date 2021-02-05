@@ -1,0 +1,15 @@
+<batch>
+    <label>OPTION_EXECRISE_TP</label>
+    <description>OPTION_EXECRISE_TAIPEI</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="OPTION_EXECRISE">ER_OPT_EXERCISE_TP</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

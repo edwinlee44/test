@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_CURR_CS_TP_O</label>
+    <batchFile>BF_CURR_CS_TP_O.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_CURR_CS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_TP_O.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

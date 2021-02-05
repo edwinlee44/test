@@ -1,0 +1,23 @@
+<batch>
+    <label>CM07-TriResolveReconciliation</label>
+    <description>Collateralized trades for external reconciliation with TriResolve</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_TP</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_TP_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM07-TriResolveReconciliationView">CM07-TriResolveReconREQ</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>Rate Conventions</Name>
+    <Description>Rate Conventions Setups</Description>
+    <Type>Copy creation</Type>
+    <Directory>ClientAdditional</Directory>
+    <Class/>
+    <History>His3_7</History>
+    <Alias>RT_CONV.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field>
+            <Label>RATE_CONV</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>BASIS</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>COMP_MODE</Label>
+            <Type>Number</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>RAT_EXPR</Label>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>RAT_PER</Label>
+            <Type>Number</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>RAT_QUOT</Label>
+            <Type>Number</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CONVERT</Label>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CAP_FACT</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>IMP_RATE</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CVRT_PER</Label>
+            <Type>Number</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes/>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation>
+            <Source>RT_CONV.DBF</Source>
+            <DirectoryType>Default</DirectoryType>
+            <DirectoryPath/>
+            <MarketParameter>
+                <DeskDefined>No</DeskDefined>
+                <Desk/>
+                <Date>
+                    <Dates>
+                        <Date Nb="2">
+                            <Type>Contextual today</Type>
+                            <DateOutput>20201130</DateOutput>
+                        </Date>
+                        <Date Nb="1">
+                            <Type>No selection</Type>
+                        </Date>
+                        <Date Nb="0">
+                            <Type>No selection</Type>
+                        </Date>
+                    </Dates>
+                </Date>
+                <RootFile>No</RootFile>
+            </MarketParameter>
+            <Merge>
+                <Active>No</Active>
+                <SourceTable/>
+                <SourceField/>
+                <DestinationField/>
+                <DestinationKey/>
+            </Merge>
+        </Creation>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>No</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

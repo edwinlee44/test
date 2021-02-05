@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU02-UserLoginActivity</label>
+    <batchFile>AU02-UserLoginActivity.xml</batchFile>
+    <description>User login activity report</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

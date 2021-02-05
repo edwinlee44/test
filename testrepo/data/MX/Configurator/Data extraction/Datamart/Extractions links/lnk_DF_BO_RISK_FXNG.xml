@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_RISK_FXNG</label>
+    <batchFile>DF_BO_RISK_FXNG.xml</batchFile>
+    <description>(MXBORP-MX3) fixing period for v_z_bo_risk</description>
+    <category>T-MXBORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

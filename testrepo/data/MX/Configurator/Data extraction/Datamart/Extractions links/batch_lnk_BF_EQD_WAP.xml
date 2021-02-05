@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQD_WAP</label>
+    <batchFile>BF_EQD_WAP.xml</batchFile>
+    <description>(FIFO) Reporting Data Model: [ EQD ]  --Feed equity deal (EQUITY &amp; UDF=STK OPT EX)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_EQD_CBC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EQD_WAP.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

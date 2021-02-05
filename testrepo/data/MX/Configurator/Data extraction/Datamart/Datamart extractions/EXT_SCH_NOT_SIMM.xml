@@ -1,0 +1,15 @@
+<batch>
+    <label>EXT_SCH_NOT_SIMM</label>
+    <description>Single Extraction for SIMM_SCH_NOT_SIM_REP</description>
+    <type>Extraction</type>
+    <category>MLC</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="EXT_SCH_NOT_SIMM_VW">EXT_SCH_NOT_SIMM</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

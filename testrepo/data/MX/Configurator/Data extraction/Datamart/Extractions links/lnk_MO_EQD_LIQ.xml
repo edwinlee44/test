@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_EQD_LIQ</label>
+    <batchFile>MO_EQD_LIQ.xml</batchFile>
+    <description>[MX3-MO] MO EQD LIQUIDATION</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

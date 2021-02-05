@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC</label>
+    <batchFile>MLC.xml</batchFile>
+    <description>MLC</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

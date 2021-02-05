@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EXT_FXD_1</label>
+    <batchFile>BF_EXT_FXD_1.xml</batchFile>
+    <description>(EX) Reporting Data Model: [ FeedAll ]  --Feed External deal (FXD) &gt; 2 yrs</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_FeedAll.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_EXT_FXD_1.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

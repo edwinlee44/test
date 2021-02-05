@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>MO_LTIRD_YIELD_YIJIE</Name>
+    <Description>VEGA YIELD</Description>
+    <Type>Simulation</Type>
+    <Directory>ClientAdditional</Directory>
+    <ViewLabel>DM_MO_LTIRD_Yield Vega_4IT</ViewLabel>
+    <Class>DYN_SIMUL</Class>
+    <History>His3_134</History>
+    <Alias>simul.dbf</Alias>
+    <SubType>Detailed</SubType>
+    <SubTypeL2>By trade</SubTypeL2>
+    <SimulationByPfolio>N</SimulationByPfolio>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>M_1</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SUBSTR(OPT__MATU,1,1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>M_2</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SUBSTR(OPT__MATU,2,1)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>M_3</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(M_DATE_LEN=2,' ',SUBSTR(OPT__MATU,3,1))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>M_CONVERT</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(M_LAST=='D',1,IIF(M_LAST=='W',7,IIF(M_LAST=='M',30,IIF(M_LAST=='Q',90,IIF(M_LAST=='H',180,IIF(M_LAST=='Y',365,0))))))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>M_DATE_LEN</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">STRLEN(OPT__MATU)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>M_DAY_NUM</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(OPT__MATU=='O/N',1,IIF(OPT__MATU=='T/N',2,IIF(OPT__MATU=='S/N',2,M_NUM*M_CONVERT)))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>M_LAST</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(M_DATE_LEN=2,M_2,M_3)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>M_NUM</Label>
+            <Description/>
+            <Type>Number</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(M_DATE_LEN=2,VAL(M_1),VALNUM(M_1+M_2))</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description>Reporting config</Description>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula>'&lt;SIMULAT._VAR&gt;'</Formula>
+        </Field>
+        <Field>
+            <Label>VEGA_YIEL</Label>
+            <Type>American</Type>
+            <Length>25</Length>
+            <Decimal>6</Decimal>
+            <ViewID>
+                <output>
+                    <objectID>0_0.66_66.39_39.40_40.132_132.196_196.45_55</objectID>
+                    <instance>0</instance>
+                </output>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>PORTFOLIO</Label>
+            <Type>Character</Type>
+            <Length>16</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>166_0.6_0.13_13</objectID>
+                    <instance>0</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>TRADE_NUM</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>566_0.565_0</objectID>
+                    <instance>1</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>CURRENCY</Label>
+            <Type>Character</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>0_0.66_66.39_39.40_40.132_132.196_196.60_6.4_4</objectID>
+                    <instance>3</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>OPT__MATU</Label>
+            <Type>Character</Type>
+            <Length>64</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>0_0.66_66.39_39.40_40.132_132.196_196.58_3</objectID>
+                    <instance>4</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>OPT__MATUD</Label>
+            <Type>Date</Type>
+            <Length>12</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOL__GROU</Label>
+            <Type>Character</Type>
+            <Length>16</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>0_0.66_66.39_39.40_40.132_132.196_196.60_6.517_517.520_520</objectID>
+                    <instance>5</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>INSTRUMEN</Label>
+            <Type>Character</Type>
+            <Length>36</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>1313_0.DisplayedLabel</objectID>
+                    <instance>6</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>STATUS</Label>
+            <Type>Character</Type>
+            <Length>16</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>0_0.1_1.37_37.211_211.252_252.253_253.424_47</objectID>
+                    <instance>7</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>TYPOLOGY</Label>
+            <Type>Character</Type>
+            <Length>21</Length>
+            <Decimal>0</Decimal>
+            <ViewID>
+                <breakdown>
+                    <objectID>0_0.1_1.37_37.211_211.252_252.253_253.610_101.471_1</objectID>
+                    <instance>8</instance>
+                </breakdown>
+            </ViewID>
+        </Field>
+        <Field>
+            <Label>XSUM_COUNT</Label>
+            <Type>American</Type>
+            <Length>12</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>XSUM_DET</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>M_1</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>M_2</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>M_3</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>M_CONVERT</Label>
+            <Type>Number</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>M_DATE_LEN</Label>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>M_DAY_NUM</Label>
+            <Type>Number</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>M_LAST</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>M_NUM</Label>
+            <Type>Number</Type>
+            <Length>2</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes/>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="Restricted">TRN_FMLY=='IRD'.AND.(TRN_GRP=='IRS'.OR.TRN_GRP=='CF'.OR.TRN_GRP=='OSWP'.OR.TRN_GRP=='SFUT'.OR.(TRN_GRP=='OPT'.AND.TRN_TYPE=='ORG'))                                                             </FilterExpression>
+            <FilterExpression Type="ExcludePLAdjustment">VAL_STATUS&lt;&gt;'FOCH'.AND.VAL_STATUS&lt;&gt;'FNAC'.AND.VAL_STATUS&lt;&gt;'MO'.AND.VAL_STATUS&lt;&gt;'FO'
+.AND.VAL_STATUS&lt;&gt;'FOMU'.AND.VAL_STATUS&lt;&gt;'INTN'.AND.VAL_STATUS&lt;&gt;'FOAU'
+.AND.VAL_STATUS&lt;&gt;'OPCF'.AND.MOP_LAST&lt;&gt;6.AND.MOP_LAST&lt;&gt;7                                               </FilterExpression>
+            <FilterExpression Type="PostFilter">STATUS&lt;&gt;'DEAD'.AND..NOT.((TYPOLOGY=='LF_Option_PV'.AND.CURRENCY&lt;&gt;'TWD').AND.TYPOLOGY&lt;&gt;'LF_Option_PV'    )                       </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>Yes</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="2">
+                <Type>User defined</Type>
+                <Dyn_DateValue>00000000</Dyn_DateValue>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+        </Dates>
+        <PublishViewerTotals>No</PublishViewerTotals>
+        <CounterpartSideSimulation>No</CounterpartSideSimulation>
+    </Options>
+</Table>

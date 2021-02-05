@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_LISTED_IRD</label>
+    <batchFile>MO_LISTED_IRD.xml</batchFile>
+    <description>MO_LISTED_IRD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

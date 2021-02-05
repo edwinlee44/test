@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_CU_CBC_FWD_DTL</label>
+    <batchFile>DE_AC_CU_CBC_FWD_DTL.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

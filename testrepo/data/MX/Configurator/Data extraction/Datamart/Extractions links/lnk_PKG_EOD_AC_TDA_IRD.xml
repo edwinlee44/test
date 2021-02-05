@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PKG_EOD_AC_TDA_IRD</label>
+    <batchFile>PKG_EOD_AC_TDA_IRD.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

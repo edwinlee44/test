@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SP_DM_QU_CAL_CP</label>
+    <batchFile>SP_DM_QU_CAL_CP.xml</batchFile>
+    <description>(MXQU-MX3)</description>
+    <category>T-MXMPC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

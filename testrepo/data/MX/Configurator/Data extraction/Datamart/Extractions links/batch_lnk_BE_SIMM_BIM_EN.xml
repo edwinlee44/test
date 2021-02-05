@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_SIMM_BIM_EN</label>
+    <batchFile>BE_SIMM_BIM_EN.xml</batchFile>
+    <description>Batch of Extraction for SIM_BIM_ENRICH_REP and SIMM_TP_ALL_REP</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EXT_SIMM_BIM_EN.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

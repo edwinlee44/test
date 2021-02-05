@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PAYMENT_EQD</label>
+    <batchFile>PAYMENT_EQD.xml</batchFile>
+    <description>(EQ2) Reporting Data Model: PAYMENT_EQD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

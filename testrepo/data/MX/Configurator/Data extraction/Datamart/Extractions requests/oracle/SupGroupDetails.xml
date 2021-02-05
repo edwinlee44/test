@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>SupGroupDetails</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/SupGroupDetails.sql</sql>
+    <description/>
+</extractionRequest>

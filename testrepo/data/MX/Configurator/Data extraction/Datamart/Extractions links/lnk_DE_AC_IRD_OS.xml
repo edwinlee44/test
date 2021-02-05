@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_AC_IRD_OS</label>
+    <batchFile>DE_AC_IRD_OS.xml</batchFile>
+    <description/>
+    <category>REPORT_AC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

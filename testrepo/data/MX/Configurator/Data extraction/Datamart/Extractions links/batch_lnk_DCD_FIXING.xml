@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>DCD_FIXING</label>
+    <batchFile>DCD_FIXING.xml</batchFile>
+    <description>Reporting Data Model: feed list of DCD fixings deals today</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DCD_FIXING.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

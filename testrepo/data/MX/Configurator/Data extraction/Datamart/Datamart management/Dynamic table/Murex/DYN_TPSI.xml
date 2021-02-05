@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_TPSI</Name>
+    <Description>Reporting Data Model: Transaction's settlement instructions</Description>
+    <Type>Transaction</Type>
+    <Directory>Murex</Directory>
+    <Class>DYN_TRNRP_CS</Class>
+    <History>TPSI</History>
+    <Alias>TRNRP_CS.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>CD</Label>
+            <Description>Credit or Debit</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(F_AMOUNT&gt;=0,'C','D')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO0</Label>
+            <Description>Nostro - mapped field 0</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','0')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO1</Label>
+            <Description>Nostro - mapped field 1</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','1')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO2</Label>
+            <Description>Nostro - mapped field 2</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','2')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO3</Label>
+            <Description>Nostro - mapped field 3</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','3')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO4</Label>
+            <Description>Nostro - mapped field 4</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','4')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO5</Label>
+            <Description>Nostro - mapped field 5</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','5')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO6</Label>
+            <Description>Nostro - mapped field 6</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','6')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO7</Label>
+            <Description>Nostro - mapped field 7</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','7')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO8</Label>
+            <Description>Nostro - mapped field 8</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','8')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>NOSTRO9</Label>
+            <Description>Nostro - mapped field 9</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':N','9')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO0</Label>
+            <Description>Vostro - mapped field 0</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','0')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO1</Label>
+            <Description>Vostro - mapped field 1</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','1')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO2</Label>
+            <Description>Vostro - mapped field 2</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','2')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO3</Label>
+            <Description>Vostro - mapped field 3</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','3')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO4</Label>
+            <Description>Vostro - mapped field 4</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','4')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO5</Label>
+            <Description>Vostro - mapped field 5</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','5')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO6</Label>
+            <Description>Vostro - mapped field 6</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','6')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO7</Label>
+            <Description>Vostro - mapped field 7</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','7')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO8</Label>
+            <Description>Vostro - mapped field 8</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','8')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>VOSTRO9</Label>
+            <Description>Vostro - mapped field 9</Description>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">C_TRNSI(NB,F_CURRENCY+':'+CD+':V','9')</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SCAN_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>F_CURRENCY</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>F_AMOUNT</Label>
+            <Type>American</Type>
+            <Length>25</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TP_BUY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>CD</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>NOSTRO0</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO1</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO2</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO3</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO4</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO5</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO6</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO7</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO8</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>NOSTRO9</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO0</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO1</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO2</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO3</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO4</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO5</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO6</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO7</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO8</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>VOSTRO9</Label>
+            <Type>Character</Type>
+            <Length>50</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code>CASH_DETAIL_ALL_EVALFUT</Code>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables>
+                <ScannedTable>Transactions</ScannedTable>
+            </ScannedTables>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>Yes</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>No</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+        <IncludeNullFlows>No
+            <tolerance>0.01</tolerance>
+        </IncludeNullFlows>
+        <IncludeSecurityFlows>No</IncludeSecurityFlows>
+    </Options>
+</Table>

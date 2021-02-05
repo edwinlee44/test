@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>PL_EOM_H2D_DT</label>
+    <batchFile>PL_EOM_H2D_DT.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EOM _H2D_DT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_PLEOM_H2DT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

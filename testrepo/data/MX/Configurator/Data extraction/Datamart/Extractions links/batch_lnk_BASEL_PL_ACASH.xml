@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BASEL_PL_ACASH</label>
+    <batchFile>BASEL_PL_ACASH.xml</batchFile>
+    <description>ARC &amp; ALL</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_PAST_CASH_BK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASEL_PCASH_ARC.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

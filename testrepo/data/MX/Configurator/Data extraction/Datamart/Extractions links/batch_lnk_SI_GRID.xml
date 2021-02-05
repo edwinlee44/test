@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>SI_GRID</label>
+    <batchFile>SI_GRID.xml</batchFile>
+    <description>Reporting Data Model: [ SI_GRID ]  --Feed SI_GRID</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SI_GRID.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

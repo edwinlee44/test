@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_CLASS_MAPPING</label>
+    <batchFile>DF_CLASS_MAPPING.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

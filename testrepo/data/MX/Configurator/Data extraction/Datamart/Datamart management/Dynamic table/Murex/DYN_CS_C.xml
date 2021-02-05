@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_CS_C</Name>
+    <Description>Reporting Data Model: cash flows consolidated</Description>
+    <Type>Transaction</Type>
+    <Directory>Murex</Directory>
+    <Class>DYN_TRNRP_CS</Class>
+    <History>CS_C</History>
+    <Alias>TRNRP_CS.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>AMNT_BRK</Label>
+            <Description>Brokerage</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(F_TYPE="BFEE",F_AMOUNT,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_NOBR</Label>
+            <Description>Total Amount Without Brokerage</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(F_TYPE="BFEE",0,F_AMOUNT)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_OPRM</Label>
+            <Description>Option : Amount Premium</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(G_FGT_OPT="OPT".AND.F_TYPE="C",F_AMOUNT,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_OSTL</Label>
+            <Description>Option : Cash Settlement</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(G_FGT_OPT="OPT".AND.F_TYPE="EXR",F_AMOUNT,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_OTH</Label>
+            <Description>Option : Other Payment</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(G_FGT_OPT="OPT".AND.F_TYPE&lt;&gt;"C".AND.F_TYPE&lt;&gt;"EXR".AND.F_TYPE&lt;&gt;"BFEE",F_AMOUNT,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_UCAP</Label>
+            <Description>Underlying : Capital</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(G_FGT_OPT&lt;&gt;"OPT".AND.F_TYPE="C".AND.TP_CMNT2&lt;&gt;"ROLL-OVER",F_AMOUNT,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_UOTH</Label>
+            <Description>Underlying : Other Payment</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(G_FGT_OPT&lt;&gt;"OPT".AND.F_TYPE&lt;&gt;"R".AND.F_TYPE&lt;&gt;"C".AND.F_TYPE&lt;&gt;"BFEE",F_AMOUNT,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_UREV</Label>
+            <Description>Underlying : Revenue</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(G_FGT_OPT&lt;&gt;"OPT".AND.F_TYPE="R",F_AMOUNT,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AMNT_UROLL</Label>
+            <Description>Undelying : Capital from roll-overs</Description>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(G_FGT_OPT=="FXD".AND.F_TYPE="C".AND.TP_CMNT2="ROLL-OVER",F_AMOUNT,0)</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>G_FGT_OPT</Label>
+            <Description>Family Group Type Category: Option Group</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">IIF(TRN_GRP=="OPT".OR.TRN_GRP="OSWP".OR.TRN_GRP="CF".OR.TRN_GRP="IRG","OPT","UND")</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SCAN_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>F_VALUE</Label>
+            <Type>Date</Type>
+            <Length>8</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>F_CURRENCY</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>F_OBSCOM</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>F_TYPE</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>F_AMOUNT</Label>
+            <Type>American</Type>
+            <Length>25</Length>
+            <Decimal>8</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TRN_GTYPE</Label>
+            <Type>Integer</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>INSTRUMENT</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <CNSKey>True</CNSKey>
+        </Field>
+        <Field>
+            <Label>TP_CNTRP</Label>
+            <Type>Character</Type>
+            <Length>35</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_DSCTYPE</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_CMNT</Label>
+            <Type>Character</Type>
+            <Length>30</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>XSUM_COUNT</Label>
+            <Type>American</Type>
+            <Length>12</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_BRK</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_NOBR</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_OPRM</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_OSTL</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_OTH</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_UCAP</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_UOTH</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_UREV</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>AMNT_UROLL</Label>
+            <Type>American</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code>CASH_DETAIL_ALL_EVALFUT</Code>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables>
+                <ScannedTable>Transactions</ScannedTable>
+            </ScannedTables>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <FilterExpression Type="PostFilter">F_OBSCOM="N".AND.F_VALUE&lt;&gt;CTOD('19800101')                      </FilterExpression>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>Yes</Active>
+            <FilterExpression>TP_CMNT2&lt;&gt;"ROLL-OVER"</FilterExpression>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>Yes</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>No</ComputeSensitivities>
+        <ComputeDelta/>
+        <ComputeGamma/>
+        <ComputeTheta/>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega/>
+        <ComputeRR2/>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+        <IncludeNullFlows>No
+            <tolerance>0.01</tolerance>
+        </IncludeNullFlows>
+        <IncludeSecurityFlows>No</IncludeSecurityFlows>
+    </Options>
+</Table>

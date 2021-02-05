@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_MX_AC_IRS_2_FITS</label>
+    <batchFile>DF_MX_AC_IRS_2_FITS.xml</batchFile>
+    <description>會計排程上傳FITS_BFMKTTP7</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

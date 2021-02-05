@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_AC_IR_OS_INF</label>
+    <batchFile>BF_AC_IR_OS_INF.xml</batchFile>
+    <description>(MXACRP-SQL_RP-MX3</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_AC_IR_OS_INFO_SG.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_BO_CRONJOB</label>
+    <batchFile>BE_BO_CRONJOB.xml</batchFile>
+    <description>(MXBORP-MX3)執行MXBORP系統</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MD_ALL_SPTRTS_F</label>
+    <batchFile>MD_ALL_SPTRTS_F.xml</batchFile>
+    <description/>
+    <category>Market Data</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

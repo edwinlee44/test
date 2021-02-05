@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUTOFEED-INS_MAPPING</label>
+    <batchFile>FOBO-AUTOFEED-INS_MAPPING.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

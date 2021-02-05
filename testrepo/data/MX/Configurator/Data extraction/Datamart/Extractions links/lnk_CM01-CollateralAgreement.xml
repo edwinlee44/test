@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM01-CollateralAgreement</label>
+    <batchFile>CM01-CollateralAgreement.xml</batchFile>
+    <description>Collateral agreement details</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_AC_TDA_EQD</label>
+    <batchFile>BF_AC_TDA_EQD.xml</batchFile>
+    <description>(FIFO)AC Trade Day Accounting</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>AC_TDA_EQD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_AC_TDA_EQD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-AUD-USER_LOG_IN_ACTION</label>
+    <description>SHUNG</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-AUD-USER_LOG_IN_ACTION</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

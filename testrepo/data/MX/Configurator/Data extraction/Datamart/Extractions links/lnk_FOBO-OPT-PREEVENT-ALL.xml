@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OPT-PREEVENT-ALL</label>
+    <batchFile>FOBO-OPT-PREEVENT-ALL.xml</batchFile>
+    <description>(BY SHUNG LIN)FOR MONITOR_OPTION BEFORE EVENT</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

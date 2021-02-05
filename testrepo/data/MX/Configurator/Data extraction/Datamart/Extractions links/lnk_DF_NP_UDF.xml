@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_NP_UDF</label>
+    <batchFile>DF_NP_UDF.xml</batchFile>
+    <description>(MXDM-MX3-SQL_MX)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

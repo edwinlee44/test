@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_SIMM_CQ_DELTA_REP</label>
+    <batchFile>F_SIMM_CQ_DELTA_REP.xml</batchFile>
+    <description>Single Feeder for datemart table SIMM_CQ_DELTA_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

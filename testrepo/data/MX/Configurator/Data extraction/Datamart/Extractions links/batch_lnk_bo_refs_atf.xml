@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>bo_refs_atf</label>
+    <batchFile>bo_refs_atf.xml</batchFile>
+    <description>refresh atf task cache</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

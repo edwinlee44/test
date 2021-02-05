@@ -1,0 +1,15 @@
+<batch>
+    <label>DEQ_AC_IR_BOND_RECLASS_Q</label>
+    <description>(MXACRP-MX3)每季報給會計師 重分類相關資料</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_AC_IR_BOND_RECLASS_Q</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

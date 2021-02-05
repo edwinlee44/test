@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ERQ_AC_YEAR_PL</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ERQ_AC_YEAR_PL.sql</sql>
+    <description>(MXACRP-MX3)年結資料</description>
+</extractionRequest>

@@ -1,0 +1,23 @@
+<setDefinition>
+    <label>BED_AC_IR_HK</label>
+    <batchFile>BED_AC_IR_HK.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_IR_BOND_OS.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_BOND_REPO_TRADE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_BOND_SETTLE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_ERR_PAYMENT.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_EXPIRE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_FUT_LQTY.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_OS_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_SETTLE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_TRADE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_OS_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_REPO_OS.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_SETTLE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_TRADE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

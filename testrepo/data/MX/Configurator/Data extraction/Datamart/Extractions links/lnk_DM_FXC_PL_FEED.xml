@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DM_FXC_PL_FEED</label>
+    <batchFile>DM_FXC_PL_FEED.xml</batchFile>
+    <description>Data feeder for DM_FXC_PL_REP table</description>
+    <category>ComputeAndStorePL</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

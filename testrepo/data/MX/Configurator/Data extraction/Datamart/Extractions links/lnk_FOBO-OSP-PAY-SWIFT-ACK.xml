@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-PAY-SWIFT-ACK</label>
+    <batchFile>FOBO-OSP-PAY-SWIFT-ACK.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

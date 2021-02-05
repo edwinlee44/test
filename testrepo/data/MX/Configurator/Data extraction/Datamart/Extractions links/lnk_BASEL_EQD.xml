@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_EQD</label>
+    <batchFile>BASEL_EQD.xml</batchFile>
+    <description>Basel Model: BASEL_EQD</description>
+    <category>Basel</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

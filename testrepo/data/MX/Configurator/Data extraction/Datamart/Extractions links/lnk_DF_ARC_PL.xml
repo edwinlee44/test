@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_ARC_PL</label>
+    <batchFile>DF_ARC_PL.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

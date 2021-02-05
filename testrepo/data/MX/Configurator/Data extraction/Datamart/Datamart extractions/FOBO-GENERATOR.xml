@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-GENERATOR</label>
+    <description>SHUNGLIN</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-GENERATOR</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

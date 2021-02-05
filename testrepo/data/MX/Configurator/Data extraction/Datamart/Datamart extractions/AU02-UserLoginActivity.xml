@@ -1,0 +1,15 @@
+<batch>
+    <label>AU02-UserLoginActivity</label>
+    <description>User login activity report</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="UserLoginActiv">UserLoginActiv</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

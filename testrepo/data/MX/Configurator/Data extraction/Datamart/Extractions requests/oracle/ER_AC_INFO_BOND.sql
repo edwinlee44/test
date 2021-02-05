@@ -1,0 +1,1 @@
+select m_se_label,m_se_code,m_bond_type,m_se_type from v_info_bond

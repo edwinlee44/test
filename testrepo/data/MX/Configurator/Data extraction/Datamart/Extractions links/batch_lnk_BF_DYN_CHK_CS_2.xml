@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_DYN_CHK_CS_2</label>
+    <batchFile>BF_DYN_CHK_CS_2.xml</batchFile>
+    <description>(MX3-RECON)CU</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_DYN_CHECK_CSSW.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_DYN_CHECK_CU.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

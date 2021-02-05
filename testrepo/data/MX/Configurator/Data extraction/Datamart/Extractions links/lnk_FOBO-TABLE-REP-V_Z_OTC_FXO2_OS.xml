@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-TABLE-REP-V_Z_OTC_FXO2_OS</label>
+    <batchFile>FOBO-TABLE-REP-V_Z_OTC_FXO2_OS.xml</batchFile>
+    <description>(BY SHUNG LIN) FOBO-TABLE-REP-V_Z_OTC_FXO2_OS</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

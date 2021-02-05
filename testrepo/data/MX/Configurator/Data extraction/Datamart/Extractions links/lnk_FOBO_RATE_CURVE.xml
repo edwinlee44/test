@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO_RATE_CURVE</label>
+    <batchFile>FOBO_RATE_CURVE.xml</batchFile>
+    <description>shunglin</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_FOBA_SQS_FEE</label>
+    <batchFile>BF_FOBA_SQS_FEE.xml</batchFile>
+    <description>[MXFORP-MX3] FO BA Unwind Fee - FOBA_SQS_FEE</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_FOBA_SQS_FEE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>unwindFee.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

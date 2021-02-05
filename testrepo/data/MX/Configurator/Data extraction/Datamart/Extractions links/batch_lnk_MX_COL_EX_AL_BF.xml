@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MX_COL_EX_AL_BF</label>
+    <batchFile>MX_COL_EX_AL_BF.xml</batchFile>
+    <description>Batch of feeders for COL_EXC_ALLOC_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MX_COL_EXC_ALLOC_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MX_COL_EXC_ALLOC_GF.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

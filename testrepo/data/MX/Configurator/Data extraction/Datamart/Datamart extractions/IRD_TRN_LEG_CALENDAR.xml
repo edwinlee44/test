@@ -1,0 +1,15 @@
+<batch>
+    <label>IRD_TRN_LEG_CALENDAR</label>
+    <description>LIVE DEAL TWO LEG CALENDAR FOR SHUNGLIN</description>
+    <type>Extraction</type>
+    <category>BA_IRD</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>IRD_TRN_LEG_CALENDAR</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

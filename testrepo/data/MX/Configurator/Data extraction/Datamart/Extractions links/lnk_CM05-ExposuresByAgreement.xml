@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM05-ExposuresByAgreement</label>
+    <batchFile>CM05-ExposuresByAgreement.xml</batchFile>
+    <description>Collateral exposures aggregated by legal agreement</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

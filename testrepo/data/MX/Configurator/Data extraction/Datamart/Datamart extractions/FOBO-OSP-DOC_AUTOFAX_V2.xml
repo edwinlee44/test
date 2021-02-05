@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OSP-DOC_AUTOFAX_V2</label>
+    <description>OSP DOCUMENT LIST FOR AUTO FAX DOCUMENT RECONCILE V2</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="FOBO-OSP-DOC_AUTOFAX_V2::FOBO-OSP-DOC_AUTOFAX">FOBO-OSP-DOC_AUTOFAX_V2</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

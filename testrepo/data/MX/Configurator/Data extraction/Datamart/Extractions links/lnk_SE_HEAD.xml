@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SE_HEAD</label>
+    <batchFile>SE_HEAD.xml</batchFile>
+    <description>(EQ) Reporting Data Model: SE_HEAD</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>TRN_FXD_FOSW</label>
+    <batchFile>TRN_FXD_FOSW.xml</batchFile>
+    <description>(FOSW) Reporting Data Model: DYN_TP_FOSW</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

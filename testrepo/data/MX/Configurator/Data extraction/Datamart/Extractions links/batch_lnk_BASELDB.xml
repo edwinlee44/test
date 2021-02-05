@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BASELDB</label>
+    <batchFile>BASELDB.xml</batchFile>
+    <description>Basel Model: [ BASEL ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASELDB.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

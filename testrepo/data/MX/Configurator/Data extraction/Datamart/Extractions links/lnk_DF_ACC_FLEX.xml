@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_ACC_FLEX</label>
+    <batchFile>DF_ACC_FLEX.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

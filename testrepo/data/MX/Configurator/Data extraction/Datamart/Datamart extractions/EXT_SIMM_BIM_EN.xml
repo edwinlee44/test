@@ -1,0 +1,30 @@
+<batch>
+    <label>EXT_SIMM_BIM_EN</label>
+    <description>Single Extraction for SIM_BIM_ENRICH_REP and SIMM_TP_ALL_REP</description>
+    <type>Extraction</type>
+    <category>MLC</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DYN_SIMM_BIMENRICH</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>SIM_BIM_ENRICH.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+        <dataPublisherScript>
+            <dapLabel>DYN_SIMM_TP_ALL</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>SIMM_TP_ALL.REP</outputTable>
+            <mainTable>No</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="EXT_SIMM_BIM_EN_VW_FMT">EXT_SIMM_BIM_EN</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUD-SI</label>
+    <batchFile>FOBO-AUD-SI.xml</batchFile>
+    <description>(BY SHUNG LIN) SI AUDIT LOG</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

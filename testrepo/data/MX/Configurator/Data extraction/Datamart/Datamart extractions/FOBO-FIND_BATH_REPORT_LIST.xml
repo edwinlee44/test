@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-FIND_BATH_REPORT_LIST</label>
+    <description/>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-FIND_BATH_REPORT_LIST</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

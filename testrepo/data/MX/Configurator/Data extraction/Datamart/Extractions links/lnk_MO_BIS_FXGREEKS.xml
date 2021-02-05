@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_BIS_FXGREEKS</label>
+    <batchFile>MO_BIS_FXGREEKS.xml</batchFile>
+    <description>MO FX GREEKS FOR BIS</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

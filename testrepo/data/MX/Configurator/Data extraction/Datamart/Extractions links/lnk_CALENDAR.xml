@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CALENDAR</label>
+    <batchFile>CALENDAR.xml</batchFile>
+    <description>Reporting Data Model: CALENDAR</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

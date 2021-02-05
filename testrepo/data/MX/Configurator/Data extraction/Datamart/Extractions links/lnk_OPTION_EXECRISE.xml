@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>OPTION_EXECRISE</label>
+    <batchFile>OPTION_EXECRISE.xml</batchFile>
+    <description>OPTION_EXECRISE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

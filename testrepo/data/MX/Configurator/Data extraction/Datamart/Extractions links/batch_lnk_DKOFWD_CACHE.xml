@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>DKOFWD_CACHE</label>
+    <batchFile>DKOFWD_CACHE.xml</batchFile>
+    <description>DKOFWD_CACHE</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DKOFWD_CACHE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

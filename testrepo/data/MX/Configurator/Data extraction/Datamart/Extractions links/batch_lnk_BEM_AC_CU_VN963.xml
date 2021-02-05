@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BEM_AC_CU_VN963</label>
+    <batchFile>BEM_AC_CU_VN963.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_TRADE_VN963.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

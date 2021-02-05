@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_PL_GREEKS_AM3</label>
+    <batchFile>MO_PL_GREEKS_AM3.xml</batchFile>
+    <description>[MX3-MO] MO_PL_GREEKS_AM3</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

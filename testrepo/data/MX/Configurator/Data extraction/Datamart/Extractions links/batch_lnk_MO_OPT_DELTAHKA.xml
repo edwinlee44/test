@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_OPT_DELTAHKA</label>
+    <batchFile>MO_OPT_DELTAHKA.xml</batchFile>
+    <description>[MX3-MO] MO OPTION DELTA HK ARC</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_OPT_DELTA_HK_ARC.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

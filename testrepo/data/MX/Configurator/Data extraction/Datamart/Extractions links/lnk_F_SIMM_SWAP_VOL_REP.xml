@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_SIMM_SWAP_VOL_REP</label>
+    <batchFile>F_SIMM_SWAP_VOL_REP.xml</batchFile>
+    <description>Single Feeder for datamart table SIMM_SWAP_VOL_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

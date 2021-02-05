@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_COVAL_TRADE</label>
+    <batchFile>F_COVAL_TRADE.xml</batchFile>
+    <description>coval trade</description>
+    <category>Reconciliation</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

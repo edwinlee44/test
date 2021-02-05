@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-INDEX</label>
+    <description>FOR TRIM(M_ARCH_LABEL)='T6165(TWD-1)'</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-INDEX</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

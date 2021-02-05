@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_COUNTERP</label>
+    <batchFile>DF_COUNTERP.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

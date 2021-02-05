@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BA_CASH_BALANCE</label>
+    <batchFile>BA_CASH_BALANCE.xml</batchFile>
+    <description>BA_CASH_BALANCE</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BA_CASH_BALANCE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

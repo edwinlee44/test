@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>PAYMENT_EQD</label>
+    <batchFile>PAYMENT_EQD.xml</batchFile>
+    <description>(EQ1) Reporting Data Model: [ PAYMENT_EQD ]  --Feed PAYMENT_EQD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>PAYMENT_EQD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>PAYMENT_EQD.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>SV</label>
+    <batchFile>SV.xml</batchFile>
+    <description/>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_PLEOM_EQD_SA</label>
+    <batchFile>BF_PLEOM_EQD_SA.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_PLEOM_EQD_SA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_PLEOM_EQD_SA.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

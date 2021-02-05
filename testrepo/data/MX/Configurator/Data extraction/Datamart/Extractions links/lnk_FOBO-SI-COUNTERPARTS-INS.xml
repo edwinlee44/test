@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-SI-COUNTERPARTS-INS</label>
+    <batchFile>FOBO-SI-COUNTERPARTS-INS.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-SI-COUNTERPARTS-INSTRUCTIONS</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

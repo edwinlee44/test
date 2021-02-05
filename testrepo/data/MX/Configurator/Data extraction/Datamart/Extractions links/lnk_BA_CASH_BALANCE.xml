@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BA_CASH_BALANCE</label>
+    <batchFile>BA_CASH_BALANCE.xml</batchFile>
+    <description>BA_CASH_BALANCE</description>
+    <category>Fubon</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

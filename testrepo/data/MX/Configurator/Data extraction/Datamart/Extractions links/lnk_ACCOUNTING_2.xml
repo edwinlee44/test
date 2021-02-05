@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>ACCOUNTING_2</label>
+    <batchFile>ACCOUNTING_2.xml</batchFile>
+    <description>Reporting Data Model: ACJT</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

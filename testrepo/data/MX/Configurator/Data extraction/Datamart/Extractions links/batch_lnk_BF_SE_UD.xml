@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_SE_UD</label>
+    <batchFile>BF_SE_UD.xml</batchFile>
+    <description>[MX3-FO]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_SE_UD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

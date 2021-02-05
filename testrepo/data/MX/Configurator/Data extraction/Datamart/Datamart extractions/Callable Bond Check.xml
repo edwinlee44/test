@@ -1,0 +1,15 @@
+<batch>
+    <label>Callable Bond Check</label>
+    <description>Callable Bond Makewhole Check</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>Callable Bond Check</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

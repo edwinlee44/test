@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>ACCOUNTING_1</label>
+    <batchFile>ACCOUNTING_1.xml</batchFile>
+    <description>Reporting Data Model: ACAC,ACAR,ACJS</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

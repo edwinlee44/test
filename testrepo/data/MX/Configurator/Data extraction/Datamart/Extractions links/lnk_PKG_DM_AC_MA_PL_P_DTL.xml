@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PKG_DM_AC_MA_PL_P_DTL</label>
+    <batchFile>PKG_DM_AC_MA_PL_P_DTL.xml</batchFile>
+    <description>(MXACRP)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

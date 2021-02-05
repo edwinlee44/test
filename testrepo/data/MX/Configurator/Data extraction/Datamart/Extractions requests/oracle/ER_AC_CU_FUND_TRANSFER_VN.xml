@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_CU_FUND_TRANSFER_VN</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_CU_FUND_TRANSFER_VN.sql</sql>
+    <description>(MXAXRP-MX3)</description>
+</extractionRequest>

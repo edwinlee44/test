@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_BO_CS_FXSPT</label>
+    <batchFile>BF_BO_CS_FXSPT.xml</batchFile>
+    <description>(MXBORP-SQL_MX-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_BO_CS_FXSPT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

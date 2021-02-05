@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-AUD-FIXING_AUD</label>
+    <description>(BY SHUNG LIN)FOR COMPUTER DATE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-AUD-FIXING_AUD</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

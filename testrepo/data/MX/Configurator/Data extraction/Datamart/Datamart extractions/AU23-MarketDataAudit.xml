@@ -1,0 +1,15 @@
+<batch>
+    <label>AU23-MarketDataAudit</label>
+    <description>Audit on Market data</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="MarketDataAudit">MarketDataAudit</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

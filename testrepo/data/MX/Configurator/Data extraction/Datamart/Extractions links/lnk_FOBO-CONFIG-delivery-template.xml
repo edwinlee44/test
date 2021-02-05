@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-CONFIG-delivery-template</label>
+    <batchFile>FOBO-CONFIG-delivery-template.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-CONFIG-delivery-template</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

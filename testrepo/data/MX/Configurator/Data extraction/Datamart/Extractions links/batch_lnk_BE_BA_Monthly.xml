@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BE_BA_Monthly</label>
+    <batchFile>BE_BA_Monthly.xml</batchFile>
+    <description>[MX3-FO] Executed at every month 1st day</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_BA_MPL-dbaccdtl-2CSV.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_PortfolioGrpRightAud.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

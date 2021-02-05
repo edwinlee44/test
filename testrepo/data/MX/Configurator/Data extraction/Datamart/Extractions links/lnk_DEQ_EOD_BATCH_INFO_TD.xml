@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DEQ_EOD_BATCH_INFO_TD</label>
+    <batchFile>DEQ_EOD_BATCH_INFO_TD.xml</batchFile>
+    <description>(MXDM-MX3)查詢當日非MUREX批次執行時間</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

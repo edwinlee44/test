@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUD-TRN-CNTORG</label>
+    <batchFile>FOBO-AUD-TRN-CNTORG.xml</batchFile>
+    <description>(BY SHUNG LIN)FOR CONTORIG</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

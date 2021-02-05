@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>TRN_DETAIL</label>
+    <batchFile>TRN_DETAIL.xml</batchFile>
+    <description>Reporting Data Model: [ TRN_DETAIL ]  --Feed TRN_DETAIL</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TRN_DETAIL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>TRN_DETAIL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

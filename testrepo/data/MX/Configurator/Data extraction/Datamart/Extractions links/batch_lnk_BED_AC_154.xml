@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BED_AC_154</label>
+    <batchFile>BED_AC_154.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CURR_OS_154.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

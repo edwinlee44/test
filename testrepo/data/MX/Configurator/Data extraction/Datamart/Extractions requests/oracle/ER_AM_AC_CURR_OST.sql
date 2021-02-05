@@ -1,0 +1,1 @@
+select * from v_dm_ac_curr_osT_rep

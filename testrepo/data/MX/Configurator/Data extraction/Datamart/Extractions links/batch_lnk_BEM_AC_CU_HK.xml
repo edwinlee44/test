@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>BEM_AC_CU_HK</label>
+    <batchFile>BEM_AC_CU_HK.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_EXPIRE.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_SWAP_NEAR_HK.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_CU_TRADE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

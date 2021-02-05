@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA_ROLLOVER</label>
+    <batchFile>FOBA_ROLLOVER.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

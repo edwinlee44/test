@@ -1,0 +1,23 @@
+<setDefinition>
+    <label>FeedSql</label>
+    <batchFile>FeedSql.xml</batchFile>
+    <description>Reporting Data Model: [ FeedSql ] -- Feed FXFLEX#FXBK3, FXFLEX#FXBK5 (only for Feeder Type : SQL)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BD_BOND.xml</datamartObjectFile>
+            <datamartObjectFile>FXFLEX#FXBK2468.xml</datamartObjectFile>
+            <datamartObjectFile>FXFLEX#FXBK3.xml</datamartObjectFile>
+            <datamartObjectFile>FXFLEX#FXBK5.xml</datamartObjectFile>
+            <datamartObjectFile>L_EQD_IS.xml</datamartObjectFile>
+            <datamartObjectFile>L_MOP_TY.xml</datamartObjectFile>
+            <datamartObjectFile>MKTOP_OTC.xml</datamartObjectFile>
+            <datamartObjectFile>RT_INSGN.xml</datamartObjectFile>
+            <datamartObjectFile>RT_LNGN.xml</datamartObjectFile>
+            <datamartObjectFile>RT_LOAN.xml</datamartObjectFile>
+            <datamartObjectFile>SECURITI.xml</datamartObjectFile>
+            <datamartObjectFile>SE_MKTOP.xml</datamartObjectFile>
+            <datamartObjectFile>TRN_PFLD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

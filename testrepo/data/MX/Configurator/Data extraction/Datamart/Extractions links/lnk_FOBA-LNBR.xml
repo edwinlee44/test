@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-LNBR</label>
+    <batchFile>FOBA-LNBR.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>EXT_SIMM_IR_VEGA_CF_REP</label>
+    <batchFile>EXT_SIMM_IR_VEGA_CF_REP.xml</batchFile>
+    <description>Extraction for SIMM_IR_VEGA_CF_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_TRN_DETAIL</label>
+    <batchFile>DF_TRN_DETAIL.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

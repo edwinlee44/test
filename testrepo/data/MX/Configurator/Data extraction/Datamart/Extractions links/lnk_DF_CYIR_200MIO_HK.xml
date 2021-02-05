@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_CYIR_200MIO_HK</label>
+    <batchFile>DF_CYIR_200MIO_HK.xml</batchFile>
+    <description>[MX3] CYIR_200MIO_HK - Golive version</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

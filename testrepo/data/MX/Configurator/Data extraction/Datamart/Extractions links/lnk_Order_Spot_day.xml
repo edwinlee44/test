@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>Order_Spot_day</label>
+    <batchFile>Order_Spot_day.xml</batchFile>
+    <description>Reporting Data Model: SPOT_DAY for Order System</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_IRD_CS_SUM</label>
+    <batchFile>BF_IRD_CS_SUM.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_IRD_CS_SUM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

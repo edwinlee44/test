@@ -1,0 +1,15 @@
+<batch>
+    <label>DEQ_AC_MA_PL_DTL_HIST</label>
+    <description>(MXACRP-MX3)取會計歷史損益明細_單號</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ERQ_AC_MA_PL_DTL_HIST</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

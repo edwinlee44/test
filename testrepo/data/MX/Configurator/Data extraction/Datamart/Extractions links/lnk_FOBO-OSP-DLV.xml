@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-DLV</label>
+    <batchFile>FOBO-OSP-DLV.xml</batchFile>
+    <description>(BY SHUNG LIN)OSP</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

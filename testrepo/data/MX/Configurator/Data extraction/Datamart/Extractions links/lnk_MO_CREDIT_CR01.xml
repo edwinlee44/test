@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_CREDIT_CR01</label>
+    <batchFile>MO_CREDIT_CR01.xml</batchFile>
+    <description>[MX3-MO] MO_CREDIT_CR01</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

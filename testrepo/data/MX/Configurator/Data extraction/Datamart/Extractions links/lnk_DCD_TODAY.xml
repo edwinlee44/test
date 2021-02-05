@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DCD_TODAY</label>
+    <batchFile>DCD_TODAY.xml</batchFile>
+    <description>Reporting Data Model: list of DCD Fx option deals today</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

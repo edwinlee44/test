@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-VN-FUNDTRANSFER</label>
+    <batchFile>FOBO-VN-FUNDTRANSFER.xml</batchFile>
+    <description>(SHUNG.LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

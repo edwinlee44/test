@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_FO_ININ-RolloverDeal</label>
+    <description>[MX3-FO] DE_FO_ININ-RolloverDeal</description>
+    <type>Extraction</type>
+    <category>REPORT_FO</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>DE_FO_ININ-RolloverDeal</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_TRN_HDR</label>
+    <batchFile>DF_TRN_HDR.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

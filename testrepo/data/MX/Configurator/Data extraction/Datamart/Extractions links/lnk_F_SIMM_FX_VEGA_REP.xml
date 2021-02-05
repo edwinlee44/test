@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_SIMM_FX_VEGA_REP</label>
+    <batchFile>F_SIMM_FX_VEGA_REP.xml</batchFile>
+    <description>Single Feeder for SIMM_FX_VEGA_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

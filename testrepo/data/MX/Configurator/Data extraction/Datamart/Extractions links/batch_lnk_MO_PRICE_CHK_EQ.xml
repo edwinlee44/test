@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_PRICE_CHK_EQ</label>
+    <batchFile>MO_PRICE_CHK_EQ.xml</batchFile>
+    <description>MO_PRICE_CHECK_EQD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_PRICE_CHK_EQ.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

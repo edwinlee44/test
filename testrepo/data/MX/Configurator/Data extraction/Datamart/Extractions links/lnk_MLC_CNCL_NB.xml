@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_CNCL_NB</label>
+    <batchFile>MLC_CNCL_NB.xml</batchFile>
+    <description/>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

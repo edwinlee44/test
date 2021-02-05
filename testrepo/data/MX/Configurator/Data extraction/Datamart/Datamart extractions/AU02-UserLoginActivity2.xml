@@ -1,0 +1,15 @@
+<batch>
+    <label>AU02-UserLoginActivity2</label>
+    <description>VER2</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>AU02-UserLoginActivity2</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

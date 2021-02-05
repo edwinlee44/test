@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_GREEKS_RECON</label>
+    <batchFile>MO_GREEKS_RECON.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_GREEKS_RECON.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_CNT_AUDIT</label>
+    <batchFile>DE_CNT_AUDIT.xml</batchFile>
+    <description/>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

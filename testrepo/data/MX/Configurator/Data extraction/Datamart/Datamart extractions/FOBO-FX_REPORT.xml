@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-FX_REPORT</label>
+    <description>(BY SHUNG LIN)BO_OPTION</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-FX-REPORT</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_DELTA_PLUS</label>
+    <batchFile>MO_DELTA_PLUS.xml</batchFile>
+    <description>[MX3-MO] MO DELTA PLUS ALL SEP 1</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

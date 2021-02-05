@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_ALL_ENTRY</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_ALL_ENTRY.sql</sql>
+    <description>(MXACRP)</description>
+</extractionRequest>

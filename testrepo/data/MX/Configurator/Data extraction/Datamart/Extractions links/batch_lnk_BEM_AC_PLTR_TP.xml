@@ -1,0 +1,18 @@
+<setDefinition>
+    <label>BEM_AC_PLTR_TP</label>
+    <batchFile>BEM_AC_PLTR_TP.xml</batchFile>
+    <description>(MXACRP-MX3)台北損益結轉相關</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_MA_PL_DBU1.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PL_DBU2.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PL_OBU1.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PL_OBU2.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PL_OBU3.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_O2D_MM.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_O2D_OPT_DBU.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_O2D_OPT_OBU.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

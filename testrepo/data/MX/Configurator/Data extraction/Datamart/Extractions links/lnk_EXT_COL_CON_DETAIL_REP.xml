@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>EXT_COL_CON_DETAIL_REP</label>
+    <batchFile>EXT_COL_CON_DETAIL_REP.xml</batchFile>
+    <description>extraction from COL_CON_DETAIL_REP</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

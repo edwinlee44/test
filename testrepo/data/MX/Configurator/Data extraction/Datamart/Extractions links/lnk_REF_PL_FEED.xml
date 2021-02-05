@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>REF_PL_FEED</label>
+    <batchFile>REF_PL_FEED.xml</batchFile>
+    <description>Data feeder for REF_PL_REP table</description>
+    <category>ComputeAndStorePL</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BASEL_EQD_DELTA</label>
+    <batchFile>BASEL_EQD_DELTA.xml</batchFile>
+    <description>MOIT-BASEL_EQD_DELTA</description>
+    <category>Basel</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

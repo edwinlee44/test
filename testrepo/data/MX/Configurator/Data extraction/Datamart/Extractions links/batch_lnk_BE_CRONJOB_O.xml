@@ -1,0 +1,9 @@
+<setDefinition>
+    <label>BE_CRONJOB_O</label>
+    <batchFile>BE_CRONJOB_O.xml</batchFile>
+    <description>(MXDM-MX3)執行MXDM系統下FEEDER舊單部分</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles/>
+    </componentsFiles>
+</setDefinition>

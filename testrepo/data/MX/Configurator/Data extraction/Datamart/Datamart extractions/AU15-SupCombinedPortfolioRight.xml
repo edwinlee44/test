@@ -1,0 +1,15 @@
+<batch>
+    <label>AU15-SupCombinedPortfolioRight</label>
+    <description>Lists rights on combined portfolios used by groups</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="SupCombinedPortfolioRights">CombinedPortfoliosRights</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

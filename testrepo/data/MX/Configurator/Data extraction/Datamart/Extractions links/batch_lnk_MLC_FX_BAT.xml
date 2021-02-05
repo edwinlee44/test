@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MLC_FX_BAT</label>
+    <batchFile>MLC_FX_BAT.xml</batchFile>
+    <description>Mlc Data Model: [ mlc_fx ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_FX_FDR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

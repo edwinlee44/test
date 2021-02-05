@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>IRD_DETAIL</label>
+    <batchFile>IRD_DETAIL.xml</batchFile>
+    <description>SHUNGLIN</description>
+    <category>BA_IRD</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

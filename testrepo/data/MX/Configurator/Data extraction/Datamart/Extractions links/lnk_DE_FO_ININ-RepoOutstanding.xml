@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_FO_ININ-RepoOutstanding</label>
+    <batchFile>DE_FO_ININ-RepoOutstanding.xml</batchFile>
+    <description>[MX3-FO] Bond Desk Monthly Repo Outstanding</description>
+    <category>REPORT_FO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

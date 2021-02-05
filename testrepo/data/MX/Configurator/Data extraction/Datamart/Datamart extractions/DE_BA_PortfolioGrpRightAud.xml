@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_BA_PortfolioGrpRightAud</label>
+    <description>[MX3-FO] BA - User Group Portfolio Right Audit</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="BA_PortfolioGrpRight">BA_PortfolioGrpRight</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

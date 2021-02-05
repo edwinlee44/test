@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BE_AC_CURR_OS</label>
+    <batchFile>BE_AC_CURR_OS.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CURR_OST.xml</datamartObjectFile>
+            <datamartObjectFile>DE_DM_AC_CURR_OS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

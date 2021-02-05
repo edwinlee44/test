@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-DLV_CASH_BU_PRODUCER</label>
+    <batchFile>FOBO-DLV_CASH_BU_PRODUCER.xml</batchFile>
+    <description>(BY SHUNG LIN)FOBO-DLV_CASH_DBF BY_ORIG_PROD</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

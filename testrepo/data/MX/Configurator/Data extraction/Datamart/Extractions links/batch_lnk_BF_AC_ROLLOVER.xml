@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_AC_ROLLOVER</label>
+    <batchFile>BF_AC_ROLLOVER.xml</batchFile>
+    <description>(MXACRP-SQL_RP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_AC_ROLLOVER.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

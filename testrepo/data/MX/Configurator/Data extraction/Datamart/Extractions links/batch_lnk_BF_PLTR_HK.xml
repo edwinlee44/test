@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_PLTR_HK</label>
+    <batchFile>BF_PLTR_HK.xml</batchFile>
+    <description>(MXFORP-MX3)損益結轉用</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_PLTR_HK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_PLEOM_H2DT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

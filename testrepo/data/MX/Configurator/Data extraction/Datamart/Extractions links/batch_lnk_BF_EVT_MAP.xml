@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EVT_MAP</label>
+    <batchFile>BF_EVT_MAP.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EVT_MAP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_EVT_MAP.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

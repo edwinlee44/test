@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>MLC_MV_BAT</label>
+    <batchFile>MLC_MV_BAT.xml</batchFile>
+    <description>Mlc Data Model: [ mlc_mv_dbf ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_MV_BOND.xml</datamartObjectFile>
+            <datamartObjectFile>MLC_MV_DBF.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>MLC_MV.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

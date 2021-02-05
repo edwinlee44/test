@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_BO_DEAL_AMT</label>
+    <batchFile>DF_BO_DEAL_AMT.xml</batchFile>
+    <description>(MXBORP-MX3) MX_BO_DEAL_AMT_REP</description>
+    <category>T-MXBORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

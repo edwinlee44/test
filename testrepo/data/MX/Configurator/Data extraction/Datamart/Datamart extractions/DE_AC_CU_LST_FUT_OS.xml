@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_AC_CU_LST_FUT_OS</label>
+    <description>(MXACRP-MX3)FX FUT OPT</description>
+    <type>Extraction</type>
+    <category>T-MXACRP</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_AC_CU_LST_FUT_OS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

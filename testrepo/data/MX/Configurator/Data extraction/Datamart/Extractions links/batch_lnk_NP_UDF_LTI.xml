@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>NP_UDF_LTI</label>
+    <batchFile>NP_UDF_LTI.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>NP_UDF_LTI.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_PLAR_C_1</Name>
+    <Description>Reporting Data Model: Archived PL related to purge, adjustments and transfers ; first feed TRN_ALL</Description>
+    <Type>Copy creation</Type>
+    <Directory>Murex</Directory>
+    <Class/>
+    <History>PLAR_C_1</History>
+    <Alias>TRN_ALL</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>ACC_CUR</Label>
+            <Description>Accounting Currency</Description>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CENV('CUR_ACC')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>AR_TYPE</Label>
+            <Description>Archive type (adjustment)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">'A'</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC1_FL_AC</Label>
+            <Description>Spot conversion at date 1 from flow currency to acc. currency</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(CURRENCY,ACC_CUR,DENV("CRT_BND12"))</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SC2_FL_AC</Label>
+            <Description>Spot conversion at date 2 from flow currency to acc. currency</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">SPTCV(CURRENCY,ACC_CUR,DENV("CRT_BND12"))</Formula>
+        </Field>
+        <Field>
+            <Label>DATE</Label>
+            <Type>Date</Type>
+            <Length>4</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_FMLY</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_GRP</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TRN_TYPE</Label>
+            <Type>Character</Type>
+            <Length>5</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>INSTRUMENT</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PFOLIO</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CURRENCY</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>AMOUNT</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSFR_CAP</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSFR_REV</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSFU_CAP</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSFU_REV</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSNFR_CAP</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSNFR_REV</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSNFU_CAP</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CSNFU_REV</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>NF_BRKR</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>F_BRKR</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>2</Decimal>
+        </Field>
+        <Field>
+            <Label>CV_FLAG</Label>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACC_CUR</Label>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>AR_TYPE</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>SC1_FL_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+        <Field>
+            <Label>SC2_FL_AC</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>7</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes/>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation>
+            <Source>TRN_ALL</Source>
+            <DirectoryType>Default</DirectoryType>
+            <DirectoryPath/>
+            <MarketParameter>
+                <DeskDefined>No</DeskDefined>
+                <Desk/>
+                <Date>
+                    <Dates>
+                        <Date Nb="2">
+                            <Type>Contextual today</Type>
+                            <DateOutput>20201130</DateOutput>
+                        </Date>
+                        <Date Nb="1">
+                            <Type>No selection</Type>
+                        </Date>
+                        <Date Nb="0">
+                            <Type>No selection</Type>
+                        </Date>
+                    </Dates>
+                </Date>
+                <RootFile>No</RootFile>
+            </MarketParameter>
+            <Merge>
+                <Active>No</Active>
+                <SourceTable/>
+                <SourceField/>
+                <DestinationField/>
+                <DestinationKey/>
+            </Merge>
+        </Creation>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>No</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

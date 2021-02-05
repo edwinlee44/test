@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_BOND_INFO</label>
+    <batchFile>BF_BOND_INFO.xml</batchFile>
+    <description>(MXDM-SQL_RP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_BOND_INFO.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>REF_DETPL_BF</label>
+    <batchFile>REF_DETPL_BF.xml</batchFile>
+    <description>Batch of feeders for REF_DETPL_REP feed</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>REF_DETPL_FEED.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REF_DETPL_TODAY.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

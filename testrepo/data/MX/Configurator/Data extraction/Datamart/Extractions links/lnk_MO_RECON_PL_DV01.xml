@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_RECON_PL_DV01</label>
+    <batchFile>MO_RECON_PL_DV01.xml</batchFile>
+    <description>[MX3-MO] MO_RECON_PL_DV01</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

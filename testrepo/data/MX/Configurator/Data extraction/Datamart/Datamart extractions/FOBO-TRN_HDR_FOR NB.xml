@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-TRN_HDR_FOR NB</label>
+    <description>(BY SHUNG LIN)FOBO-TRN_HDR_FOR NB</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-TRN_HDR_FOR NB</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

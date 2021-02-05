@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PAYMENT</label>
+    <batchFile>PAYMENT.xml</batchFile>
+    <description>Reporting Data Model: PAYMENT</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

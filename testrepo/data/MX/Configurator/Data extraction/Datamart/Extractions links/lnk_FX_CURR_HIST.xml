@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FX_CURR_HIST</label>
+    <batchFile>FX_CURR_HIST.xml</batchFile>
+    <description>(IR) Reporting Data Model: FX_CURR_HIST</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

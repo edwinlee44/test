@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_CHECK_CS_SWAP</label>
+    <description>(MX3-RECON)</description>
+    <type>Extraction</type>
+    <category>RECON</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_CHECK_CS_SWAP</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

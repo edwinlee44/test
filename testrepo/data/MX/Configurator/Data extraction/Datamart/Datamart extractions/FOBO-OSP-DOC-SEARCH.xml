@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OSP-DOC-SEARCH</label>
+    <description>(BY SHUNG LIN)OSP</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-OSP-DOC-SEARCH</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>FXDELTA</label>
+    <batchFile>FXDELTA.xml</batchFile>
+    <description>FX OPTION DELTA</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>FXO_DELTA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

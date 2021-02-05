@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_GREEKS_RECON</label>
+    <batchFile>MO_GREEKS_RECON.xml</batchFile>
+    <description>[MX3]</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

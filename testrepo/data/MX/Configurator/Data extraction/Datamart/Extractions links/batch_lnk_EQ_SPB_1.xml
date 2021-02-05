@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>EQ_SPB_1</label>
+    <batchFile>EQ_SPB_1.xml</batchFile>
+    <description>[MX3-MO] Reporting Data Model: [ EQ_SPB ]  --Feed EQ_SPB, EQ_OPT_SPB</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>EQ_SPB.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>Reporting_Date_EQ_B.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

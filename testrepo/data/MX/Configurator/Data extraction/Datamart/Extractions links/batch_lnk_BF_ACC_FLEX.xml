@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_ACC_FLEX</label>
+    <batchFile>BF_ACC_FLEX.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_ACC_FLEX.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORTING_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

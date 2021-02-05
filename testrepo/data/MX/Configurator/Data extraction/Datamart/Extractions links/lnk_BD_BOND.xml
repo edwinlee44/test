@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>BD_BOND</label>
+    <batchFile>BD_BOND.xml</batchFile>
+    <description>(BOND)Reporting Data Model: BD_BOND</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

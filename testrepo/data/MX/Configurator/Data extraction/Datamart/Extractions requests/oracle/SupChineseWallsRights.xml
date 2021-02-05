@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>SupChineseWallsRights</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/SupChineseWallsRights.sql</sql>
+    <description/>
+</extractionRequest>

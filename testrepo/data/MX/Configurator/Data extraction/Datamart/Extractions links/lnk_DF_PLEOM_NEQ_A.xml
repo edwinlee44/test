@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_PLEOM_NEQ_A</label>
+    <batchFile>DF_PLEOM_NEQ_A.xml</batchFile>
+    <description>(MXFORP_MX3)</description>
+    <category>T-MXFORP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

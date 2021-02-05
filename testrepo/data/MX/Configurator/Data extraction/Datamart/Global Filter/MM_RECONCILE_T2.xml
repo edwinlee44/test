@@ -1,0 +1,77 @@
+<filterTemplate>
+    <Label>MM_RECONCILE_T2</Label>
+    <Description>MM</Description>
+    <Owner>MUREXBO</Owner>
+    <Group>CONFIG</Group>
+    <Visibility>E</Visibility>
+    <UpdateRight>E</UpdateRight>
+    <CreationClass>DYN_TRNRP_PL</CreationClass>
+    <ClassType>transaction</ClassType>
+    <ClassSubType>-1</ClassSubType>
+    <Options>
+        <Dates>
+            <Date Nb="2">
+                <Type>Contextual today</Type>
+                <Description/>
+                <DateOutput>20201130</DateOutput>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+                <TimeStamp>
+                    <Type>4</Type>
+                    <TimeStampDate>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampDate>
+                    <TimeStampTime>
+                        <Type>No selection</Type>
+                        <Offset>0</Offset>
+                    </TimeStampTime>
+                </TimeStamp>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+            <Date Nb="1">
+                <Type>No selection</Type>
+                <Description/>
+                <MarketDataSet/>
+                <UseEntityClosingSet>No</UseEntityClosingSet>
+                <MDCSSetting>default</MDCSSetting>
+                <MDSType>default</MDSType>
+            </Date>
+        </Dates>
+        <Filter>
+            <Classification>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Classification>
+            <Typology>
+                <businessObjectId mefClass="mxSystemClassificationIREQUEST">
+                    <primarySystem>MX</primarySystem>
+                </businessObjectId>
+                <objectClassifications/>
+            </Typology>
+            <Tags/>
+            <EventTypes/>
+            <FilterExpression Type="ExcludePLAdjustment">(
+  TRN_STATUS=='DEAD'.AND.
+  RQWHERE("exists(select 0 from CONTRACT_DBF con, PACKAGE_DBF pck where TRN_HDR_DBF.M_CONTRACT = con.M_REFERENCE and con.M_PACK_REF = pck.M_REFERENCE   and   TRN_HDR_DBF.M_OPT_STSVER = con.M_VERSION  and  pck.M_ORIG_REF in(select b.M_INT_CODE   from   TRN_HDR_DBF a, TABLE#DATA#DEALIRD_DBF b, CONTRACT_DBF c, trn_DD_DBF d  WHERE  a.M_CONTRACT=c.M_REFERENCE   and  c.M_PACK_REF &lt;&gt;0 and a.M_BINTERNAL&lt;&gt;a.M_SINTERNAL and   a.M_TRN_STATUS&lt;&gt;'DEAD'   and   a.M_NB=d.M_NB   and    d.M_LEXTUDFREF=b.M_nb and a.M_TRN_GRP='LN_BR'  and c.M_PACK_REF&lt;&gt;0 and trim(b.m_int_code) is not null and b.M_AS400_IMP = 'MX'))", "")
+)</FilterExpression>
+            <Benchmarks/>
+            <WorkflowAudit/>
+        </Filter>
+        <BuiltOn>Detailed base</BuiltOn>
+        <LateTrading>Default</LateTrading>
+        <OverrideDynTablesFilter>No</OverrideDynTablesFilter>
+        <StpRightDataRef>0</StpRightDataRef>
+    </Options>
+</filterTemplate>

@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<Table>
+    <Name>DYN_TPCR</Name>
+    <Description>Reporting Data Model: Transaction Parameters for Credit Trades</Description>
+    <Type>Transaction</Type>
+    <Directory>Murex</Directory>
+    <Class>DYN_TRNRP_PL</Class>
+    <History>TPCR</History>
+    <Alias>TRNRP_PL.DBF</Alias>
+    <LoadByPosition>No</LoadByPosition>
+    <Fields>
+        <Field Type="Horizontal">
+            <Label>ACCR_MODE</Label>
+            <Description>Premium Payment Mode (0: premium 'not paid after default'...)</Description>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTRNDESC('accrual mode',0,'N:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CE_BKRPTCY</Label>
+            <Description>Credit Event: Bankruptcy ? (Y/N)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('bankruptcy',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CE_DOWNGRD</Label>
+            <Description>Credit Event: Downgrade ? (Y/N)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('downgrade',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CE_OBLGACC</Label>
+            <Description>Credit Event: Obligation Acceleration ? (Y/N)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('obligation accel',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CE_OBLGDEF</Label>
+            <Description>Credit Event: Obligation Default ? (Y/N)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('obligation default',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CE_REPDMOR</Label>
+            <Description>Credit Event: Repudiation Moratorium ? (Y/N)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('repudiation morat',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>CE_RESTRUC</Label>
+            <Description>credit event: Restructuring ? (Y/N)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('restructuring',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>COUNTRY</Label>
+            <Description>Country of the Issuer</Description>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('country',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DIG_AMOUNT</Label>
+            <Description>Digital Amount</Description>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>4</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTRNDESC('digital amount',0,'N:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>DIG_RATE</Label>
+            <Description>Digital Rate</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTRNDESC('digital rate',0,'N:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>FAILURE</Label>
+            <Description>Credit Event: Failure to Pay ? (Y/N)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('failure to pay',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>ISSUER</Label>
+            <Description>Issuer</Description>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('issuer',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>PAYOFF_TYP</Label>
+            <Description>Pay-Off Type (0: not paid after def., 1: paid on def. date ...)</Description>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTRNDESC('payoff type',0,'N:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>RATING</Label>
+            <Description>Rating of the issuer (for the Rating Agency assigned in Settings)</Description>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('Rating',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>RECOV_PAYM</Label>
+            <Description>Recovery Payment</Description>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTRNDESC('recovery payment',0,'N:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>RECOV_RATE</Label>
+            <Description>Recovery Payment</Description>
+            <Type>Number</Type>
+            <Length>12</Length>
+            <Decimal>4</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTRNDESC('recovery payment',0,'N:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>REF_PRICE</Label>
+            <Description>Reference Price</Description>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>6</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">NTRNDESC('reference price',0,'N:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>RISK_TYPE</Label>
+            <Description>Issuer Risk Type</Description>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('risk type',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SECTOR</Label>
+            <Description>Sector of the Issuer</Description>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('sector',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SENIORITY</Label>
+            <Description>Seniority</Description>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC('seniority',0,'C:')</Formula>
+        </Field>
+        <Field Type="Horizontal">
+            <Label>SETTL_MTD</Label>
+            <Description>Settlement Method: Cash (C) or Delivery (D)</Description>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+            <FieldType>Default</FieldType>
+            <Formula Nb="0">CDEALDESC("payment mode",0,"C:")</Formula>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SCAN_NB</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Currency</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field Type="Interactive">
+            <Label>SU_CONFIG</Label>
+            <Description/>
+            <Type>Character</Type>
+            <Length>0</Length>
+            <Decimal>0</Decimal>
+            <FieldInput>Predefined</FieldInput>
+            <Set>Config</Set>
+            <Dummy>No</Dummy>
+            <Formula/>
+        </Field>
+        <Field>
+            <Label>NB</Label>
+            <Type>Number</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>QTY_INDEX</Label>
+            <Type>Integer</Type>
+            <Length>3</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_BUY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>TP_RTMFRP0</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ACCR_MODE</Label>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CE_BKRPTCY</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CE_DOWNGRD</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CE_OBLGACC</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CE_OBLGDEF</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CE_REPDMOR</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>CE_RESTRUC</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>COUNTRY</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>DIG_AMOUNT</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>4</Decimal>
+        </Field>
+        <Field>
+            <Label>DIG_RATE</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>FAILURE</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>ISSUER</Label>
+            <Type>Character</Type>
+            <Length>20</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>PAYOFF_TYP</Label>
+            <Type>Number</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>RATING</Label>
+            <Type>Character</Type>
+            <Length>10</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>RECOV_PAYM</Label>
+            <Type>Number</Type>
+            <Length>19</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>REF_PRICE</Label>
+            <Type>Number</Type>
+            <Length>14</Length>
+            <Decimal>6</Decimal>
+        </Field>
+        <Field>
+            <Label>RISK_TYPE</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>SECTOR</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>SENIORITY</Label>
+            <Type>Character</Type>
+            <Length>15</Length>
+            <Decimal>0</Decimal>
+        </Field>
+        <Field>
+            <Label>SETTL_MTD</Label>
+            <Type>Character</Type>
+            <Length>1</Length>
+            <Decimal>0</Decimal>
+        </Field>
+    </Fields>
+    <Options>
+        <Code/>
+        <Filter>
+            <TransactionTypes/>
+            <Portfolios/>
+            <Instruments/>
+            <Typologies/>
+            <Usages/>
+            <Accounts/>
+            <ScannedTables/>
+            <TradePurposes>
+                <TradePurpose>Orders</TradePurpose>
+            </TradePurposes>
+            <Counterparts/>
+            <Entities/>
+            <PfeAggregate/>
+        </Filter>
+        <Duplication>
+            <Active>No</Active>
+        </Duplication>
+        <AllTemplates>No</AllTemplates>
+        <Creation/>
+        <ConsolidationFilter>
+            <Active>No</Active>
+        </ConsolidationFilter>
+        <ParallelMode>N</ParallelMode>
+        <DetailedForToday>No</DetailedForToday>
+        <ConsolidatedView>No</ConsolidatedView>
+        <CMMEquivalent>No</CMMEquivalent>
+        <DisableCompute>No</DisableCompute>
+        <ComputeSensitivities>Yes</ComputeSensitivities>
+        <ComputeDelta>Yes</ComputeDelta>
+        <ComputeGamma>Yes</ComputeGamma>
+        <ComputeTheta>Yes</ComputeTheta>
+        <ComputeAAPVBP/>
+        <ComputePVBP/>
+        <ComputeDNPVDY/>
+        <ComputePriceFormula/>
+        <ComputeCapitalFactor/>
+        <ComputeVega>Yes</ComputeVega>
+        <ComputeRR2>Yes</ComputeRR2>
+        <DefaultClosing>No</DefaultClosing>
+        <LateTrading/>
+        <LoadNullBrokerageFees>No</LoadNullBrokerageFees>
+        <IncludeArchivedDeals>No</IncludeArchivedDeals>
+        <BuiltOn>Detailed base</BuiltOn>
+        <Dates>
+            <Date Nb="1">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="0">
+                <Type>No selection</Type>
+            </Date>
+            <Date Nb="2">
+                <Type>Trading date</Type>
+                <DateOutput>20201130</DateOutput>
+            </Date>
+        </Dates>
+    </Options>
+</Table>

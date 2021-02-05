@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>R_FUNDMM</label>
+    <batchFile>R_FUNDMM.xml</batchFile>
+    <description>R_FUNDMM</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

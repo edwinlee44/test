@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-FLEX-ALL</label>
+    <batchFile>FOBO-FLEX-ALL.xml</batchFile>
+    <description>(BY SHUNG LIN)BO FLEX_PERIOD</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

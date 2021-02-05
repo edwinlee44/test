@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_BOND_DURTN</label>
+    <batchFile>BF_BOND_DURTN.xml</batchFile>
+    <description>BOND_DURATION</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BA_BOND_DURATION.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FIXBR_HD</label>
+    <batchFile>DF_FIXBR_HD.xml</batchFile>
+    <description>(MXDM-SQL_MX-MX3)</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

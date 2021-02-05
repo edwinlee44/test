@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_EQ_LIQ_PO_O</label>
+    <batchFile>BF_EQ_LIQ_PO_O.xml</batchFile>
+    <description>(MXDM-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_EQ_LIQ_PO_O.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_LIQ.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

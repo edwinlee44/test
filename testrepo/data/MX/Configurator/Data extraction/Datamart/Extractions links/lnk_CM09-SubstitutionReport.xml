@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM09-SubstitutionReport</label>
+    <batchFile>CM09-SubstitutionReport.xml</batchFile>
+    <description>Daily collateral substitutions report</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

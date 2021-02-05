@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>TMU_BookingTime</label>
+    <batchFile>TMU_BookingTime.xml</batchFile>
+    <description>TMU_BookingTime</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>TMU_BookingTime.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

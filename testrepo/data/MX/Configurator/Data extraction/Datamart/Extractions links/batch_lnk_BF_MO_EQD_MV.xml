@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_MO_EQD_MV</label>
+    <batchFile>BF_MO_EQD_MV.xml</batchFile>
+    <description>for MO EQD MV use</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_EQD_MV.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>Reporting_Date_EQ_A.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

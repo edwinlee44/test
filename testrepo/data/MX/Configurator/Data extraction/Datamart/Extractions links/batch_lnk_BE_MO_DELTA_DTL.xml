@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BE_MO_DELTA_DTL</label>
+    <batchFile>BE_MO_DELTA_DTL.xml</batchFile>
+    <description>[MX3-MO]</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_MO_DELTA_DTL.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

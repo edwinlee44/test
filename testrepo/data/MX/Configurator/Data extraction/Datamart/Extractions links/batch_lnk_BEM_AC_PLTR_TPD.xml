@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BEM_AC_PLTR_TPD</label>
+    <batchFile>BEM_AC_PLTR_TPD.xml</batchFile>
+    <description>(MXACRP-MX3)台北損益結轉相關-O2D</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_O2D_MM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

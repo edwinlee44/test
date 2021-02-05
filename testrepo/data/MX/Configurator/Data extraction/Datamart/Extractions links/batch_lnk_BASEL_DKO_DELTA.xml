@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BASEL_DKO_DELTA</label>
+    <batchFile>BASEL_DKO_DELTA.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_DKO_DELTA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MO_CNY_DELTA</label>
+    <batchFile>MO_CNY_DELTA.xml</batchFile>
+    <description>[MX3-MO]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_CNY_DELTA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

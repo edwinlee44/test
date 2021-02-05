@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>G_CMPL.2_1</label>
+    <batchFile>G_CMPL.2_1.xml</batchFile>
+    <description>MKPL_01, MKBK_2</description>
+    <category>cash_management</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

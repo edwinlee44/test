@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_SE_UD</label>
+    <batchFile>DF_SE_UD.xml</batchFile>
+    <description>[MX-MX3]</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

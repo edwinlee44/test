@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_CHECK_CS</label>
+    <batchFile>DE_CHECK_CS.xml</batchFile>
+    <description>(MX3-RECON)</description>
+    <category>RECON</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

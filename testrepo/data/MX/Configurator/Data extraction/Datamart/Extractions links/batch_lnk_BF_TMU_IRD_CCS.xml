@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_TMU_IRD_CCS</label>
+    <batchFile>BF_TMU_IRD_CCS.xml</batchFile>
+    <description>[MX3-FO] MXDM-FO TMU Revenue</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>RP_TMU_IRD_CCS.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

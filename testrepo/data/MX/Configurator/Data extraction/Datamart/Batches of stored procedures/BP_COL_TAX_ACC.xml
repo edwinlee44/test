@@ -1,0 +1,21 @@
+<set>
+    <label>BP_COL_TAX_ACC</label>
+    <type>Batch of stored procedures</type>
+    <filter/>
+    <datamartObjects>
+        <datamartObject>
+            <datamartObjectLabel>SP_COL_TAX_ACC</datamartObjectLabel>
+        </datamartObject>
+    </datamartObjects>
+    <description>(MXAC-MX3)</description>
+    <optional>N</optional>
+    <canBeOverwritten>N</canBeOverwritten>
+    <dataSetLabel/>
+    <dataSetDate>
+        <dateType>Reporting date</dateType>
+    </dataSetDate>
+    <dataPrecomputed>N</dataPrecomputed>
+    <dataComputedByBatches>N</dataComputedByBatches>
+    <dataPublished>N</dataPublished>
+    <historizationMode>One data set</historizationMode>
+</set>

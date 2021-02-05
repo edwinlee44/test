@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_SPOTRATE</label>
+    <batchFile>MO_SPOTRATE.xml</batchFile>
+    <description>MO CCR SPOT RATE</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_SPOTRATE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

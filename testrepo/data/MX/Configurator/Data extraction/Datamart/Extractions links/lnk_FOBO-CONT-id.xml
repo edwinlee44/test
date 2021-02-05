@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-CONT-id</label>
+    <batchFile>FOBO-CONT-id.xml</batchFile>
+    <description>(BY SHUNG LIN)for osp cnt last valid STPFC_ENTRY_TABLE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

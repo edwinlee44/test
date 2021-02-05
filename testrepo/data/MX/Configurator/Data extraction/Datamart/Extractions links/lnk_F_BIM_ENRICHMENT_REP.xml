@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_BIM_ENRICHMENT_REP</label>
+    <batchFile>F_BIM_ENRICHMENT_REP.xml</batchFile>
+    <description>Feeder for BIM_ENRICHMENT_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

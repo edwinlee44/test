@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-EVENT_REFRESH CHECK</label>
+    <batchFile>FOBO-EVENT_REFRESH CHECK.xml</batchFile>
+    <description>REFRESH Event Check</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

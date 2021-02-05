@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>SP_DM_FO_BOND_OSTD</label>
+    <description>[MX3-FO] SP_DM_FO_BOND_OSTD</description>
+    <procedure>create or replace function EXE_SP_DM_FO_BOND_OSTD (I_DATE date) return number
+
+Authid Current_User
+
+ as
+  pragma autonomous_transaction;
+
+  ERRNO     number := 0;
+  LOGSEQ    number := 0;
+  ERRMSG    varchar(400);
+  V_FNCNAME varchar(400) := 'EXE_SP_DM_FO_BOND_OSTD';
+  I_DT      varchar(8) := TO_CHAR(I_DATE, 'YYYYMMDD');
+begin
+
+  SP_DM_FO_BOND_OSTD;
+
+  return ERRNO;
+exception
+  when others then
+    ERRNO  := -1;
+    ERRMSG := V_FNCNAME || ' had error!!' || sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    return ERRNO;
+end;
+</procedure>    <functionName>EXE_SP_DM_FO_BOND_OSTD</functionName>
+    <mainTable>DYN_AUDIT.REP</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>10</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>I_DATE</paramLabel>
+            <paramType>date</paramType>
+            <paramLength>8</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

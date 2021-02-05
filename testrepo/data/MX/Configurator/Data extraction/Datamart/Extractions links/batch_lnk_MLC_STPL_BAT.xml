@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>MLC_STPL_BAT</label>
+    <batchFile>MLC_STPL_BAT.xml</batchFile>
+    <description>Mlc Data Model: [ mlc_stoploss ]</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_HK_STPL_FDR.xml</datamartObjectFile>
+            <datamartObjectFile>MLC_STPL_FDR.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

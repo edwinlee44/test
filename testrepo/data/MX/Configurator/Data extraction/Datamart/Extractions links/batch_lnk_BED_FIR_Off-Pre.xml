@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BED_FIR_Off-Pre</label>
+    <batchFile>BED_FIR_Off-Pre.xml</batchFile>
+    <description>(MXFO-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BE_FIR_OFF_PREMISES.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

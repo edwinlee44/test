@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>DYN_TP_LAT</label>
+    <batchFile>DYN_TP_LAT.xml</batchFile>
+    <description>DYN_TP_LAT</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DYN_TP_LAT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

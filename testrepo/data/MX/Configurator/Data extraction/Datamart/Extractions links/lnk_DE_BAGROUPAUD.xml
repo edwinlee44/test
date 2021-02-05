@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_BAGROUPAUD</label>
+    <batchFile>DE_BAGROUPAUD.xml</batchFile>
+    <description>[MX3-FO] BA Group Audit - Groups Navigation templates Audit</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-SI-OURSELVES-SETT-INS</label>
+    <description>(BY SHUNG LIN)FOBO-SI-OURSELVES-SETT-INS</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-SI-OURSELVES-SETT-INS</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

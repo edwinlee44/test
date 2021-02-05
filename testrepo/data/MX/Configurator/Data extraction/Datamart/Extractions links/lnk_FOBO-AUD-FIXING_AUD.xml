@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-AUD-FIXING_AUD</label>
+    <batchFile>FOBO-AUD-FIXING_AUD.xml</batchFile>
+    <description>(BY SHUNG LIN)FOR COMPUTER DATE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

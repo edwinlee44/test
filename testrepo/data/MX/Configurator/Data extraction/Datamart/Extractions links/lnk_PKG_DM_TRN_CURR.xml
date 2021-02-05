@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PKG_DM_TRN_CURR</label>
+    <batchFile>PKG_DM_TRN_CURR.xml</batchFile>
+    <description>EXEC FPKG_DM_TRN_CURR</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

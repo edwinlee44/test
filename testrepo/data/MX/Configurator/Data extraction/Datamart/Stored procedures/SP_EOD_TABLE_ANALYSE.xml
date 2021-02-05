@@ -1,0 +1,15 @@
+<batch>
+    <label>SP_EOD_TABLE_ANALYSE</label>
+    <description>EXEC SP_EOD_TABLE_ANALYSE</description>
+    <type>Stored procedure</type>
+    <category>T-MXDM</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>SP_EOD_TABLE_ANALYSE</storedProcedure>
+    </storedProcedures>
+</batch>

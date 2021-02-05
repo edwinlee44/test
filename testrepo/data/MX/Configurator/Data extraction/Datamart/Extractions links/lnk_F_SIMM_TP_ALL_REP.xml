@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>F_SIMM_TP_ALL_REP</label>
+    <batchFile>F_SIMM_TP_ALL_REP.xml</batchFile>
+    <description>Feeder for SIMM_TP_ALL_REP</description>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

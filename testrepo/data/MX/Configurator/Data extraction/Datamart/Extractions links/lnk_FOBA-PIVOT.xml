@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBA-PIVOT</label>
+    <batchFile>FOBA-PIVOT.xml</batchFile>
+    <description/>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

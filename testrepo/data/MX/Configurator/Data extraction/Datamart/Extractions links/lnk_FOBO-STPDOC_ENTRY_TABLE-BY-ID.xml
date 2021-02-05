@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-STPDOC_ENTRY_TABLE-BY-ID</label>
+    <batchFile>FOBO-STPDOC_ENTRY_TABLE-BY-ID.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

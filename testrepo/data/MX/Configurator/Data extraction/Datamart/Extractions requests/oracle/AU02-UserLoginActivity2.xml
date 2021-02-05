@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>AU02-UserLoginActivity2</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/AU02-UserLoginActivity2.sql</sql>
+    <description/>
+</extractionRequest>

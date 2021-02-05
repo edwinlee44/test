@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU20-SupOspTmplRights</label>
+    <batchFile>AU20-SupOspTmplRights.xml</batchFile>
+    <description>List groups and details on the Osp Rights template of each group</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

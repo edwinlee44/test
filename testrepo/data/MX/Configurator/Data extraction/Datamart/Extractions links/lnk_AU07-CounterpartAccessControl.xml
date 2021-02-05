@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AU07-CounterpartAccessControl</label>
+    <batchFile>AU07-CounterpartAccessControl.xml</batchFile>
+    <description>Chinese wall template and counterparts by group</description>
+    <category>Audit</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

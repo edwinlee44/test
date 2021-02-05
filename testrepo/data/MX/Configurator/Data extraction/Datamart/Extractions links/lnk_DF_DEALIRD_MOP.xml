@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_DEALIRD_MOP</label>
+    <batchFile>DF_DEALIRD_MOP.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <category>T-MXACRP</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

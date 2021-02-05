@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BP_MO_PL_CONSO</label>
+    <batchFile>BP_MO_PL_CONSO.xml</batchFile>
+    <description> [MX3-MO] DS_MO_PL_CONSOLIDATE</description>
+    <type>Batch of stored procedures</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>SP_DS_MO_PL_CONSOLIDATE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

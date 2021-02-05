@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_AC_TDA_EQ_PL</label>
+    <batchFile>DF_AC_TDA_EQ_PL.xml</batchFile>
+    <description>(MXAC-MX3)</description>
+    <category>T-MXAC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

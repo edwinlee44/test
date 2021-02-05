@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_VEGA</label>
+    <batchFile>BF_VEGA.xml</batchFile>
+    <description>[MX3-MO] IRD VEGA</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>VEGA.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

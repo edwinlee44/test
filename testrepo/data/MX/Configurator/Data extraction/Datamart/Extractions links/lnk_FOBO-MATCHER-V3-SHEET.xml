@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-MATCHER-V3-SHEET</label>
+    <batchFile>FOBO-MATCHER-V3-SHEET.xml</batchFile>
+    <description>matcher v3 strem by shung.lin</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

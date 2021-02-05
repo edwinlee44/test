@@ -1,0 +1,15 @@
+<batch>
+    <label>AU03-UserGroupListing</label>
+    <description>List of users per group and vice versa</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="UserGroupMatrix">UserGroupList</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

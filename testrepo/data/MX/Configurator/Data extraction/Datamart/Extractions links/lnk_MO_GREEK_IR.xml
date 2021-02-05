@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_GREEK_IR</label>
+    <batchFile>MO_GREEK_IR.xml</batchFile>
+    <description/>
+    <category>RECON</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

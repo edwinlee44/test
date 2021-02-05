@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-CONT-id</label>
+    <description>(BY SHUNG LIN)for osp cnt last valid STPFC_ENTRY_TABLE</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-CONT-id</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

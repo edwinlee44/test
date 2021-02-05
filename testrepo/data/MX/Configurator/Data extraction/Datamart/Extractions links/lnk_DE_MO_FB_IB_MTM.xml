@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DE_MO_FB_IB_MTM</label>
+    <batchFile>DE_MO_FB_IB_MTM.xml</batchFile>
+    <description>[MX3-MO] DE_MO_FB_IB_MTM  FUBON VS IB MTM</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

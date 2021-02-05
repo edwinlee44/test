@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>BF_SIMM_BIM_EN</label>
+    <batchFile>BF_SIMM_BIM_EN.xml</batchFile>
+    <description>Batch of Feeders for SIM_BIM_ENRICH_REP and SIMM_TP_ALL_REP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_SIMM_TP_ALL_REP.xml</datamartObjectFile>
+            <datamartObjectFile>F_SIM_BIM_ENRICH_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_ALL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

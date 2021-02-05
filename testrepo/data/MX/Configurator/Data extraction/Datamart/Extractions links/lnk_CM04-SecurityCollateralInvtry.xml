@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM04-SecurityCollateralInvtry</label>
+    <batchFile>CM04-SecurityCollateralInvtry.xml</batchFile>
+    <description>Inventory of security collateral held/pledged by currency and by counterparty</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

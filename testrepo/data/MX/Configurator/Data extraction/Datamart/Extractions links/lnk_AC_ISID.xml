@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>AC_ISID</label>
+    <batchFile>AC_ISID.xml</batchFile>
+    <description>(ISID) Reporting Data Model: AC_ISID_TP.REP</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

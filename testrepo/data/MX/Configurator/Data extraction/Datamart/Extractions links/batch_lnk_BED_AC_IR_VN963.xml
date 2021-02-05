@@ -1,0 +1,20 @@
+<setDefinition>
+    <label>BED_AC_IR_VN963</label>
+    <batchFile>BED_AC_IR_VN963.xml</batchFile>
+    <description>(MXACRP-MX3)</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_CU_FUNDTRANSFER_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_BOND_OS_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_BOND_REPO_TRADE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_BOND_SETTLE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_EXPIRE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_EXPIRE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_OS_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_LNBR_TRADE_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_OS_VN963.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_IR_TRADE_VN963.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

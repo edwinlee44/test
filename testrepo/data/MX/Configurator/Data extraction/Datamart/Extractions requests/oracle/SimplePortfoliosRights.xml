@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>SimplePortfoliosRights</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/SimplePortfoliosRights.sql</sql>
+    <description/>
+</extractionRequest>

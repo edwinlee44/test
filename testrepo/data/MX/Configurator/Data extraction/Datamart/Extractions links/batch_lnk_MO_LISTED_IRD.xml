@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MO_LISTED_IRD</label>
+    <batchFile>MO_LISTED_IRD.xml</batchFile>
+    <description>MO_LISTED_IRD</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MO_LISTED_IRD.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

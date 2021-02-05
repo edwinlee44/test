@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FOBA_ET_FEE</label>
+    <batchFile>DF_FOBA_ET_FEE.xml</batchFile>
+    <description>[MXFORP-MX3] FO BA Unwind Fee - FOBA_ET_FEE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

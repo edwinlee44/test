@@ -1,0 +1,15 @@
+<batch>
+    <label>DE_FO_ININ-RepoOutstanding</label>
+    <description>[MX3-FO] Bond Desk Monthly Repo Outstanding</description>
+    <type>Extraction</type>
+    <category>REPORT_FO</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>ER_FO_ININ-RepoOutstand</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

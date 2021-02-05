@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_400DCI_EXP</label>
+    <batchFile>BF_400DCI_EXP.xml</batchFile>
+    <description>[MX3-FO] BF_400DCI_EXP</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_400DCI_EXP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

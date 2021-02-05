@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>CM10-UpcomingCorporate</label>
+    <batchFile>CM10-UpcomingCorporate.xml</batchFile>
+    <description>Summary of upcoming corporate actions filtered out on assets held or pledged as collateral</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

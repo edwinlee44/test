@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-UDF-COLUMN-LIST-PORTFOLI</label>
+    <batchFile>FOBO-UDF-COLUMN-LIST-PORTFOLI.xml</batchFile>
+    <description>(BY SHUNG LIN)MAX(M_nb)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

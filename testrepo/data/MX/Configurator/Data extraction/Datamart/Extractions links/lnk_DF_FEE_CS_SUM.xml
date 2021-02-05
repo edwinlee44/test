@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FEE_CS_SUM</label>
+    <batchFile>DF_FEE_CS_SUM.xml</batchFile>
+    <description>(MXDM-MX3-EOY)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

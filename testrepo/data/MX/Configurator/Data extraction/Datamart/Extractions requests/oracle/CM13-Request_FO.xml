@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>CM13-Request_FO</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/CM13-Request_FO.sql</sql>
+    <description/>
+</extractionRequest>

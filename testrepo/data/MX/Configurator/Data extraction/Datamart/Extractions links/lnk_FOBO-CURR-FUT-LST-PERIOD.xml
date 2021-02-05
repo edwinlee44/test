@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-CURR-FUT-LST-PERIOD</label>
+    <batchFile>FOBO-CURR-FUT-LST-PERIOD.xml</batchFile>
+    <description>BO CURR FUT LST PERIOD TRANSACTION</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_PLTR_MM</label>
+    <batchFile>BF_PLTR_MM.xml</batchFile>
+    <description>(MXFORP-MX3)損益結轉用</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_PLTR_MM_VN.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>FLT_REPORT_DATE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

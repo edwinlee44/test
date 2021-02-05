@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>ATF_SPOT_DAY</label>
+    <batchFile>ATF_SPOT_DAY.xml</batchFile>
+    <description>[MX3-FO] Golive version-Feed SPOT_DAY for Autofeed</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>ATF_SPOT_DAY.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

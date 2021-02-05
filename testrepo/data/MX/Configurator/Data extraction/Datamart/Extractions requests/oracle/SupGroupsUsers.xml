@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>SupGroupsUsers</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/SupGroupsUsers.sql</sql>
+    <description/>
+</extractionRequest>

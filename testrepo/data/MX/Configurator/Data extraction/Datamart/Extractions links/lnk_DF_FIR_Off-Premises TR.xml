@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DF_FIR_Off-Premises TR</label>
+    <batchFile>DF_FIR_Off-Premises TR.xml</batchFile>
+    <description>(MXFO-MX3)</description>
+    <category>T-MXDM</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

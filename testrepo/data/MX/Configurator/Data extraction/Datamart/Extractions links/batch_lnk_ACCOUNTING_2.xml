@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>ACCOUNTING_2</label>
+    <batchFile>ACCOUNTING_2.xml</batchFile>
+    <description>Reporting Data Model: [ ACCOUNTING_2 ] --Feed ACJT</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>ACCOUNTING_2.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>ACC2-1.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

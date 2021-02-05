@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OPT-PREEVENT-ALL-CONFIRM</label>
+    <description>(BY SHUNG LIN)CONFIRM TODAY DEAL FOR MONITOR_OPTION_AFTER_EVENT</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-OPT-PREEVENT-ALL-CONFIRM</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

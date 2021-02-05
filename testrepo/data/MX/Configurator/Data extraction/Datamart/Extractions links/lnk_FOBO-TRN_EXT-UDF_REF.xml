@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-TRN_EXT-UDF_REF</label>
+    <batchFile>FOBO-TRN_EXT-UDF_REF.xml</batchFile>
+    <description>(BY SHUNG LIN)TRN_EXT-UDF_REF BY TRN_REF FROM HDR OPT_STSVER=CNT_VERSION</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

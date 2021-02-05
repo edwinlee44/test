@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-OSP-EVENT</label>
+    <description>(BY SHUNG LIN)</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-OSP-EVENT</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

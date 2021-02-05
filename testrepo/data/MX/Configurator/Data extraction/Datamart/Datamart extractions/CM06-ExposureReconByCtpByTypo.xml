@@ -1,0 +1,23 @@
+<batch>
+    <label>CM06-ExposureReconByCtpByTypo</label>
+    <description>Collateralized trades exposure by counterparty by contract typology</description>
+    <type>Extraction</type>
+    <category>Collateral</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts>
+        <dataPublisherScript>
+            <dapLabel>DYN_COL_TP</dapLabel>
+            <directory>Client</directory>
+            <filter/>
+            <outputTable>COL_TP_FB.REP</outputTable>
+            <mainTable>Yes</mainTable>
+        </dataPublisherScript>
+    </dataPublisherScripts>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="CM06-ExposureReconByCtpByTypo">CM07-TriResolveReconREQ</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

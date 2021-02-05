@@ -1,0 +1,18 @@
+<setDefinition>
+    <label>BE_BA_MonthlyPL</label>
+    <batchFile>BE_BA_MonthlyPL.xml</batchFile>
+    <description>[MX3-FO] BE_BA_MonthlyPL</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_BA_MPL-dbacccon-2CSV.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_MPL-dbu2twd-2CSV.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_MPL-dbu2twd.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_MPL-eqddtl-2CSV.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_MPL-mm2twd-2CSV.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_MPL-mm2twd.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_MPL-obu2dbu-2CSV.xml</datamartObjectFile>
+            <datamartObjectFile>DE_BA_MPL-other2dbu-2CSV.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

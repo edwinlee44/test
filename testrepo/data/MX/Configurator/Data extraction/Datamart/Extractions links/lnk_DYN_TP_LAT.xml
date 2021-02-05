@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>DYN_TP_LAT</label>
+    <batchFile>DYN_TP_LAT.xml</batchFile>
+    <description/>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

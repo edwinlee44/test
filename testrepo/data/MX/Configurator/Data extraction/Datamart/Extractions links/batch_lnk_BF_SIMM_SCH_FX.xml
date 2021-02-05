@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>BF_SIMM_SCH_FX</label>
+    <batchFile>BF_SIMM_SCH_FX.xml</batchFile>
+    <description>Batch of Feeder for ALL SIMM_SCH_NOT</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>F_SIMM_SCH_NOT_FX_REP.xml</datamartObjectFile>
+            <datamartObjectFile>F_SIMM_SCH_NOT_REP.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>GF_SIMM_ALL.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

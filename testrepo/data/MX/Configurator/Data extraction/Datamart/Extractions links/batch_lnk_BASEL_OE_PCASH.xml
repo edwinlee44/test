@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BASEL_OE_PCASH</label>
+    <batchFile>BASEL_OE_PCASH.xml</batchFile>
+    <description>BASEL PAST CASH(for FO\XO &amp; EOD Portfolios)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_PCASH_OE.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

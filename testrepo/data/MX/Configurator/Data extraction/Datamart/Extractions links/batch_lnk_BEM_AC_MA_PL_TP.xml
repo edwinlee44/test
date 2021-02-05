@@ -1,0 +1,13 @@
+<setDefinition>
+    <label>BEM_AC_MA_PL_TP</label>
+    <batchFile>BEM_AC_MA_PL_TP.xml</batchFile>
+    <description>(MXACRP-MX3)新總帳與中台核對報表</description>
+    <type>Batch of extractions</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DE_AC_MA_PL_M.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PL_M_DIFF.xml</datamartObjectFile>
+            <datamartObjectFile>DE_AC_MA_PL_M_SUM.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

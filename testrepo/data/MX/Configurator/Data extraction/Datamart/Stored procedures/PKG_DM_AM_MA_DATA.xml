@@ -1,0 +1,15 @@
+<batch>
+    <label>PKG_DM_AM_MA_DATA</label>
+    <description>(MXACRP-MX3)</description>
+    <type>Stored procedure</type>
+    <category>T-MXACRP</category>
+    <context>stored procedure</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests/>
+    <storedProcedures>
+        <storedProcedure>PKG_DM_AC_MA_DATA</storedProcedure>
+    </storedProcedures>
+</batch>

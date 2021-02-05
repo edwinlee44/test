@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>PAY_FUNDSTRANS</label>
+    <batchFile>PAY_FUNDSTRANS.xml</batchFile>
+    <description>(MM) Reporting Data Model: PAYMENT for Funds Transfer</description>
+    <category>Reporting Data Model</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

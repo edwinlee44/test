@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>PKG_DM_AC_MA_ISID</label>
+    <description>(MXACRP-MX3) EXEC PKG_DM_AC_MA_ISID</description>
+    <procedure>CREATE OR REPLACE FUNCTION FPKG_DM_AC_MA_ISID
+(
+  I_DATE   DATE,
+  I_ENTITY VARCHAR2
+) RETURN NUMBER
+
+AUTHID CURRENT_USER
+
+ AS
+  PRAGMA AUTONOMOUS_TRANSACTION;
+
+  ERRNO     NUMBER := 0;
+  ERRMSG    VARCHAR(400);
+  V_FNCNAME VARCHAR(400) := 'FPKG_DM_AC_MA_ISID';
+  I_DT      VARCHAR(8) := TO_CHAR(I_DATE, 'YYYYMMDD');
+
+BEGIN
+  PKG_DM_AC_MA_ISID.P_BATCH(ERRNO, ERRMSG, I_DT, I_ENTITY);
+  RETURN ERRNO;
+EXCEPTION
+  WHEN OTHERS THEN
+    ERRNO  := -1;
+    ERRMSG := V_FNCNAME || ' had error!!' || SQLERRM;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    RETURN ERRNO;
+END;</procedure>
+    <functionName>FPKG_DM_AC_MA_ISID</functionName>
+    <mainTable>DYN_AUDIT.REP</mainTable>
+    <returnName>ERRNO</returnName>
+    <returnLength>10</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>I_DATE</paramLabel>
+            <paramType>date</paramType>
+            <paramLength>0</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+        <parameter>
+            <paramLabel>I_ENTITY</paramLabel>
+            <paramType>char</paramType>
+            <paramLength>10</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

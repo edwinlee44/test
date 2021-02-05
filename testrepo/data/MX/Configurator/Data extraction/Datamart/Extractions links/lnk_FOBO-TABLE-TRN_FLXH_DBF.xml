@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-TABLE-TRN_FLXH_DBF</label>
+    <batchFile>FOBO-TABLE-TRN_FLXH_DBF.xml</batchFile>
+    <description>(BY SHUNG LIN)</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

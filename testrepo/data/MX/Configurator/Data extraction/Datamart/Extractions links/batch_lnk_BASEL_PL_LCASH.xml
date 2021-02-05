@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BASEL_PL_LCASH</label>
+    <batchFile>BASEL_PL_LCASH.xml</batchFile>
+    <description>LIVE/MKTOP DEAL</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>BASEL_PAST_CASH_BK.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>BASEL_PCASH_LIVE.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

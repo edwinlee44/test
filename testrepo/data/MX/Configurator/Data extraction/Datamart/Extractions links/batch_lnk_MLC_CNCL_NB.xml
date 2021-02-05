@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>MLC_CNCL_NB</label>
+    <batchFile>MLC_CNCL_NB.xml</batchFile>
+    <description/>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>MLC_CNCL_NB.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

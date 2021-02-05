@@ -1,0 +1,15 @@
+<batch>
+    <label>FOBO-TABLE-TRN_FLXH_DBF</label>
+    <description>(BY SHUNG LIN)</description>
+    <type>Extraction</type>
+    <category>Fubon Report</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest>FOBO-TABLE-TRN_FLXH_DBF</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

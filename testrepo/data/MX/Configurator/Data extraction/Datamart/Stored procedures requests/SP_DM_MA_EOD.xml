@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<storedProcedure>
+    <label>SP_DM_MA_EOD</label>
+    <description>(MXDM-MX3)EXEC SP_DM_MA_EOD</description>
+    <procedure>create or replace function FSP_DM_MA_EOD(I_DATE date) return number
+
+Authid Current_User
+
+ as
+  pragma autonomous_transaction;
+
+  ERRNO     number := 0;
+  ERRMSG    varchar(400);
+  V_FNCNAME varchar(400) := 'FSP_DM_MA_EOD';
+  I_DT      varchar(8) := TO_CHAR(I_DATE, 'YYYYMMDD');
+begin
+ 
+sp_dm_ma_eod(ERRNO, ERRMSG, I_DT);
+
+  return ERRNO;
+exception
+  when others then
+    ERRNO  := -1;
+    ERRMSG := V_FNCNAME || ' had error!!' || sqlerrm;
+    DBMS_OUTPUT.PUT_LINE(ERRMSG);
+    return ERRNO;
+end;
+</procedure>    <functionName>FSP_DM_MA_EOD</functionName>
+    <mainTable>DYN_AUDT.REP</mainTable>
+    <returnName>returnval</returnName>
+    <returnLength>10</returnLength>
+    <parameters>
+        <parameter>
+            <paramLabel>I_DATE</paramLabel>
+            <paramType>date</paramType>
+            <paramLength>8</paramLength>
+            <paramPrecision>0</paramPrecision>
+        </parameter>
+    </parameters>
+</storedProcedure>

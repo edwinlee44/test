@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_AC_IRS2FITS5</label>
+    <batchFile>BF_AC_IRS2FITS5.xml</batchFile>
+    <description>AC排程傳送FITS 關帳檔BFMKTTP5</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_MX_AC_IRS_2_FIT5.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>

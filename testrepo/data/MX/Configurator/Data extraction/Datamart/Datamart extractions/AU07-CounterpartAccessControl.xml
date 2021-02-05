@@ -1,0 +1,15 @@
+<batch>
+    <label>AU07-CounterpartAccessControl</label>
+    <description>Chinese wall template and counterparts by group</description>
+    <type>Extraction</type>
+    <category>Audit</category>
+    <context>sql extraction</context>
+    <filter/>
+    <dataSetLabel/>
+    <dataPublisherScripts/>
+    <reports/>
+    <extractionRequests>
+        <extractionRequest outputView="EligibleCounterparties">GrpChineseWall</extractionRequest>
+    </extractionRequests>
+    <storedProcedures/>
+</batch>

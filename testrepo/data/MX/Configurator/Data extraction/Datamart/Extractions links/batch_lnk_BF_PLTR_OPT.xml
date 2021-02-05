@@ -1,0 +1,12 @@
+<setDefinition>
+    <label>BF_PLTR_OPT</label>
+    <batchFile>BF_PLTR_OPT.xml</batchFile>
+    <description>(MXFORP-MX3)損益結轉用</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_PLTR_OPT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+        <filterFile>F_PLTR_OPT.xml</filterFile>
+    </componentsFiles>
+</setDefinition>

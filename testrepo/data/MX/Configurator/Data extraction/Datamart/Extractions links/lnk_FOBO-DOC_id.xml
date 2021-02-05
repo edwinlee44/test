@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-DOC_id</label>
+    <batchFile>FOBO-DOC_id.xml</batchFile>
+    <description>(BY SHUNG LIN)for osp doc last valid STPDOC_ENTRY_TABLE</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

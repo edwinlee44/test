@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>FOBO-OSP-PTIP-PayPending</label>
+    <batchFile>FOBO-OSP-PTIP-PayPending.xml</batchFile>
+    <description>(BY SHUNG LIN)OSP VALUE &gt; = &lt;</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

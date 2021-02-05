@@ -1,0 +1,5 @@
+<extractionRequest>
+    <label>ER_AC_FNBALMP2_QUERY</label>
+    <sql>MX/Configurator/Data extraction/Datamart/Extractions requests/oracle/ER_AC_FNBALMP2_QUERY.sql</sql>
+    <description>(MXACRP)</description>
+</extractionRequest>

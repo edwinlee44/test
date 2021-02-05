@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MO_ACC_TW1_DELTA</label>
+    <batchFile>MO_ACC_TW1_DELTA.xml</batchFile>
+    <description>[MX3-MO] MO ACC TW1 DELTA</description>
+    <category>REPORT_MO</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

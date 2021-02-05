@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>OPTION_EXECRISE_HK</label>
+    <batchFile>OPTION_EXECRISE_HK.xml</batchFile>
+    <description>OPTION_EXECRISE_HONGKONG</description>
+    <category>Fubon Report</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MX_COL_MLCEXPAGG_FEED</label>
+    <batchFile>MX_COL_MLCEXPAGG_FEED.xml</batchFile>
+    <description>Data feeder for COL_MLC_EXPAGG_REP table</description>
+    <category>Collateral</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

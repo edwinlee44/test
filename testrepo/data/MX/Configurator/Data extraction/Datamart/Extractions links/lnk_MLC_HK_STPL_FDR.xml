@@ -1,0 +1,11 @@
+<batchDefinition>
+    <label>MLC_HK_STPL_FDR</label>
+    <batchFile>MLC_HK_STPL_FDR.xml</batchFile>
+    <description/>
+    <category>MLC</category>
+    <componentsFiles>
+        <filtersFiles/>
+        <dataPublisherScriptsFiles/>
+        <reportsFiles/>
+    </componentsFiles>
+</batchDefinition>

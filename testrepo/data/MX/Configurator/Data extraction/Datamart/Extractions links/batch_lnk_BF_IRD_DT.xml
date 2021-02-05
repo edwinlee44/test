@@ -1,0 +1,11 @@
+<setDefinition>
+    <label>BF_IRD_DT</label>
+    <batchFile>BF_IRD_DT.xml</batchFile>
+    <description>(MXFORP-MX3)</description>
+    <type>Batch of feeders</type>
+    <componentsFiles>
+        <datamartObjectsFiles>
+            <datamartObjectFile>DF_IRD_DT.xml</datamartObjectFile>
+        </datamartObjectsFiles>
+    </componentsFiles>
+</setDefinition>
