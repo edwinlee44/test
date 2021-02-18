@@ -94,9 +94,8 @@ async function go(){
                    loc = new URL(input)
                    inputRepo = input.trim()
                    filesUrl = loc
-                   return fetch(filesUrl,{
-                    headers: {"Access-Control-Allow-Origin": "*"}
-                  }).then(response => {
+                   return fetch(filesUrl)
+                     .then(response => {
                        if (!response.ok) {
                          throw new Error(response.statusText)
                        }
