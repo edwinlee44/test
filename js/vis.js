@@ -87,6 +87,7 @@ async function go(){
                inputAttributes: {
                  autocapitalize: 'off'
                },
+               headers: {"Access-Control-Allow-Origin": "*"},
                showCancelButton: true,
                confirmButtonText: 'Get available graphs',
                showLoaderOnConfirm: true,
