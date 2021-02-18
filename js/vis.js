@@ -87,7 +87,6 @@ async function go(){
                inputAttributes: {
                  autocapitalize: 'off'
                },
-               headers: {"Access-Control-Allow-Origin": "*"},
                showCancelButton: true,
                confirmButtonText: 'Get available graphs',
                showLoaderOnConfirm: true,
@@ -95,8 +94,9 @@ async function go(){
                    loc = new URL(input)
                    inputRepo = input.trim()
                    filesUrl = loc
-                   return fetch(filesUrl)
-                     .then(response => {
+                   return fetch(filesUrl,{
+                    headers: {"Access-Control-Allow-Origin": "*"}
+                  }).then(response => {
                        if (!response.ok) {
                          throw new Error(response.statusText)
                        }
